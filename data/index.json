@@ -6,9 +6,9 @@
     "update_window": "10:30",
     "timezone": "Asia/Shanghai"
   },
-  "generated_at": "2026-05-11T11:06:09.039355+00:00",
+  "generated_at": "2026-05-11T11:07:43.051003+00:00",
   "timezone": "Asia/Shanghai",
-  "latest_date": "2026-05-10",
+  "latest_date": "2026-05-08",
   "total_papers": 618,
   "label_order": [
     "开源",
@@ -178,20 +178,6 @@
     }
   ],
   "dates": [
-    {
-      "date": "2026-05-10",
-      "count": 0,
-      "path": "data/papers/2026-05-10.json",
-      "labels": {},
-      "topics": {}
-    },
-    {
-      "date": "2026-05-09",
-      "count": 0,
-      "path": "data/papers/2026-05-09.json",
-      "labels": {},
-      "topics": {}
-    },
     {
       "date": "2026-05-08",
       "count": 0,
