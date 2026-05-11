@@ -109,6 +109,7 @@ def parse_args() -> argparse.Namespace:
   parser.add_argument("--minimum-score", type=int, default=None, help="Override config minimum_score.")
   parser.add_argument("--no-date-filter", action="store_true", help="Fetch latest category papers without submittedDate.")
   parser.add_argument("--rebuild-index", action="store_true", help="Only rebuild data/index.json from local daily files.")
+  parser.add_argument("--translate-existing", action="store_true", help="Translate existing daily papers that lack summary_zh.")
   return parser.parse_args()
 
 
@@ -544,6 +545,23 @@ def main() -> int:
   if args.rebuild_index:
     index = build_index(config, output_dir, index_path, tz_name)
     print(f"Rebuilt {index_path} with {index['total_papers']} papers across {len(index['dates'])} dates.")
+    return 0
+
+  if args.translate_existing:
+    daily_files = read_daily_files(output_dir)
+    translated = 0
+    for daily in daily_files:
+      changed = False
+      for paper in daily.get("papers", []):
+        if not paper.get("summary_zh") and paper.get("summary"):
+          paper["summary_zh"] = translate_text(paper["summary"])
+          changed = True
+          translated += 1
+      if changed:
+        write_json(output_dir / f"{daily['date']}.json", daily)
+    print(f"Translated {translated} papers across {len(daily_files)} dates.")
+    index = build_index(config, output_dir, index_path, tz_name)
+    print(f"Rebuilt {index_path}.")
     return 0
 
   if args.days < 1:

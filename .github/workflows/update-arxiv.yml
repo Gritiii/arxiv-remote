@@ -15,6 +15,11 @@ on:
         required: false
         default: "1"
         type: string
+      translate_existing:
+        description: "Translate existing papers that lack Chinese summary"
+        required: false
+        default: false
+        type: boolean
 
 permissions:
   contents: write
@@ -36,16 +41,21 @@ jobs:
 
       - name: Fetch arXiv papers
         run: |
-          DAYS="${{ github.event.inputs.days }}"
-          DATE="${{ github.event.inputs.date }}"
-          ARGS="--timezone Asia/Shanghai --max-results 700"
-          if [ -n "$DATE" ]; then
-            ARGS="$ARGS --date $DATE"
+          TRANSLATE="${{ github.event.inputs.translate_existing }}"
+          if [ "$TRANSLATE" = "true" ]; then
+            python scripts/fetch_arxiv.py --translate-existing --timezone Asia/Shanghai
+          else
+            DAYS="${{ github.event.inputs.days }}"
+            DATE="${{ github.event.inputs.date }}"
+            ARGS="--timezone Asia/Shanghai --max-results 700"
+            if [ -n "$DATE" ]; then
+              ARGS="$ARGS --date $DATE"
+            fi
+            if [ -n "$DAYS" ]; then
+              ARGS="$ARGS --days $DAYS"
+            fi
+            python scripts/fetch_arxiv.py $ARGS
           fi
-          if [ -n "$DAYS" ]; then
-            ARGS="$ARGS --days $DAYS"
-          fi
-          python scripts/fetch_arxiv.py $ARGS
 
       - name: Commit archive updates
         run: |

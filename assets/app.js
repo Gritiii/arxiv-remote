@@ -279,7 +279,12 @@ function renderPaper(paper) {
         <span class="paper-date">${escapeHtml(compactDate(paper.published))}</span>
       </div>
       <div class="paper-meta">${paperMeta(paper)}</div>
-      <p class="paper-summary">${escapeHtml(paper.summary_zh || paper.summary)}</p>
+      <p class="paper-summary">${escapeHtml(paper.summary)}</p>
+      ${
+        paper.summary_zh
+          ? `<p class="paper-summary-zh">${escapeHtml(paper.summary_zh)}</p>`
+          : ""
+      }
       <div class="paper-tags">${tags}${scoreTag}</div>
       <div class="paper-links">
         <a class="paper-link" href="${escapeHtml(paper.abs_url || "#")}" target="_blank" rel="noreferrer">
