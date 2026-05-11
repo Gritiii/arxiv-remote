@@ -44,7 +44,8 @@
         "diffusion model",
         "image generation",
         "tokenization"
-      ]
+      ],
+      "summary_zh": "虽然扩散模型在视觉生成领域占据主导地位，但它们的计算效率较低，无论复杂程度如何，都应用统一的计算工作。相比之下，自回归 (AR) 模型本质上具有复杂性感知能力，正如其可变可能性所证明的那样，但通常会受到有损离散标记化和错误累积的阻碍。在这项工作中，我们引入了生成细化网络（GRN），这是一种解决这些问题的下一代视觉合成范例。 GRN 的核心是通过理论上近乎无损的分层二进制量化 (HBQ) 解决离散标记化瓶颈，实现与连续对应物相当的重建质量。基于HBQ的潜在空间，GRN从根本上升级了AR生成"
     },
     {
       "title": "The Spectrascapes Dataset: Street-view imagery beyond the visible captured using a mobile platform",
@@ -79,7 +80,8 @@
       ],
       "matched_terms": [
         "remote sensing"
-      ]
+      ],
+      "summary_zh": "时空背景下的高分辨率数据对于发展气候适应型城市至关重要。当前用于监测城市参数的数据集主要是使用手动检查、嵌入式传感、遥感或标准街景图像 (RGB) 开发的。这些方法和数据集通常分别受到可扩展性差、时空分辨率不一致、俯视图或低光谱信息的限制。我们提出了一种新颖的方法及其开放实现：绕过这些限制的多光谱地面视图数据集。该数据集由自行车上的 RGB、近红外和热成像传感器捕获的 17,718 张街道级多光谱图像组成，涵盖不同的城市形态（村庄、城镇、小城市和大城市）"
     },
     {
       "title": "Deep Spatially-Regularized and Superpixel-Based Diffusion Learning for Unsupervised Hyperspectral Image Clustering",
@@ -118,7 +120,8 @@
         "masked autoencoder",
         "transformer",
         "vision transformer"
-      ]
+      ],
+      "summary_zh": "提出了一种用于高光谱图像（HSI）聚类的无监督框架，该框架将掩模深度表示学习与基于扩散的聚类相结合，扩展了基于空间正则化超像素的扩散学习（$S^2DL$）算法。最初，通过具有 Vision Transformer 主干的无监督掩码自动编码器 (UMAE) 模型学习原始 HSI 的去噪潜在表示。 UMAE 考虑了空间上下文和远程光谱相关性，并通过仅利用一小部分训练像素的掩蔽来整合有效的预训练过程。在下一阶段，使用熵率超像素（ERS）算法将图像分割为超像素，并使用欧几里德构造空间正则化扩散图"
     },
     {
       "title": "See&Say: Vision Language Guided Safe Zone Detection for Autonomous Package Delivery Drones",
@@ -156,7 +159,8 @@
         "robust",
         "semantic segmentation",
         "VLM"
-      ]
+      ],
+      "summary_zh": "自主无人机递送系统正在迅速发展，但在杂乱的城市和郊区环境中，确保安全可靠的包裹投递仍然极具挑战性，在这些环境中，准确识别合适的包裹投递区域至关重要。现有方法通常依赖于基于几何的分析或仅依赖语义分割，但这些方法缺乏鲁棒决策所需的集成语义推理。为了解决这一差距，我们提出了 See&Say，这是一种新颖的框架，它将几何安全线索与语义感知相结合，并在视觉语言模型 (VLM) 的指导下进行迭代细化。该系统将单目深度梯度与开放词汇检测掩模融合以生成安全地图，而VLM则动态调整对象类别提示和重新配置"
     },
     {
       "title": "Optimizing Earth Observation Satellite Schedules under Unknown Operational Constraints: An Active Constraint Acquisition Approach",
@@ -186,7 +190,8 @@
       "matched_terms": [
         "earth observation",
         "satellite"
-      ]
+      ],
+      "summary_zh": "地球观测 (EO) 卫星调度（决定执行哪些成像任务以及何时执行）是一个经过充分研究的组合优化问题。现有方法通常假设操作约束模型是预先完全指定的。然而，在实践中，控制观测、功率预算和热限制之间的分离的约束通常嵌入在工程制品或高保真模拟器中，而不是嵌入在明确的数学模型中。我们在\\emph{未知约束}下研究 EO 调度：目标是已知的，但必须从二进制预言中交互地学习可行性。使用仅限于成对分离和全局容量约束的简化模型，我们引入了保守约束获取（CCA），这是一种特定于领域的方法"
     },
     {
       "title": "DroneScan-YOLO: Redundancy-Aware Lightweight Detection for Tiny Objects in UAV Imagery",
@@ -226,7 +231,8 @@
         "object detection",
         "UAV",
         "YOLO"
-      ]
+      ],
+      "summary_zh": "由于微小物体的普遍存在、不利的环境条件和严格的计算限制，无人机图像中的空中物体检测面临着独特的挑战。基于 YOLO 的标准检测器无法共同解决这些问题：它们的最小检测步长为 8 像素，使得 32px 以下的物体几乎无法检测到，它们的 CIoU 损失为非重叠的小盒子产生零梯度，并且它们的架构包含显着的滤波器冗余。我们提出了 DroneScan-YOLO，这是一种整体系统贡献，通过四种协调的设计选择来解决这些限制：(1) 将输入分辨率提高到 1280x1280，以最大限度地提高微小物体的空间细节，(2) RPA-Block，一种基于惰性余弦相似性更新和 10 纪元热更新的动态滤波器修剪机制"
     },
     {
       "title": "A High-Resolution Landscape Dataset for Concept-Based XAI With Application to Species Distribution Models",
@@ -271,7 +277,8 @@
         "robust",
         "transformer",
         "vision transformer"
-      ]
+      ],
+      "summary_zh": "绘制物种的空间分布图对于保护政策和入侵物种管理至关重要。物种分布模型 (SDM) 是完成此任务的主要工具，有两个目的：实现稳健的预测性能，同时提供对分布驱动因素的生态见解。然而，深度学习 SDM 日益复杂，使得提取这些见解变得更具挑战性。为了协调这些目标，我们建议首次为 SDM 实施基于概念的可解释人工智能 (XAI)。我们利用稳健的 TCAV（概念激活向量测试）方法来量化景观概念对模型预测的影响。为了实现这一点，我们提供了一个新的开放获取景观概念数据集，该数据集源自高分辨率"
     },
     {
       "title": "GeoLink: A 3D-Aware Framework Towards Better Generalization in Cross-View Geo-Localization",
@@ -313,7 +320,8 @@
         "drone",
         "generalizable",
         "point cloud"
-      ]
+      ],
+      "summary_zh": "可推广的跨视图地理定位旨在在没有 GPS 监督的情况下，在看不见的区域和条件下跨视图匹配相同位置。其核心难点在于领域转移下观点变化和泛化能力差导致严重的语义不一致。现有的方法主要依赖于二维对应，但它们很容易被视图之间冗余的共享信息分散注意力，导致可转移的表示较少。为了解决这个问题，我们提出了 GeoLink，一种用于通用跨视图地理定位的 3D 感知语义一致框架。具体来说，我们使用 VGGT 从多视图无人机图像中离线重建场景点云，提供稳定的结构先验。基于这些 3D 锚点，我们以两种互补的方式改进 2D 表示学习。"
     },
     {
       "title": "Magnitude Is All You Need? Rethinking Phase in Quantum Encoding of Complex SAR Data",
@@ -352,7 +360,8 @@
         "SAR",
         "SAR image",
         "synthetic aperture radar"
-      ]
+      ],
+      "summary_zh": "合成孔径雷达 (SAR) 数据本质上是复值，而量子机器学习 (QML) 模型在复杂的希尔伯特空间中运行。这种相似性表明，在量子编码中同时使用 SAR 数据的幅度和相位应该有助于 SAR 图像中的自动目标识别。在本研究中，我们通过比较量子模型的五种编码策略来测试这一假设：仅幅度编码、联合幅度相位编码、同相和正交编码、预处理相位编码和纯量子架构。所有方法均在 MSTAR 基准数据集上的统一实验设置下进行评估。令人惊讶的是，我们发现在混合量子经典模型中，仅幅度编码比包含相位的编码表现更好。它达到了 99.57 pe"
     },
     {
       "title": "Rethinking Satellite Image Restoration for Onboard AI: A Lightweight Learning-Based Approach",
@@ -392,7 +401,8 @@
         "satellite",
         "satellite image",
         "spaceborne"
-      ]
+      ],
+      "summary_zh": "卫星图像恢复旨在通过补偿成像系统和采集条件引起的退化（例如噪声和模糊）来提高图像质量。作为基本的预处理步骤，恢复直接影响地面产品的生成和新兴的机载人工智能应用。基于顺序物理模型的传统恢复管道计算量大且速度慢，使得它们不适合机载环境。在本文中，我们介绍了 ConvBEERS：一种用于空间的卷积板就绪嵌入式和高效恢复模型，用于研究在模拟卫星数据上训练的轻型非生成残差卷积网络是否可以匹配或超越跨多个领域的传统地面处理恢复管道。"
     },
     {
       "title": "A Multi-Agent Feedback System for Detecting and Describing News Events in Satellite Imagery",
@@ -432,7 +442,8 @@
         "satellite",
         "satellite image",
         "satellite imagery"
-      ]
+      ],
+      "summary_zh": "卫星图像的变化通常发生在多个时间步长内。尽管出现了双时态变化字幕数据集，但遥感中缺乏多时态事件字幕数据集（每个序列至少两个图像）。存在这种差距的原因是（1）在卫星图像中搜索可见事件和（2）标记多时相序列需要大量的时间和劳动力。为了应对这些挑战，我们提出了 SkyScraper，这是一种迭代多代理工作流程，可以对新闻文章进行地理编码并合成相应卫星图像序列的标题。我们的实验表明，SkyScraper 成功发现的事件比传统地理编码方法多 5 倍，这表明代理反馈是在卫星中呈现新的多时态事件的有效策略。"
     },
     {
       "title": "Spatial-Spectral Adaptive Fidelity and Noise Prior Reduction Guided Hyperspectral Image Denoising",
@@ -472,7 +483,8 @@
         "hyperspectral",
         "hyperspectral image",
         "robust"
-      ]
+      ],
+      "summary_zh": "高光谱图像去噪的核心挑战是在数据保真度和噪声先验建模之间取得适当的平衡。大多数现有方法过于强调图像的内在先验，而忽略了不同的噪声假设以及保真度和先验之间的动态权衡。为了解决这些问题，我们提出了一个集成了噪声先验降低和空间频谱自适应保真度项的去噪框架。该框架考虑了具有较少参数的综合噪声先验，并引入了自适应权重张量来动态平衡保真度和先验正则化项。在此框架内，我们进一步开发了一种快速且鲁棒的像素级模型，与代表性系数总变分正则化器相结合，以准确地"
     },
     {
       "title": "GTPBD-MM: A Global Terraced Parcel and Boundary Dataset with Multi-Modality",
@@ -514,7 +526,8 @@
       ],
       "matched_terms": [
         "remote sensing"
-      ]
+      ],
+      "summary_zh": "农业地块提取在遥感农业监测中发挥着重要作用，支持地块测量、精准管理和生态评估。然而，现有的公共基准主要集中在规则且相对平坦的农田场景。相比之下，山区梯田地块地形呈阶梯状，高程变化明显，边界不规则，跨区域异质性强，使得地块提取成为更具挑战性的问题，需要视觉识别、语义辨别和地形感知几何理解。尽管最近的研究先进了视觉地块基准和图像文本农田理解，但在对齐的图像文本下复杂梯田地块提取的统一基准"
     },
     {
       "title": "GCA Framework: A GCC Countries-Grounded Dataset and Agentic Pipeline for Climate Decision Support",
@@ -552,7 +565,8 @@
         "fine-tuning",
         "geospatial",
         "large language model"
-      ]
+      ],
+      "summary_zh": "海湾合作委员会国家的气候决策越来越需要能够将异构科学和政策证据转化为可操作指导的系统，但通用大语言模型（LLM）在特定区域的气候知识以及与地理空间和预测工具的基础交互方面仍然薄弱。我们提出了 GCA 框架，它统一了 (i) GCA-DS（基于海湾合作委员会国家的精选多模式数据集）和 (ii) 海湾气候代理 (GCA)，一种用于气候分析的工具增强代理。 GCA-DS 包含 20 万个问答对，涵盖政府政策和适应计划、非政府组织和国际框架、学术文献以及有关热浪、沙尘暴和洪水的事件驱动报告，并辅以与图像相结合的遥感输入"
     },
     {
       "title": "CycloneMAE: A Scalable Multi-Task Learning Model for Global Tropical Cyclone Probabilistic Forecasting",
@@ -593,7 +607,8 @@
         "satellite",
         "satellite image",
         "satellite imagery"
-      ]
+      ],
+      "summary_zh": "热带气旋 (TC) 是最具破坏性的自然灾害之一，但其预测面临着根本性的权衡：数值天气预报 (NWP) 模型的计算量巨大，难以利用历史数据，而现有的基于深度学习 (DL) 的智能模型是特定于变量和确定性的，无法在不同的预测变量之间进行泛化。在这里，我们提出了 CycloneMAE，一种可扩展的多任务预测模型，它使用 TC 结构感知的屏蔽自动编码器从多模态数据中学习可转移的 TC 表示。通过将离散概率网格机制与预训练/微调范例相结合，CycloneMAE 同时提供确定性预测和概率分布。对全球五个国家进行了评估"
     },
     {
       "title": "Nucleus-Image: Sparse MoE for Image Generation",
@@ -630,7 +645,8 @@
         "diffusion model",
         "image generation",
         "transformer"
-      ]
+      ],
+      "summary_zh": "我们提出了 Nucleus-Image，一种文本到图像生成模型，通过匹配或超过 GenEval、DPG-Bench 和 OneIG-Bench 上的领先模型，同时每次前向传递仅激活大约 2B 参数，在质量与效率方面建立了新的帕累托前沿。 Nucleus-Image 采用稀疏专家混合 (MoE) 扩散变压器架构和专家选择路由，将每层 64 个路由专家的总模型容量扩展到 17B 个参数。我们采用了一种针对推理效率进行优化的简化架构，通过将文本标记完全排除在 Transformer 主干中，并使用联合注意力来实现跨时间步长的文本 KV 共享。为了提高使用时间步调制时的布线稳定性，我们引入了一种解耦布线设计，将"
     },
     {
       "title": "Depth-Resolved Coral Reef Thermal Fields from Satellite SST and Sparse In-Situ Loggers Using Physics-Informed Neural Networks",
@@ -661,7 +677,8 @@
       "matched_terms": [
         "remote sensing",
         "satellite"
-      ]
+      ],
+      "summary_zh": "卫星海面温度 (SST) 产品支持全球珊瑚白化监测，但它们仅测量海洋表皮。珊瑚栖息在从浅海到 20 米以上的深处，那里的温度可能比表面低 1-3°C；因此，将卫星海表温度统一应用于所有深度会高估地下热应力。我们提出了一种物理信息神经网络 (PINN)，它将 NOAA 珊瑚礁观察 SST 与一维垂直热方程中的稀疏原位温度记录仪融合在一起，将 SST 作为硬表面边界条件，并共同学习有效热扩散率 (\\k{appa}) 和光衰减 (Kd)。 PINN 在四个大堡礁地点进行了验证（30 个坚持实验），在看不见的深度实现了 0.25-1.38°C RMSE。在下面"
     }
   ]
 }

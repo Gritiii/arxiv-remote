@@ -46,7 +46,8 @@
         "robot",
         "robotic",
         "robotics"
-      ]
+      ],
+      "summary_zh": "3D 高斯溅射 (3DGS) 的最新进展证明了其高效且逼真的 3D 重建的潜力，这对于机器人和沉浸式媒体等多种应用至关重要。然而，当前基于高斯的动态场景重建方法难以应对大的帧间位移，导致快速对象运动下的伪影和时间不一致。为了解决这个问题，我们引入了 \\textit{TrackerSplat}，这是一种集成先进点跟踪方法的新颖方法，以增强 3DGS 动态场景重建的鲁棒性和可扩展性。 TrackerSplat 利用现成的点跟踪模型来提取像素轨迹，并将每个视图的像素轨迹三角测量到 3D 高斯上，以指导重新定位、旋转、"
     },
     {
       "title": "UAV-Track VLA: Embodied Aerial Tracking via Vision-Language-Action Models",
@@ -97,7 +98,8 @@
         "vision-language-action",
         "vla",
         "vla model"
-      ]
+      ],
+      "summary_zh": "实体视觉跟踪对于无人机（UAV）执行复杂的现实任务至关重要。在具有复杂语义需求的动态城市场景中，视觉-语言-动作（VLA）模型由于其跨模态融合和连续动作生成能力而显示出巨大的前景。为了在此类环境中对多模态跟踪进行基准测试，我们构建了一个专用的评估基准和一个包含超过 890K 帧、176 个任务和 85 个不同对象的大规模数据集。此外，为了解决现有 VLA 模型中时间特征冗余和空间几何先验的缺乏，我们提出了一种改进的 VLA 跟踪模型，UAV-Track VLA。我们的模型建立在 $π_{0.5}$ 架构之上，引入了时间压缩网络来有效捕获帧间动态"
     },
     {
       "title": "UniDriveVLA: Unifying Understanding, Perception, and Action Planning for Autonomous Driving",
@@ -145,7 +147,8 @@
       "matched_terms": [
         "vision-language-action",
         "vla"
-      ]
+      ],
+      "summary_zh": "视觉-语言-动作（VLA）模型最近出现在自动驾驶领域，有望利用丰富的世界知识来提高驾驶系统的认知能力。然而，将此类模型应用于驾驶任务目前面临着空间感知和语义推理之间的关键困境。因此，现有的 VLA 系统被迫做出次优的妥协：直接采用 2D 视觉语言模型产生的空间感知有限，而用 3D 空间表示增强它们通常会损害 VLM 的本机推理能力。我们认为，这种困境很大程度上源于共享模型参数内空间感知和语义推理的耦合优化。为了克服这个问题，我们提出了 UniDriveVLA，即统一驾驶 Visio"
     },
     {
       "title": "Realistic Lip Motion Generation Based on 3D Dynamic Viseme and Coarticulation Modeling for Human-Robot Interaction",
@@ -180,7 +183,8 @@
         "human-robot interaction",
         "humanoid",
         "robot"
-      ]
+      ],
+      "summary_zh": "逼真的嘴唇同步对于人形机器人的自然人机非语言交互至关重要。受此需求的启发，本文提出了一种基于 3D 动态视位和协同发音建模的嘴唇运动生成框架。通过分析汉语发音理论，基于ARKit标准构建了3D动态视位库，提供连贯的先验嘴唇轨迹。为了解决连续语音流中的运动冲突，通过结合声母-韵母解耦和能量调制，开发了一种协同发音机制。在开发了一种将高维空间嘴唇运动重新定位到人形头部平台的 14 自由度嘴唇驱动系统的策略后，所提出的架构的效率和准确性得到了验证。"
     },
     {
       "title": "Active Inference with a Self-Prior in the Mirror-Mark Task",
@@ -215,7 +219,8 @@
       "matched_terms": [
         "proprioception",
         "tactile"
-      ]
+      ],
+      "summary_zh": "镜子自我识别测试评估受试者是否触摸了自己身体上仅在镜子中可见的标记，并被广泛用作自我意识的指标。在这项研究中，我们提出了一个计算模型，其中这种行为通过单一机制（自先验）自发出现，没有任何外部奖励。使用 Transformer 实现的自先验可以学习熟悉的多感官体验的密度；当新标记出现时，与这种学习分布的差异通过主动推理驱动标记导向的行为。一个模拟婴儿仅依靠视觉和本体感觉，没有触觉输入，在镜子中发现自己脸上贴有一张贴纸，并且在没有任何明确指示的情况下，大约 70% 的情况下会将其撕下"
     },
     {
       "title": "AnchorVLA: Anchored Diffusion for Efficient End-to-End Mobile Manipulation",
@@ -257,7 +262,8 @@
         "manipulation",
         "mobile manipulation",
         "vla"
-      ]
+      ],
+      "summary_zh": "移动操作的一个核心挑战是保留多个合理的动作模型，同时在执行过程中保持反应性。在杂乱的场景中，瓶子通常可以通过多种有效的方式接近和抓住。稳健的行为取决于保持这种动作多样性，同时随着场景的发展保持反应性。扩散政策很有吸引力，因为它们模拟了多模式行动分布，而不是崩溃为一种解决方案。但实际上，完全迭代去噪在控制时的成本很高。动作分块有助于分摊推理，但它也会产生部分开环行为，允许小的不匹配累积成漂移。我们提出了 AnchorVLA，这是一种基于扩散的 VLA 策略，用于移动操作，其核心见解是当采样开始于接近"
     },
     {
       "title": "VoxelCodeBench: Benchmarking 3D World Modeling Through Code Generation",
@@ -290,7 +296,8 @@
       "matched_terms": [
         "manipulation",
         "world model"
-      ]
+      ],
+      "summary_zh": "评估 3D 空间推理的代码生成模型需要在现实环境中执行生成的代码并评估超出表面级别正确性的输出。我们引入了一个平台 VoxelCode，用于分析代码生成功能以实现 3D 理解和环境创建。我们的平台集成了自然语言任务规范、虚幻引擎中 API 驱动的代码执行以及支持自动化指标和人工评估的统一评估管道。为了证明其实用性，我们构建了 VoxelCodeBench，这是体素操作任务的基准，涵盖三个推理维度：符号解释、几何构造和艺术构成。评估领先的代码生成模型，我们发现生成可执行代码要容易得多"
     },
     {
       "title": "From Impact to Insight: Dynamics-Aware Proprioceptive Terrain Sensing on Granular Media",
@@ -327,7 +334,8 @@
       "matched_terms": [
         "locomotion",
         "robot"
-      ]
+      ],
+      "summary_zh": "穿越自然地形的机器人必须解释高动态条件下产生的接触力。然而，大多数地形表征方法依赖于准静态假设，忽略了碰撞和快速姿态转换期间产生的速度和加速度相关效应。在这项工作中，我们研究了高速跳跃期间的粒状地形相互作用，并开发了一个基于物理的框架，仅使用本体感受传感来进行动态地形表征。通过系统地改变冲击速度和腿部柔顺性的受控跳跃实验，我们的测量表明，基于准静态的假设会导致高速跳跃期间粒状地形特性估计存在巨大差异，特别是在着陆和控制器感应时"
     },
     {
       "title": "Review and Evaluation of Point-Cloud based Leaf Surface Reconstruction Methods for Agricultural Applications",
@@ -362,7 +370,8 @@
       "matched_terms": [
         "robot",
         "robotic"
-      ]
+      ],
+      "summary_zh": "从 3D 点云精确重建叶子表面对于表型分析等农业应用至关重要。然而，现实世界的植物数据（即不规则的 3D 点云）通常很复杂，无法准确地重建植物部分。人们已经提出了各种各样的表面重建方法，包括参数化、基于三角测量、隐式和基于学习的方法，但它们在叶表面重建方面的相对性能仍然没有得到充分的了解。在这项工作中，我们对叶表面的九种代表性表面重建方法进行了比较研究。我们在三个公开可用的数据集上评估这些方法：LAST-STRAW、Pheno4D 和 Crops3D - 涵盖不同的物种、传感器和传感环境，范围从干净的高分辨率到"
     },
     {
       "title": "Tune to Learn: How Controller Gains Shape Robot Policy Learning",
@@ -404,7 +413,8 @@
         "robot learning",
         "robot policy",
         "sim-to-real"
-      ]
+      ],
+      "summary_zh": "位置控制器已成为执行学习操纵策略的主要接口。然而，一个关键的设计决策仍未得到充分研究：我们应该如何选择策略学习的控制器增益？传统观点是根据所需的任务顺应性或刚度来选择增益。然而，当控制器与状态条件策略配对时，这种逻辑就会崩溃：有效的刚度来自习得的反应和控制动态之间的相互作用，而不仅仅是来自收益。我们认为，增益选择应该以可学习性为指导：不同的增益设置对所使用的学习算法的适应性如何。在这项工作中，我们系统地研究了位置控制器增益如何影响现代机器人学习管道的三个核心组成部分："
     },
     {
       "title": "Mitigating Data Scarcity in Spaceflight Applications for Offline Reinforcement Learning Using Physics-Informed Deep Generative Models",
@@ -439,7 +449,8 @@
         "offline reinforcement learning",
         "reinforcement learning",
         "sim-to-real"
-      ]
+      ],
+      "summary_zh": "基于强化学习 (RL) 的控制器在物理系统上的部署通常受到对现实世界场景的较差泛化的限制，即模拟与现实（sim-to-real）差距。这种差距在航天领域尤其具有挑战性，由于成本高昂且行星探索数据有限，现实世界的训练数据稀缺。系统识别和合成数据生成等传统方法依赖于足够的数据，并且经常由于建模假设或缺乏基于物理的约束而失败。我们建议通过在生成模型中引入基于物理的学习偏差来解决这种数据稀缺问题。具体来说，我们开发了基于互信息的分割变分自动编码器（MI-VAE），这是一种基于物理的 VAE，可以学习之间的差异"
     },
     {
       "title": "Stop Wandering: Efficient Vision-Language Navigation via Metacognitive Reasoning",
@@ -478,7 +489,8 @@
         "foundation model",
         "navigation",
         "vln"
-      ]
+      ],
+      "summary_zh": "由基础模型提供支持的免培训视觉语言导航 (VLN) 代理可以遵循指令并探索 3D 环境。然而，现有方法依赖于贪婪的边界选择和被动空间记忆，导致局部振荡和冗余重访等低效行为。我们认为，这是由于缺乏元认知能力：智能体无法监控其探索进度、诊断策略失败或进行相应调整。为了解决这个问题，我们提出了 MetaNav，一种集成了空间记忆、历史感知规划和反射校正的元认知导航代理。空间记忆构建持久的 3D 语义图。具有历史意识的规划会惩罚重新访问以提高效率。反射校正检测停滞并使用"
     },
     {
       "title": "F2F-AP: Flow-to-Future Asynchronous Policy for Real-time Dynamic Manipulation",
@@ -519,7 +531,8 @@
         "manipulation",
         "robot",
         "robotic"
-      ]
+      ],
+      "summary_zh": "异步推理已成为机器人操作中的流行范例，在确保轨迹平滑性和效率方面取得了重大进展。然而，系统性挑战仍未解决，因为固有的延迟导致生成的操作不可避免地落后于实时环境。这个问题在动态场景中尤其严重，这种时间错位严重损害了政策解释和应对快速变化的环境的能力。在本文中，我们提出了一种新颖的框架，该框架利用预测的对象流来合成未来的观察结果，并结合基于流的对比学习目标，将预测观察结果的视觉特征表示与真实的未来状态对齐。以此为动力"
     },
     {
       "title": "A virtual-variable-length method for robust inverse kinematics of multi-segment continuum robots",
@@ -556,7 +569,8 @@
       "matched_terms": [
         "manipulator",
         "robot"
-      ]
+      ],
+      "summary_zh": "本文提出了一种新的、鲁棒的方法来求解多段连续体机械臂的逆运动学（IK）。传统的基于雅可比行列式的求解器，特别是从中性/静止配置初始化时，通常表现出缓慢的收敛性，并且在某些条件下，可能无法收敛（死锁）。这里提出的虚拟变量长度（VVL）方法在解决方案迭代期间引入了段长度的虚拟变化，赋予虚拟轴向自由度，从而减轻不利的行为和约束，从而实现或加速收敛。进行了全面的数值实验，将 VVL 方法与基于雅可比行列式和阻尼最小二乘 IK 求解器的基准进行比较。涵盖 manipul 的超过 $1.8\\times 10^6$ 随机试验"
     },
     {
       "title": "Safe Control of Feedback-Interconnected Systems via Singular Perturbations",
@@ -590,7 +604,8 @@
         "robot",
         "robotic",
         "robotic arm"
-      ]
+      ],
+      "summary_zh": "控制势垒函数 (CBF) 已成为非线性系统安全关键控制器设计中的强大工具。在现代应用中，复杂系统通常涉及在不同时间尺度演变的子系统的反馈互连，例如来自不同物理领域的两个部分（例如机器人系统的电气和机械部分）或物理设备和（优化或控制）算法。在这些场景中，安全约束通常只涉及整个系统的一部分。受到稳定性分析奇异扰动的启发，我们开发了一个正式的程序，将在降阶模型上设计的安全证书提升到整个反馈互连系统。具体来说，我们表明在足够的时间尺度下"
     },
     {
       "title": "ROS 2-Based LiDAR Perception Framework for Mobile Robots in Dynamic Production Environments, Utilizing Synthetic Data Generation, Transformation-Equivariant 3D Detection and Multi-Object Tracking",
@@ -629,7 +644,8 @@
         "manipulator",
         "mobile robot",
         "robot"
-      ]
+      ],
+      "summary_zh": "动态生产环境中的自适应机器人需要强大的感知能力，包括 6D 位姿估计和多目标跟踪。为了解决现实世界数据依赖性、噪声鲁棒性和时空一致性方面的限制，提出了一种基于机器人操作系统的 LiDAR 框架，该框架将合成数据训练的变换等变 3D 检测与利用中心位姿的多目标跟踪相结合。使用动作捕捉技术在 72 个场景中进行验证，整体结果得出独立姿态估计的交集比并集为 62.6%，通过多对象跟踪集成上升到 83.12%。我们基于 LiDAR 的框架实现了 91.12% 的高阶跟踪精度，提高了基于 LiDAR 的感知系统的稳健性和多功能性"
     },
     {
       "title": "Cross-Modal Visuo-Tactile Object Perception",
@@ -677,7 +693,8 @@
         "robot",
         "robotic",
         "tactile"
-      ]
+      ],
+      "summary_zh": "估计物理特性对于安全高效的自主机器人操作至关重要，特别是在接触丰富的交互过程中。在此类设置中，视觉和触觉传感提供有关对象几何形状、姿态、惯性、刚度和接触动力学（例如粘滑行为）的补充信息。然而，这些属性只能间接观察到，并且不能总是精确建模（例如，非刚性物体的变形与非线性接触摩擦相结合），使得估计问题本质上很复杂，并且需要在动作过程中持续利用视觉触觉信息。现有的视觉触觉感知框架主要强调强有力的传感器融合或静态跨模态对齐，而对如何实现的考虑有限。"
     },
     {
       "title": "HyVGGT-VO: Tightly Coupled Hybrid Dense Visual Odometry with Feed-Forward Models",
@@ -714,7 +731,8 @@
         "robotic",
         "robotics",
         "slam"
-      ]
+      ],
+      "summary_zh": "密集视觉里程计 (VO) 可提供姿态估计和密集 3D 重建，是从机器人到增强现实等各种应用的基石。最近，前馈模型在密集映射方面表现出了卓越的能力。然而，当这些模型用于密集视觉 SLAM 系统时，其繁重的计算负担限制了它们在关键帧处产生稀疏姿态输出，同时仍然无法实现实时姿态估计。相比之下，传统的稀疏方法提供了高计算效率和高频位姿输出，但缺乏密集重建的能力。为了解决这些限制，我们提出了 HyVGGT-VO，这是一种新颖的框架，它将稀疏 VO 的计算效率与密集重建 c 相结合"
     },
     {
       "title": "CompassAD: Intent-Driven 3D Affordance Grounding in Functionally Competing Objects",
@@ -765,7 +783,8 @@
         "manipulator",
         "robot",
         "robotic"
-      ]
+      ],
+      "summary_zh": "当被告知“切苹果”时，机器人必须选择刀而不是附近的剪刀，尽管这两种物体都提供相同的切割功能。在现实场景中，多个对象可能共享相同的可供性，但只有一个对象适合给定的任务上下文。我们称这种情况为混淆对。然而，现有的 3D 可供性方法通过评估孤立的单个对象（通常在查询中提供明确的类别名称）在很大程度上回避了这一挑战。我们在意图驱动指令下形式化了多对象可供性基础，这是一种新的 3D 可供性设置，需要预测杂乱的多对象点云中正确对象上的每点可供性掩模，以隐式自然语言意图为条件。为了研究这个问题，我们构建了 CompassAD，"
     },
     {
       "title": "IndoorCrowd: A Multi-Scene Dataset for Human Detection, Segmentation, and Tracking with an Automated Annotation Pipeline",
@@ -802,7 +821,8 @@
       "matched_terms": [
         "human-robot interaction",
         "robot"
-      ]
+      ],
+      "summary_zh": "了解拥挤的室内环境中的人类行为对于监控、智能建筑和人机交互至关重要，但现有的数据集很少大规模地捕捉现实世界的室内复杂性。我们推出了 IndoorCrowd，这是一个用于室内人体检测、实例分割和多对象跟踪的多场景数据集，在四个校园地点（ACS-EC、ACS-EG、IE-Central、R-Central）收集。它包含 31 美元的视频（9 美元{,}913 美元帧，5 美元每秒），以及经过人工验证的按实例分割掩码。 620 美元的帧控制子集对三个基础模型自动注释器进行了基准测试：SAM3、GroundingSAM 和 EfficientGroundingSAM，与使用 Cohen 的 $κ$、AP、精度、召回率和掩模 IoU 的人类标签进行比较。另外 $2{,}552$ 帧子集支持多目标跟踪"
     },
     {
       "title": "Bridging Discrete Planning and Continuous Execution for Redundant Robot",
@@ -842,7 +862,8 @@
         "path planning",
         "reinforcement learning",
         "robot"
-      ]
+      ],
+      "summary_zh": "体素网格强化学习由于其简单性和可重复性而被广泛应用于冗余机械臂的路径规划。然而，通过 7-DoF 臂上的逐点数值逆运动学直接执行通常会产生步长抖动、突然的关节过渡以及奇异配置附近的不稳定。这项工作提出了离散规划和连续执行之间的桥接框架，而无需修改离散规划器本身。在规划方面，引入了步长归一化的 26 邻点笛卡尔动作和几何打破平局机制，以抑制不必要的转弯并消除步长振荡。在执行方面，实现了任务优先级阻尼最小二乘（TP-DLS）逆运动学层。该层处理末端执行器 p"
     },
     {
       "title": "ProCeedRL: Process Critic with Exploratory Demonstration Reinforcement Learning for LLM Agentic Reasoning",
@@ -877,7 +898,8 @@
       "matched_terms": [
         "embodied",
         "reinforcement learning"
-      ]
+      ],
+      "summary_zh": "强化学习（RL）显着增强了大型语言模型（LLM）的推理能力，但由于交互的长期性和环境反馈的随机性，将其应用于多轮代理任务仍然具有挑战性。我们确定了主体探索中的结构性失败模式：次优行动将噪声观察引入误导性环境，这进一步削弱了后续决策，使恢复变得越来越困难。这种累积的错误反馈循环使标准探索策略无效，并且容易受到模型推理和环境随机性的影响。为了缓解这个问题，我们提出了 ProCeedRL：带有探索性演示 RL 的过程批评家，将探索从被动选择转变为"
     },
     {
       "title": "Integrated Identification of Collaborative Robots for Robot Assisted 3D Printing Processes",
@@ -916,7 +938,8 @@
         "robot",
         "robotic",
         "robotics"
-      ]
+      ],
+      "summary_zh": "近年来，增材制造 (AM) 和工业机器人技术的集成为复杂零部件的生产开辟了新的前景，特别是在汽车领域。机器人辅助增材制造工艺克服了传统笛卡尔系统的尺寸和运动学限制，实现了非平面沉积和更大的几何灵活性。然而，机器人操纵器日益增加的动态复杂性带来了与精度、控制和误差预测相关的挑战。这项工作提出了一种基于模型的方法，配备了系统参数的集成识别程序，包括机器人、执行器和控制器。我们表明，集成建模程序可以获得可靠的动态"
     },
     {
       "title": "Receding-Horizon Nonlinear Optimal Control With Safety Constraints Using Constrained Approximate Dynamic Programming",
@@ -947,7 +970,8 @@
       ],
       "matched_terms": [
         "robot"
-      ]
+      ],
+      "summary_zh": "我们提出了一种针对受状态约束的非线性连续时间系统的后退最优控制。成本是二次有限范围积分。关键的实现技术是一种新的约束近似动态规划 (C-ADP) 方法，用于有限范围非线性最优控制，并具有控制中的仿射约束。 C-ADP 方法很直观，因为它在每个后退步骤中使用成本函数的二次近似。该方法产生一系列解析闭式最优控制函数，它们具有相同的结构，并且其中的参数是从 2 个类似 Riccati 的差分方程获得的。这种 C-ADP 方法非常适合实时实施。因此，我们将 C-ADP 方法与控制屏障乐趣相结合"
     },
     {
       "title": "The Rank and Gradient Lost in Non-stationarity: Sample Weight Decay for Mitigating Plasticity Loss in Reinforcement Learning",
@@ -984,7 +1008,8 @@
         "humanoid",
         "mujoco",
         "reinforcement learning"
-      ]
+      ],
+      "summary_zh": "由于非平稳性的性质，深度强化学习（RL）严重遭受可塑性损失，从而削弱了适应新数据和持续学习的能力。不幸的是，我们对可塑性损失如何产生、消散和消除的理解仍然仅限于经验发现，理论结果尚未得到充分探索。为了解决这一差距，我们从网络优化的理论角度研究可塑性损失问题。通过正式描述在线 RL 过程中的两个罪魁祸首：数据分布的非平稳性和自举引起的目标的非平稳性，我们的理论将可塑性的损失归因于两种机制：神经正切核 (NTK) Gram 矩阵的秩崩溃和 $θ(\\frac{1}"
     },
     {
       "title": "Lifting Unlabeled Internet-level Data for 3D Scene Understanding",
@@ -1031,7 +1056,8 @@
       "matched_terms": [
         "navigation",
         "vln"
-      ]
+      ],
+      "summary_zh": "带注释的 3D 场景数据稀缺且获取成本高昂，而互联网上却有大量未标记的视频。在本文中，我们证明了精心设计的数据引擎可以利用网络精选、未标记的视频自动生成训练数据，以促进 3D 场景理解中的端到端模型以及人工注释的数据集。我们识别并分析自动化数据生成中的瓶颈，揭示决定未标记数据学习效率和有效性的关键因素。为了跨不同感知粒度验证我们的方法，我们评估了三个任务，涵盖低级感知（即 3D 对象检测和实例分割）到高级推理（即 3D 空间视觉问答（VQA））"
     },
     {
       "title": "A3R: Agentic Affordance Reasoning via Cross-Dimensional Evidence in 3D Gaussian Scenes",
@@ -1069,7 +1095,8 @@
       "matched_terms": [
         "affordance",
         "policy learning"
-      ]
+      ],
+      "summary_zh": "3D 高斯场景中的可供性推理旨在识别支持复杂环境中给定文本指令指定的动作的区域。现有方法通常将此问题视为静态场景观察的一次性预测，假设已经有足够的证据可用于推理。然而，在复杂的3D场景中，许多失败案例并不是由于预测能力薄弱，而是由于固定观察下与任务相关的证据不完整。为了解决这个限制，我们将细粒度可供性推理重新表述为一个顺序证据获取过程，其中通过互补的 3D 几何和 2D 语义证据逐渐减少歧义。在此基础上，我们提出了 A3R，一种代理可供性推理框架，"
     },
     {
       "title": "GeoAI Agency Primitives",
@@ -1109,7 +1136,8 @@
       "matched_terms": [
         "foundation model",
         "navigation"
-      ]
+      ],
+      "summary_zh": "我们展示了针对 GeoAI 助手的机构原语正在进行的研究，这些核心功能将 Foundation 模型连接到 GIS 从业者实际工作的以工件为中心的人机交互工作流程。尽管卫星图像字幕、视觉问答和及时分割方面取得了进步，但这些功能并未转化为将大部分时间用于制作矢量图层、栅格地图和制图产品的从业人员的生产力提高。差距不仅仅在于模型能力，还在于缺乏支持迭代协作的代理层。我们为这一层提出了一个 9 美元原语的词汇表——包括导航、感知、地理参考记忆和对偶建模——以及衡量人类生产力的基准"
     },
     {
       "title": "Posterior Optimization with Clipped Objective for Bridging Efficiency and Stability in Generative Policy Learning",
@@ -1156,7 +1184,8 @@
         "robotic",
         "vla",
         "vla model"
-      ]
+      ],
+      "summary_zh": "表达生成模型通过捕获时间扩展轨迹上的复杂、多模式动作分布来实现先进的机器人操作。然而，由于不稳定和样本效率低下，通过强化学习微调这些策略仍然具有挑战性。我们引入了带有裁剪目标的后验优化（POCO），这是一个有原则的强化学习框架，它将策略改进制定为针对时间动作块量身定制的后验推理问题。通过期望最大化过程，POCO 将奖励加权的隐式后验提炼到策略中，而无需进行似然估计。此外，POCO 采用离线到在线范式，将在线探索锚定到预先训练的先验，其与模型无关的设计规模可以在无需架构的情况下微调大型 VLA 模型"
     },
     {
       "title": "VitaTouch: Property-Aware Vision-Tactile-Language Model for Robotic Quality Inspection in Manufacturing",
@@ -1201,7 +1230,8 @@
         "robot",
         "robotic",
         "tactile"
-      ]
+      ],
+      "summary_zh": "智能制造中的质量检测需要识别可见几何形状之外的内在材料和表面特性，但仅视觉的方法仍然容易受到遮挡和反射的影响。我们提出了 VitaTouch，一种用于材料属性推理和自然语言属性描述的属性感知视觉触觉语言模型。 VitaTouch 使用特定于模态的编码器和双 Q-Former 来提取与语言相关的视觉和触觉特征，这些特征被压缩为大型语言模型的前缀标记。我们将每种模式与文本结合起来，并通过对比学习明确地将视觉和触觉结合起来。我们还构建了 VitaSet，一个包含 186 个对象、52k 个图像和 5100 个经过人类验证的指令-答案对的多模式数据集。 VitaTouch 取得最佳性能"
     },
     {
       "title": "PTC-Depth: Pose-Refined Monocular Depth Estimation with Temporal Consistency",
@@ -1238,7 +1268,8 @@
         "foundation model",
         "mobile robot",
         "robot"
-      ]
+      ],
+      "summary_zh": "单目深度估计（MDE）已广泛应用于自动驾驶车辆和移动机器人的感知系统中。然而，现有方法通常难以维持连续帧的深度估计的时间一致性。这种不一致不仅会导致抖动，而且当深度范围突然变化时还会导致估计失败。为了应对这些挑战，本文提出了一种一致性感知的单目深度估计框架，该框架利用移动机器人的轮式里程计来随着时间的推移实现稳定且连贯的深度预测。具体来说，我们使用连续帧之间的光流通过三角测量来估计相机姿态和稀疏深度。稀疏深度估计用于更新度量 sc 的递归贝叶斯估计"
     },
     {
       "title": "Preferential Bayesian Optimization with Crash Feedback",
@@ -1274,7 +1305,8 @@
         "robot",
         "robotic",
         "robotics"
-      ]
+      ],
+      "summary_zh": "贝叶斯优化是一种流行的黑盒优化方法，用于控制和机器人技术中的参数学习。它通常需要一个反映用户优化目标的目标函数。然而，在实际应用中，由于性能指标复杂或不可测量，该目标函数通常无法访问。优先贝叶斯优化 (PBO) 通过成对比较利用人类反馈克服了这一限制，消除了显式性能量化的需要。当将 PBO 应用到硬件系统（例如四轴飞行器控制）时，崩溃可能会导致耗时的实验重置、磨损或其他不良结果。标准 PBO 方法无法纳入此类失败实验的反馈，导致探索"
     },
     {
       "title": "DriveDreamer-Policy: A Geometry-Grounded World-Action Model for Unified Generation and Planning",
@@ -1324,7 +1356,8 @@
         "vision-language-action",
         "vla",
         "world model"
-      ]
+      ],
+      "summary_zh": "最近，世界动作模型（WAM）的出现连接了视觉-语言-动作（VLA）模型和世界模型，统一了它们的推理和指令跟踪能力以及时空世界建模。然而，现有的 WAM 方法通常侧重于对 2D 外观或潜在表示进行建模，几何基础有限——这是在物理世界中运行的具体系统的基本要素。我们推出了 DriveDreamer-Policy，这是一种统一的驾驶世界动作模型，它将深度生成、未来视频生成和运动规划集成在单个模块化架构中。该模型采用大型语言模型来处理语言指令、多视图图像和动作，然后是三个轻量级生成器，用于生成深度、未来视频和动作。"
     },
     {
       "title": "Analysis of Efficient Transmission Methods of Grid Maps for Intelligent Vehicles",
@@ -1356,7 +1389,8 @@
       ],
       "matched_terms": [
         "robot"
-      ]
+      ],
+      "summary_zh": "网格映射是对智能车辆或机器人环境进行建模的基本方法。与基于对象的环境建模相比，网格地图具有明显的优势，可以表示环境，而不需要对对象进行任何假设，例如类型或形状。对于基于网格地图的方法，环境被划分为多个单元，每个单元包含有关其各自区域的信息，例如占用情况。整个环境的这种表示对于实现更高水平的自治至关重要。然而，它的缺点是在单元级别对场景进行建模会导致固有的大数据量。修补网格地图通过调整特定区域的单元格大小在一定程度上解决了这个问题。然而，修补网格地图的数据大小是 s"
     },
     {
       "title": "Causal Scene Narration with Runtime Safety Supervision for Vision-Language-Action Driving",
@@ -1396,7 +1430,8 @@
         "navigation",
         "vision-language-action",
         "vla"
-      ]
+      ],
+      "summary_zh": "自动驾驶的视觉-语言-动作（VLA）模型必须集成不同的文本输入，包括导航命令、危险警告和交通状态描述，但当前的系统通常将这些输入呈现为不连续的片段，迫使模型自行发现哪些环境约束与当前的操作相关。我们引入因果场景叙述 (CSN)，它通过意图约束对齐、定量基础和结构化分离在推理时以零 GPU 成本重组 VLA 文本输入。我们通过基于 Simplex 的运行时安全监督和通过具有负对数似然 (NLL) 正则化的 Plackett-Luce DPO 进行训练时间对齐来补充 CSN。多城镇闭环CARLA评估表明CSN改善了驾驶S"
     },
     {
       "title": "Hi-LOAM: Hierarchical Implicit Neural Fields for LiDAR Odometry and Mapping",
@@ -1436,7 +1471,8 @@
         "embodied",
         "navigation",
         "robot"
-      ]
+      ],
+      "summary_zh": "LiDAR 里程计和测绘 (LOAM) 是自动驾驶和机器人导航等人工智能应用的关键技术。大多数现有的LOAM框架要么依赖于监督信号，要么缺乏重建保真度，不足以描绘大规模复杂场景的细节。为了克服这些限制，我们提出了一种使用 LiDAR 传感器的多尺度隐式神经定位和映射框架，称为 Hi-LOAM。 Hi-LOAM接收LiDAR点云作为输入数据模态，基于八叉树结构在多层哈希表中学习和存储分层潜在特征，然后在映射过程中通过浅层多层感知器（MLP）将这些多尺度潜在特征解码为有符号距离值。对于 POS"
     },
     {
       "title": "Reliability-Aware Geometric Fusion for Robust Audio-Visual Navigation",
@@ -1474,7 +1510,8 @@
         "embodied agent",
         "navigation",
         "visual navigation"
-      ]
+      ],
+      "summary_zh": "视听导航（AVN）需要实体代理通过利用视觉和双耳音频来导航至声源。复杂的声学环境中出现了一个核心挑战，双耳提示会间歇性地变得不可靠，特别是在推广到以前闻所未闻的声音类别时。为了解决这个问题，我们提出了 RAVN（可靠性感知视听导航），这是一个框架，可根据音频衍生的可靠性线索进行跨模式融合，动态校准音频和视觉输入的集成。 RAVN 引入了声学几何推理器 (AGR)，该推理器经过几何代理监督训练。使用异方差高斯 NLL 目标，AGR 学习与观察相关的色散作为实用的可靠性线索，从而无需使用 ge"
     },
     {
       "title": "Spatial-Aware Conditioned Fusion for Audio-Visual Navigation",
@@ -1506,7 +1543,8 @@
       "matched_terms": [
         "navigation",
         "visual navigation"
-      ]
+      ],
+      "summary_zh": "视听导航任务要求智能体仅使用视觉观察和声音提示来定位和导航到连续发声的目标。然而，现有方法主要依赖于简单的特征串联或后期融合，缺乏目标相对位置的明确离散表示，这限制了学习效率和泛化能力。我们提出空间感知条件融合（SACF）。 SACF 首先离散化目标与视听线索的相对方向和距离，预测它们的分布，并将它们编码为策略调节和状态建模的紧凑描述符。然后，SACF 使用音频嵌入和空间描述符来生成通道级缩放和偏差，以通过条件线性变换来调制视觉特征，"
     },
     {
       "title": "OpenGo: An OpenClaw-Based Robotic Dog with Real-Time Skill Switching",
@@ -1545,7 +1583,8 @@
         "embodied intelligence",
         "robot",
         "robotic"
-      ]
+      ],
+      "summary_zh": "对于单个机器人代理来说，适应复杂的任务和多种场景仍然是一个重大挑战。实时获得组织和在各种技能之间切换的能力（尤其是在动态环境中）已成为具身智能的基本要求。我们介绍 OpenGo，这是一款由 OpenClaw 驱动的实体机器狗，能够根据场景和任务指令实时切换技能。具体来说，代理配备了（1）可轻松导入技能和自主技能验证的可定制技能库，（2）根据任务提示或语言指令选择和调用不同技能的调度程序，以及（3）根据任务完成情况和人类反馈微调技能的自学习框架。我们部署"
     },
     {
       "title": "Audio Spatially-Guided Fusion for Audio-Visual Navigation",
@@ -1581,7 +1620,8 @@
         "navigation",
         "path planning",
         "visual navigation"
-      ]
+      ],
+      "summary_zh": "视听导航是指Agent在复杂的3D环境中利用视觉和听觉信息完成目标定位和路径规划，从而实现自主导航。该任务的核心挑战在于：面对环境和声源的变化，智能体如何摆脱对训练数据的依赖，实现具有良好泛化性能的自主导航。为了应对这一挑战，我们提出了一种用于视听导航的音频空间引导融合方法。首先，我们设计了一个音频空间特征编码器，它通过音频强度注意机制自适应地提取与目标相关的空间状态信息；在此基础上，我们引入了音频空间状态引导融合（ASGF）"
     },
     {
       "title": "3-D Relative Localization for Multi-Robot Systems with Angle and Self-Displacement Measurements",
@@ -1612,7 +1652,8 @@
       ],
       "matched_terms": [
         "robot"
-      ]
+      ],
+      "summary_zh": "通过利用机器人间局部测量来实现相对定位是一个具有挑战性的问题，特别是在存在测量噪声的情况下。受这一挑战的启发，在本文中，我们提出了一种基于机器人间内角和自位移测量的新颖且系统的 3D 相对定位框架。最初，我们提出了一种线性相对定位理论，包括分布式线性相对定位算法和可定位性的充分条件。根据这一理论，机器人可以以纯线性方式确定其邻居的相对位置和方向。随后，为了处理测量噪声，我们通过解决测量中存在的三个主要挑战，提出了一种先进的最大后验（MAP）估计器。"
     },
     {
       "title": "GPA: Learning GUI Process Automation from Demonstrations",
@@ -1653,7 +1694,8 @@
       "matched_terms": [
         "robot",
         "robotic"
-      ]
+      ],
+      "summary_zh": "GUI 流程自动化 (GPA) 是一种轻量级但通用的基于视觉的机器人流程自动化 (RPA)，只需一个演示即可实现快速稳定的流程重放。针对传统 RPA 的脆弱性和当前基于视觉语言模型的 GUI 代理的非确定性风险，GPA 引入了三个核心优势：（1）通过基于顺序蒙特卡罗的本地化实现鲁棒性，以处理重新缩放和检测不确定性； (2) 通过准备校准保证确定性和可靠性； (3) 通过快速、完全本地执行来保护隐私。这种方法提供了企业工作流程所需的适应性、稳健性和安全性。它还可以被其他具有编码功能的代理用作 MCP/CLI 工具，以便代理仅进行推理和编排"
     },
     {
       "title": "Robust Embodied Perception in Dynamic Environments via Disentangled Weight Fusion",
@@ -1690,7 +1732,8 @@
       ],
       "matched_terms": [
         "embodied"
-      ]
+      ],
+      "summary_zh": "当实体感知系统在开放的物理空间中持续交互时，它们面临着动态环境分布漂移的严峻挑战。然而，现有的领域增量感知方法往往依赖于测试阶段提前获得的领域id，这限制了它们在未知交互场景中的实用性。同时，该模型常常对上下文特定的感知噪声过度拟合，从而导致泛化能力不足和灾难性遗忘。为了解决这些限制，我们提出了一种用于具体多媒体系统的领域 ID 和无样本增量学习框架，旨在实现鲁棒的连续环境适应。该方法设计了一种解缠结表示机制来去除非必要的 e"
     },
     {
       "title": "AURA: Multimodal Shared Autonomy for Real-World Urban Navigation",
@@ -1730,7 +1773,8 @@
         "navigation",
         "robot",
         "teleoperation"
-      ]
+      ],
+      "summary_zh": "复杂城市环境中的长视距导航严重依赖人类的连续操作，这会导致疲劳、效率降低和安全隐患。共享自治，即视觉语言人工智能代理和人类操作员协作操纵移动机器，为解决这些问题提供了一种有前途的解决方案。然而，现有的共享自治方法通常需要人类和人工智能在同一行动空间内操作，导致较高的认知开销。我们推出辅助城市机器人自主（AURA），这是一种新的多模式框架，它将城市导航分解为高级人类指令和低级人工智能控制。 AURA 结合了空间感知指令编码器，使各种人类指令与视觉和空间环境保持一致。为方便培训"
     },
     {
       "title": "Tex3D: Objects as Attack Surfaces via Adversarial 3D Textures for Vision-Language-Action Models",
@@ -1777,7 +1821,8 @@
         "simulator",
         "vision-language-action",
         "vla"
-      ]
+      ],
+      "summary_zh": "视觉-语言-动作（VLA）模型在机器人操作方面表现出了强大的性能，但它们对物理上可实现的对抗性攻击的鲁棒性仍有待探索。现有研究通过语言扰动和 2D 视觉攻击揭示了漏洞，但这些攻击面要么不太能代表实际部署，要么在物理现实性方面受到限制。相比之下，对抗性 3D 纹理会造成物理上更合理、更具破坏性的威胁，因为它们自然地附着在被操纵的对象上，并且更容易在物理环境中部署。然而，将对抗性 3D 纹理引入 VLA 系统并非易事。一个主要障碍是标准 3D 模拟器不提供从 VLA 目标函数返回到对象的可微优化路径"
     },
     {
       "title": "Smooth Feedback Motion Planning with Reduced Curvature",
@@ -1811,7 +1856,8 @@
         "robot",
         "robotic",
         "robotics"
-      ]
+      ],
+      "summary_zh": "单元分解的反馈运动规划提供了一种稳健的方法，用于生成具有正式保证的无碰撞机器人运动。然而，现有算法通常会产生不必要弯曲的路径，导致运动速度变慢和控制工作量增加。本文提出了一种计算有效的方法来缓解给定单纯分解的这个问题。引入了一种启发式方法，系统地对齐和分配局部向量场以产生更直接的轨迹，并辅之以一种新颖的几何算法，该算法围绕目标构建最大星形单纯形链。这创建了一个大的“漏斗”，可以在其中安全地应用最佳的、直接达到目标的控制律。模拟表明我们的方法产生了明显更直接的结果"
     },
     {
       "title": "ModTrans: Translating Real-world Models for Distributed Training Simulator",
@@ -1841,7 +1887,8 @@
       "matched_terms": [
         "simulator",
         "world model"
-      ]
+      ],
+      "summary_zh": "大规模分布式训练是近年来工业界和学术界机器学习系统的研究热点。然而，在没有物理机器和相应资源的情况下进行实验是很困难的。一种解决方案是利用分布式训练模拟器，但目前的 ASTRA-sim 等模拟器不支持导入现实世界开发的模型，这给寻求使用它们的机器学习研究人员带来了挑战。基于这一挑战，我们开发了 ModTrans，这是一个翻译器，支持从任何现实世界模型到 ASTRA-sim 模拟器输入的格式转换，消除了机器学习专家和机器学习系统研究人员之间的障碍。实验结果表明ModTrans的成本可以忽略不计。"
     },
     {
       "title": "F3DGS: Federated 3D Gaussian Splatting for Decentralized Multi-Agent World Modeling",
@@ -1882,7 +1929,8 @@
         "robot",
         "robotic",
         "world model"
-      ]
+      ],
+      "summary_zh": "我们提出了 F3DGS，这是一种用于分散式多智能体 3D 重建的联合 3D 高斯 Splatting 框架。现有的 3DGS 管道假设集中访问所有观测结果，这限制了它们在代理独立操作的分布式机器人设置中的适用性，并且集中式数据聚合可能受到限制。直接将集中训练扩展到多智能体系统会带来通信开销和几何不一致。 F3DGS 首先通过注册来自多个客户端的本地合并 LiDAR 点云来构建共享几何脚手架，以初始化全局 3DGS 模型。在联合优化期间，固定高斯位置以保持几何对齐，而每个客户端仅更新与外观相关的属性，包括协方差、不透明度"
     },
     {
       "title": "Riemannian and Symplectic Geometry for Hierarchical Text-Driven Place Recognition",
@@ -1916,7 +1964,8 @@
       ],
       "matched_terms": [
         "robot"
-      ]
+      ],
+      "summary_zh": "文本到点云定位使机器人能够通过自然语言描述理解空间位置，这对于自动驾驶和最后一英里交付等应用中的人机协作至关重要。然而，现有方法采用池化全局描述符进行相似性检索，这会导致严重的信息丢失，并且无法捕获有区别的场景结构。为了解决这些问题，我们提出了 SympLoc，一种新颖的从粗到精的定位框架，在粗略阶段具有多级对齐。与以前仅依赖全局描述符的方法不同，我们的粗略阶段由三个互补的对齐级别组成：1）实例级对齐在点 cl 中的各个对象实例之间建立直接对应关系"
     },
     {
       "title": "Boosting Vision-Language-Action Finetuning with Feasible Action Neighborhood Prior",
@@ -1962,7 +2011,8 @@
         "robotic",
         "vision-language-action",
         "vla"
-      ]
+      ],
+      "summary_zh": "在现实世界的机器人操纵中，国家通常承认邻近的近乎相同的行为。也就是说，对于每个状态，都存在一个可行的动作邻域（FAN），而不是单个正确的动作，其中动作产生难以区分的进展。然而，流行的 VLA 训练方法直接继承自语言环境，没有利用 FAN 属性，从而导致泛化能力差和样本效率低。为了解决这个限制，我们引入了一个 FAN 引导的正则化器，它可以塑造模型的输出分布以与 FAN 的几何结构保持一致。具体来说，我们引入了高斯先验，它促进围绕首选方向和幅度的局部平滑和单峰预测。在两个强化翅片的广泛实验中"
     },
     {
       "title": "A Dynamic Toolkit for Transmission Characteristics of Precision Reducers with Explicit Contact Geometry",
@@ -2002,7 +2052,8 @@
         "quadruped",
         "robot",
         "robotic"
-      ]
+      ],
+      "summary_zh": "精密减速器是机器人系统中的关键部件，直接影响仿人机器人、四足机器人、协作机器人、工业机器人、SCARA机器人等的运动精度和动态性能。本文提出了一个动态工具包，用于分析具有显式接触几何形状的精密减速器的传动特性。提出了一个统一的框架来解决精确接触行为建模、评估齿轮刚度和预测系统振动方面的挑战。通过集成先进的接触理论和数值求解方法，与传统动力学软件相比，所提出的工具包提供了更高的精度和计算效率。该工具包采用模块化、可编写脚本的架构设计，支持快速重新配置"
     },
     {
       "title": "Universal computational thermal imaging overcoming the ghosting effect",
@@ -2042,7 +2093,8 @@
       "matched_terms": [
         "autonomous navigation",
         "navigation"
-      ]
+      ],
+      "summary_zh": "热成像对于夜视至关重要，但从根本上受到重影效应的阻碍，重影效应是杂乱光子流中细节纹理的损失。虽然传统的重影缓解依赖于数据后处理，但热辅助探测和测距 (HADAR) 的最新突破为高光谱计算热成像开辟了一个充满希望的前沿，可产生具有白天可见度的夜视效果。然而，通用的防重影成像仍然难以实现，因为最先进的 HADAR 仅适用于具有均匀材质的有限场景，而材质不均匀性在现实世界中普遍存在。在这里，我们提出了一种通用计算热成像框架 TAG（热抗重影），以解决材料不均匀性并克服重影，以实现高保真度"
     },
     {
       "title": "Robust Autonomous Control of a Magnetic Millirobot in In Vitro Cardiac Flow",
@@ -2079,7 +2131,8 @@
         "navigation",
         "path planning",
         "robot"
-      ]
+      ],
+      "summary_zh": "不受束缚的磁性微型机器人为微创心脏治疗提供了巨大的潜力；然而，实现脉动心流的可靠自主控制仍然具有挑战性。这项工作提出了一种视觉引导控制框架，能够在生理相关的流动条件下对体外心脏模型中的磁性微型机器人进行精确的自主导航。该系统集成了基于 UNet 的定位、A* 路径规划和滑模控制器以及专为多线圈电磁驱动设计的扰动观测器 (SMC-DOB)。尽管阻力是使用稳态 CFD 模拟来估计的，但控制器会补偿闭环运行期间的瞬态脉动干扰。在静态流体中，SMC-DOB 实现了亚毫米精度"
     },
     {
       "title": "MorphoGuard: A Morphology-Based Whole-Body Interactive Motion Controller",
@@ -2120,7 +2173,8 @@
         "grasping",
         "robot",
         "robotic"
-      ]
+      ],
+      "summary_zh": "全身控制（WBC）在高维机器人系统的复杂交互运动中表现出了显着的优势。然而，当机器人需要沿着单个运动链处理动态多接触组合时（例如在抓取物体时用肘部推开门），它在复杂的接触表示和关节配置耦合方面面临着主要障碍。为了解决这个问题，我们提出了一种新的控制方法，可以明确地管理任意接触组合，旨在赋予机器人全身交互能力。我们开发了形态约束的WBC网络（MorphoGuard）——在自建的双臂物理和模拟平台上进行训练。一系列模型推荐实验旨在系统化"
     }
   ]
 }

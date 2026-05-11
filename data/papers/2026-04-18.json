@@ -46,7 +46,8 @@
         "object detection",
         "rotated object detection",
         "YOLO"
-      ]
+      ],
+      "summary_zh": "气孔在调节植物生理过程和反映环境反应方面发挥着至关重要的作用。然而，准确和高通量的气孔表型分析仍然具有挑战性，因为传统方法依赖于破坏性采样和手动注释，限制了大规模和现场部署。为了克服这些限制，开发了一种称为 StomaD2 的非侵入性恢复检测集成框架，以在复杂的成像条件下实现准确、快速的气孔表型分析。该框架结合了一个基于扩散的恢复模块来恢复退化的图像，以及一个专门针对气孔小、密集和杂乱特征而定制的旋转对象检测网络。所提出的网络通过三个增强特征表示"
     },
     {
       "title": "Hyperspectral Unmixing Hierarchies",
@@ -88,7 +89,8 @@
         "hyperspectral unmixing",
         "remote sensing",
         "satellite"
-      ]
+      ],
+      "summary_zh": "分解揭示了高光谱图像中不同成分（称为端元）的空间分布和光谱细节。由于分解对地面实况的要求有限，可以容纳混合像素，并且与光传播密切相关，因此它是分析高光谱图像的独特强大工具。然而，光谱变异性抑制了分离性能，确定端元数量的正确方法不明确，并且端元的清晰度随着包含的端元数量的增加而降低。层次结构是解决所有这三个问题的可能方法。这里，分层分解是通过对深度非负矩阵分解施加分层丰度和约束来定义的。二元线性分解触觉层次 (BLUTH) 解决了层次问题"
     },
     {
       "title": "Multi-stage Planning for Multi-target Surveillance using Aircrafts Equipped with Synthetic Aperture Radars Aware of Target Visibility",
@@ -129,7 +131,8 @@
         "SAR",
         "SAR image",
         "synthetic aperture radar"
-      ]
+      ],
+      "summary_zh": "由于地形限制以及需要直线飞行段以确保高质量成像，为配备合成孔径雷达 (SAR) 的飞机生成轨迹提出了重大挑战。相关工作通常侧重于不适应目标可见度的预定义直线飞行段的轨迹优化，这取决于3D地形和飞机方向。此外，这种假设对于多目标问题来说不能很好地扩展，其中必须为实时操作定义最大化目标可见性的多个直线飞行段。为此，本文提出了一个多阶段规划系统。首先，估计访问所有目标的航路点排序。第二，直线飞行段最大化目标可见度"
     },
     {
       "title": "Better with Less: Tackling Heterogeneous Multi-Modal Image Joint Pretraining via Conditioned and Degraded Masked Autoencoder",
@@ -178,7 +181,8 @@
         "robust",
         "SAR",
         "synthetic aperture radar"
-      ]
+      ],
+      "summary_zh": "在极其异构的模态中学习鲁棒的表示仍然是多模态视觉中的一个基本挑战。作为这一挑战的一个关键而深刻的实例，高分辨率（HR）联合光学和合成孔径雷达（SAR）预训练寻求模态协同以相互增强单源表示；它的潜力受到异质性分辨率悖论的严重阻碍：更精细的空间尺度极大地放大了复杂雷达几何形状和非同源光学纹理之间的物理差异。因此，将中等分辨率导向的刚性对齐范式迁移到 HR 场景会触发严重的特征抑制以强制等效，或者触发由极端认知不确定性驱动的特征污染。两个极端都不可避免"
     },
     {
       "title": "LAGS: Low-Altitude Gaussian Splatting with Groupwise Heterogeneous Graph Learning",
@@ -222,7 +226,8 @@
         "aerial images",
         "drone",
         "graph neural network"
-      ]
+      ],
+      "summary_zh": "低空高斯喷射 (LAGS) 通过聚合分布式无人机的航空图像来促进 3D 场景重建。然而，由于 LAGS 优先考虑最大化重建质量而不是通信吞吐量，现有的低空资源分配方案变得低效。这种低效率源于他们未能考虑不同观点带来的图像多样性。为了填补这一空白，我们提出了一种用于 LAGS 资源分配的分组异构图神经网络（GW-HGNN）。 GW-HGNN 明确地模拟了不同图像组对重建过程的非均匀贡献，从而自动平衡数据保真度和传输成本。 GW-HGNN 的关键见解是将 LAGS 损失和通信约束转化为图学习"
     },
     {
       "title": "When Earth Foundation Models Meet Diffusion: An Application to Land Surface Temperature Super-Resolution",
@@ -273,7 +278,8 @@
         "multispectral",
         "remote sensing",
         "super-resolution"
-      ]
+      ],
+      "summary_zh": "地表温度（LST）超分辨率对于环境监测非常重要。然而，由于粗略的热观测严重无法确定精细尺度结构，这仍然具有挑战性。在本文中，我们提出了地球基金会模型引导扩散（EFDiff），这是一种在极端空间退化下实现超分辨率的新颖框架。 EFDiff 使用 Prithvi-EO-2.0 地球基础模型将高分辨率多光谱反射率编码到地理空间嵌入中，这些嵌入通过交叉注意力注入到去噪网络中，以指导从高度退化的观测中进行精细尺度重建。我们研究了两种变体，EFDiff-$ε$ 和 EFDiff-$x_0$，它们提供了感知真实性和像素级保真度之间的互补权衡。我们在极端的 3 美元下评估 EFDiff"
     }
   ]
 }

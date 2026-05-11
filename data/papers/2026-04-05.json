@@ -46,7 +46,8 @@
         "robot",
         "robotic",
         "robotics"
-      ]
+      ],
+      "summary_zh": "在机器人控制、规划和学习中，需要高性能、易于使用且与 CPU 和加速器兼容的刚体动力学库。虽然现有的库通常擅长低延迟 CPU 执行或高吞吐量 GPU 工作负载，但很少有库提供针对多种架构的统一框架，而不影响性能或易用性。为了解决这个问题，我们引入了 frax，一个基于 JAX 的机器人运动学和动力学库，提供跨 CPU、GPU 和 TPU 的高性能、纯 Python 接口。通过完全矢量化的机器人动力学方法，frax 可实现高效的实时控制和并行化，同时支持基于优化的方法的自动微分。 CPU上，frax实现低微秒计算"
     },
     {
       "title": "Real-Time Projected Adaptive Control for Closed-Chain Co-Manipulative Continuum Robots",
@@ -80,7 +81,8 @@
         "grasp",
         "grasping",
         "robot"
-      ]
+      ],
+      "summary_zh": "在协同操作连续体机器人（CCR）中，多个连续体臂通过抓取共同的柔性物体进行协作，形成闭链可变形机械系统。闭链耦合引起强烈的动态相互作用和内部反作用力。此外，在实际任务中，柔性物体的物理参数通常是未知的，并且在操作之间变化，使得基于标称模型的控制器不够充分。本文提出了一个在动态层面制定的 CCR 自适应控制框架。耦合动力学使用几何变应变 (GVS) 表示法来表示，产生一个有限维模型，该模型可以准确地表示系统，保留自适应控制所需的线性参数结构，并且适用于 r"
     },
     {
       "title": "Decentralized Ergodic Coverage Control in Unknown Time-Varying Environments",
@@ -114,7 +116,8 @@
       ],
       "matched_terms": [
         "robot"
-      ]
+      ],
+      "summary_zh": "灾害响应的一个关键挑战是保持对不断变化的景观的态势感知，这需要平衡对未观测区域的探索与对不断变化的感兴趣区域 (ROI) 的持续监控。无人机 (UAV) 已成为一种有效的响应工具，特别是在环境监测和搜救等应用中，因为它们能够提供空中覆盖、抵御危险条件以及快速灵活的导航。然而，在灾害环境中感知有限的高效且适应性强的多机器人覆盖以及不断变化的时变信息地图仍然是一个重大挑战，需要更好的方法让无人机不断调整其轨迹以响应变化。在本文中，我们建议"
     },
     {
       "title": "Precise Robot Command Understanding Using Grammar-Constrained Large Language Models",
@@ -152,7 +155,8 @@
         "robot",
         "robotic",
         "robotics"
-      ]
+      ],
+      "summary_zh": "工业环境中的人机协作需要精确可靠的通信来提高运营效率。虽然大型语言模型 (LLM) 能够理解通用语言，但它们通常缺乏安全且可执行的工业命令所需的特定领域的刚性。为了解决这一差距，本文介绍了一种新颖的语法约束法学硕士，它将语法驱动的自然语言理解（NLU）系统与微调的法学硕士集成在一起，从而实现了机器人技术所需的会话灵活性和确定性精度。我们的方法采用两阶段过程。首先，经过微调的法学硕士对自然语言输入执行高级上下文推理和参数推断。其次，结构化语言模型（SLM）和基于语法的规范化器"
     },
     {
       "title": "Learning from Imperfect Demonstrations via Temporal Behavior Tree-Guided Trajectory Repair",
@@ -195,7 +199,8 @@
         "reinforcement learning",
         "robot",
         "robot learning"
-      ]
+      ],
+      "summary_zh": "从演示中学习机器人控制策略是一个强大的范例，但现实世界的数据通常不是最优的、有噪声的或其他不完美的，这给模仿和强化学习带来了重大挑战。在这项工作中，我们提出了一个正式的框架，利用时间行为树（TBT），信号时间逻辑（STL）与行为树语义的扩展，在下游策略学习中使用之前修复次优轨迹。鉴于违反 TBT 规范的演示，基于模型的修复算法会纠正轨迹段以满足形式约束，从而生成逻辑一致且可解释的数据集。然后使用修复后的轨迹来提取塑造 reinfo 奖励信号的潜在函数"
     },
     {
       "title": "RK-MPC: Residual Koopman Model Predictive Control for Quadruped Locomotion in Offroad Environments",
@@ -226,7 +231,8 @@
       "matched_terms": [
         "locomotion",
         "quadruped"
-      ]
+      ],
+      "summary_zh": "本文提出了 Residual Koopman MPC (RK-MPC)，这是一种基于 Koopman 的数据驱动四足动物运动模型预测控制框架，可提高预测保真度，同时保持实时可处理性。 RK-MPC 通过从提升坐标中的数据中学习的紧凑线性残差预测器增强了标称模板模型，从而能够系统地校正由接触变化和地形扰动引起的模型失配，并在多步预测误差上具有可证明的界限。学习到的残差模型被嵌入到凸二次程序 MPC 公式中，产生一个以 500 Hz 运行的后退水平控制器，并保留了基于优化的控制的结构和约束处理优势。我们在 Gazebo 模拟和 Unitre 中评估 RK-MPC"
     },
     {
       "title": "DriveVA: Video Action Models are Zero-Shot Drivers",
@@ -269,7 +275,8 @@
       ],
       "matched_terms": [
         "world model"
-      ]
+      ],
+      "summary_zh": "泛化是自动驾驶的一个核心挑战，因为现实世界的部署需要在未见过的场景、传感器域和环境条件下具有强大的性能。最近基于世界模型的规划方法在场景理解和多模式未来预测方面表现出了强大的能力，但它们跨数据集和传感器配置的泛化仍然有限。此外，它们松散耦合的规划范式通常会导致视觉想象过程中视频轨迹一致性较差。为了克服这些限制，我们提出了 DriveVA，这是一种新颖的自动驾驶世界模型，可以在共享的潜在生成过程中联合解码未来的视觉预测和动作序列。 DriveVA 继承了关于运动动力学和物理合理性的丰富先验知识"
     },
     {
       "title": "Belief-Aware VLM Model for Human-like Reasoning",
@@ -307,7 +314,8 @@
         "reinforcement learning",
         "vision language action",
         "vla"
-      ]
+      ],
+      "summary_zh": "用于意图推断的传统神经网络模型严重依赖于可观察的状态，并且难以在不同的任务和动态环境中进行泛化。视觉语言模型 (VLM) 和视觉语言动作 (VLA) 模型的最新进展通过大规模多模态预训练引入常识推理，从而实现跨任务的零样本性能。然而，这些模型仍然缺乏明确的机制来表示和更新信念，限制了它们像人类一样推理或捕捉长期不断变化的人类意图的能力。为了解决这个问题，我们提出了一个信念感知的 VLM 框架，它集成了基于检索的记忆和强化学习。我们没有学习明确的信念模型，而是使用基于向量的记忆来近似信念，该记忆可以检索相关性"
     },
     {
       "title": "Robots Need Some Education: On the complexity of learning in evolutionary robotics",
@@ -342,7 +350,8 @@
         "robot learning",
         "robotic",
         "robotics"
-      ]
+      ],
+      "summary_zh": "进化机器人和机器人学习是机器人学的两个领域，旨在自动优化机器人设计。它们之间的主要区别在于正在优化的内容和所涉及的时间范围。进化机器人学是应用进化计算技术来进化形态或控制器或两者的领域。另一方面，机器人学习涉及任何旨在以给定形态优化机器人控制器的学习技术。就时间尺度而言，进化发生在多代之间，而学习则发生在单个机器人的“生命周期”内。将机器人学习与进化机器人技术相结合需要在进化机器人技术的背景下仔细设计合适的学习算法。引入效果"
     },
     {
       "title": "2026 Roadmap on Artificial Intelligence and Machine Learning for Smart Manufacturing",
@@ -431,7 +440,8 @@
         "robot",
         "robotic",
         "robotics"
-      ]
+      ],
+      "summary_zh": "人工智能 (AI) 和机器学习 (ML) 的发展正在重塑智能制造，为整个工业价值链提供效率、适应性和自主性的新功能。然而，人工智能和机器学习在工业环境中的部署仍然面临严峻挑战，包括工业大数据的复杂性、有效的数据管理、与异构传感和控制系统的集成，以及高风险工业环境中对可信、可解释和可靠操作的需求。在此路线图中，我们全面介绍了智能制造中人工智能和机器学习的基础、应用和新兴方向。它由三个部分组成。第一个重点强调了构成演变的基础和趋势"
     },
     {
       "title": "Adaptive Action Chunking at Inference-time for Vision-Language-Action Models",
@@ -480,7 +490,8 @@
         "vision-language-action",
         "vla",
         "vla model"
-      ]
+      ],
+      "summary_zh": "在视觉-语言-动作（VLA）模型中，动作分块（即执行一系列动作而无需中间重新规划）是提高机器人操纵能力的关键技术。然而，较大的块大小会降低模型对新信息的响应能力，而较小的块大小会增加由于块之间的不连续性而导致的模式跳跃和不稳定行为的可能性。因此，选择最佳的块大小是平衡模型反应性和一致性的迫切需求。不幸的是，当前 VLA 模型的主导趋势是推理时的经验固定块长度，这阻碍了它们在不同操作任务中的优越性和可扩展性。为了解决这个问题，我们提出了一种新颖的自适应动作分块（AAC）策略，该策略利用动作分块"
     },
     {
       "title": "Learning Dexterous Grasping from Sparse Taxonomy Guidance",
@@ -531,7 +542,8 @@
         "grasping",
         "manipulation",
         "reinforcement learning"
-      ]
+      ],
+      "summary_zh": "灵巧的操作需要规划适合物体和任务的抓取配置，然后通过协调的多指控制来执行。然而，为每个对象和任务指定具有密集姿势或接触目标的抓取计划是不切实际的。同时，仅通过任务奖励进行端到端强化学习缺乏可控性，导致用户在发生故障时难以干预。为此，我们提出了 GRIT，这是一个两阶段框架，可以从稀疏分类指导中学习灵巧的控制。 GRIT 首先从场景和任务上下文中预测基于分类的抓取规范。以这种稀疏命令为条件，策略会生成连续的手指运动，以完成任务，同时保留预期的抓取结构。我们的结果表明"
     },
     {
       "title": "Hypothesis Graph Refinement: Hypothesis-Driven Exploration with Cascade Error Correction for Embodied Navigation",
@@ -573,7 +585,8 @@
         "embodied navigation",
         "embodied question answering",
         "navigation"
-      ]
+      ],
+      "summary_zh": "具身智能体必须探索部分观察到的环境，同时保持可靠的长期记忆。现有的基于图的导航系统提高了可扩展性，但它们通常将未探索的区域视为语义未知，导致边界搜索效率低下。尽管视觉语言模型（VLM）可以预测前沿语义，但错误的预测可能会嵌入到内存中并通过下游推理传播，导致结构错误累积，而仅靠置信度衰减无法解决。这些观察结果需要一个框架，该框架可以利用语义预测进行定向探索，同时在新证据与错误相矛盾时系统地撤回错误。我们提出假设图细化（HGR），一个代表前沿预测的框架"
     },
     {
       "title": "Adapting Neural Robot Dynamics on the Fly for Predictive Control",
@@ -603,7 +616,8 @@
       "matched_terms": [
         "mobile robot",
         "robot"
-      ]
+      ],
+      "summary_zh": "准确的动力学模型对于自主移动机器人的预测控制器的设计至关重要。基于物理的模型通常过于简单，无法捕捉相关的现实世界效果，而数据驱动的模型数据密集且训练速度慢。我们介绍了一种快速适应神经机器人动态模型的方法，该方法将离线训练与高效的在线更新相结合。我们的方法离线学习增量神经动力学模型，并在线执行低阶二阶参数自适应，从而无需完全重新训练即可快速更新。我们在真实的四旋翼机器人上演示了该方法，在新颖的操作条件下实现了稳健的预测跟踪控制。"
     },
     {
       "title": "Dynamic Whole-Body Dancing with Humanoid Robots -- A Model-Based Control Approach",
@@ -648,7 +662,8 @@
         "humanoid",
         "robot",
         "trajectory optimization"
-      ]
+      ],
+      "summary_zh": "本文提出了一种基于模型的集成框架，用于在仿人机器人上生成和执行动态全身舞蹈动作。该框架分两个阶段运行：离线动作生成和在线动作执行，两者都利用未来状态预测来在现实环境中实现稳健且动态的舞蹈动作。在离线动作生成阶段，通过动作捕捉（MoCap）系统捕捉人类舞蹈演示，通过解决二次规划（QP）问题重新定位到机器人，并使用轨迹优化（TO）进一步细化以确保动态可行性。在在线运动执行阶段，基于质心动力学的模型预测控制（MPC）框架实时跟踪计划的运动并主动调整摆动脚"
     },
     {
       "title": "VA-FastNavi-MARL: Real-Time Robot Control with Multimedia-Driven Meta-Reinforcement Learning",
@@ -683,7 +698,8 @@
         "human-robot interaction",
         "reinforcement learning",
         "robot"
-      ]
+      ],
+      "summary_zh": "解释具有实时响应能力的动态、异构多媒体命令对于人机交互至关重要。我们提出了 VA-FastNavi-MARL，一个将异步视听输入调整为统一潜在表示的框架。通过元强化学习将不同的指令视为可导航目标的分布，我们的方法能够快速适应看不见的指令，而推理开销可以忽略不计。与受到繁重感官处理瓶颈的方法不同，我们的模态不可知流可确保无缝、低延迟的控制。多臂工作空间上的验证证实，VA-FastNavi-MARL 在样本效率方面显着优于基准，即使在嘈杂的多媒体流下也能保持稳健的实时执行。"
     },
     {
       "title": "VLA-Forget: Vision-Language-Action Unlearning for Embodied Foundation Models",
@@ -731,7 +747,8 @@
         "robotic",
         "vision-language-action",
         "vla"
-      ]
+      ],
+      "summary_zh": "视觉-语言-动作（VLA）模型正在成为机器人操作的具体基础模型，但它们的部署带来了新的忘却挑战：在不降低感知、语言基础和动作控制的情况下消除不安全、虚假或隐私敏感的行为。在 OpenVLA 风格的策略中，行为是通过融合的视觉编码器、跨模式投影仪和预测标记化机器人动作的语言主干产生的，因此不需要的知识可以分布在感知、对齐和推理/动作层中，而不是局限于单个模块。因此，仅应用于视觉堆栈或仅应用于语言主干的部分遗忘通常是不够的，而为独立视觉或语言设计的传统遗忘基线"
     },
     {
       "title": "Distributed Nonlinear Control of Networked Two-Wheeled Robots under Adversarial Interactions",
@@ -764,7 +781,8 @@
         "mobile robot",
         "robot",
         "wheeled robot"
-      ]
+      ],
+      "summary_zh": "本文研究对抗性信息交换下非完整移动机器人网络的分布式轨迹跟踪。开发了一种精确的全局输入-输出反馈线性化方案来调节平面位置输出，从而在不规定内部状态轨迹的情况下产生线性误差动态。为了减轻损坏的邻居信息，提出了一种弹性期望信号结构，它将本地冗余与可信的邻居信号相结合，而不需要对手检测或隔离。当有足够的冗余可用时，该方法会抑制对抗性影响并恢复标称跟踪性能。如果违反冗余条件，对抗性效应将作为有界干扰进入，并且跟踪误差最终仍然存在"
     },
     {
       "title": "DC-Ada: Reward-Only Decentralized Sensor Adaptation for Heterogeneous Multi-Robot Teams",
@@ -795,7 +813,8 @@
       "matched_terms": [
         "robot",
         "simulator"
-      ]
+      ],
+      "summary_zh": "异构性是部署的多机器人团队的一个决定性特征：平台通常在传感方式、范围、视野和故障模式方面有所不同。当部署在传感器丢失或不匹配的机器人上时，即使任务和操作界面没有改变，在标称传感下训练的控制器也会急剧退化。我们提出了 DC-Ada，一种仅奖励的去中心化适应方法，它保持预训练的共享策略冻结，而是采用紧凑的每个机器人观察变换，将异构传感映射到固定的推理接口。 DC-Ada 是无梯度且通信最少的：它使用预算接受/拒绝随机搜索，并在严格的步骤预算下进行短的公共随机数部署。我们根据确定性 2D mu 中的四个基线评估 DC-Ada"
     }
   ]
 }

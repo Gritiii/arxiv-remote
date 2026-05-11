@@ -53,7 +53,8 @@
         "MLLM",
         "multimodal large language model",
         "small object"
-      ]
+      ],
+      "summary_zh": "多模态大语言模型（MLLM）在图像和视频分析、数学和物理奥林匹克等各种理解任务中表现出了巨大的潜力。然而，对于小对象理解（SOU）任务来说，它们仍然是空白和未经探索的。为了填补这一空白，我们引入了 SOUBench，这是第一个用于探索现有 MLLM 的小物体理解能力的综合基准。具体来说，我们首先设计了一种有效的自动视觉问答生成策略，构建了一个新的 SOU-VQA 评估数据集，其中包含 18,204 个 VQA 对、六个相关子任务和三个主要场景（即驾驶、空中和水下）。然后，我们对 15 个最先进的 MLLM 进行了综合评估，揭示了它们在小物体下的薄弱能力"
     },
     {
       "title": "Knowledge Visualization: A Benchmark and Method for Knowledge-Intensive Text-to-Image Generation",
@@ -93,7 +94,8 @@
       "matched_terms": [
         "image generation",
         "robust"
-      ]
+      ],
+      "summary_zh": "最近的文本到图像（T2I）模型在真实感合成和指令跟踪方面表现出了令人印象深刻的能力。然而，它们在知识密集型环境中的可靠性在很大程度上仍未得到探索。与自然图像生成不同，知识可视化不仅需要语义对齐，还需要严格遵守领域知识、结构约束和符号约定，暴露了视觉合理性和科学正确性之间的关键差距。为了系统地研究这个问题，我们引入了 KVBench，一个基于课程的基准，用于评估知识密集型 T2I 生成。 KVBench 涵盖高中六门学科：生物、化学、地理、历史、数学、物理。该基准包含 1,800 个专家策划的提示"
     },
     {
       "title": "Urban Flood Observations (UFO): A hand-labeled training and validation dataset of post-flood inundation",
@@ -133,7 +135,8 @@
         "satellite",
         "satellite image",
         "satellite imagery"
-      ]
+      ],
+      "summary_zh": "城市洪水影响全世界的生活和基础设施。由于空间分辨率有限、采集不频繁和云层覆盖，利用卫星图像绘制复杂城市环境中的洪水地图仍然具有挑战性。我们提出了城市洪水观测（UFO），这是一个全球性的、手工标记的不同城市环境中洪水后淹没的数据集。 UFO 包含来自 2017 年至 2021 年 14 次洪水事件的 215 个图像芯片（1024 x 1024 像素），源自 3 m PlanetScope 图像。每个芯片都注释有两个类别：“淹没”（所有可见的地表水，包括洪水和预先存在的水体（永久或季节性））和“非淹没”。为了演示数据集的实用性，我们使用留一事件交叉验证训练了一个分割模型，实现了平均 Int"
     },
     {
       "title": "Understanding Representation Gaps Across Scales in Tropical Tree Species Classification from Drone Imagery",
@@ -184,7 +187,8 @@
         "fine-tuning",
         "foundation model",
         "UAV"
-      ]
+      ],
+      "summary_zh": "由于典型图像分辨率（厘米/像素）下物种多样性高且物种间视觉相似性强，因此从无人飞行器（UAV）图像中对热带树种进行准确分类仍然具有挑战性。相比之下，使用智能手机拍摄的特写公民科学照片训练的模型实现了强大的植物物种分类性能。无人机数据采集的最新进展现在可以收集特写图像，这些图像在空间上与俯视航空图像进行配准，并接近智能手机照片中的视觉细节水平，但代价是无法为许多树木获取如此高分辨率的照片。在这项工作中，我们使用配对的顶视图和特写无人机图像来评估现有方法的性能"
     },
     {
       "title": "ChangeQuery: Advancing Remote Sensing Change Analysis for Natural and Human-Induced Disasters from Visual Detection to Semantic Understanding",
@@ -231,7 +235,8 @@
         "remote sensing",
         "robust",
         "SAR"
-      ]
+      ],
+      "summary_zh": "快速态势感知对于灾后响应至关重要。虽然遥感损伤评估正在从像素级变化检测发展到高级语义分析，但现有的视觉语言方法仍然难以为复杂的战略查询提供可操作的情报。它们仍然受到单峰光学依赖性、对自然灾害的普遍偏见以及根本缺乏接地交互性的严重限制。为了解决这些限制，我们推出了 ChangeQuery，这是一个统一的多模式框架，旨在实现全面、全天候的灾难态势感知。为了克服模态限制和场景偏差，我们构建了灾难引发的变化查询（DICQ）数据集，这是一个耦合事件前光学语义的大规模基准测试"
     },
     {
       "title": "Unlocking Optical Prior: Spectrum-Guided Knowledge Transfer for SAR Generalized Category Discovery",
@@ -283,7 +288,8 @@
         "SAR imagery",
         "synthetic aperture radar",
         "tokenization"
-      ]
+      ],
+      "summary_zh": "广义类别发现 (GCD) 对于标签稀缺的合成孔径雷达 (SAR) 领域具有重大前景，但其功效受到大视觉模型 (LVM) 固有光学先验与 SAR 图像之间的跨模态不兼容性的严重限制。现有的域自适应方法通常缺乏反映成像特性的感应偏置，因此无法有效地将光学先验转移到SAR域中。为了解决这个问题，引入模态差异曲线（MDC）来将跨模态差异建模为从频谱能量分布导出的结构化频域描述符。利用这个公式，我们提出了 MDC 引导的跨模式先验传输（MCPT）框架，这是一种在"
     }
   ]
 }

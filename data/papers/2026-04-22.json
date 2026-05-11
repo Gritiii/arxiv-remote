@@ -41,7 +41,8 @@
       "matched_terms": [
         "foundation model",
         "hyperspectral"
-      ]
+      ],
+      "summary_zh": "NASA PACE 任务提供了对海洋颜色、气溶胶和云的前所未有的高光谱观测，为这些成分如何相互作用和影响地球气候和空气质量提供了新的见解。其海洋颜色仪器可测量数百个精细间隔的波长带的光，从而能够详细表征浮游植物成分、气溶胶特性和云微物理等特征。然而，这种规模的高光谱数据庞大、复杂且难以标记，需要专门的处理和分析技术。现有的基础模型已经改变了计算机视觉和自然语言处理，通常是在标准 RGB 图像上进行训练，因此很难解释捕获的连续光谱特征"
     },
     {
       "title": "Pretrain Where? Investigating How Pretraining Data Diversity Impacts Geospatial Foundation Model Performance",
@@ -85,7 +86,8 @@
         "geospatial",
         "geospatial foundation",
         "geospatial foundation model"
-      ]
+      ],
+      "summary_zh": "新的地理空间基础模型引入了新的模型架构和预训练数据集，通常使用不同的数据多样性概念进行采样。性能差异很大程度上归因于模型架构或输入方式，而预训练数据集的作用很少被研究。为了解决这一研究空白，我们对预训练数据的地理组成如何影响模型的下游性能进行了系统研究。我们创建了全球和每个大陆的预训练数据集，并在全球和每个大陆的下游数据集上对其进行了评估。我们发现，来自欧洲的预训练数据集在全球和本地下游评估方面均优于全球和特定大陆的预训练数据集。研究影响预训练的因素"
     },
     {
       "title": "RSRCC: A Remote Sensing Regional Change Comprehension Benchmark Constructed via Retrieval-Augmented Best-of-N Ranking",
@@ -128,7 +130,8 @@
         "change detection",
         "remote sensing",
         "semantic segmentation"
-      ]
+      ],
+      "summary_zh": "传统的变化检测识别变化发生的位置，但不能用自然语言解释发生了什么变化。现有的遥感变化字幕数据集通常描述整体图像级别的差异，而细粒度的局部语义推理在很大程度上尚未得到探索。为了弥补这一差距，我们提出了 RSRCC，这是一个新的遥感变化问答基准，包含 126k 个问题，分为 87k 训练、17.1k 验证和 22k 测试实例。与之前的数据集不同，RSRCC 是围绕本地化的、特定于变化的问题构建的，这些问题需要对特定语义变化进行推理。据我们所知，这是第一个专门为这种基于细粒度推理的监督而设计的遥感变化问答基准。常量"
     },
     {
       "title": "Evaluating Remote Sensing Image Captions Beyond Metric Biases",
@@ -173,7 +176,8 @@
         "MLLM",
         "remote sensing",
         "zero-shot"
-      ]
+      ],
+      "summary_zh": "图像字幕的核心目标是实现从视觉信号到文本模态的无损语义压缩。然而，对手动策划的参考文本进行评估的依赖本质上迫使模型模仿特定的人类注释风格，从而掩盖了高级基础模型的真实描述能力。这种系统性的失调引发了一个关键问题：特定于任务的微调对于遥感图像字幕确实是必要的，还是感知到的性能差距仅仅是有缺陷的评估标准的产物？为了调查这种差异，我们提出了 ReconScore，一种新颖的无参考评估指标。我们不是计算文本相似性，而是通过重建原始视觉元素的能力来评估标题质量"
     },
     {
       "title": "Fourier Series Coder: A Novel Perspective on Angle Boundary Discontinuity Problem for Oriented Object Detection",
@@ -215,7 +219,8 @@
         "oriented object detection",
         "remote sensing",
         "robust"
-      ]
+      ],
+      "summary_zh": "随着智能驾驶和遥感技术的快速发展，定向目标检测受到广泛关注。然而，实现高精度性能从根本上受到角度边界不连续性（ABD）和循环模糊性（CA）问题的限制，这些问题通常会导致周期性边界附近的显着角度波动。尽管最近的研究提出了连续角度编码器来缓解这些问题，但我们的理论和实证分析表明，最先进的方法仍然存在大量循环误差。我们将这种不稳定性归因于其非正交解码机制内的结构噪声放大。这种数学漏洞显着加剧了角度偏差，特别是对于方形物体。到"
     },
     {
       "title": "WildFireVQA: A Large-Scale Radiometric Thermal VQA Benchmark for Aerial Wildfire Monitoring",
@@ -260,7 +265,8 @@
         "MLLM",
         "multimodal large language model",
         "visual question answering"
-      ]
+      ],
+      "summary_zh": "野火监测需要机载平台提供及时、可操作的态势感知，但现有的空中视觉问答 (VQA) 基准无法评估基于热测量的野火特定多模态推理。我们推出 WildFireVQA，这是一种用于空中野火监测的大规模 VQA 基准，它将 RGB 图像与辐射热数据集成在一起。 WildFireVQA 包含 6,097 个 RGB 热样本，其中每个样本包括 RGB 图像、彩色映射热可视化和辐射热 TIFF，并与 34 个问题配对，产生总共 207,298 个多项选择题，涵盖存在和检测、分类、分布和分割、定位和方向、跨模式推理以及操作飞行计划。"
     },
     {
       "title": "Unlocking Multi-Spectral Data for Multi-Modal Models with Guided Inputs and Chain-of-Thought Reasoning",
@@ -300,7 +306,8 @@
         "geospatial",
         "remote sensing",
         "zero-shot"
-      ]
+      ],
+      "summary_zh": "多光谱图像是遥感应用的宝贵输入信号，例如土地利用和土地覆盖分类以及环境监测。然而，通用大型多模态模型 (LMM) 通常在 RGB 图像上进行训练，这限制了它们在 RGB 域中的适用性。同时，训练多光谱多模态模型成本高昂，并且会产生独特的专业模型。为了解决这个问题，我们提出了一种新颖的免训练方法，该方法在标准仅 RGB LMM 的推理管道中引入多光谱数据，从而大幅提高性能。我们的方法通过将非 RGB 输入适应该空间并注入特定于域的信息和思想链推理作为指令，利用 LMM 对视觉空间的理解。"
     },
     {
       "title": "Global Offshore Wind Infrastructure: Deployment and Operational Dynamics from Dense Sentinel-1 Time Series",
@@ -341,7 +348,8 @@
         "object detection",
         "SAR",
         "synthetic aperture radar"
-      ]
+      ],
+      "summary_zh": "海上风能行业正在迅速扩张，增加了对全球范围内的基础设施部署和运营进行独立、高时间分辨率监测的需求。虽然基于地球观测的海上风电基础设施测绘在空间定位方面已经成熟，但现有的开放数据集缺乏有关施工和运营动态的时间密集和语义细粒度的信息。我们推出了全球 Sentinel-1 合成孔径雷达 (SAR) 时间序列数据集，该数据集解决了 2016 年第一季度至 2025 年第一季度海上风电基础设施的部署和运营阶段问题。基于更新的对象检测工作流程，我们在检测到的基础设施位置编译了 15,606 个时间序列，其中总共 14,840,637 个事件作为分析就绪的 1D SAR 反向散射项目"
     },
     {
       "title": "Physics-Conditioned Synthesis of Internal Ice-Layer Thickness for Incomplete Layer Traces",
@@ -372,7 +380,8 @@
         "remote sensing",
         "robust",
         "transformer"
-      ]
+      ],
+      "summary_zh": "雷达成像的内部冰层提供了积雪和冰动力学的关键证据，但由于分辨率有限、传感器噪声和信号丢失，雷达衍生的层边界观测通常不完整，具有不连续的痕迹，有时甚至完全缺失层。现有的基于图形的冰地层学模型通常假设足够完整的层剖面，并专注于从可靠追踪的浅层预测更深的层厚度。在这项工作中，我们通过对与物理气候模型同步的共置物理特征进行调节，从不完整的雷达衍生层轨迹合成完整的冰层厚度注释来解决层完成问题本身。所提出的网络结合了几何学习来聚合层内"
     },
     {
       "title": "RefAerial: A Benchmark and Approach for Referring Detection in Aerial Images",
@@ -413,7 +422,8 @@
         "aerial",
         "aerial image",
         "aerial images"
-      ]
+      ],
+      "summary_zh": "指称检测是指定位自然语言所指称的目标，近年来引起了越来越多的研究兴趣。然而，现有的数据集仅限于以相对较小的场景为中心的大型物体的地面图像。本文介绍了一个用于航空图像参考检测的大规模挑战性数据集，称为 RefAerial。它与传统的地面参考检测数据集有四个特征：（1）低但多样化的目标场景比，（2）众多的目标和干扰物，（3）复杂且细粒度的参考描述，（4）鸟瞰图中多样化且广泛的场景。我们还开发了一个人机循环引用扩展和注释引擎（REA-Engine），用于高效的半自动引用对注释。此外，我们还"
     },
     {
       "title": "Adaptive Multi-UAV Relay Deployment Framework in Satellite Aerial Ground Integrated Systems",
@@ -452,7 +462,8 @@
         "satellite",
         "UAV",
         "unmanned aerial vehicle"
-      ]
+      ],
+      "summary_zh": "第六代（6G）通信网络预计将提供高数据速率、超可靠通信和大规模连接，特别是在密集城市地区和受灾地区等充满挑战的环境中。然而，传统的地面网络在这些场景中面临着巨大的挑战，包括高层建筑的信号阻塞、交通拥堵和动态的用户分布。为了解决这些限制，我们提出了卫星空地综合网络（SAGIN）内的自适应多无人机部署（AMUD）框架。 AMUD 框架动态部署多个无人机中继 (UAVr) 和低地球轨道 (LEO) 卫星，以改善覆盖范围、缓解拥塞并确保可靠"
     },
     {
       "title": "Fast-then-Fine: A Two-Stage Framework with Multi-Granular Representation for Cross-Modal Retrieval in Remote Sensing",
@@ -491,7 +502,8 @@
       "matched_terms": [
         "pre-training",
         "remote sensing"
-      ]
+      ],
+      "summary_zh": "遥感 (RS) 图文检索在理解海量遥感图像方面发挥着至关重要的作用。然而，遥感影像中密集的多目标分布和复杂的背景使得难以同时实现细粒度的跨模态对齐和高效的检索。现有方法要么依赖复杂的跨模态交互导致检索效率低下，要么依赖大规模视觉语言模型预训练，这需要大量数据和计算资源。为了解决这些问题，我们提出了一种先快后细（FTF）的两阶段检索框架，该框架将检索分解为用于高效候选选择的文本无关召回阶段和用于细粒度对齐的文本引导重新排序阶段。具体来说，在召回阶段，与文本无关的"
     },
     {
       "title": "Hallucination Early Detection in Diffusion Models",
@@ -528,7 +540,8 @@
         "cross-attention",
         "diffusion model",
         "image generation"
-      ]
+      ],
+      "summary_zh": "随着扩散模型的出现，文本到图像的生成在输出真实感方面取得了显着进步。然而，扩散模型在生成多个对象时会遇到困难，经常导致某些实体被省略的幻觉。虽然现有的解决方案通常侧重于优化扩散模型中的潜在表示，但初始生成种子的相关性通常被低估。虽然在多次迭代中使用不同的种子可以改善结果，但这种方法也显着增加了时间和能源成本。为了应对这一挑战，我们引入了 HEaD+（幻觉早期检测+），这是一种新颖的方法，旨在在扩散过程的早期识别不正确的世代。 HEaD+框架集成了c"
     },
     {
       "title": "LunarDepthNet: Generation of Digital Elevation Models using Deep Learning and Monocular Satellite Images",
@@ -568,7 +581,8 @@
         "satellite",
         "satellite image",
         "satellite images"
-      ]
+      ],
+      "summary_zh": "近年来，对月球表面高质量数字高程模型 (DEM) 的需求不断增加，因为它们对于研究月球和规划未来任务非常重要。然而，月球显然缺乏详细的海拔数据。为了克服这一限制，本研究提出了一种新颖的深度学习方法，可以直接从表面的单目图像估计并生成表面高程图。使用的数据集由 Chandrayaan-2 地形测绘相机 (TMC) 图像及其相应的数字地形模型 (DTM) 组成。该研究提出了 LunarDepthNet，它由 UNet 架构组成，用于生成 DEMS。它结合了 EfficientNet 编码器和自定义层，可以正确学习表面上的光阴影如何生成"
     },
     {
       "title": "Semi-Supervised Flow Matching for Mosaiced and Panchromatic Fusion Imaging",
@@ -615,7 +629,8 @@
         "image restoration",
         "panchromatic",
         "robust"
-      ]
+      ],
+      "summary_zh": "将低分辨率 (LR) 镶嵌高光谱图像 (HSI) 与高分辨率 (HR) 全色 (PAN) 图像融合，为通过单次采集进行视频速率 HR-HSI 成像提供了一条有前途的途径，但其严重不适定性质仍然是一个重大挑战。在这项工作中，我们提出了一种用于马赛克和 PAN 图像融合的新型半监督流匹配框架。与之前受特定协议或手工假设限制的基于扩散的方法不同，我们的方法将无监督方案与流匹配无缝集成，从而产生了可推广且高​​效的生成框架。具体来说，我们的方法遵循两阶段训练流程。首先，我们预训练一个无监督的先验网络来生成一个初始的伪 HR-HSI。在此基础上，我们然后"
     }
   ]
 }

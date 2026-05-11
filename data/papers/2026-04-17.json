@@ -44,7 +44,8 @@
       ],
       "matched_terms": [
         "UAV"
-      ]
+      ],
+      "summary_zh": "我们为 CVPR2026 NTIRE WSRD+ 挑战提出了一个三阶段渐进式阴影去除流程。我们的方法基于 OmniSR 构建，将阴影处理视为迭代直接细化，其中后期阶段会纠正早期预测留下的残留伪影。该模型将 RGB 外观与冻结的 DINOv2 语义指导以及来自单眼深度和表面法线的几何线索相结合，在所有阶段重复使用。为了稳定多阶段优化，我们引入了收缩约束目标，鼓励级联中的重建误差不增加。分阶段的训练管道从早期的 WSRD 预训练转移到 WSRD+ 监督和最终的 WSRD+ 2026 适应与余弦退火检查点集成。在官方 WSRD+ 2026 隐藏测试集上，我们的最终集成"
     },
     {
       "title": "Robust Multispectral Semantic Segmentation under Missing or Full Modalities via Structured Latent Projection",
@@ -83,7 +84,8 @@
         "remote sensing",
         "robust",
         "semantic segmentation"
-      ]
+      ],
+      "summary_zh": "多模态遥感数据为语义分割提供补充信息，但在实际部署中，由于传感器故障、采集问题或具有挑战性的大气条件，某些模态可能不可用。现有的多模态分割模型通常通过学习跨输入的共享表示来解决缺失的模态。然而，这种方法可能会通过损害特定于模态的补充信息并在所有模态可用时降低性能来进行权衡。在本文中，我们使用 CBC-SLP 解决了这一限制，CBC-SLP 是一种多模态语义分割模型，旨在保留模态不变和模态特定信息。受到模态对齐理论结果的启发，该结果完美地表明"
     },
     {
       "title": "Beyond Text Prompts: Precise Concept Erasure through Text-Image Collaboration",
@@ -122,7 +124,8 @@
       ],
       "matched_terms": [
         "image generation"
-      ]
+      ],
+      "summary_zh": "文本到图像生成模型已经实现了令人印象深刻的保真度和多样性，但由于大规模训练数据集中嵌入的隐式偏差，可能会无意中产生不安全或不需要的内容。现有的概念擦除方法，无论是纯文本还是图像辅助，都面临着权衡：文本方法通常无法完全抑制概念，而幼稚的图像引导方法则有过度擦除不相关内容的风险。我们提出了 TICoE，一种文本图像协作擦除框架，通过连续凸概念流形和分层视觉表示学习实现精确和忠实的概念删除。 TICoE 精确地删除目标概念，同时保留不相关的语义和视觉内容。为了客观地评估擦除的质量，我们进一步引入了一个fide"
     },
     {
       "title": "Towards Realistic Open-Vocabulary Remote Sensing Segmentation: Benchmark and Baseline",
@@ -166,7 +169,8 @@
         "open-vocabulary",
         "remote sensing",
         "road extraction"
-      ]
+      ],
+      "summary_zh": "由于数据集分散、训练多样性有限以及缺乏反映现实地理空间应用需求的评估基准，开放词汇遥感图像分割（OVRSIS）仍未得到充分探索。我们之前的 \\textit{OVRSISBenchV1} 建立了一个初始的跨数据集评估协议，但其有限的范围不足以评估现实的开放世界泛化。为了解决这个问题，我们提出了 \\textit{OVRSISBenchV2}，一个大规模且面向应用的 OVRSIS 基准测试。我们首先构建 \\textbf{OVRSIS95K}，这是一个约 95K 图像掩模对的平衡数据集，涵盖不同遥感场景的 35 个常见语义类别。 OVRSISBenchV2 基于 OVRSIS95K 和 10 个下游数据集，包含 170K 图像和 128 个类别"
     },
     {
       "title": "A Benchmark Study of Segmentation Models and Adaptation Strategies for Landslide Detection from Satellite Imagery",
@@ -208,7 +212,8 @@
         "satellite image",
         "satellite imagery",
         "transformer"
-      ]
+      ],
+      "summary_zh": "利用高分辨率卫星图像进行山体滑坡检测是灾害响应和风险评估的一项关键任务，但现代分割架构和针对此问题的微调策略的相对有效性仍然没有得到充分理解。在这项工作中，我们提出了卷积神经网络、基于变压器的分割模型和用于滑坡检测的大型预训练基础模型的系统基准研究。使用全球分布式同震滑坡数据集 (GDCLD) 数据集，我们在一致的训练和评估协议下评估基于 CNN 和 Transformer 的代表性分割模型以及大型预训练基础模型。此外，我们将完全微调与参数有效的微调方法进行比较，包括"
     },
     {
       "title": "Tri-Modal Fusion Transformers for UAV-based Object Detection",
@@ -250,7 +255,8 @@
         "transformer",
         "UAV",
         "vision transformer"
-      ]
+      ],
+      "summary_zh": "可靠的无人机目标检测需要对照明变化、运动模糊和抑制 RGB 线索的场景动态具有鲁棒性。热长波红外 (LWIR) 传感可在低光下保留对比度，事件相机保留微秒级时间边缘，但将所有三种模式集成到统一探测器中尚未得到系统研究。我们提出了一个三模态框架，使用双流分层视觉转换器处理 RGB、热和事件数据。在选定的编码器深度，模态感知门控交换 (MAGE) 应用传感器间通道和空间门控，双向令牌交换 (BiTE) 模块通过深度逐点细化执行双向令牌级关注，为标准特征生成保留分辨率的融合映射"
     },
     {
       "title": "IncepDeHazeGAN: Novel Satellite Image Dehazing",
@@ -290,7 +296,8 @@
         "remote sensing",
         "satellite",
         "satellite image"
-      ]
+      ],
+      "summary_zh": "去雾是计算机视觉中的一项技术，用于增强在多云或有雾条件下捕获的图像的视觉质量。去雾有助于从受雾霾影响的遥感数据中恢复清晰、高质量的图像。在本研究中，我们介绍了 IncepDeHazeGAN，这是一种新颖的生成对抗网络（GAN），涉及 Inception 块和多层特征融合，用于单图像去雾任务。利用 Inception 块可以进行多尺度特征提取。另一方面，多层特征融合设计通过对不同卷积层提取的特征进行多次融合，实现了特征的高效重用。 Grad-CAM XAI 技术已应用于我们的网络，突出显示网络重点关注的去雾区域及其对差异的适应"
     },
     {
       "title": "FineCog-Nav: Integrating Fine-grained Cognitive Modules for Zero-shot Multimodal UAV Navigation",
@@ -335,7 +342,8 @@
         "foundation model",
         "UAV",
         "zero-shot"
-      ]
+      ],
+      "summary_zh": "无人机视觉语言导航 (VLN) 要求代理从以自我为中心的角度导航复杂的 3D 环境，同时在长视野范围内遵循模糊的多步骤指令。现有的零样本方法仍然有限，因为它们通常依赖于大型基础模型、通用提示和松散协调的模块。在这项工作中，我们提出了 FineCog-Nav，这是一个受人类认知启发的自上而下的框架，它将导航组织成用于语言处理、感知、注意力、记忆、想象力、推理和决策的细粒度模块。每个模块均由中等规模的基础模型驱动，具有特定于角色的提示和结构化输入输出协议，从而实现有效协作并提高可解释性。为了支持细粒度的评估，我们构建"
     },
     {
       "title": "From Articles to Canopies: Knowledge-Driven Pseudo-Labelling for Tree Species Classification using LLM Experts",
@@ -380,7 +388,8 @@
         "hyperspectral",
         "large language model",
         "LLM"
-      ]
+      ],
+      "summary_zh": "由于类别标签有限且不平衡、光谱混合（多个物种的光特征重叠）和生态异质性（生态系统之间的变异性），高光谱树种分类具有挑战性。应对这些挑战需要整合植被的生物和结构特征的方法，例如冠层结构和种间相互作用，而不是仅仅依赖光谱特征。本文提出了一种基于生物学的半监督深度学习方法，该方法将多传感器地球观测数据（特别是高光谱成像（HSI）和机载激光扫描（ALS））与专家生态知识相结合。该方法依赖于预先计算的天篷上受生物学启发的伪标记"
     },
     {
       "title": "Camo-M3FD: A New Benchmark Dataset for Cross-Spectral Camouflaged Pedestrian Detection",
@@ -419,7 +428,8 @@
         "multispectral",
         "object detection",
         "robust"
-      ]
+      ],
+      "summary_zh": "行人检测是自动驾驶、机器人和监控的基础。尽管深度学习取得了进展，但由于遮挡、杂乱的背景和可见度下降，可靠的识别仍然具有挑战性。虽然多光谱检测（结合可见光传感器和热传感器）可以缓解可见度较差的情况，但伪装行人所面临的挑战在很大程度上仍未得到解决。现有的伪装物体检测 (COD) 基准侧重于生物物种，在目标融入周围环境的安全关键人体检测方面留下了空白。为了解决这个问题，我们引入了 Camo-M3FD（源自 M3FD 数据集），这是一种用于跨光谱伪装行人检测的新颖基准，由注册的可见热图像对组成。该数据集是使用整理的"
     },
     {
       "title": "SSFT: A Lightweight Spectral-Spatial Fusion Transformer for Generic Hyperspectral Classification",
@@ -456,7 +466,8 @@
         "hyperspectral",
         "robust",
         "transformer"
-      ]
+      ],
+      "summary_zh": "高光谱成像通过捕获丰富的光谱特征来实现对材料的细粒度识别，但由于高维、光谱冗余、有限的标记数据和强域转移，学习鲁棒的分类器具有挑战性。除了地球观测之外，标记的 HSI 数据通常稀缺且不平衡，这激发了跨不同采集机制的通用高光谱分类的紧凑模型。我们提出了轻量级光谱空间融合变压器（SSFT），它将表示学习分解为光谱和空间路径，并通过交叉注意力将它们集成起来，以捕获互补的波长相关信息和结构信息。我们在具有挑战性的 HSI-Benchmark 上评估我们的 SSFT，HSI-Benchmark 是一个覆盖地球的异构多数据集基准"
     },
     {
       "title": "Zero-Shot Scalable Resilience in UAV Swarms: A Decentralized Imitation Learning Framework with Physics-Informed Graph Interactions",
@@ -494,7 +505,8 @@
         "UAV",
         "unmanned aerial vehicle",
         "zero-shot"
-      ]
+      ],
+      "summary_zh": "大规模无人机故障会将无人机群网络分裂成互不相连的子网，使得分散式恢复变得紧迫而困难。集中式恢复方法依赖于全局拓扑信息，并且在严重碎片化后变得通信繁重。去中心化启发式和多智能体强化学习方法更容易部署，但当群体规模和损害严重程度发生变化时，它们的性能通常会下降。我们提出了基于物理的图对抗模仿学习算法（PhyGAIL），该算法采用集中式训练和分散式执行。 PhyGAIL 根据异构观察构建有界局部交互图，并使用物理信息图神经网络来编码定向局部交互图"
     },
     {
       "title": "PixDLM: A Dual-Path Multimodal Language Model for UAV Reasoning Segmentation",
@@ -536,7 +548,8 @@
         "aerial image",
         "aerial images",
         "UAV"
-      ]
+      ],
+      "summary_zh": "推理分割最近已从地面场景扩展到遥感图像，但无人机数据带来了明显的挑战，包括倾斜视点、超高分辨率和极端尺度变化。为了解决这些问题，我们正式定义了无人机推理分割任务，并将其语义需求组织为三个维度：空间、属性和场景级推理。基于这个公式，我们构建了 DRSeg，一个无人机推理分割的大规模基准，包含 10k 高分辨率航拍图像，并在所有三种推理类型中搭配思想链 QA 监督。作为基准伴侣，我们引入了 PixDLM，这是一种简单而有效的像素级多模态语言模型，可作为此任务的统一基准。实验"
     }
   ]
 }

@@ -49,7 +49,8 @@
         "semantic segmentation",
         "UAV",
         "unmanned aerial vehicle"
-      ]
+      ],
+      "summary_zh": "细粒度 RGBT 图像语义分割对于全天候无人机 (UAV) 场景理解至关重要。然而，无人机RGBT图像语义分割面临两个耦合挑战：传感器视差和平台振动引起的跨模态空间错位，以及自上而下鸟瞰图下细粒度地面物体之间严重的语义混乱。为了解决这些问题，我们提出了一种基于图的语义校准网络（GSCNet），用于未对齐的无人机 RGBT 图像语义分割。具体来说，我们设计了一个特征解耦和对齐模块（FDAM），它将每种模态解耦为共享结构和私有感知组件，并在共享子空间中执行可变形对齐，从而实现鲁棒的空间校正，并减少模态外观"
     },
     {
       "title": "3D-LENS: A 3D Lifting-based Elevated Novel-view Synthesis method for Single-View Aerial-Ground Re-Identification",
@@ -85,7 +86,8 @@
         "aerial",
         "robust",
         "SAR"
-      ]
+      ],
+      "summary_zh": "空中-地面重新识别（AG-ReID）受到视点域间隙的限制，因为剧烈的视点差异遮挡或扭曲了判别性特征，使得跨视点图像检索具有挑战性。虽然现有方法依赖于成对的跨视图注释，但现实世界的部署，例如荒野搜索和救援（SAR），通常缺乏目标域数据，需要仅从地面参考中检索。据我们所知，我们是第一个通过形式化单视图 AG-ReID (SV AG-ReID) 设置来应对这一挑战的人，其中在单个真实视点上训练的模型必须泛化到看不见的视点。我们提出了基于 3D Lifting 的高架新颖视图合成（3D-LENS），这是一个结合几何一致新颖视图合成的统一框架，利用"
     },
     {
       "title": "Point Cloud Registration via Probabilistic Self-Update Local Correspondence and Line Vector Sets",
@@ -120,7 +122,8 @@
       "matched_terms": [
         "point cloud",
         "remote sensing"
-      ]
+      ],
+      "summary_zh": "点云配准 (PCR) 是将 3D 观测集成到遥感应用中的一项基本任务。本文提出了一种利用概率自更新局部对应和线向量集的快速有效的 PCR 算法。我们的双 RANSAC 交互模型包括评估全局对应集的全局 RANSAC 和在动态更新的本地集上运行的本地 RANSAC。最初，这些局部集是使用角度直方图统计和线向量长度保存技术构建的。为了提高准确性，概率自更新策略会在每轮交互后细化局部集。为了减少运行时间，我们引入了全局提前终止条件，以最佳地平衡准确性和效率。最后是加权单数"
     },
     {
       "title": "High-Dimensional Noise to Low-Dimensional Manifolds: A Manifold-Space Diffusion Framework for Degraded Hyperspectral Image Classification",
@@ -167,7 +170,8 @@
         "image classification",
         "remote sensing",
         "robust"
-      ]
+      ],
+      "summary_zh": "近年来，高光谱图像（HSI）分类在遥感领域引起了越来越多的关注。然而，HSI 数据本质上是高维但低秩的，判别信息集中在低维潜在流形上。在现实世界的遥感场景中，多个退化因素的叠加破坏了这种内在的流形结构，使样本远离其原始的低维分布，并引入大量冗余和非歧视性的变化。为了更好地应对这一挑战，本文提出了一种流形空间扩散框架（MSDiff），用于复杂退化条件下的鲁棒高光谱分类。具体来说，所提出的方法首先映射高维、受退化影响的 HSI 数据 i"
     },
     {
       "title": "Towards Generalizable Mapping of Hedges and Linear Woody Features from Earth Observation Data: a national Product for Germany",
@@ -203,7 +207,8 @@
       "matched_terms": [
         "earth observation",
         "generalizable"
-      ]
+      ],
+      "summary_zh": "树篱和其他线性木质特征提供了宝贵的生态系统服务，特别是在集约化管理的农业景观中。它们是气候适应和生物多样性的关键要素，不仅因为植物区系差异很大，而且还是许多动物和昆虫（包括有价值的传粉媒介）的进食、休息和筑巢场所。因此，它们需要专门的管理、保存和关注。因此，从地球观测数据中系统地、大规模地绘制这些特征非常重要。然而，考虑到传感器类型、空间分辨率、数据采集条件和复杂景观变化的多样性，线性木质特征映射的可转移和可重复使用的工作流程仍然是一个关键的方法挑战。"
     },
     {
       "title": "HQ-UNet: A Hybrid Quantum-Classical U-Net with a Quantum Bottleneck for Remote Sensing Image Segmentation",
@@ -242,7 +247,8 @@
         "remote sensing",
         "semantic segmentation",
         "U-Net"
-      ]
+      ],
+      "summary_zh": "遥感中的语义分割通常使用 U-Net 等经典深度学习架构来解决，该架构需要大量参数来建模复杂的空间关系。量子机器学习（QML）通过将经典特征映射到量子态提供了另一种表示范式，但在近期量子硬件限制下，其直接应用于高维图像仍然具有挑战性。在这项工作中，我们提出了 HQ-UNet，一种混合​​量子-经典 U-Net 架构，在经典 U-Net 的瓶颈处集成了紧凑的参数化量子电路。所提出的设计使用非池化量子卷积模块在解码前丰富高度压缩的编码器特征，同时保持量子分量应"
     },
     {
       "title": "Two-View Accumulation as the Primary Training Lever for Hybrid-Capture Gaussian Splatting: A Variance-Decomposition View of When Gradient Surgery Helps",
@@ -274,7 +280,8 @@
       "matched_terms": [
         "aerial",
         "drone"
-      ]
+      ],
+      "summary_zh": "混合捕获新颖的视图合成结合了截然不同的相机距离处的图像（例如，空中无人机和地面视图）。标准 3D 高斯分布 (3DGS) 经过 30K 次迭代训练，每个优化器步骤一个渲染视图，在五个混合捕获基准上与少数区域的拟合度低 1-3 dB。我们隔离了缩小这一差距的杠杆。在计算匹配的替代方案中——普通 60K 迭代、幅度校正 (GradNorm)、方向感知近/远梯度手术、投影预处理、置信门控样本级手术和随机每步两个视图控制——最简单的结构变化获胜：每个优化器步骤渲染两个视图。配对规则（几何定义的近/远、随机或主动损耗差异）不会将 PSNR 更改为超出"
     },
     {
       "title": "SEAL: Semantic-aware Single-image Sticker Personalization with a Large-scale Sticker-tag Dataset",
@@ -313,7 +320,8 @@
         "fine-tuning",
         "image generation",
         "U-Net"
-      ]
+      ],
+      "summary_zh": "在基于扩散的个性化文本到图像生成中，从单个参考图像合成目标概念具有挑战性，特别是对于提示通常需要显式属性编辑的贴纸个性化。仅使用一个参考，测试时微调（TTF）方法往往会过度拟合，产生 \\textit{视觉纠缠}，其中背景伪影被吸收到学习的概念中，以及 \\textit{结构刚性}，其中模型记住参考特定的空间配置并失去上下文可控性。为了解决这些问题，我们引入了 \\textbf{SE}mantic-aware 单图像贴纸 person\\textbf{AL}ization (\\textbf{SEAL})，这是一个即插即用、与体系结构无关的适应模块，可以集成到现有的个性化管道中，而无需任何操作。"
     },
     {
       "title": "Rule-based High-Level Coaching for Goal-Conditioned Reinforcement Learning in Search-and-Rescue UAV Missions Under Limited-Simulation Training",
@@ -350,7 +358,8 @@
         "SAR",
         "UAV",
         "unmanned aerial vehicle"
-      ]
+      ],
+      "summary_zh": "本文提出了一种基于有限模拟训练下的搜索救援（SAR）场景的无人机（UAV）任务的分层决策框架。该框架将基于固定规则的高级顾问与在线目标条件低级强化学习 (RL) 控制器相结合。为了对早期适应进行压力测试，我们还考虑了严格的无预训练部署制度。高级顾问是根据结构化任务规范离线定义的，并编译成确定性规则。它通过建议的行动、避免的行动和依赖于制度的仲裁权重提供可解释的任务和安全意识指导。低级控制器从任务定义的密集奖励中在线学习，并通过模式 awa 重用经验"
     },
     {
       "title": "Bridge: Basis-Driven Causal Inference Marries VFMs for Domain Generalization",
@@ -397,7 +406,8 @@
         "SAM",
         "stable diffusion",
         "UAV"
-      ]
+      ],
+      "summary_zh": "检测器的性能经常下降，这主要是由于源域和目标域之间的分布差距造成的。这个问题在数据有限的单源域中尤其明显，因为模型往往依赖于源域中的混杂因素（例如照明、共现和风格），从而导致阻碍泛化的虚假相关性。为此，本文提出了一种新颖的基础驱动领域泛化框架，即 \\textbf{\\textit{Bridge}}，它将因果推理纳入目标检测中。通过学习前门调整的低秩基础， \\textbf{\\textit{Bridge}} 阻止混杂因素的影响以减轻虚假相关性，同时通过过滤冗余和与任务无关的成分来细化表示"
     },
     {
       "title": "ViCrop-Det: Spatial Attention Entropy Guided Cropping for Training-Free Small-Object Detection",
@@ -440,7 +450,8 @@
         "drone",
         "object detection",
         "transformer"
-      ]
+      ],
+      "summary_zh": "基于 Transformer 的架构已经建立了全局语义感知的主导范式；然而，它们仍然从根本上受到自然图像固有的深刻空间异质性的限制。具体来说，在不同信息密度的区域施加统一的全局感受野不可避免地会导致局部特征退化，特别是在微观目标密集的冲突区域。为了解决这种机械限制，我们提出了 ViCrop-Det，这是一种无需训练的推理框架，引入了自适应空间信任区域收缩。受到异常分割中注意力熵的启发，ViCrop-Det 利用检测解码器的交叉注意力分布作为内源探针。利用空间注意力熵"
     },
     {
       "title": "MemOVCD: Training-Free Open-Vocabulary Change Detection via Cross-Temporal Memory Reasoning and Global-Local Adaptive Rectification",
@@ -490,7 +501,8 @@
         "open-vocabulary",
         "remote sensing",
         "SAM"
-      ]
+      ],
+      "summary_zh": "开放词汇变化检测旨在识别没有预定义类别的双时态遥感图像中的语义变化。最近的方法结合了 SAM、DINO 和 CLIP 等基础模型，但通常独立处理每个时间戳或仅在最终比较阶段交互。这种范式在语义推理过程中存在时间耦合不足的问题，这限制了它们区分真正的语义变化和非语义外观差异的能力。此外，高分辨率图像上的补丁主导推理通常会削弱全局语义连续性并产生碎片化的变化区域。为了解决这些问题，我们提出了 MemOVCD，这是一种基于跨时空记忆推理和全局的免训练开放词汇变化检测框架。"
     },
     {
       "title": "Parameterized Quantum Circuits as Feature Maps: Representation Quality and Readout Effects in Multispectral Land-Cover Classification",
@@ -531,7 +543,8 @@
         "satellite",
         "satellite image",
         "satellite imagery"
-      ]
+      ],
+      "summary_zh": "我们研究了用于多光谱卫星图像土地覆盖分类的变分量子分类器（VQC），采用特征图视角，其中量子电路定义非线性数据嵌入，而读出确定如何利用这种表示。使用 EuroSAT-MS 数据集，我们在受控实验协议下对所有类对进行系统的一对一评估，将经典基线（逻辑回归、SVM、神经网络）与采用线性读出和量子核 SVM 策略的 VQC 进行比较。我们的结果表明，虽然具有线性读出的 VQC 的性能并不优于 RBF-SVM 等强经典基线，但相同的经过训练的量子特征图在 kernel-ba 中重用时可以显着提高性能"
     },
     {
       "title": "AirZoo: A Unified Large-Scale Dataset for Grounding Aerial Geometric 3D Vision",
@@ -576,7 +589,8 @@
         "fine-tuning",
         "pre-training",
         "UAV"
-      ]
+      ],
+      "summary_zh": "尽管数据驱动的 3D 视觉取得了快速进展，但由于大规模、高保真训练数据的严重缺乏，航空几何 3D 视觉仍然是一个艰巨的挑战。现有的基准主要偏向于地面或以物体为中心的视图，没有考虑到基于无人机的传感中复杂的视点转换和多样化的环境条件。为了弥补这一关键差距，我们提出了 AirZoo，这是一个统一的大型数据集和地面航空几何 3D 视觉基准。 AirZoo 拥有三个吸引人的特性： 1) 可扩展的生成管道：利用免费提供的世界级摄影测量 3D 网格，它通过可定制的无人机飞行轨迹和可配置的天气/照明来渲染广阔的室外环境。 2）综合科学"
     },
     {
       "title": "Cross-Domain Transfer of Hyperspectral Foundation Models",
@@ -617,7 +631,8 @@
         "hyperspectral",
         "remote sensing",
         "semantic segmentation"
-      ]
+      ],
+      "summary_zh": "高光谱成像 (HSI) 语义分割通常依赖于域内训练，但有限的数据可用性通常会限制模型在实际应用中的性能。当前在近端传感中利用基础模型的方法使用跨模态技术，桥接 RGB 和 HSI 以利用视觉基础模型。然而，这些方法要么丢弃光谱信息，要么引入架构复杂性。我们提出跨域传输作为替代方案，重用 HSI 基础模型（最初在遥感中训练）用于近端传感应用。通过消除弥合模态间隙的需要，我们的方法保留了光谱信息，同时保持了简单的架构。使用 HS3-Bench 基准，我们系统地评估和比较"
     },
     {
       "title": "QYOLO: Lightweight Object Detection via Quantum Inspired Shared Channel Mixing",
@@ -658,7 +673,8 @@
         "knowledge distillation",
         "object detection",
         "YOLO"
-      ]
+      ],
+      "summary_zh": "物体检测架构的快速发展使单级探测器成为实时视觉感知的主要解决方案。这些模型中计算开销的主要来源在于深层主干阶段，其中高步幅水平的 C2f 瓶颈模块由于通道宽度的二次缩放而积累了不成比例的参数份额。这项工作介绍了 QYOLO，这是一种受量子启发的通道混合框架，通过用紧凑的 QMixBlock 替换 P4/16（512 通道）和 P5/32（1024 通道）两个最深的骨干 C2f 模块来实现真正的架构压缩。所提出的块通过正弦混合机制执行全局通道重新校准，并在两个骨干级之间共享可学习参数，强制执行"
     },
     {
       "title": "Topology-Aware Representation Alignment for Semi-Supervised Vision-Language Learning",
@@ -694,7 +710,8 @@
       ],
       "matched_terms": [
         "remote sensing"
-      ]
+      ],
+      "summary_zh": "视觉语言模型表现出了强大的性能，但它们通常很难推广到专门领域。虽然半监督视觉语言学习通过利用一小组标记的图像-文本对和大量未标记的图像来减轻这一限制，但现有的方法基本上仍然是成对的，并且无法对多模态表示流形的全局结构进行建模。现有的基于拓扑的对齐方法依赖于持久图匹配，既不能保证几何对齐，也不能利用视觉语言学习的核心图像文本配对信息。我们提出了拓扑感知多模态表示对齐（ToMA），这是一个使用持久同源性来识别拓扑显着边缘并将其跨模态对齐的框架"
     },
     {
       "title": "SpatialFusion: Endowing Unified Image Generation with Intrinsic 3D Geometric Awareness",
@@ -734,7 +751,8 @@
         "MLLM",
         "self-attention",
         "transformer"
-      ]
+      ],
+      "summary_zh": "最近的统一图像生成模型通过采用 MLLM 进行语义理解和图像生成的扩散主干网取得了显着的成功。然而，由于缺乏内在的空间理解以及生成过程中缺乏明确的几何指导，这些模型在空间感知任务中仍然受到根本限制。在本文中，我们提出了 SpatialFusion，这是一种将 3D 几何意识内化到统一图像生成模型中的新颖框架。具体来说，我们首先采用混合变压器 (MoT) 架构，通过并行空间变压器增强 MLLM，以增强 3D 几何建模能力。通过与 MLLM 共享自注意力，空间变换器学会从丰富的信号量中导出目标图像的度量深度图"
     },
     {
       "title": "Seeking Consensus: Geometric-Semantic On-the-Fly Recalibration for Open-Vocabulary Remote Sensing Semantic Segmentation",
@@ -778,7 +796,8 @@
         "remote sensing",
         "remote sensing semantic segmentation",
         "semantic segmentation"
-      ]
+      ],
+      "summary_zh": "遥感图像中的开放词汇语义分割（OVSS）是一项很有前景的任务，它利用文本描述来识别未定义的土地覆盖类别。尽管取得了显着的进步，但现有方法通常采用静态推理范式，忽略了每个场景的独特分布，导致不同土地覆盖的语义模糊和不完整的前景激活。受此启发，我们提出了 Seeking Consensus，称为 SeeCo，这是一个即插即用的框架，用于提高遥感图像中免训练 OVSS 模型的性能，它通过寻求双重共识来动态重新校准任意 OVSS 模型：通过多视图一致观察的几何共识学习（GCL）和通过文本描述 adap 的语义共识学习（SCL）"
     }
   ]
 }

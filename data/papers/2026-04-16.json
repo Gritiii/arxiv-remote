@@ -56,7 +56,8 @@
         "robust",
         "SAR",
         "WHU"
-      ]
+      ],
+      "summary_zh": "在现实世界的雾霾和弱光条件下，从光学遥感 (RS) 图像中提取建筑物的性能会下降。然而，现有的光学方法和基准主要关注理想的晴天条件。虽然 SAR 提供全天候传感，但其侧视几何结构会导致几何变形。为了应对这些挑战，我们推出了 HaLoBuilding，这是第一个专门为雾霾和低光条件下的建筑物提取而设计的光学基准。通过利用同场景多时间配对策略，即使在极端退化的情况下，我们也能确保像素级标签对齐和高保真度。在此基准的基础上，我们提出了 HaLoBuild-Net，这是一种新颖的端到端框架，用于在不利的 RS 场景中构建提取。其核心是，"
     },
     {
       "title": "FSDETR: Frequency-Spatial Feature Enhancement for Small Object Detection",
@@ -99,7 +100,8 @@
         "feature pyramid",
         "object detection",
         "small object"
-      ]
+      ],
+      "summary_zh": "由于下采样导致的特征退化、密集簇中的相互遮挡以及复杂的背景干扰，小物体检测仍然是一个重大挑战。为了解决这些问题，本文提出了 FSDETR，一种基于 RT-DETR 基线的频率空间特征增强框架。通过建立协作建模机制，该方法有效地利用互补的结构信息。具体来说，空间分层注意力块（SHAB）捕获局部细节和全局依赖关系以加强语义表示。此外，为了减轻密集场景中的遮挡，基于可变形注意力的尺度内特征交互（DA-AIFI）通过动态采样关注信息区域。最后，频率空间特征"
     },
     {
       "title": "OmniGCD: Abstracting Generalized Category Discovery for Modality Agnosticism",
@@ -139,7 +141,8 @@
         "remote sensing",
         "transformer",
         "zero-shot"
-      ]
+      ],
+      "summary_zh": "广义类别发现 (GCD) 对使用部分标记数据识别已知类别和新类别的方法提出了挑战，反映了人类类别学习。与之前在单一模态中运行并需要针对数据集进行微调的 GCD 方法不同，我们提出了一种受人脑抽象类别形成启发的模态不可知 GCD 方法。我们的 $\\textbf{OmniGCD}$ 利用特定模态的编码器（例如，视觉、音频、文本、遥感）来处理输入，然后通过降维来构建 $\\textbf{GCD 潜在空间}$，在测试时将其转换为更适合使用新型综合训练的基于 Transformer 的模型进行聚类的表示。为了评估 OmniGCD，我们引入了 $\\textbf{零样本 GCD 设置}$，其中没有 dataset-sp"
     },
     {
       "title": "Geo2Sound: A Scalable Geo-Aligned Framework for Soundscape Generation from Satellite Imagery",
@@ -185,7 +188,8 @@
         "satellite image",
         "satellite imagery",
         "satellite images"
-      ]
+      ],
+      "summary_zh": "最近的图像到音频模型在以对象为中心的视觉场景中表现出了令人印象深刻的性能。然而，它们在卫星图像中的应用仍然受到自上而下视图的复杂、大范围语义模糊性的限制。虽然卫星图像为全球声景生成提供了独特的可扩展源，但将这些视图与具有独特空间结构的真实声学环境相匹配本质上是困难的。为了应对这一挑战，我们引入了 Geo2Sound，这是一种新颖的任务和框架，用于从卫星图像生成地理上真实的音景。具体来说，Geo2Sound 将结构地理空间属性建模、语义假设扩展和地声对齐结合在一个统一的框架中。轻量级分类器将头顶场景总结为紧凑的"
     },
     {
       "title": "MapSR: Prompt-Driven Land Cover Map Super-Resolution via Vision Foundation Models",
@@ -224,7 +228,8 @@
         "foundation model",
         "land cover",
         "super-resolution"
-      ]
+      ],
+      "summary_zh": "高分辨率 (HR) 土地覆盖制图通常受到密集 HR 注释成本高昂的限制。我们从地图超分辨率的角度重新审视这个问题，它将粗略的低分辨率（LR）土地覆盖产品增强为输入图像分辨率的 HR 地图。现有的弱监督方法可以利用 LR 标签，但它们通常使用它们来重新训练密集预测器，从而产生大量的计算成本。我们提出了 MapSR，这是一个提示驱动的框架，可以将监督与模型训练分离。 MapSR 使用 LR 标签一次，通过轻量级线性探针从冻结的视觉基础模型特征中提取类别提示，之后通过免训练的度量推理和基于图形的预测细化进行 HR 映射。具体来说，课堂提示是"
     },
     {
       "title": "(1D) Ordered Tokens Enable Efficient Test-Time Search",
@@ -266,7 +271,8 @@
       "matched_terms": [
         "image generation",
         "tokenization"
-      ]
+      ],
+      "summary_zh": "标记化是自回归 (AR) 生成模型的关键组成部分，可将原始数据转换为更易于管理的建模单元。通常，标记描述局部信息，例如图像中的像素区域或文本中的单词片段，并且 AR 生成以固定顺序预测这些标记。一个有价值的问题是，代币结构是否会影响通过测试时搜索引导生成的能力，其中验证者会探索和评估多个候选生成。使用图像生成作为我们的测试平台，我们假设最近具有从粗到细结构的一维有序分词器比经典的二维网格结构更适合搜索。这是因为从粗到细的序列中的中间状态具有验证者所需要的语义意义。"
     },
     {
       "title": "Physically-Induced Atmospheric Adversarial Perturbations: Enhancing Transferability and Robustness in Remote Sensing Image Classification",
@@ -311,7 +317,8 @@
         "image classification",
         "remote sensing",
         "robust"
-      ]
+      ],
+      "summary_zh": "对抗性攻击对遥感（RS）图像分类中深度学习模型的可靠性构成严重威胁。大多数现有方法依赖于直接的像素级扰动，无法利用遥感图像固有的大气特征或在现实世界的图像退化中幸存下来。在本文中，我们提出了 FogFool，一种物理上合理的对抗框架，它通过基于柏林噪声迭代优化大气模式来生成基于雾的扰动。通过对具有自然、不规则结构的雾形成进行建模，FogFool 生成的对抗性示例不仅在视觉上与真实的 RS 场景一致，而且具有欺骗性。通过利用大气现象的空间相干性和中低频性质，FogFool 嵌入了对抗性"
     },
     {
       "title": "WILD-SAM: Phase-Aware Expert Adaptation of SAM for Landslide Detection in Wrapped InSAR Interferograms",
@@ -354,7 +361,8 @@
         "SAM",
         "Segment Anything Model",
         "synthetic aperture radar"
-      ]
+      ],
+      "summary_zh": "直接从包裹式干涉合成孔径雷达 (InSAR) 干涉图中检测缓慢移动的滑坡对于有效的地质灾害监测至关重要，但它仍然受到严重的相位模糊和复杂的相干噪声的根本挑战。虽然分段任意模型 (SAM) 为分段提供了强大的基础，但其直接传输到包裹相位数据受到了深刻的谱域偏移的阻碍，谱域偏移抑制了边界描绘所必需的高频条纹。为了弥补这一差距，我们提出了 WILD-SAM，这是一种新颖的参数高效微调框架，专门设计用于使 SAM 在包裹干涉图上进行高精度滑坡检测。具体来说，该架构集成了阶段感知专家混合 (PA-MoE) 适配器"
     }
   ]
 }

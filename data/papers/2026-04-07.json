@@ -50,7 +50,8 @@
         "robot",
         "robotic",
         "robotics"
-      ]
+      ],
+      "summary_zh": "大语言模型 (LLM) 被广泛用于推理密集型研究任务，但用于测试它们是否可以从结构化生物医学证据推断科学结论的资源仍然有限。我们引入 $\\textbf{MedConclusion}$，这是一个用于生成生物医学结论的 $\\textbf{5.7M}$ PubMed 结构化摘要的大规模数据集。每个实例将摘要的非结论部分与原作者撰写的结论配对，为证据到结论的推理提供自然发生的监督。 MedConclusion 还包括生物医学类别和 SJR 等期刊级元数据，支持跨生物医学领域的亚组分析。作为一项初步研究，我们根据结论和总结提示设置和分数输出评估不同的法学硕士"
     },
     {
       "title": "Rectified Schrödinger Bridge Matching for Few-Step Visual Navigation",
@@ -96,7 +97,8 @@
         "robot",
         "robotic",
         "visual navigation"
-      ]
+      ],
+      "summary_zh": "视觉导航是嵌入式人工智能的核心挑战，要求自主代理将高维感官观察转化为连续的、长视距的动作轨迹。虽然基于扩散模型和薛定谔桥（SB）的生成策略可以有效地捕获多模态动作分布，但由于高方差随机传输，它们需要数十个集成步骤，这对实时机器人控制构成了关键障碍。我们提出了整流薛定谔桥匹配（RSBM），这是一个利用标准薛定谔桥（$\\varepsilon=1$，最大熵传输）和确定性最佳传输（$\\varepsilon\\to 0$，如条件流匹配中）之间共享速度场结构的框架，由单个熵正则化参数控制"
     },
     {
       "title": "Assessing the Feasibility of a Video-Based Conversational Chatbot Survey for Measuring Perceived Cycling Safety: A Pilot Study in New York City",
@@ -132,7 +134,8 @@
       "matched_terms": [
         "robot",
         "robotic"
-      ]
+      ],
+      "summary_zh": "自行车安全对于骑行能力和运输效率非常重要。然而，传统的调查往往无法捕捉人们对骑行环境的实际看法，因为它们严重依赖受访者的回忆而不是当下的体验。通过利用大型语言模型 (LLM)，本研究提出了一种新方法，将基于视频的调查与对话式人工智能聊天机器人相结合，以收集人类对骑行安全的看法以及这些看法背后的原因。该论文使用模块化的LLM架构开发了AI聊天机器人，集成了即时工程、状态管理和基于规则的控制，以支持人机交互的结构。本文评估了所提出的基于视频的会话聊天机器人使用完整的 r 的可行性"
     },
     {
       "title": "Designing Privacy-Preserving Visual Perception for Robot Navigation Based on User Privacy Preferences",
@@ -166,7 +169,8 @@
         "navigation",
         "robot",
         "visual navigation"
-      ]
+      ],
+      "summary_zh": "视觉导航是移动服务机器人的基本功能，但此类导航所需的机载摄像头可能会捕获隐私敏感信息并引发用户隐私问题。现有的隐私保护导航导向视觉感知方法很大程度上是由技术考虑驱动的，而用户隐私偏好的基础有限。在这项工作中，我们提出了一种以用户为中心的方法来设计机器人导航的隐私保护视觉感知。为了调查用户隐私偏好如何影响此类设计，我们进行了两项用户研究。结果表明，用户更喜欢保护隐私的视觉抽象和捕获时低分辨率保存机制：他们首选的 RGB 分辨率取决于所需的优先级。"
     },
     {
       "title": "Occlusion Handling by Pushing for Enhanced Fruit Detection",
@@ -203,7 +207,8 @@
         "robot arm",
         "robotic",
         "robotics"
-      ]
+      ],
+      "summary_zh": "在农业机器人中，由于树木的其他部分（例如树枝和树叶）造成的遮挡，水果的有效观察和定位面临着挑战。这些遮挡可能会导致错误的水果定位或阻碍机器人采摘水果。这项工作的目的是推开遮挡水果视线的树枝，以提高它们的可见度。我们的装置由 RGB-D 相机和机械臂组成。首先，我们检测 RGB 图像中被遮挡的水果，并通过深度空间中的深度学习生成模型估计其被遮挡的部分。使用经典图像处理技术确定推动清除遮挡的方向。然后，我们引入 2D 霍夫变换的 3D 扩展来检测点云中的直线段。蒂"
     },
     {
       "title": "Action Images: End-to-End Policy Learning via Multiview Video Generation",
@@ -251,7 +256,8 @@
         "robot",
         "robot policy",
         "world model"
-      ]
+      ],
+      "summary_zh": "世界行动模型（WAM）已成为机器人政策学习的一个有前途的方向，因为它们可以利用强大的视频主干来模拟未来状态。然而，现有的方法通常依赖于单独的动作模块，或者使用非像素基础的动作表示，这使得很难充分利用视频模型的预训练知识，并限制跨视点和环境的传输。在这项工作中，我们提出了 Action Images，这是一种统一的世界动作模型，它将策略学习制定为多视图视频生成。我们没有将控制编码为低维标记，而是将 7-DoF 机器人动作转换为可解释的动作图像：基于 2D 像素并明确跟踪机器人手臂运动的多视图动作视频。这种像素接地交流"
     },
     {
       "title": "Delta6: A Low-Cost, 6-DOF Force-Sensing Flexible End-Effector",
@@ -292,7 +298,8 @@
         "robot arm",
         "robotic",
         "robotics"
-      ]
+      ],
+      "summary_zh": "本文介绍了 Delta6，这是一种低成本、六自由度 (6-DOF) 力/扭矩末端执行器，它将对抗弹簧与磁性编码器相结合，可提供精确的扳手感应，同时保持与平板包装家具一样易于组装。完全 3D 打印的原型完全由现成零件组装而成，可承受每轴 +/-14.4 N 以上的峰值力和 +/-0.33 N.m 的扭矩；通过利用所提出的参数分析模型可以进一步扩展这些限制。在没有校准的情况下，Delta6 的第 99 个百分位误差为 7% 满量程 (FS)。对于轻量级序列模型，性能最佳的网络将误差降低至 3.8% FS。多个计算平台上的基准测试证实该设备的带宽是可调的，从而实现了平衡的权衡"
     },
     {
       "title": "Learning-Guided Force-Feedback Model Predictive Control with Obstacle Avoidance for Robotic Deburring",
@@ -332,7 +339,8 @@
         "manipulator",
         "robot",
         "robotic"
-      ]
+      ],
+      "summary_zh": "模型预测控制 (MPC) 广泛用于扭矩控制机器人，但经典公式经常忽略实时力反馈，并且在碰撞约束下难以处理接触丰富的工业任务。去毛刺尤其需要精确的工具插入、稳定的力调节以及在具有挑战性的配置中的无碰撞圆周运动，这超出了标准 MPC 管道的能力。我们提出了一个将力反馈 MPC 与基于扩散的运动先验相结合的框架来应对这些挑战。扩散模型充当运动策略的存储器，提供跨多个任务实例的稳健初始化和适应，而 MPC 通过显式力跟踪、扭矩可行性和避免碰撞来确保安全执行。我们值"
     },
     {
       "title": "Intuitive Human-Robot Interaction: Development and Evaluation of a Gesture-Based User Interface for Object Selection",
@@ -366,7 +374,8 @@
       "matched_terms": [
         "human-robot interaction",
         "robot"
-      ]
+      ],
+      "summary_zh": "手势是人类之间交流的自然形式，也可用于人机交互。这项工作提出了一个基于手势的用户界面，用于使用指向和单击手势来选择对象。一项由 20 名参与者参与的实验评估了准确性和选择时间，展示了高效协作的潜力。"
     },
     {
       "title": "HiPolicy: Hierarchical Multi-Frequency Action Chunking for Policy Learning",
@@ -413,7 +422,8 @@
         "policy learning",
         "robot",
         "robotic"
-      ]
+      ],
+      "summary_zh": "机器人模仿学习面临着长期依赖性建模和细粒度闭环控制之间的基本权衡。现有的固定频率动作分块方法很难同时实现这两个目标。基于这一见解，我们提出了 HiPolicy，这是一种分层多频率动作分块框架，可联合预测不同频率的动作序列，以捕获粗略的高级计划和精确的反应运动。我们从与每个频率对齐的历史观察中提取并融合分层特征以进行多频率块生成，并引入熵引导的执行机制，该机制可自适应地平衡长期规划与基于动作不确定性的细粒度控制。各种模拟基准和目标的实验"
     },
     {
       "title": "A Co-Design Framework for High-Performance Jumping of a Five-Bar Monoped with Actuator Optimization",
@@ -445,7 +455,8 @@
         "legged",
         "legged robot",
         "robot"
-      ]
+      ],
+      "summary_zh": "腿式机器人的性能在很大程度上取决于机械设计和控制，从而激发了共同优化这些参数的协同设计方法。然而，大多数现有的协同设计研究侧重于优化连杆尺寸和传动比，而忽略了详细的执行器设计，特别是电机和变速箱参数优化，并且很大程度上局限于串行开链机构。在这项工作中，我们提出了一个平面闭链五杆单人自行车的协同设计框架，该框架联合优化了机械设计、电机和变速箱参数以及动态跳跃的控制参数。目标是最大化跳跃距离，同时最小化机械能消耗。该框架采用两阶段优化方法，其中执行器优化基因"
     },
     {
       "title": "Practical Universal Tracking With Pivoted Unidirectional Actuation",
@@ -476,7 +487,8 @@
       "matched_terms": [
         "robot",
         "robotic"
-      ]
+      ],
+      "summary_zh": "本文解决了配备枢轴单向执行器的机器人车辆的跟踪控制问题。从假设无约束输入的基线鲁棒控制器开始，我们重新设计控制律以与枢转执行器兼容。这是通过将枢转致动器的输出驱动到以目标输入值为中心的球来实现的。基线控制器的保证在实际意义上得到了恢复。该理论通过仿真例子进行了说明。"
     },
     {
       "title": "Automating Manual Tasks through Intuitive Robot Programming and Cognitive Robotics",
@@ -513,7 +525,8 @@
         "robot",
         "robotic",
         "robotics"
-      ]
+      ],
+      "summary_zh": "本文提出了一种新颖的概念，即受人类之间自然交互的启发，对机器人进行直观的最终用户编程。使用大语言模型 (LLM) 和计算机视觉 (CV) 将自然语言和支持性手势转化为机器人程序。通过同样自然的系统反馈（以澄清问题和视觉表示的形式），可以审查和调整生成的程序，从而确保安全性、透明度和用户接受度。"
     },
     {
       "title": "You're Pushing My Buttons: Instrumented Learning of Gentle Button Presses",
@@ -549,7 +562,8 @@
         "imitation learning",
         "manipulation",
         "proprioception"
-      ]
+      ],
+      "summary_zh": "仅通过相机和本体感觉来学习丰富的接触操作是很困难的，因为接触事件只能被部分观察到。我们测试训练时仪器（即对象传感）是否可以在不产生部署时依赖性的情况下提高策略性能。具体来说，我们研究按钮按下作为测试平台，并使用麦克风指尖捕获与接触相关的音频。我们使用仪器化按钮状态信号作为特权监督，将音频编码器微调为接触事件检测器。我们使用三种策略将所得表示与模仿学习结合起来，以便该策略在推理过程中仅使用视觉和音频。各种方法的按钮按下成功率相似，但仪器引导的音频表示可能会有所不同。"
     },
     {
       "title": "Dialogue based Interactive Explanations for Safety Decisions in Human Robot Collaboration",
@@ -590,7 +604,8 @@
         "robot",
         "robotic",
         "robotics"
-      ]
+      ],
+      "summary_zh": "随着机器人越来越多地在共享的、安全关键的环境中运行，安全行动已不再足够，机器人还必须让人类协作者能够理解其安全决策。在人机协作（HRC）中，停止或切换模式等行为通常是由内部安全约束触发的，而这些安全约束对附近的工作人员来说仍然不透明。我们提出了一个基于对话的框架，用于 HRC 中安全决策的交互式解释。该方法将解释与基于约束的安全评估、同一状态下的基础对话以及控制行为选择的约束表示紧密结合在一起。解释直接从记录的决策轨迹中得出，使用户能够提出因果关系（“为什么？”）、对比关系（“为什么不？”）和反事实关系（“什么？”）"
     },
     {
       "title": "BiCoord: A Bimanual Manipulation Benchmark towards Long-Horizon Spatial-Temporal Coordination",
@@ -635,7 +650,8 @@
         "robotic",
         "robotic arm",
         "robotics"
-      ]
+      ],
+      "summary_zh": "双手操纵，即协调使用两个机械臂来完成任务，对于实现机器人技术中人类水平的灵活性至关重要。最近的模拟基准测试（例如 RoboTwin 和 RLBench2）具有先进的数据驱动学习功能，可用于双手操作。然而，现有的任务是短期的，并且只是松散地协调，无法捕捉现实世界双手行为中固有的时空耦合。为了解决这一差距，我们引入了 BiCoord，这是长视界和紧密协调的双手操作的基准。具体来说，BiCoord 包含多种任务，这些任务需要持续的臂间依赖和跨多个子目标的动态角色交换。此外，我们提出了一套定量指标，用于评估时间、空间、"
     },
     {
       "title": "Precise Aggressive Aerial Maneuvers with Sensorimotor Policies",
@@ -679,7 +695,8 @@
         "proprioception",
         "reinforcement learning",
         "sim-to-real"
-      ]
+      ],
+      "summary_zh": "使用轻型机载传感器进行精确的攻击性机动仍然是充分利用无人机机动性的关键瓶颈。这种机动对于通过环境中狭窄的开口进行导航来扩大系统的可访问区域至关重要。最相关的问题之一是在 SE(3) 约束下使用四旋翼飞行器积极穿越狭窄间隙，这要求四旋翼飞行器利用瞬时倾斜姿态和机身的不对称性来穿过间隙。在本文中，我们通过开发直接将机载视觉和本体感觉映射到低级控制命令的感觉运动策略来实现此类操作。这些策略使用强化学习 (RL) 进行训练，同时进行端到端策略蒸馏"
     },
     {
       "title": "Sparsity-Aware Voxel Attention and Foreground Modulation for 3D Semantic Scene Completion",
@@ -718,7 +735,8 @@
         "robot",
         "robotic",
         "robotics"
-      ]
+      ],
+      "summary_zh": "单目语义场景完成 (SSC) 旨在从单个 RGB 图像重建完整的 3D 语义场景，为自动驾驶和机器人技术提供经济高效的解决方案。然而，体素分布固有的不平衡性质（其中超过 93% 的体素是空的并且前景类很少）带来了重大挑战。现有的方法通常会过度强调无信息的体素，并且对长尾类别的泛化能力较差。为了解决这些问题，我们提出了 VoxSAMNet（体素稀疏感知调制网络），这是一个明确模拟体素稀疏性和语义不平衡的统一框架。我们的方法引入了：（1）特征细化的虚拟快捷方式（DSFR）模块，在细化时通过共享虚拟节点绕过空体素"
     },
     {
       "title": "Brain-to-Speech: Prosody Feature Engineering and Transformer-Based Reconstruction",
@@ -758,7 +776,8 @@
         "robot",
         "robotic",
         "robotics"
-      ]
+      ],
+      "summary_zh": "本章介绍了一种从颅内脑电图 (iEEG) 数据合成脑到语音 (BTS) 的新方法，强调韵律感知特征工程和基于高级变压器的高保真语音重建模型。由于人们对直接从大脑活动解码语音的兴趣日益浓厚，这项工作整合了神经科学、人工智能和信号处理，以生成准确、自然的语音。我们引入了一种新颖的管道，用于直接从复杂的大脑 iEEG 信号中提取关键韵律特征，包括语调、音高和节奏。为了有效利用这些关键特征来实现自然语音，我们采用了先进的深度学习模型。此外，本章还介绍了一种新颖的变压器编码器架构"
     },
     {
       "title": "Hazard Management in Robot-Assisted Mammography Support",
@@ -797,7 +816,8 @@
         "human-robot interaction",
         "robot",
         "robotic"
-      ]
+      ],
+      "summary_zh": "机器人和嵌入式人工智能系统有潜力提高临床环境中的护理可及性和质量，但它们与弱势患者密切身体接触的部署会带来重大的安全风险。本文介绍了 MammoBot 的危险管理方法，MammoBot 是一种辅助机器人系统，旨在在 X 射线乳房 X 光检查期间为患者提供支持。为了确保早期开发阶段的安全，我们将利益相关者引导的流程建模与设计中的软件危害分析和解决方案 (SHARD) 以及系统理论流程分析 (STPA) 相结合。机器人辅助工作流程是与临床医生、机器人专家和患者代表合作定义的，以捕获关键的人机交互。 SHARD 用于识别技术和程序偏差，"
     },
     {
       "title": "GraspSense: Physically Grounded Grasp and Grip Planning for a Dexterous Robotic Hand via Language-Guided Perception and Force Maps",
@@ -842,7 +862,8 @@
         "manipulation",
         "robot",
         "robotic"
-      ]
+      ],
+      "summary_zh": "灵巧的机器人操作需要的不仅仅是几何上有效的抓握：它需要物理接地的接触策略，以解释物体在空间上不均匀的机械特性。然而，现有的抓取规划器通常将表面视为结构均匀的，即使在几何形状上完美的抓取中，薄弱区域的接触可能会损坏物体。我们基于局部允许的接触载荷图，提出了五指机器人手抓取选择和力调节的管道。根据操作员命令，系统识别目标对象，使用 SAM3D 重建其 3D 几何形状，并将模型导入 Isaac Sim。然后，基于物理的几何分析会计算出编码最大横向接触力的力图"
     },
     {
       "title": "LUDOBENCH: Evaluating LLM Behavioural Decision-Making Through Spot-Based Board Game Scenarios in Ludo",
@@ -879,7 +900,8 @@
       "matched_terms": [
         "navigation",
         "simulator"
-      ]
+      ],
+      "summary_zh": "我们介绍 LudoBench，这是评估 Ludo 中 LLM 战略推理的基准，Ludo 是一种随机多智能体棋盘游戏，其骰子机制、棋子捕获、安全方块导航和主路径进展引入了有意义的规划复杂性。 LudoBench 包含 480 个手工制作的现场场景，涵盖 12 个行为不同的决策类别，每个类别都隔离一个特定的战略选择。我们还提供了一个功能齐全的 4 人 Ludo 模拟器，支持随机、启发式、博弈论和 LLM 代理。博弈论代理使用带有深度有限前瞻的 Expectiminimax 搜索来提供超越贪婪启发式的原则性策略上限。评估跨越四个模型系列的六个模型，我们发现所有模型只有 40-46% 的模型与博弈论基线一致。"
     },
     {
       "title": "A1: A Fully Transparent Open-Source, Adaptive and Efficient Truncated Vision-Language-Action Model",
@@ -945,7 +967,8 @@
         "robot manipulation",
         "vision-language-action",
         "vla"
-      ]
+      ],
+      "summary_zh": "视觉-语言-动作 (VLA) 模型已成为开放世界机器人操作的强大范例，但其实际部署往往受到成本的限制：数十亿级的 VLM 主干和基于迭代扩散/基于流的动作头会产生高延迟和计算量，使得实时控制在商用硬件上变得昂贵。我们推出了 A1，一个完全开源且透明的 VLA 框架，专为低成本、高吞吐量推理而设计，且不牺牲操作成功率；我们的方法利用预先训练的 VLM，为动作生成提供隐含的可供性先验。我们发布了完整的训练堆栈（训练代码、数据/数据处理管道、中间检查点和评估脚本）以实现端到端的可重复性。除了单独优化 VLM 之外，A1 ta"
     },
     {
       "title": "SnapFlow: One-Step Action Generation for Flow-Matching VLAs via Progressive Self-Distillation",
@@ -993,7 +1016,8 @@
         "robotic",
         "vision-language-action",
         "vla"
-      ]
+      ],
+      "summary_zh": "基于流匹配的视觉语言动作 (VLA) 模型（例如 pi0、pi0.5 和 SmolVLA）实现了最先进的通用机器人操作，但它们的迭代去噪（通常为 10 个 ODE 步骤）会引入大量延迟：在现代 GPU 上，仅去噪一项就占了端到端推理时间的 80%。单纯地减少步数是不可靠的，由于单步跳跃的速度场未校准，因此会降低大多数任务的成功率。我们提出了 SnapFlow，一种即插即用的自蒸馏方法，可将多步去噪压缩为用于流量匹配 VLA 的单前向传递 (1-NFE)。 SnapFlow 将标准流量匹配样本与一致性样本混合在一起，一致性样本的目标是根据模型自身的边际速度 p 计算得出的两步欧拉捷径速度"
     },
     {
       "title": "Leaderless Collective Motion in Affine Formation Control over the Complex Plane",
@@ -1025,7 +1049,8 @@
       ],
       "matched_terms": [
         "robot"
-      ]
+      ],
+      "summary_zh": "我们提出了一种通过修改用于实现机器人群静态编队的拉普拉斯矩阵的原始权重来集体操纵平面中仿射编队的方法。具体来说，所产生的集体运动的特征是参考配置或形状的时变仿射变换。与传统的领导者-跟随者策略不同，我们的无领导者方案允许代理保持不同的且可能随时间变化的速度，从而实现更广泛的集体运动，包括参考形状的平移、旋转、缩放和剪切的所有线性组合。我们的分析提供了控制由此产生的集体运动的解析解，明确设计了定义该运动的特征向量和特征值"
     },
     {
       "title": "FunRec: Reconstructing Functional 3D Scenes from Egocentric Interaction Videos",
@@ -1068,7 +1093,8 @@
         "affordance",
         "egocentric",
         "robot"
-      ]
+      ],
+      "summary_zh": "我们提出了 FunRec，一种直接从以自我为中心的 RGB-D 交互视频重建室内场景的功能 3D 数字孪生的方法。与依赖于受控设置、多状态捕获或 CAD 先验的现有关节重建方法不同，FunRec 直接对野外人类交互序列进行操作以恢复可交互的 3D 场景。它自动发现铰接零件，估计其运动学参数，跟踪其 3D 运动，并在规范空间中重建静态和移动几何形状，从而生成与模拟兼容的网格。在新的真实和模拟基准测试中，FunRec 大幅超越了之前的工作，在零件分割方面实现了高达 +50 mIoU 的改进，将关节和姿势错误降低了 5-10 倍，并显着提高了"
     },
     {
       "title": "Evaluation of Randomization through Style Transfer for Enhanced Domain Generalization",
@@ -1103,7 +1129,8 @@
       ],
       "matched_terms": [
         "sim2real"
-      ]
+      ],
+      "summary_zh": "用于计算机视觉的深度学习模型在实际环境中部署时通常泛化性较差，尤其是由于众所周知的 Sim2Real 差距而在合成数据上进行训练时。尽管风格迁移作为领域泛化的数据增强策略越来越受欢迎，但文献中仍存在关于三个关键设计轴的未解决的矛盾：风格池的多样性、纹理复杂性的作用和风格源的选择。我们提出了一项系统的实证研究，分离并评估每个因素，以推动场景理解，解决先前工作中的不一致问题。我们的研究结果表明，（i）扩展样式池比使用少量样式进行重复增强可以获得更大的收益，（ii）纹理复杂性没有显着影响"
     },
     {
       "title": "Grounding Hierarchical Vision-Language-Action Models Through Explicit Language-Action Alignment",
@@ -1142,7 +1169,8 @@
         "robot",
         "vision-language-action",
         "vla"
-      ]
+      ],
+      "summary_zh": "实现机器人透明度是实现有效人机协作的关键一步。为了做到透明，机器人的自然语言交流必须与其行为一致，并且明确地基于任务和环境。现有的分层视觉-语言-动作（VLA）模型可以生成语言（例如，通过思维链）和低级动作。然而，当前的工作并未考虑培训期间这些模式之间的明确一致性。为了解决这一关键差距，我们提出了一种新颖的训练框架，该框架明确基于视觉观察和动作空间的分层 VLA 子任务描述。我们的框架使用对比模型来评估生成的语言和相应的动作轨迹之间的一致性。这个c"
     },
     {
       "title": "INTERACT: An AI-Driven Extended Reality Framework for Accesible Communication Featuring Real-Time Sign Language Interpretation and Emotion Recognition",
@@ -1179,7 +1207,8 @@
       ],
       "matched_terms": [
         "embodied"
-      ]
+      ],
+      "summary_zh": "视频会议已成为专业协作的核心，但大多数平台为聋哑人、听力障碍者和多语言用户提供有限的支持。世界卫生组织估计，全球有超过 4.3 亿人因残疾性听力损失而需要康复，预计到 2050 年，这一数字将超过 7 亿。传统的无障碍措施仍然受到高成本、有限的可用性和后勤障碍的限制，而扩展现实 (XR) 技术为沉浸式和包容性通信开辟了新的可能性。本文介绍了 INTERACT（翻译包容性网络和嵌入式实时增强通信工具），这是一个人工智能驱动的 XR 平台，集成了实时语音到文本转换、国际手语 (ISL) 和"
     },
     {
       "title": "Uncovering Linguistic Fragility in Vision-Language-Action Models via Diversity-Aware Red Teaming",
@@ -1232,7 +1261,8 @@
         "simulator",
         "vision-language-action",
         "vla"
-      ]
+      ],
+      "summary_zh": "视觉-语言-动作（VLA）模型在机器人操作方面取得了显着的成功。然而，它们对语言细微差别的鲁棒性仍然是一个关键的、尚未充分探索的安全问题，对现实世界的部署构成了重大的安全风险。红队，或识别引发灾难性行为的环境场景，是确保安全部署人工智能代理的重要一步。强化学习 (RL) 已成为自动化红队中一种很有前景的方法，旨在发现这些漏洞。然而，基于强化学习的标准对手由于其奖励最大化的性质，经常会遭受严重的模式崩溃，这往往会收敛到一组狭窄的琐碎或重复的失败模式，无法揭示我的全面情况"
     },
     {
       "title": "Referring-Aware Visuomotor Policy Learning for Closed-Loop Manipulation",
@@ -1274,7 +1304,8 @@
         "robot",
         "robotic",
         "visuomotor"
-      ]
+      ],
+      "summary_zh": "本文解决了机器人操作的视觉运动策略学习的一个基本问题：如何增强分布外执行错误或动态重新路由轨迹的鲁棒性，其中模型仅依赖于原始专家演示进行训练。我们引入了参考感知视觉运动策略（ReV），这是一个闭环框架，可以通过立即合并人类或高级推理规划器提供的稀疏参考点来适应不可预见的情况。具体来说，ReV 利用耦合扩散头来保留标准任务执行模式，同时通过轨迹引导策略无缝集成稀疏引用。当接收到特定的参考点时，全局扩散头首先生成一个序列o"
     },
     {
       "title": "Simulation-Driven Evolutionary Motion Parameterization for Contact-Rich Granular Scooping with a Soft Conical Robotic Hand",
@@ -1311,7 +1342,8 @@
         "robotic",
         "robotics",
         "trajectory optimization"
-      ]
+      ],
+      "summary_zh": "基于工具的舀取对于机器人辅助任务至关重要，可以与不同尺寸、形状和材料状态的物体进行交互。最近的研究表明，灵活、可重构的软机器人末端执行器可以调整其形状，以在舀取过程中保持与容器表面的一致接触，与刚性工具相比提高了效率。这些软工具可以适应不同的容器尺寸和材料，无需复杂的传感或控制。然而，软机器人固有的柔顺性和复杂的变形行为带来了显着的控制复杂性，限制了实际应用。为了应对这一挑战，本文提出了基于物理的可变形软锥形机器人手仿真模型的开发，该模型捕获其被动"
     },
     {
       "title": "MARS-Dragonfly: Agile and Robust Flight Control of Modular Aerial Robot Systems",
@@ -1352,7 +1384,8 @@
         "aerial robot",
         "drone",
         "robot"
-      ]
+      ],
+      "summary_zh": "模块化空中机器人系统 (MARS) 由多个具有可重新配置连接编队的无人机单元组成，为不同的任务场景、故障条件和有效负载能力提供高度适应性。然而，现有的 MARS 控制算法依赖于简化的准静态模型和基于规则的分配，这会生成不连续且无界的电机命令。随着无人机单元数量的增加，这会导致姿态误差累积，最终导致对接、分离和航路点跟踪期间的严重振荡。为了解决这些限制，我们首先设计了一个紧凑的机械系统，该系统能够使用单个微伺服器实现被动对接、免检测被动锁定和磁辅助分离。其次，我们引入力-扭矩当量和聚"
     },
     {
       "title": "JailWAM: Jailbreaking World Action Models in Robot Control",
@@ -1398,7 +1431,8 @@
         "robot",
         "robotic",
         "robotic arm"
-      ]
+      ],
+      "summary_zh": "世界行动模型（WAM）可以联合预测未来的世界状态和行动，与传统模型相比表现出更强的物理操纵能力。如此强大的物理交互能力是一把双刃剑：如果忽视安全，将直接威胁人身安全、财产安全和环境安全。然而，现有研究对关键安全漏洞的关注极其有限：WAM 易受越狱攻击。为了填补这一空白，我们定义了三级安全分类框架来系统地量化机械臂运动的安全性。此外，我们提出了 JailWAM，第一个专门针对 WAM 的越狱攻击和评估框架，它由三个核心组件组成：（1）视觉轨迹映射，w"
     },
     {
       "title": "CoEnv: Driving Embodied Multi-Agent Collaboration via Compositional Environment",
@@ -1453,7 +1487,8 @@
         "robot",
         "robotic",
         "sim-to-real"
-      ]
+      ],
+      "summary_zh": "多智能体体现系统有望实现复杂的协作操作，但在空间协调、时间推理和共享工作空间意识方面面临着严峻的挑战。受人类协作的启发，其中认知规划与物理执行分开进行，我们引入了组合环境的概念——现实世界和模拟组件的协同集成，使多个机器人代理能够感知意图并在统一的决策空间内进行操作。基于这个概念，我们提出了 CoEnv，一个利用模拟进行安全策略探索，同时确保可靠的现实部署的框架。 CoEnv 通过三个阶段进行操作：将物理工作空间数字化的真实到模拟场景重建、VLM 驱动的"
     },
     {
       "title": "A Synthetic Eye Movement Dataset for Script Reading Detection: Real Trajectory Replay on a 3D Simulator",
@@ -1498,7 +1533,8 @@
         "robotic",
         "robotics",
         "simulator"
-      ]
+      ],
+      "summary_zh": "大型视觉语言模型通过对大量互联网规模的数据进行训练，已经取得了非凡的能力，但基本的不对称性仍然存在：虽然法学硕士可以利用对大量文本和图像数据的自我监督预训练，但对于许多行为模式来说却并非如此。基于视频的行为数据（手势、眼球运动、社交信号）仍然稀缺、注释成本昂贵且对隐私敏感。一个有前途的替代方案是模拟：用受控合成生成代替真实数据收集，以大规模生成自动标记数据。我们介绍了应用于眼动的这种范式的基础设施，眼动是一种行为信号，在视觉语言建模、虚拟现实、机器人、无障碍系统和认知科学等领域都有应用。我们呈现"
     },
     {
       "title": "Synergizing Efficiency and Reliability for Continuous Mobile Manipulation",
@@ -1541,7 +1577,8 @@
         "manipulation",
         "mobile manipulation",
         "robot"
-      ]
+      ],
+      "summary_zh": "人类将预期规划与即时反馈无缝融合，不间断地执行连续的移动操作任务，从而实现高效率和可靠性。在机器人中复制这种流畅而可靠的行为仍然具有根本性的挑战，不仅是因为长期规划和实时反应之间的冲突，还因为过度追求效率会破坏不确定环境中的可靠性：它损害了稳定的感知和补偿的潜力，同时也增加了意外接触的风险。在这项工作中，我们提出了一个统一的框架，可以协调连续移动操作的效率和可靠性。它具有可靠性感知轨迹规划器，嵌入了可靠执行的基本要素"
     },
     {
       "title": "Pre-Execution Safety Gate & Task Safety Contracts for LLM-Controlled Robot Systems",
@@ -1581,7 +1618,8 @@
       "matched_terms": [
         "real-world robot",
         "robot"
-      ]
+      ],
+      "summary_zh": "大型语言模型（LLM）越来越多地用于将任务命令转换为机器人可执行代码，但是该管道缺乏验证门来在将命令转换为机器人代码之前检测不安全和有缺陷的命令。此外，即使一开始看起来安全的命令在缺乏连续约束监控的情况下也可能在执行过程中产生不安全的状态转换。在这项研究中，我们引入了 SafeGate，这是一种神经符号安全架构，可以防止不安全的自然语言任务命令到达机器人执行。 SafeGate 借鉴 ISO 13482 安全标准，从自然语言命令中提取结构化的安全相关属性，并应用确定性决策门来授权或拒绝执行。此外，我们还介绍了任务安全公司"
     },
     {
       "title": "The Biggest Risk of Embodied AI is Governance Lag",
@@ -1616,7 +1654,8 @@
         "embodied ai",
         "robot",
         "robotic"
-      ]
+      ],
+      "summary_zh": "具身人工智能作为一个就业替代问题被广泛讨论。然而，更深层次的风险是治理滞后：公共机构无法跟上技术在实体经济中传播的速度。随着可重复使用的机器人平台与日益通用的人工智能模型相结合，嵌入式人工智能在制造、物流、护理和基础设施领域的扩展速度可能比治理系统观察、解释和响应的速度更快。我们认为这种滞后以三种相互关联的形式出现：观察性的、制度性的和分配性的。因此，核心政策挑战不仅仅是自动化，而是治理和合规系统是否能够在颠覆变得根深蒂固之前适应。"
     },
     {
       "title": "LatentMimic: Terrain-Adaptive Locomotion via Latent Space Imitation",
@@ -1655,7 +1694,8 @@
         "locomotion",
         "quadruped",
         "robot"
-      ]
+      ],
+      "summary_zh": "为四足机器人开发自然且多样化的运动控制器，使其能够适应复杂的地形，同时保持运动风格仍然是一个重大挑战。现有的基于模仿的方法面临着基本的优化权衡：严格遵守动作捕捉（mocap）参考会惩罚地形适应性所需的几何偏差，而以地形为中心的策略通常会损害风格保真度。我们引入 LatentMimic，一种新颖的运动学习框架，它将风格保真度与几何约束分离。通过最小化策略的状态动作分布和学习的动作捕获先验之间的边际潜在差异，我们的方法提供了严格姿势跟踪目标的有条件放宽。该配方保留了gai"
     },
     {
       "title": "ICR-Drive: Instruction Counterfactual Robustness for End-to-End Language-Driven Autonomous Driving",
@@ -1698,7 +1738,8 @@
         "simulator",
         "vision-language-action",
         "vla"
-      ]
+      ],
+      "summary_zh": "视觉-语言-动作（VLA）模型的最新进展使语言调节的驾驶代理能够在闭环模拟中执行自然语言导航命令，但标准评估很大程度上假设指令是精确且格式良好的。在部署中，指令的措辞和具体性各不相同，可能会省略关键限定符，并且有时可能包含误导性的、权威框架的文本，从而导致指令级别的稳健性无法得到充分衡量。我们推出了 ICR-Drive，这是一种用于端到端语言条件自动驾驶中指令反事实稳健性的诊断框架。 ICR-Drive 生成​​涵盖四个扰动系列的受控指令变体：释义、歧义、噪声和误导，其中误导性变体与导航冲突"
     },
     {
       "title": "Unsupervised Multi-agent and Single-agent Perception from Cooperative Views",
@@ -1737,7 +1778,8 @@
       ],
       "matched_terms": [
         "robot"
-      ]
+      ],
+      "summary_zh": "基于激光雷达的多智能体和单智能体感知在机器人和自动车辆的环境理解方面表现出了良好的性能。然而，目前还没有一种方法能够以无监督的方式同时解决多智能体和单智能体感知问题。通过在多个代理之间通过通信共享传感器数据，本文发现了两个关键见解：1）协作视图数据共享后点云密度的提高有利于无监督对象分类，2）多个代理的协作视图可以用作单视图中 3D 对象检测的无监督指导。基于这两个发现的见解，我们提出了一种利用多智能体合作的无监督多智能体和单智能体（UMS）感知框架"
     },
     {
       "title": "AnyImageNav: Any-View Geometry for Precise Last-Meter Image-Goal Navigation",
@@ -1774,7 +1816,8 @@
         "grasp",
         "grasping",
         "navigation"
-      ]
+      ],
+      "summary_zh": "图像目标导航（ImageNav）通过粗略的成功标准进行评估，智能体必须在距离目标 1m 的范围内停止，这对于寻找物体来说足够了，但对于需要精确定位的下游任务（例如抓取）来说是不够的。我们推出 AnyImageNav，这是一个免培训系统，可将 ImageNav 推向这种要求更高的设置。我们的主要见解是，目标图像可以被视为几何查询：物体、走廊或房间角落的任何照片都可以通过密集的像素级对应关系注册到代理的观察结果中，从而能够恢复精确的 6-DoF 相机姿势。我们的方法通过语义到几何级联实现这一点：语义相关信号引导探索并充当接近门，调用 3D 多视图基础模型"
     },
     {
       "title": "VLA-InfoEntropy: A Training-Free Vision-Attention Information Entropy Approach for Vision-Language-Action Models Inference Acceleration and Success",
@@ -1812,7 +1855,8 @@
       "matched_terms": [
         "vision-language-action",
         "vla"
-      ]
+      ],
+      "summary_zh": "视觉-语言-动作（VLA）模型集成了视觉感知、语言理解和动作决策，以实现跨模态语义对齐，展现出广泛的应用潜力。然而，高维视觉特征、复杂语言输入和连续动作序列的联合处理会带来巨大的计算开销和低推理效率，从而阻碍实时部署和可靠性。为了解决这个问题，我们使用图像熵来量化每个视觉标记的灰度分布特征，并引入注意力熵来捕获任务相关文本上的注意力分数的分布。视觉熵识别纹理丰富或结构信息丰富的区域，而注意力熵则精确定位语义相关的区域"
     },
     {
       "title": "ExpressMM: Expressive Mobile Manipulation Behaviors in Human-Robot Interactions",
@@ -1854,7 +1898,8 @@
         "mobile manipulation",
         "robot",
         "vision-language-action"
-      ]
+      ],
+      "summary_zh": "移动机械手越来越多地部署在以人为中心的环境中来执行任务。在完成此类任务的同时，他们还应该能够使用富有表现力的机器人行为向周围的人传达他们的意图。先前关于表达机器人行为的工作使用了预编程或基于演示学习的表达动作和生成高级交互的大型语言模型。这些现有方法中的大多数都没有考虑人机交互（HRI），其中用户可能在任务执行期间中断、修改或重定向机器人的动作。在本文中，我们开发了新颖的 ExpressMM 框架，该框架将基于用于感知和会话推理的视觉语言模型的高级语言引导规划器与低级语言引导规划器集成在一起。"
     }
   ]
 }

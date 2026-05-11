@@ -52,7 +52,8 @@
         "robot",
         "robot policy",
         "robotic"
-      ]
+      ],
+      "summary_zh": "机器人强化学习（RLfD）假设专家数据丰富；由于数据稀缺以及收集成本高昂，这在现实世界中通常是不现实的。此外，模仿学习算法假设数据是独立且同分布的，这最终会导致性能较差，因为逐渐出现错误并在测试时间轨迹内复合。我们通过引入“掌握自己的专业知识”（MYOE）框架来解决这些问题，这是一个自我模仿框架，使机器人代理能够从有限的演示数据样本中学习复杂的行为。受人类感知和行动的启发，我们提出并设计了可查询的偏好混合状态空间模型（QMoP-SSM），它可以估计欲望"
     },
     {
       "title": "From Prompt to Physical Action: Structured Backdoor Attacks on LLM-Mediated Robotic Control Systems",
@@ -91,7 +92,8 @@
         "robot",
         "robotic",
         "robotics"
-      ]
+      ],
+      "summary_zh": "将大语言模型 (LLM) 集成到机器人控制管道中可实现将用户提示转换为可执行命令的自然语言界面。然而，这种数字到物理的接口引入了一个严重且未被充分开发的漏洞：微调过程中嵌入的结构化后门攻击。在这项工作中，我们通过实验研究了 LLM 介导的 ROS2 机器人控制系统中基于 LoRA 的供应链后门，并评估了它们对物理机器人执行的影响。我们针对命令生成管道的不同阶段构建了两种有毒的微调策略，并揭示了一个关键的系统级见解：嵌入在自然语言推理阶段的后门不能可靠地传播到可执行的控制输出，而后门与目录对齐"
     },
     {
       "title": "Risk-Constrained Belief-Space Optimization for Safe Control under Latent Uncertainty",
@@ -123,7 +125,8 @@
       "matched_terms": [
         "dexterous",
         "grasp"
-      ]
+      ],
+      "summary_zh": "许多安全关键控制系统必须在传感器无法在决策时直接解析的潜在不确定性下运行。这种由未知的物理特性、外源干扰或未观察到的环境几何形状引起的不确定性会影响动力学、任务可行性和安全裕度。标准方法优化预期性能，并为罕见但严重的结果提供有限的保护，而稳健的公式则保守地处理不确定性，而不利用其概率结构。我们考虑部分观察到的动力系统，其动力学、成本和安全约束取决于作为信念分布维护的潜在参数，并提出了一种风险敏感的信念空间模型预测路径积分（MPPI）控制框架，该框架计划在"
     },
     {
       "title": "COMB: Common Open Modular robotic platform for Bees",
@@ -160,7 +163,8 @@
         "robot",
         "robotic",
         "robotics"
-      ]
+      ],
+      "summary_zh": "对真实蜂群的实验访问需要机器人系统能够在有限的空间限制内运行，容忍蜂巢特定的污垢和环境条件，并支持传感和局部驱动，而无需频繁重新设计硬件。本文介绍了 COMB，这是一个紧凑、开源、模块化的机电一体化平台，专为标准观察蜂巢框架内的蜂巢内实验而设计。该平台集成了 XY 定位平台、用于通过蜂巢边界密封工具访问的可移动访问窗口 (MAW)、可互换的有效负载模块以及支持可重复轨迹执行和信号生成的嵌入式控制架构。该平台的功能通过三个代表性模块进行展示："
     },
     {
       "title": "From Video to Control: A Survey of Learning Manipulation Interfaces from Temporal Visual Data",
@@ -198,7 +202,8 @@
         "robot",
         "robotic",
         "robotics"
-      ]
+      ],
+      "summary_zh": "视频是对物理动力学的可扩展观察：它捕捉物体如何移动、接触如何展开以及交互下场景如何演变——所有这些都不需要机器人动作标签。然而，将这种时间结构转化为可靠的机器人控制仍然是一个开放的挑战，因为视频缺乏动作监督，并且在体现、视角和物理约束方面与机器人体验不同。这项调查回顾了利用非动作注释的时间视频来学习机器人操作的控制界面的方法。我们引入了一种\\emph{以界面为中心的分类法}，根据视频到控制界面的构造位置以及它启用的控制属性进行组织，识别出三个系列：直接视频动作策略，使界面保持隐式；潜-"
     },
     {
       "title": "A Novel Hybrid PID-LQR Controller for Sit-To-Stand Assistance Using a CAD-Integrated Simscape Multibody Lower Limb Exoskeleton",
@@ -237,7 +242,8 @@
         "robot",
         "robotic",
         "robotics"
-      ]
+      ],
+      "summary_zh": "由于人体外骨骼系统的高度非线性、时变动力学以及临床安全提出的严格轨迹跟踪要求，在从坐到站（STS）转换过程中对下肢外骨骼的精确控制仍然是康复机器人技术的核心挑战。本文介绍了三种控制策略的系统设计、仿真和比较评估：经典的比例积分微分 (PID) 控制器、线性二次调节器 (LQR) 以及应用于双边下肢外骨骼执行从坐到站转换的新型混合 PID-LQR 控制器。通过将 SolidWorks CAD 组件直接导入 MATLAB/Simulink Simscape Multi 来构建高保真、基于物理的外骨骼动态模型"
     },
     {
       "title": "Build on Priors: Vision--Language--Guided Neuro-Symbolic Imitation Learning for Data-Efficient Real-World Robot Manipulation",
@@ -287,7 +293,8 @@
         "robotic",
         "robotic arm",
         "robotics"
-      ]
+      ],
+      "summary_zh": "使机器人能够从少量演示中学习长视野操作任务仍然是机器人技术的一个核心挑战。现有的神经符号方法通常依赖于手工制作的符号抽象、语义标记的轨迹或大型演示数据集，限制了它们的可扩展性和现实世界的适用性。我们提出了一个可扩展的神经符号框架，可以从少至一到三十个未注释的技能演示中自主构建符号规划域和数据高效的控制策略，而不需要手动域工程。我们的方法将演示分割为技能，并采用视觉语言模型（VLM）对技能进行分类并识别等效的高级状态，从而能够自动构建状态转换图。钍"
     },
     {
       "title": "CT-VoxelMap: Efficient Continuous-Time LiDAR-Inertial Odometry with Probabilistic Adaptive Voxel Mapping",
@@ -324,7 +331,8 @@
       "matched_terms": [
         "mobile robot",
         "robot"
-      ]
+      ],
+      "summary_zh": "对于具有机载资源的移动机器人来说，在快速运动或崎岖地形上保持稳定和准确的定位仍然是一个巨大的挑战。目前，基于连续时间表示的多传感器融合方法为这一挑战提供了潜在且有效的解决方案。其中，基于样条的方法为连续时间表示提供了一种高效且直观的方法。先前基于B样条的连续时间里程计工作要么将控制点视为要估计的变量，要么在四元数空间中进行估计，这引入了解析雅可比行列式的推导的复杂性，并且常常忽略了样条与真实轨迹随时间的拟合误差。为了解决这些问题，我们首先提出表示控制 p 的增量"
     },
     {
       "title": "A Multi-View 3D Telepresence System for XR Robot Teleoperation",
@@ -369,7 +377,8 @@
         "robotic",
         "robotics",
         "teleoperation"
-      ]
+      ],
+      "summary_zh": "机器人远程操作对于远程维护、车队机器人、搜索和救援以及机器人学习数据收集等应用至关重要。有效的远程操作需要直观的 3D 可视化和可靠的深度提示，而传统的基于屏幕的界面通常无法提供这一点。我们推出了一种多视图 VR 远程呈现系统，该系统 (1) 融合三个摄像头的几何图形，在独立 VR 硬件上生成 GPU 加速的点云渲染，(2) 集成腕带式 RGB 流，在点云精度有限的情况下提供高分辨率局部细节。我们的管道支持在 Meta Quest 3 上实时渲染大约 75k 点。我们对 31 名参与者进行了一项受试者内研究，以将我们的系统与其他可视化模式进行比较"
     },
     {
       "title": "15 Years of Augmented Human(s) Research: Where Do We Stand?",
@@ -400,7 +409,8 @@
       "matched_terms": [
         "embodied",
         "haptic"
-      ]
+      ],
+      "summary_zh": "增强人类愿景广泛寻求通过恢复或扩展身体、智力和社交能力来改善或扩展人类基本功能。然而，鉴于技术发展的快速步伐，我们要问：增强人类研究到底涉及什么，其核心主题是什么，以及增强人类会议系列如何随着时间的推移而发展？为了回答这个问题，我们对过去 15 年的增强人类会议（N = 735 篇论文）进行了科学计量分析，重点关注：地理方面、提交和引用时间线、作者频率和受欢迎程度以及主题建模。我们发现：（a）会议论文数量呈现双峰分布，在2015年和2025年达到峰值，但出现增长停滞期； (b) k"
     },
     {
       "title": "VidNum-1.4K: A Comprehensive Benchmark for Video-based Numerical Reasoning",
@@ -434,7 +444,8 @@
         "grasp",
         "open-source",
         "world model"
-      ]
+      ],
+      "summary_zh": "基于视频的数值推理为测试视觉语言模型（VLM）是否真正“理解”现实世界的动态提供了首要的舞台，因为准确的数值推导需要对时间事件、对象持久性和超越表面模式匹配的组合逻辑的深刻理解。然而，现有的基准通常局限于狭窄的领域，例如重复的运动动作，或者仅将简单的计数视为表面的回归任务，无法评估现实世界多媒体内容固有复杂性内的多步骤数值逻辑。我们推出了 VidNum-1.4K，这是一个综合性的 VideoQA 基准测试，由 1,379 个严格人工注释的视频问题对组成，旨在评估高度多样化环境中的真实数值推理，包括"
     },
     {
       "title": "ART: Adaptive Relational Transformer for Pedestrian Trajectory Prediction with Temporal-Aware Relations",
@@ -470,7 +481,8 @@
       ],
       "matched_terms": [
         "robot"
-      ]
+      ],
+      "summary_zh": "准确预测现实世界的行人轨迹对于广泛的机器人相关应用至关重要。最近的方法通常采用基于图或基于变压器的框架来建模交互。尽管它们很有效，但这些方法要么引入了不必要的计算开销，要么难以表示人类交互的多样化和随时间变化的特征。在这项工作中，我们提出了一种自适应关系变换器（ART），它引入了时间感知关系图（TARG）来显式捕获成对交互的演变，并引入自适应交互修剪（AIP）机制来有效减少冗余计算。对 ETH/UCY 和 NBA 基准的广泛评估表明，ART 提供了最先进的准确性和高c"
     },
     {
       "title": "Towards Edge Intelligence via Autonomous Navigation: A Robot-Assisted Data Collection Approach",
@@ -510,7 +522,8 @@
         "mobile robot",
         "navigation",
         "robot"
-      ]
+      ],
+      "summary_zh": "随着边缘智能系统对大规模、高质量数据的需求不断增长，移动机器人越来越多地被部署来主动收集数据，特别是在复杂的环境中。然而，现有的机器人辅助数据收集方法在实现可靠和高效的性能方面面临着重大挑战，特别是在非视距（NLoS）环境中。本文提出了一种通信与学习双驱动（CLD）自主导航方案，该方案结合了区域感知传播特性和非点质量机器人表示。该方案能够同时优化导航、通信和学习性能。提出了一种基于主化-最小化（MM）的高效算法来解决非凸非光滑问题"
     },
     {
       "title": "Human-Robot Copilot for Data-Efficient Imitation Learning",
@@ -549,7 +562,8 @@
         "manipulator",
         "robot",
         "teleoperation"
-      ]
+      ],
+      "summary_zh": "通过远程操作收集人类演示是教授机器人特定任务技能的常见方法。然而，当只有有限数量的示范时，由于复合误差或环境随机性，政策很容易进入分配外（OOD）状态。现有的交互式模仿学习或人机循环方法试图通过遵循人门 DAgger (HG-DAgger) 范式来解决这个问题，这种方法通过在政策执行过程中选择性的人为干预来增强演示。然而，这些方法很难平衡灵活性和通用性：它们要么提供细粒度的校正，但仅限于特定的运动结构，要么以精确控制为代价来实现通用性。为克服"
     },
     {
       "title": "Multi-Robot Multi-Queue Control via Exhaustive Assignment Actor-Critic Learning",
@@ -584,7 +598,8 @@
       ],
       "matched_terms": [
         "robot"
-      ]
+      ],
+      "summary_zh": "我们研究具有不对称随机到达和切换延迟的多机器人、多队列系统的在线任务分配。我们用离散时间来表述这个问题：每个位置每个槽最多可以容纳一个机器人，服务一项任务消耗一个槽，位置之间的切换会产生一个槽的行程延迟，并且到达位置是具有异构速率的独立伯努利过程。基于我们之前的结构结果，即最优策略是详尽的类型，我们制定了折扣成本马尔可夫决策过程，并开发了详尽的分配行动者批评家策略架构，该架构通过构造强制执行详尽的服务，并且仅学习空闲机器人的下一个队列分配。与穷举服务最长（ESL）队列规则不同，其最优性为"
     },
     {
       "title": "Belief Dynamics for Detecting Behavioral Shifts in Safe Collaborative Manipulation",
@@ -626,7 +641,8 @@
         "robot",
         "vision-language-action",
         "vla"
-      ]
+      ],
+      "summary_zh": "在共享工作空间中运行的机器人必须与其他代理保持安全协调，这些代理的行为在任务执行期间可能会发生变化。当合作特工在情节中途改变策略时，继续使用过时的假设可能会导致不安全的行为并增加碰撞风险。因此，可靠地检测此类行为模式的变化至关重要。我们研究 ManiSkill 共享工作空间操作任务中受控非平稳性下的状态切换检测。通过十种检测方法和五种随机种子，启用检测可将切换后冲突减少 52%。然而，平均性能掩盖了显着的可靠性差异：在+-3步的实际容差下，检测范围从86%到30%，而在+-5步的情况下，所有方法都达到100%。我们介绍"
     },
     {
       "title": "CRAFT: Video Diffusion for Bimanual Robot Data Generation",
@@ -671,7 +687,8 @@
         "robot learning",
         "sim2real",
         "simulator"
-      ]
+      ],
+      "summary_zh": "双手机器人从演示中学习从根本上受到成本和现实世界数据狭窄的视觉多样性的限制，这限制了跨观点、对象配置和实施例的策略稳健性。我们展示了使用视频扩散变压器 (CRAFT) 的 Canny 引导机器人数据生成，这是一种基于视频扩散的框架，用于可扩展的双手演示生成，可合成时间连贯的操作视频，同时生成动作标签。通过根据从模拟器生成的轨迹中提取的基于边缘的结构线索来调节视频扩散，CRAFT 产生物理上合理的轨迹变化，并支持跨越对象姿势变化、相机视点、照明和背景变化、跨实施例 tr 的统一增强管道。"
     },
     {
       "title": "Beyond Generation: An Empirical Study on Redefining the Act of Drawing Through an 85% Time Reduction in Picture-Book Production",
@@ -702,7 +719,8 @@
       ],
       "matched_terms": [
         "embodied"
-      ]
+      ],
+      "summary_zh": "传统的图画书制作对创作者提出了大量的物理和时间要求，往往限制了高水平艺术探索的机会。虽然生成式人工智能可以极大地加速图像生成，但人们仍然担心风格同质化和专业实践中作者机构的侵蚀。本研究通过完整制作一本专业的 15 幅插图图画书，对人工智能协作工作流程进行了实证评估，并将该流程与同一创作者的传统手绘流程进行了比较。从数量上看，建议的工作流程将总生产时间减少了 85.2%（从 2,162.8 小时减少到 320.4 小时），其中在早期起草阶段观察到最大的替代时间。然而，从定性上看，核心仍然是"
     },
     {
       "title": "Drift-Based Policy Optimization: Native One-Step Policy Learning for Online Robot Control",
@@ -750,7 +768,8 @@
         "reinforcement learning",
         "robot",
         "robotic"
-      ]
+      ],
+      "summary_zh": "尽管多步生成策略通过对多模态动作分布进行建模，在机器人操作方面取得了出色的性能，但它们在推理时需要多步迭代去噪。因此，每个动作都需要数十到数百次网络功能评估（NFE），这使得高频闭环控制和在线强化学习（RL）成本高昂。为了解决这一限制，我们提出了一种本地一步生成策略的两阶段框架，将细化从推理转移到训练。首先，我们引入基于漂移的策略（DBP），它利用定点漂移目标将迭代细化内化到模型参数中，通过设计产生一步生成主干，同时保留多模式动作建模能力。 S"
     }
   ]
 }

@@ -57,7 +57,8 @@
         "vision-language-action",
         "vla",
         "world model"
-      ]
+      ],
+      "summary_zh": "构建多面手的具体代理需要整合感知、语言理解和行动，这些是基于多模态基础模型（包括视觉语言模型和世界模型的最新进展）的视觉-语言-行动（VLA）方法所解决的核心能力。尽管进展迅速，VLA 方法在不兼容的架构、代码库和评估协议中仍然支离破碎，阻碍了原则性比较和可重复性。我们推出 StarVLA，一个用于 VLA 研究的开源代码库。 StarVLA 从三个方面应对这些挑战。首先，它提供了一个模块化的主干-动作头架构，支持 VLM 主干（例如 Qwen-VL）和世界模型主干（例如 Cosmos）以及代表性的动作解码范例，所有 u"
     },
     {
       "title": "E-VLA: Event-Augmented Vision-Language-Action Model for Dark and Blurred Scenes",
@@ -111,7 +112,8 @@
         "vision-language-action",
         "vla",
         "vla model"
-      ]
+      ],
+      "summary_zh": "机器人视觉-语言-动作 (VLA) 模型对于开放式操作具有很好的泛化能力，但它们的感知在传感阶段退化（例如极弱光、运动模糊和黑色剪裁）下很脆弱。我们提出了 E-VLA，这是一种事件增强的 VLA 框架，当传统的基于框架的视觉变得不可靠时，它可以提高操作的鲁棒性。 E-VLA 不是从事件中重建图像，而是直接利用事件流中的运动和结构线索来在不利条件下保持语义感知和感知-动作一致性。我们使用 DAVIS346 事件相机构建了一个开源远程操作平台，并收集了跨不同任务和照明设置的真实世界同步 RGB 事件动作操作数据集。 We also propose lightweight, pret"
     },
     {
       "title": "ZipFold: Modular Actuators for Scaleable Adaptive Robots",
@@ -142,7 +144,8 @@
       ],
       "matched_terms": [
         "robot"
-      ]
+      ],
+      "summary_zh": "人们越来越需要能够改变其形状、尺寸和机械性能以适应不断变化的任务和环境的机器人。然而，当前的变形系统通常使用定制的、特定于系统的机制，这些机制可能难以扩展、重新配置或从一种应用程序转换到另一种应用程序。本文介绍了一种紧凑、易于制造的可展开致动器，通过将柔性 3D 打印塑料条复合折叠和压缩成方形截面可展开梁，实现可逆的尺度和刚度变换。简单的驱动方法可以在紧凑（柔性）和扩展（准刚性）状态之间实现平滑、连续的过渡，从而在模块组合成更大的组件时促进不同的形状和刚度转换"
     },
     {
       "title": "RoboPlayground: Democratizing Robotic Evaluation through Structured Physical Domains",
@@ -184,7 +187,8 @@
         "manipulation",
         "robot",
         "robotic"
-      ]
+      ],
+      "summary_zh": "机器人操纵系统的评估在很大程度上依赖于少数专家编写的固定基准，其中任务实例、约束和成功标准是预定义的并且难以扩展。这种范式限制了谁可以制定评估，并模糊了政策如何响应用户编写的任务意图、约束和成功概念方面的变化。我们认为，评估现代操纵政策需要将评估重新定义为结构化物理领域上的语言驱动过程。我们提出了 RoboPlayground，这是一个框架，使用户能够在结构化物理域内使用自然语言编写可执行的操作任务。自然语言指令被编译成可重现的任务规范，具有明确的资产定义、ini"
     },
     {
       "title": "Ghosting the Machine: Stop Calling Human-Agent Relations Parasocial",
@@ -215,7 +219,8 @@
       ],
       "matched_terms": [
         "robot"
-      ]
+      ],
+      "summary_zh": "在讨论与对话代理（CA；例如语音助手、人工智能伴侣、一些社交机器人）的人际关系时，它们越来越多地被称为准社会。这是对该术语的误用，启发性地将其理解为“不真实”的意思。在这篇文章中，我简要解释了准社会性的理论轨迹，并详细说明了为什么将该概念应用于人类与 CA 的互动是不准确的。简而言之，“类社会”是指一种片面的、非辩证的、受性格支配的、想象的、替代性的、可预测的、省力的人性关系；该术语已被增选来指代被视为不真实或无效的关系。这种误用的科学问题不容忽视。它们导致复杂的苯丙胺过于简单化"
     },
     {
       "title": "Synchronous Observer Design for Landmark-Inertial SLAM with Magnetometer and Intermittent GNSS Measurements",
@@ -247,7 +252,8 @@
       "matched_terms": [
         "robot",
         "slam"
-      ]
+      ],
+      "summary_zh": "在地标惯性同步定位和建图 (LI-SLAM) 中，环境中地标的位置以及机器人相对于这些地标的姿态是使用地标位置测量值和惯性测量单元 (IMU) 的测量值来估计的。然而，惯性系中的机器人和地标位置以及机器人的偏航在 LI-SLAM 中是不可观测的。本文提出了一种 LI-SLAM 非线性观测器，通过添加间歇性 GNSS 位置和磁力计测量来克服可观测性限制。所提出的观测器的全状态误差动力学被证明是几乎全局渐近稳定和局部指数稳定的，并且这通过仿真得到了验证。"
     },
     {
       "title": "Differentiable Invariant Sets for Hybrid Limit Cycles with Application to Legged Robots",
@@ -285,7 +291,8 @@
         "legged",
         "legged robot",
         "robot"
-      ]
+      ],
+      "summary_zh": "对于表现出周期性行为的混合系统，分析包含极限环的不变集是研究闭环系统鲁棒性的自然方法。然而，计算这些集合的计算成本可能很高，特别是当应用于接触丰富的网络物理系统（例如腿式机器人）时。在这项工作中，我们使用参数嵌入扩展了过度逼近连续系统的可达集的现有方法，以计算双足机器人简化模型的标称轨迹周围的前向不变集。我们的三步方法（i）计算围绕标称连续流的过度近似可达集，（ii）对与防护表面的交叉点进行分类，以及（iii）将这些交叉点通过重置地图。如果过度近似"
     },
     {
       "title": "Finite-Step Invariant Sets for Hybrid Systems with Probabilistic Guarantees",
@@ -320,7 +327,8 @@
       "matched_terms": [
         "legged",
         "locomotion"
-      ]
+      ],
+      "summary_zh": "庞加莱返回图是分析混合动力系统中周期性轨道的基本工具，包括腿式运动、电力电子和其他具有切换行为的网络物理系统。庞加莱返回图捕获了混合系统在防护面上的演化，将周期轨道的稳定性分析简化为离散时间系统的稳定性分析。虽然线性化提供了局部稳定性信息，但评估对干扰的鲁棒性需要识别返回动态下状态空间的不变集。然而，计算这样的不变集在计算上是困难的，特别是当系统动力学只能通过正向仿真获得时。在这项工作中，我们提出了一个算法框架，利用基于采样的优化来"
     },
     {
       "title": "GaussFly: Contrastive Reinforcement Learning for Visuomotor Policies in 3D Gaussian Fields",
@@ -361,7 +369,8 @@
         "reinforcement learning",
         "sim-to-real",
         "visuomotor"
-      ]
+      ],
+      "summary_zh": "仅依靠单眼视觉来学习自动飞行器（AAV）的视觉运动策略是一种有吸引力但极具挑战性的范例。现有的端到端学习方法直接将高维 RGB 观察结果映射到动作命令，但由于模拟域和物理域之间的视觉差异，这种方法经常面临样本效率低下和严重的模拟与真实差距的问题。为了解决这些长期存在的挑战，我们提出了 GaussFly，这是一种新颖的框架，它通过一个有凝聚力的真实到模拟到真实的范式，明确地将表示学习与策略优化解耦。首先，为了实现高保真度的实景到模拟过渡，我们使用增强了显式几何约束的 3D 高斯分布 (3DGS) 重建训练场景。二、以恩斯"
     },
     {
       "title": "InfBaGel: Human-Object-Scene Interaction Generation with Dynamic Perception and Iterative Refinement",
@@ -402,7 +411,8 @@
       "matched_terms": [
         "embodied",
         "embodied ai"
-      ]
+      ],
+      "summary_zh": "人-物-场景交互（HOSI）生成在具体人工智能、模拟和动画领域有着广泛的应用。与人机交互 (HOI) 和人机场景交互 (HSI) 不同，HOSI 生成需要对动态对象场景变化进行推理，但注释数据有限。为了解决这些问题，我们提出了一种从粗到细的指令条件交互生成框架，该框架与一致性模型的迭代去噪过程明确一致。特别是，我们采用动态感知策略，利用先前细化的轨迹来更新场景上下文，并在一致性模型的每个去噪步骤中调节后续细化，从而产生一致的交互。为了进一步减少物理伪影，我们引入"
     },
     {
       "title": "CreativityBench: Evaluating Agent Creative Reasoning via Affordance-Based Tool Repurposing",
@@ -448,7 +458,8 @@
       "matched_terms": [
         "affordance",
         "open-source"
-      ]
+      ],
+      "summary_zh": "大型语言模型的最新进展在推理和环境交互任务方面取得了强劲的表现，但其创造性解决问题的能力仍未得到充分开发。我们通过创造性工具使用的视角来研究这种能力，其中模型通过推理可用对象的可供性和属性来重新利用可用对象，而不是依赖于规范用法。作为第一步，我们引入 CreativityBench，这是评估法学硕士基于可供性的创造力的基准。为此，我们构建了一个包含 4K 实体和 150K+ 可供性注释的大规模可供性知识库 (KB)，明确链接对象、部件、属性和可操作用途。在此知识库的基础上，我们生成了 14K 项基础任务，这些任务需要识别不明显但物理上合理的任务"
     },
     {
       "title": "AnyUser: Translating Sketched User Intent into Domestic Robots",
@@ -491,7 +502,8 @@
         "robot",
         "robotic",
         "robotics"
-      ]
+      ],
+      "summary_zh": "我们推出了 AnyUser，这是一个统一的机器人指令系统，通过相机图像上的自由形式草图（可选语言）进行直观的家庭任务指令。 AnyUser 将多模态输入（草图、视觉、语言）解释为空间语义基元，以生成不需要事先地图或模型的可执行机器人动作。新颖的组件包括用于理解的多模式融合和用于生成稳健行动的分层策略。有效性通过广泛的评估来证明：（1）大规模数据集的定量基准显示在解释各种模拟家庭场景中的各种基于草图的命令方面具有很高的准确性。 (2) 在两个不同的机器人平台、静态安装的 7-DoF 辅助臂 (KUKA LBR iiwa) 和双臂移动平台上进行真实世界验证"
     },
     {
       "title": "EDFNet: Early Fusion of Edge and Depth for Thin-Obstacle Segmentation in UAV Navigation",
@@ -525,7 +537,8 @@
         "drone",
         "navigation",
         "uav"
-      ]
+      ],
+      "summary_zh": "自主无人机 (UAV) 必须可靠地检测电线、电线杆和树枝等细小的障碍物，以便在现实环境中安全导航。这些结构仍然难以感知，因为它们占据很少的像素，通常表现出较弱的视觉对比度，并且受到类别不平衡的强烈影响。现有的分割方法主要针对较粗糙的障碍物，并且没有充分利用薄结构感知所需的互补多模态线索。我们提出了 EDFNet，这是一种模块化的早期融合分割框架，它集成了 RGB、深度和边缘信息，用于杂乱航空场景中的薄障碍物感知。我们使用 U-Net 和 Dee 在 16 个模态主干配置的无人机深度和障碍物分割 (DDOS) 数据集上评估 EDFNet"
     },
     {
       "title": "Toward Self-Organizing Production Logistics in Circular Factories: A Multi-Agent Approach",
@@ -562,7 +575,8 @@
         "embodied",
         "embodied agent",
         "embodied agents"
-      ]
+      ],
+      "summary_zh": "由于产品核心质量、可用性和时间安排的可变性，循环工厂的生产物流具有结构不确定性的特点。这些条件对传统的确定性和集中计划的控制方法提出了挑战。本文提出了一种基于去中心化决策的多智能体系统的愿景，通过协商和事件驱动的通信作为循环工厂中自组织生产物流（SOPL）的推动者。设想的系统架构集成了实体代理、共享语义知识层和动态实例化的数字孪生，以支持监控、预测和场景评估。通过使决策更接近执行并使代理能够解释任务、评估能力、"
     },
     {
       "title": "Pickalo: Leveraging 6D Pose Estimation for Low-Cost Industrial Bin Picking",
@@ -599,7 +613,8 @@
       ],
       "matched_terms": [
         "grasp"
-      ]
+      ],
+      "summary_zh": "由于严重的混乱、遮挡以及传统 3D 传感设置的高成本，实际工业环境中的箱式拣选仍然具有挑战性。我们推出了 Pickalo，这是一种完全基于低成本硬件构建的模块化 6D 基于姿势的垃圾箱拾取管道。腕式 RGB-D 相机从多个视点主动探索场景，同时使用 BridgeDepth 处理原始立体流，以获得适合准确碰撞推理的精细深度图。对象实例使用纯粹基于真实感合成数据训练的 Mask-RCNN 模型进行分割，并使用零样本 SAM-6D 姿态估计器进行定位。姿势缓冲模块随着时间的推移融合多视图观察，处理对象对称性并显着减少姿势噪声。离线时，我们生成并管理大量蚂蚁"
     },
     {
       "title": "ROSClaw: A Hierarchical Semantic-Physical Framework for Heterogeneous Multi-Agent Collaboration",
@@ -657,7 +672,8 @@
         "vision-language-action",
         "vla",
         "vln"
-      ]
+      ],
+      "summary_zh": "大语言模型（LLM）与实体代理的集成提高了高级推理能力；然而，语义理解和物理执行之间仍然存在关键差距。虽然视觉语言动作（VLA）和视觉语言导航（VLN）系统使机器人能够根据自然语言指令执行操纵和导航任务，但它们仍然难以处理长范围的顺序和时间结构任务。现有框架通常采用模块化管道进行数据收集、技能培训和策略部署，导致实验验证和策略优化成本高昂。为了解决这些限制，我们提出了 ROSClaw，一种异构机器人的代理框架，它将策略学习和任务执行与"
     },
     {
       "title": "Generalizable Audio-Visual Navigation via Binaural Difference Attention and Action Transition Prediction",
@@ -692,7 +708,8 @@
       "matched_terms": [
         "navigation",
         "visual navigation"
-      ]
+      ],
+      "summary_zh": "在视听导航 (AVN) 中，代理必须使用视觉和听觉提示在看不见的 3D 环境中定位声源。然而，现有的方法常常难以在未见过的场景中进行泛化，因为它们往往会过度适应语义声音特征和特定的训练环境。为了应对这些挑战，我们提出了 \\textbf{双耳差异注意与动作转换预测 (BDATP)} 框架，该框架共同优化感知和策略。具体来说，\\textbf{双耳差异注意力（BDA）}模块显式地模拟耳间差异以增强空间方向，减少对语义类别的依赖。同时，\\textbf{动作转换预测（ATP）}任务引入了辅助动作预测目标作为正则化"
     },
     {
       "title": "Biologically Inspired Event-Based Perception and Sample-Efficient Learning for High-Speed Table Tennis Robots",
@@ -729,7 +746,8 @@
       "matched_terms": [
         "robot",
         "robotic"
-      ]
+      ],
+      "summary_zh": "对于当前的机器人来说，高速动态场景中的感知和决策仍然具有挑战性。相比之下，人类和动物在这样的环境中可以快速感知并做出决定。以乒乓球运动为例，传统的基于帧的视觉传感器存在运动模糊、高延迟和数据冗余等问题，难以满足实时、准确的感知要求。受人类视觉系统的启发，基于事件的感知方法通过异步传感、高时间分辨率和固有的稀疏数据表示来解决这些限制。然而，当前基于事件的方法仍然仅限于简化的、不切实际的仅球场景。与此同时，现有的决策方法通常需要与"
     },
     {
       "title": "SAIL: Scene-aware Adaptive Iterative Learning for Long-Tail Trajectory Prediction in Autonomous Vehicles",
@@ -767,7 +785,8 @@
       "matched_terms": [
         "autonomous vehicle",
         "navigation"
-      ]
+      ],
+      "summary_zh": "自动驾驶车辆 (AV) 依靠准确的轨迹预测来在不同的交通环境中安全导航，但现有模型难以应对长尾场景——罕见但安全关键的事件，其特征是突然的机动、高碰撞风险和复杂的交互。这些挑战源于数据不平衡、长尾轨迹定义不充分，以及优先考虑常见行为而不是不常见行为的次优学习策略。为了解决这个问题，我们提出了 SAIL，这是一种新颖的框架，它首先定义和建模跨三个关键属性维度的轨迹：预测误差、碰撞风险和状态复杂性，系统地解决长尾问题。然后，我们的方法协同属性引导的增强和特征提取过程"
     },
     {
       "title": "Visual Prompt Based Reasoning for Offroad Mapping using Multimodal LLMs",
@@ -806,7 +825,8 @@
       "matched_terms": [
         "isaac",
         "navigation"
-      ]
+      ],
+      "summary_zh": "传统的越野自主方法依赖于地形分类、高度估计以及量化滑移或斜坡条件的单独模型。使用多个模型需要单独训练每个组件，拥有特定于任务的数据集并进行微调。在这项工作中，我们提出了一种零样本方法，利用 SAM2 进行环境分割，并使用视觉语言模型 (VLM) 来推理可驾驶区域。我们的方法包括将原始图像和每个掩模用数字标签注释的分割图像传递给 VLM。然后，VLM 会被提示识别由这些数字标签表示的哪些区域是可行驶的。结合规划和控制模块，这个统一的框架消除了对明确的地形特定模型和相关模型的需要。"
     },
     {
       "title": "StableTTA: Improving Vision Model Performance by Training-free Test-Time Adaptation Methods",
@@ -843,7 +863,8 @@
         "robot",
         "robotic",
         "robotics"
-      ]
+      ],
+      "summary_zh": "集成方法提高了预测性能，但通常会产生较高的内存和计算成本。我们确定了由非线性投影和投票操作引起的聚合不稳定性。为了解决效率挑战和这种不一致性，我们提出了 StableTTA，一种具有两种变体的免训练测试时间适应方法。 StableTTA-I 的目标是连贯批量推理设置，其中时间或语义上相邻的观察结果可能属于同一类。示例包括连拍摄影、视频流、机器人感知和工业检查。在相干批量推理下，StableTTA-I 通过方差感知的 logit 聚合大幅提高了预测的一致性和准确性。 StableTTA-II建立特征级裁剪，实现高效"
     },
     {
       "title": "FlashSAC: Fast and Stable Off-Policy Reinforcement Learning for High-Dimensional Robot Control",
@@ -899,7 +920,8 @@
         "robot",
         "sim-to-real",
         "simulator"
-      ]
+      ],
+      "summary_zh": "当无法获得专家演示时，强化学习（RL）是机器人控制的核心方法。近端策略优化（PPO）等在策略方法因其稳定性而被广泛使用，但它们对窄分布的在策略数据的依赖限制了高维状态和动作空间中的准确策略评估。离策略方法可以通过从更广泛的状态动作分布中学习来克服这一限制，但会受到收敛缓慢和不稳定的影响，因为在不同的数据上拟合价值函数需要多次梯度更新，从而导致关键错误通过自举累积。我们提出了 FlashSAC，这是一种基于 Soft Actor-Critic 构建的快速且稳定的离策略 RL 算法。受监督学习中观察到的缩放定律的启发，FlashSAC 急剧"
     },
     {
       "title": "Veo-Act: How Far Can Frontier Video Models Advance Generalizable Robot Manipulation?",
@@ -949,7 +971,8 @@
         "robotic",
         "vision-language-action",
         "vla"
-      ]
+      ],
+      "summary_zh": "视频生成模型发展迅速，并开始表现出对物理动力学的深刻理解。在本文中，我们研究了 Veo-3 等高级视频生成模型可以在多大程度上支持通用的机器人操作。我们首先研究了一种零样本方法，其中 Veo-3 根据当前机器人观察结果预测未来图像序列，而逆动力学模型 IDM 则恢复相应的机器人动作。 IDM 仅根据随机游戏数据进行训练，不需要人工监督或专家演示。关键的直觉是，如果视频模型可以在图像空间中生成物理上合理的未来运动，那么 IDM 就可以将这些视觉轨迹转换为可执行的机器人动作。我们在仿真中评估了这种“Veo-3+IDM”方法"
     },
     {
       "title": "Croissant Charts: Modulating the Performance of Normal Distribution Visualizations with Affordances",
@@ -979,7 +1002,8 @@
       ],
       "matched_terms": [
         "affordance"
-      ]
+      ],
+      "summary_zh": "可供性起源于心理学，描述了对象的设计如何影响用户可能采取的身体和认知行为。过去的工作将可供性理论应用于可视化，以解释设计决策如何影响可视化读者的认知行为。在这项工作中，我们证明可供性可以通过进一步解释可视化任务性能背后的根本原因来补充有效性排名。为此，我们对静态正态概率密度函数图进行了案例研究，确定了它们当前的可供性。接下来，我们确定常见概率比较任务的最佳可供性，并开发一种新颖的可供性驱动的可视化——牛角面包图来支持它们。我们通过以下方式实证验证设计的有效性"
     },
     {
       "title": "FORMULA: FORmation MPC with neUral barrier Learning for safety Assurance",
@@ -1012,7 +1036,8 @@
       "matched_terms": [
         "navigation",
         "robot"
-      ]
+      ],
+      "summary_zh": "多机器人系统 (MRS) 对于灾难响应、物资运输和仓库物流等大规模应用至关重要，但在杂乱和动态的环境中确保稳健、具有安全意识的编队控制仍然是一项重大挑战。现有的模型预测控制（MPC）方法在可扩展性和可证明的安全性方面受到限制，而控制屏障函数（CBF）虽然以安全执行为原则，但很难针对大规模非线性系统进行手工设计。本文提出了 FORMULA，这是一种安全的分布式、学习增强型预测控制框架，它将 MPC 与用于稳定性的控制李雅普诺夫函数 (CLF) 和基于神经网络的 CBF 相集成以实现分散安全，从而消除了手动安全约束设计。该方案维护"
     },
     {
       "title": "UENR-600K: A Large-Scale Physically Grounded Dataset for Nighttime Video Deraining",
@@ -1046,7 +1071,8 @@
       ],
       "matched_terms": [
         "sim-to-real"
-      ]
+      ],
+      "summary_zh": "夜间视频除雨具有独特的挑战性，因为雨滴会与人工照明相互作用。与白天的白雨不同，夜间的雨呈现出各种颜色，并且看起来局部被照亮。现有的小规模合成数据集依赖于二维降雨覆盖，无法捕获这些物理特性，导致模型无法很好地推广到现实世界的夜间降雨。与此同时，捕捉真实的配对夜间视频仍然不切实际，因为降雨影响无法与传感器噪声等其他退化因素隔离开来。为了弥补这一差距，我们引入了 UENR-600K，这是一个包含 600,000 个 1080p 帧对的大规模物理接地数据集。我们利用虚幻引擎在虚拟环境中将雨模拟为 3D 粒子。这种方法保证了照片真实感和物理真实感"
     },
     {
       "title": "Towards Considerate Human-Robot Coexistence: A Dual-Space Framework of Robot Design and Human Perception in Healthcare",
@@ -1085,7 +1111,8 @@
         "robot",
         "robotic",
         "robotics"
-      ]
+      ],
+      "summary_zh": "机器人技术的快速发展，涵盖了扩展的功能、更直观的交互以及更多地融入现实世界的工作流程，正在重塑人类和机器人共存的意义。除了共享物理空间之外，这种共存的特征越来越多地表现为组织嵌入、时间演变、社会情境和开放式不确定性。然而，之前的工作主要集中在态度和接受度的静态快照上，对感知如何形成和演变以及人类在塑造共存作为一个动态过程中发挥的积极作用提供的见解有限。我们通过对为期 14 周的医疗保健机器人联合设计研究的 9 名参与者进行深入的后续采访来解决这些差距。我们确定人类感知空间，包括 f"
     },
     {
       "title": "Boosted Distributional Reinforcement Learning: Analysis and Healthcare Applications",
@@ -1121,7 +1148,8 @@
         "robot",
         "robotic",
         "robotics"
-      ]
+      ],
+      "summary_zh": "研究人员和从业者越来越多地考虑强化学习来优化机器人和医疗保健等复杂领域的决策。迄今为止，这些努力主要利用了基于期望的学习。然而，依靠以期望为中心的目标可能不足以在涉及多个异构群体的高度不确定的情况下做出一致的决策。虽然分布式强化学习算法已被引入来对结果的完整分布进行建模，但它们可能会在可比较的代理之间产生巨大的实现收益差异。这一挑战在医疗保健环境中尤其严峻，医生（控制者）必须管理多个疾病进展不确定且具有异质性的患者（下属代理人）。"
     },
     {
       "title": "GA-GS: Generation-Assisted Gaussian Splatting for Static Scene Reconstruction",
@@ -1161,7 +1189,8 @@
       ],
       "matched_terms": [
         "robot"
-      ]
+      ],
+      "summary_zh": "从具有动态对象的单目视频重建静态 3D 场景对于虚拟现实和自动驾驶等众多应用非常重要。当前的方法通常依赖于背景来进行静态场景重建，限制了恢复被动态对象遮挡的区域的能力。在本文中，我们提出了 GA-GS，一种用于静态场景重建的生成辅助高斯泼溅方法。我们工作的关键创新在于利用发电来协助重建封闭区域。我们采用运动感知模块来分割和删除动态区域，然后使用扩散模型来修复遮挡区域，提供伪地面实况监督。为了平衡真实背景和生成区域的贡献，我们引入了一个可学习的"
     }
   ]
 }

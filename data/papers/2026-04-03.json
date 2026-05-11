@@ -48,7 +48,8 @@
       "matched_terms": [
         "navigation",
         "uav"
-      ]
+      ],
+      "summary_zh": "跨模式热地理定位 (TG) 为全球导航卫星系统 (GNSS) 无法使用的环境中的无人机 (UAV) 提供强大的全天候解决方案。然而，巨大的热-可见模态差距引入了严重的特征模糊性，系统地破坏了传统的从粗到细的配准。为了消除这个瓶颈，我们提出了 SCC-Loc，一个统一的语义级联共识本地化框架。通过在全局检索和 MINIMA$_{\\text{RoMa}}$ 匹配中共享单个 DINOv2 主干，它最大限度地减少了内存占用并实现了零样本、高度准确的绝对位置估计。具体来说，我们通过引入三个内聚成分来解决模态歧义。首先，我们设计语义引导视口对齐（SGVA）模块"
     },
     {
       "title": "An Open-Source LiDAR and Monocular Off-Road Autonomous Navigation Stack",
@@ -98,7 +99,8 @@
         "open-source",
         "robot",
         "slam"
-      ]
+      ],
+      "summary_zh": "越野自主导航需要可靠的 3D 感知，以便在具有挑战性的非结构化地形中实现强大的障碍物检测。虽然激光雷达很准确，但它成本高昂且耗电。使用基础模型的单目深度估计提供了一种轻量级的替代方案，但其与户外导航堆栈的集成仍未得到充分探索。我们提出了一个开源越野导航堆栈，支持 LiDAR 和单目 3D 感知，无需进行特定任务的培训。对于单目设置，我们将零镜头深度预测 (Depth Anything V2) 与使用稀疏 SLAM 测量的度量深度重新缩放 (VINS-Mono) 结合起来。两项关键增强功能提高了鲁棒性：边缘遮蔽可减少障碍物幻觉，时间平滑可减轻 SLAM 不稳定性的影响。结果"
     },
     {
       "title": "Open-Loop Planning, Closed-Loop Verification: Speculative Verification for VLA",
@@ -145,7 +147,8 @@
         "manipulation",
         "vision-language-action",
         "vla"
-      ]
+      ],
+      "summary_zh": "视觉-语言-动作（VLA）模型作为体现控制的大型基础模型，在操作任务中表现出了强大的性能。然而，它们的性能是以较高的推理成本为代价的。为了提高效率，最近的方法采用了动作分块，它可以预测开环执行的未来动作序列。虽然开环执行对于减少计算量有效，但对环境变化敏感，并且由于缺乏闭环反馈而容易出现错误累积。为了解决这个限制，我们提出了 VLA 控制的推测性验证（SV-VLA），这是一个将高效的开环长期规划与轻量级闭环在线验证相结合的框架。具体来说，SV-VLA使用重VLA作为低频宏规划器来生成动作"
     },
     {
       "title": "STRNet: Visual Navigation with Spatio-Temporal Representation through Dynamic Graph Aggregation",
@@ -187,7 +190,8 @@
         "robot",
         "robotic",
         "visual navigation"
-      ]
+      ],
+      "summary_zh": "视觉导航要求机器人根据一系列第一人称视觉观察达到指定的目标，例如图像。虽然最近基于学习的方法取得了重大进展，但它们通常专注于改进政策头或决策策略，同时依赖简单的特征编码器和时间池来表示视觉输入。这导致细粒度的空间和时间结构的丢失，最终限制了准确的动作预测和进度估计。在本文中，我们提出了一种统一的时空表示框架，可以增强机器人导航的视觉编码。我们的方法从图像序列和目标观察中提取特征，并使用设计的时空融合模块将它们融合。该模块p"
     },
     {
       "title": "Differentiable SpaTiaL: Symbolic Learning and Reasoning with Geometric Temporal Logic for Manipulation Tasks",
@@ -223,7 +227,8 @@
         "manipulation",
         "robot",
         "trajectory optimization"
-      ]
+      ],
+      "summary_zh": "在杂乱的环境中执行复杂的操作需要满足耦合的几何和时间约束。尽管时空逻辑 (SpaTiaL) 提供了原则性的规范框架，但其在基于梯度的优化中的使用受到不可微的几何运算的限制。现有的可微分时间逻辑关注机器人的内部状态并忽略交互的对象-环境关系，而捕获此类交互的空间逻辑方法依赖于离散几何引擎，这些引擎打破了计算图并排除了精确的梯度传播。为了克服这一限制，我们提出了 Differentiable SpaTiaL，这是一个完全张量化的工具箱，可以直接在多边形集上构造平滑、与自动梯度兼容的几何图元。做到最好"
     },
     {
       "title": "Data-Driven Tensor Decomposition Identification of Homogeneous Polynomial Dynamical Systems",
@@ -255,7 +260,8 @@
       "matched_terms": [
         "robot",
         "robotic"
-      ]
+      ],
+      "summary_zh": "齐次多项式动力系统（HPDS）可以等效地用张量表示，对于建模高阶网络系统（包括生态网络、化学反应和多智能体机器人系统）至关重要。然而，由于随着系统维数和多项式次数的增加，参数数量快速增长，从数据中识别此类系统具有挑战性。在本文中，我们采用紧凑且可扩展的 HPDS 表示，利用低秩张量分解，包括张量训练、分层 Tucker 和规范多元分解。这些表示利用了 HPDS 的内在多线性结构，并大大降低了参数空间的维数。不是识别完整的动态张量，"
     },
     {
       "title": "Sim2Real-AD: A Modular Sim-to-Real Framework for Deploying VLM-Guided Reinforcement Learning in Real-World Autonomous Driving",
@@ -300,7 +306,8 @@
         "sim-to-real",
         "sim2real",
         "simulator"
-      ]
+      ],
+      "summary_zh": "将经过模拟训练的强化学习策略部署到真正的自动驾驶汽车中仍然是一个基本挑战，特别是对于 VLM 引导的 RL 框架来说，其策略通常是通过模拟器本机观察和模拟器耦合的动作语义来学习的，而这些在物理平台上是不可用的。本文介绍了 Sim2Real-AD，这是一种模块化框架，用于将 CARLA 训练的 VLM 引导的 RL 策略零样本模拟到真实地迁移到全尺寸车辆，而无需任何现实世界的 RL 训练数据。该框架将传输问题分解为四个部分：几何观察桥（GOB），将单目前视图图像转换为模拟器兼容的鸟瞰图（BEV）观察；物理感知行动映射（PAM），将政策输出转换为平台"
     },
     {
       "title": "Do Robots Need Body Language? Comparing Communication Modalities for Legible Motion Intent in Human-Shared Spaces",
@@ -339,7 +346,8 @@
         "navigation",
         "quadruped",
         "robot"
-      ]
+      ],
+      "summary_zh": "共享空间中的机器人通常以人们难以理解的方式移动，这给人类带来了适应的负担。高自由度机器人表现出的运动被人们视为富有表现力，无论是有意还是无意，因此了解如何感知这些线索非常重要。我们提出了一项在线视频研究，评估不同的信号方式、表达运动、灯光、文本和音频如何塑造人们理解四足机器人即将进行的导航动作的能力（Boston Dynamics Spot）。在四种常见场景中，我们测量每种模式如何影响人类的（1）预测机器人下一个导航动作的准确性，（2）对该预测的信心，以及（3）对机器人安全行动的信任。该研究测试了表达性动作与显式通道的比较，是否"
     },
     {
       "title": "Diffusion Policy with Bayesian Expert Selection for Active Multi-Target Tracking",
@@ -374,7 +382,8 @@
         "diffusion policy",
         "mobile robot",
         "robot"
-      ]
+      ],
+      "summary_zh": "主动多目标跟踪需要移动机器人平衡对未检测到的目标的探索与对不确定的跟踪目标的利用。扩散策略已成为一种通过从专家演示中学习行动序列来捕获不同行为策略的强大方法。然而，现有的方法通过去噪过程隐式地选择策略，而没有对执行哪个策略进行不确定性量化。我们将扩散政策的专家选择制定为离线上下文强盗问题，并提出了用于悲观、不确定性感知策略选择的贝叶斯框架。多头变分贝叶斯最后一层 (VBLL) 模型可预测给定当前信念状态下每个专家策略的预期跟踪性能，pro"
     },
     {
       "title": "Learning-Based Fault Detection for Legged Robots in Remote Dynamic Environments",
@@ -412,7 +421,8 @@
         "quadruped",
         "quadrupedal",
         "robot"
-      ]
+      ],
+      "summary_zh": "在危险环境中进行操作使人类、动物和机器面临造成人身伤害的高风险。与人类和动物相比，四足机器人无法自然地识别和调整其运动以适应严重衰弱的肢体。检测肢体损伤并调整运动以适应新的身体形态的能力是人类和动物生存和死亡的区别。对于在动态、复杂的环境中自主执行远程任务的四足机器人来说也是如此。这项工作提出了一种基于离线学习的方法的开发和实现，用于从四足机器人的本体感觉传感器数据中检测单肢故障。故障检测技术的目的是为控制器提供正确的输出"
     },
     {
       "title": "Activity-Dependent Plasticity in Morphogenetically-Grown Recurrent Networks",
@@ -443,7 +453,8 @@
       ],
       "matched_terms": [
         "robot"
-      ]
+      ],
+      "summary_zh": "神经架构搜索的发展方法通过自组织从紧凑的基因组中生长功能网络，但所得网络以固定的生长后权重运行。我们表征了 50,000 个形态生成的循环控制器（CartPole 和 Acrobot 上的 5M+ 配置）的赫布和反赫布可塑性，然后测试共同进化实验（可塑性参数在基因组中编码并与发育架构一起进化）是否独立恢复这些模式。我们的表征表明，(1) 对于有能力的网络，反赫布可塑性显着优于赫布 (Cohen's d = 0.53-0.64)，(2) 遗憾（在最佳固定设置下丢失的预言机改进分数）达到 52-100%，以及 (3) pla"
     },
     {
       "title": "Surrogate Model-Based Near-Optimal Gain Selection for Approach-Angle-Constrained Two-Phase Pure Proportional Navigation",
@@ -475,7 +486,8 @@
       ],
       "matched_terms": [
         "navigation"
-      ]
+      ],
+      "summary_zh": "在制导文献中，纯比例导航（PPN）制导广泛用于空气动力驱动的车辆。已经提出了 PPN (2pPPN) 的两阶段扩展，它在定向阶段和最终阶段使用不同的导航增益，以在角度半空间内实现任何所需的接近角度。最近的研究表明，定向阶段可以通过多个可行的轨迹来实现，从而创造了选择导航增益的机会，从而最大限度地减少总体引导工作。本文解决了给定初始和期望的终端接合几何形状的接近最优增益选择的问题。考虑两个优化问题：i) 确定指定最终相位增益的最佳定向相位增益，以及 ii) 同时进行"
     },
     {
       "title": "Hierarchical Planning with Latent World Models",
@@ -526,7 +538,8 @@
         "robot",
         "robotic",
         "world model"
-      ]
+      ],
+      "summary_zh": "具有学习世界模型的模型预测控制（MPC）已成为体现控制的有前途的范例，特别是因为它在新环境中部署时能够泛化零样本。然而，由于预测误差的积累和搜索空间的指数级增长，学习的世界模型常常难以进行长期控制。在这项工作中，我们通过学习多个时间尺度的潜在世界模型并跨这些尺度执行分层规划来应对这些挑战，从而实现长视野推理，同时大幅降低推理时间规划的复杂性。我们的方法作为模块化规划抽象，适用于不同的潜在世界模型架构和领域。我们证明这种分层方法能够"
     },
     {
       "title": "Coupled Control, Structured Memory, and Verifiable Action in Agentic AI (SCRAT -- Stochastic Control with Retrieval and Auditable Trajectories): A Comparative Perspective from Squirrel Locomotion and Scatter-Hoarding",
@@ -563,7 +576,8 @@
         "robot",
         "robotic",
         "robotics"
-      ]
+      ],
+      "summary_zh": "智能体人工智能越来越多地不再仅仅通过流畅的输出来判断，而是通过它是否能够在部分可观察性、延迟和策略观察下行动、记忆和验证。现有的研究通常单独研究这些需求：机器人技术强调控制，检索系统强调记忆，而对齐或保证工作强调检查和监督。本文认为，松鼠生态学提供了一个尖锐的比较案例，因为树栖运动、分散囤积和受众敏感的缓存在一个有机体中结合了所有三种需求。我们综合了狐狸、东部灰松鼠和红松鼠（在一次现场比较中）的证据，并强加了一个明确的推理阶梯：经验观察、最小计算推理和人工智能设计猜想。我们引入一个最小层次结构"
     },
     {
       "title": "Safety-Critical Centralized Nonlinear MPC for Cooperative Payload Transportation by Two Quadrupedal Robots",
@@ -600,7 +614,8 @@
         "quadruped",
         "quadrupedal",
         "robot"
-      ]
+      ],
+      "summary_zh": "本文提出了一种安全关键的集中式非线性模型预测控制（NMPC）框架，用于两个四足机器人协作有效负载运输。互连的机器人有效负载系统被建模为离散时间非线性微分代数系统，通过完整约束和交互扳手捕获耦合动力学。为了确保复杂环境中的安全，我们开发了一种基于控制屏障函数（CBF）的 NMPC 公式，对机器人和有效负载强制执行防撞约束。所提出的方法保留交互扳手作为决策变量，从而产生结构化的 DAE 约束最优控制问题，从而实现高效的实时实施。验证了算法的有效性"
     },
     {
       "title": "The Compression Gap: Why Discrete Tokenization Limits Vision-Language-Action Model Scaling",
@@ -640,7 +655,8 @@
         "vision-language-action",
         "visuomotor",
         "vla"
-      ]
+      ],
+      "summary_zh": "通过升级视觉编码器来扩展视觉-语言-动作 (VLA) 模型有望提高下游操作性能，就像在视觉语言建模中一样。我们证明，当动作被表示为离散标记时，这种期望会失败，并解释了为什么通过我们称为压缩间隙的信息理论原理：在任何视觉运动管道中，缩放行为由最紧密的信息瓶颈的位置控制。当动作连续时（例如扩散策略），视觉编码器是绑定约束，升级它可以直接提高性能。当动作通过固定容量的码本（例如，OAT）离散化时，码本成为绑定约束，并且编码器的改进无法传播过去——无论如何"
     },
     {
       "title": "Multi-View Video Diffusion Policy: A 3D Spatio-Temporal-Aware Video Action Model",
@@ -693,7 +709,8 @@
         "real-world robot",
         "robot",
         "robotic"
-      ]
+      ],
+      "summary_zh": "机器人操纵需要了解环境的 3D 空间结构及其时间演变，但大多数现有政策忽视了其中之一或两者。它们通常依赖于 2D 视觉观察和在静态图像-文本对上进行预训练的主干网，从而导致数据要求很高并且对环境动态的理解有限。为了解决这个问题，我们引入了 MV-VDP，一种多视图视频扩散策略，可以联合建模环境的 3D 时空状态。核心思想是同时预测多视图热图视频和 RGB 视频，其中 1）将视频预训练的表示格式与动作微调对齐，2）不仅指定机器人应该采取什么动作，还指定环境预计如何响应该动作而演变。"
     },
     {
       "title": "FSUNav: A Cerebrum-Cerebellum Architecture for Fast, Safe, and Universal Zero-Shot Goal-Oriented Navigation",
@@ -740,7 +757,8 @@
         "robot",
         "robotic",
         "wheeled robot"
-      ]
+      ],
+      "summary_zh": "当前的视觉语言导航方法在异构机器人兼容性、实时性能和导航安全性方面面临着巨大的瓶颈。此外，他们努力支持开放词汇语义概括和多模式任务输入。为了应对这些挑战，本文提出了 FSUNav：一种用于快速、安全和通用的零样本目标导向导航的大脑-小脑架构，该架构创新地将视觉语言模型（VLM）与所提出的架构集成在一起。小脑模块是高频端到端模块，开发基于深度强化学习的通用局部规划器，实现跨异构平台（如人形、四足、轮式机器人）的统一导航，在提高导航效率的同时，显着提高导航效率。"
     },
     {
       "title": "Redefining End-of-Life: Intelligent Automation for Electronics Remanufacturing Systems",
@@ -780,7 +798,8 @@
         "robot",
         "robotic",
         "robotics"
-      ]
+      ],
+      "summary_zh": "由于报废 (EoL) 产品固有的显着不确定性、可变性和不完整性，从根本上来说，再制造比传统制造更具挑战性。与此同时，在废弃电子产品数量不断增加和关键材料日益短缺的推动下，促进循环经济变得越来越重要和紧迫。在本文中，我们回顾了现有文献，并研究了 EoL 电子再制造智能自动化的关键挑战和新兴机遇，全面概述了机器人技术、控制和人工智能 (AI) 如何共同实现可扩展、安全和智能的再制造系统。本文首先介绍了定义、范围、"
     },
     {
       "title": "Joint Prediction of Human Motions and Actions in Human-Robot Collaboration",
@@ -812,7 +831,8 @@
       ],
       "matched_terms": [
         "robot"
-      ]
+      ],
+      "summary_zh": "流畅的人机协作需要机器人不断地估计人类行为并预测未来的意图。这需要对 \\emph{连续运动} 和 \\emph{离散动作} 进行联合推理，而它们在很大程度上仍然是孤立建模的。在本文中，我们介绍了 \\textsf{MA-HERP}，这是一种分层递归概率框架，用于人类运动和动作的 \\emph{联合估计和预测}。该模型结合了：（i）分层表示，其中运动通过可接受的艾伦区间关系组合成动作，（ii）耦合连续动态、离散标签和持续时间的统一概率因式分解，以及（iii）受贝叶斯过滤启发的递归推理方案，交替自上而下的动作预测"
     },
     {
       "title": "Enhancing Multi-Robot Exploration Using Probabilistic Frontier Prioritization with Dirichlet Process Gaussian Mixtures",
@@ -850,7 +870,8 @@
         "robot",
         "robotic",
         "robotics"
-      ]
+      ],
+      "summary_zh": "多智能体自主探索对于环境监测、搜索救援以及工业规模监控等应用至关重要。然而，在沟通限制下的有效协调仍然是一个重大挑战。前沿探索算法分析已知区域和未知区域之间的边界，以确定最大化探索增益的下一个最佳视图。本文通过引入前沿优先级的概率方法，提出了对现有基于前沿的探索算法的增强。通过利用狄利克雷过程高斯混合模型（DP-GMM）和信息增益的概率公式，该方法提高了前沿优先级划分的质量。所提出的增强功能，集成到两个最先进的"
     },
     {
       "title": "ARM: Advantage Reward Modeling for Long-Horizon Manipulation",
@@ -897,7 +918,8 @@
         "robot",
         "robotic",
         "vla"
-      ]
+      ],
+      "summary_zh": "长期机器人操作对于强化学习（RL）来说仍然具有挑战性，因为稀疏的奖励为学分分配提供的指导有限。因此，实际的政策改进依赖于更丰富的中间监督，例如密集的进步奖励，但获得这种奖励的成本高昂，并且不适合回溯和恢复等非单调行为。为了解决这个问题，我们提出了优势奖励模型（ARM），这是一个从难以量化的绝对进展转变为估计相对优势的框架。我们引入了一种经济高效的三态标记策略——渐进式、回归式和停滞式——它可以减少人类认知开销，同时确保高度的跨注释者一致性。通过对这些直观信号进行训练，ARM 可以实现自动进度注释"
     },
     {
       "title": "Behavior-Constrained Reinforcement Learning with Receding-Horizon Credit Assignment for High-Performance Control",
@@ -940,7 +962,8 @@
         "robotic",
         "robotics",
         "simulator"
-      ]
+      ],
+      "summary_zh": "学习与专家行为保持一致的高性能控制策略是机器人技术的一项基本挑战。强化学习可以发现高性能策略，但往往偏离理想的人类行为，而模仿学习则受到演示质量的限制，并且难以超越专家数据。我们提出了一种行为约束的强化学习框架，该框架可以超越演示，同时明确控制与专家行为的偏差。由于动态控制中专家一致的行为本质上是轨迹级别的，因此我们引入了一种后退预测机制，该机制可以对短期未来轨迹进行建模，并在训练期间提供前瞻奖励。考虑人类行为的自然变异性 u"
     },
     {
       "title": "Energetic Resilience under Temporal Logic Specifications",
@@ -972,7 +995,8 @@
       "matched_terms": [
         "mobile robot",
         "robot"
-      ]
+      ],
+      "summary_zh": "在具有不确定性或不良影响的环境中，控制系统可能需要额外的能量来完成其任务，同时保持对这些影响的弹性。在本文中，我们提出了一种能量弹性指标，该指标量化了系统在不良影响下使用的最大附加能量，同时满足通过时间逻辑编码的复杂规范。我们证明，该指标满足即使对于这些规范的组合也能进行计算的属性，从而允许考虑顺序可达性和安全任务。对于与有限范围可达性和安全性相关的规范，我们描述了如何合成控制输入并计算该度量来简化求解高效的二次规划。两个案例研究"
     },
     {
       "title": "Asymptotically-Bounded 3D Frontier Exploration enhanced with Bayesian Information Gain",
@@ -1008,7 +1032,8 @@
         "robot",
         "robotic",
         "robotics"
-      ]
+      ],
+      "summary_zh": "由于处理广泛边界的开销很高，大规模环境中的机器人探索对计算的要求很高。本文提出了一种基于 OctoMap 的前沿探索算法，具有可预测、渐近有界的性能。与复杂性随环境大小而变化的传统方法不同，我们的方法保持 $\\mathcal{O}(|\\mathcal{F}|)$ 的复杂性，其中 $|\\mathcal{F}|$ 是边界数。这是通过战略性正向和反向传感器建模来实现的，该建模可以实现近似而有效的边界检测和维护。为了进一步提高性能，我们集成了贝叶斯回归器来估计信息增益，从而避免了在优先考虑视点时明确计算未知体素的需要。模拟"
     },
     {
       "title": "A Flow Matching Framework for Soft-Robot Inverse Dynamics",
@@ -1048,7 +1073,8 @@
         "end-effector",
         "robot",
         "robotic"
-      ]
+      ],
+      "summary_zh": "由于高维非线性和复杂的驱动耦合，学习软连续体机器人的逆动力学仍然具有挑战性。传统的基于反馈的控制器经常会因校正振荡而受到控制颤振的影响，而基于确定性回归的学习器则难以捕获精确动态跟踪所需的复杂非线性映射。受这些限制的启发，我们提出了一种用于开环前馈控制的逆动力学框架，该框架将系统的微分动力学学习为生成传输图。具体来说，逆动力学被重新表述为条件流匹配问题，并采用整流流（RF）作为轻量级实例来生成物理一致的控制输入，而不是条件AV"
     },
     {
       "title": "Rendering Multi-Human and Multi-Object with 3D Gaussian Splatting",
@@ -1087,7 +1113,8 @@
         "robot",
         "robotic",
         "robotics"
-      ]
+      ],
+      "summary_zh": "从稀疏视图输入中重建具有多个交互的人和物体的动态场景是一项关键但具有挑战性的任务，对于为机器人和 VR/AR 创建高保真数字孪生至关重要。这个问题，我们称之为多人多对象（MHMO）渲染，存在两个重大障碍：在严重相互遮挡的情况下实现各个实例的视图一致表示，以及对它们的交互产生的复杂和组合依赖关系进行显式建模。为了克服这些挑战，我们提出了 MM-GS，这是一种基于 3D 高斯分布的新型分层框架。我们的方法首先采用每实例多视图融合模块，通过聚合视觉信息为每个实例建立强大且一致的表示"
     },
     {
       "title": "Learning Task-Invariant Properties via Dreamer: Enabling Efficient Policy Transfer for Quadruped Robots",
@@ -1136,7 +1163,8 @@
         "robotics",
         "sim-to-real",
         "world model"
-      ]
+      ],
+      "summary_zh": "在不同的动态地形中实现四足机器人运动面临着巨大的挑战，这主要是由于模拟环境与现实条件之间的差异。传统的模拟到真实的转换方法通常依赖于手动特征设计或昂贵的现实世界微调。为了解决这些限制，本文提出了 DreamTIP 框架，该框架将任务不变属性学习纳入 Dreamer 世界模型架构中，以增强模拟到真实的传输能力。在大型语言模型的指导下，DreamTIP 识别并利用任务不变属性，例如接触稳定性和地形间隙，这些属性表现出对动态变化的鲁棒性和跨任务的强大可迁移性。这些属性被集成到"
     },
     {
       "title": "Learning Additively Compositional Latent Actions for Embodied AI",
@@ -1175,7 +1203,8 @@
         "embodied",
         "embodied ai",
         "policy learning"
-      ]
+      ],
+      "summary_zh": "潜在动作学习从视觉转换中推断出伪动作标签，提供了一种利用互联网规模视频来实现人工智能的方法。然而，大多数方法在没有编码物理运动的加性、组合结构的结构先验的情况下学习潜在动作。因此，潜伏常常将不相关的场景细节或有关未来观察的信息与真实的状态变化和错误校准的运动幅度纠缠在一起。我们引入了附加组合潜在动作模型（AC-LAM），它在潜在动作空间的短视野内强制执行场景级附加组合结构。这些AC约束鼓励潜在动作空间中的简单代数结构~（恒等、逆、循环一致性）并抑制不构成加性的信息"
     },
     {
       "title": "Factorized Multi-Resolution HashGrid for Efficient Neural Radiance Fields: Execution on Edge-Devices",
@@ -1214,7 +1243,8 @@
         "robot",
         "robotic",
         "robotics"
-      ]
+      ],
+      "summary_zh": "我们引入了 Fact-Hash，一种用于训练设备上神经辐射场的新颖参数编码方法。神经辐射场 (NeRF) 已被证明在 3D 表示中至关重要，但由于计算资源庞大，其应用受到限制。设备上培训可以打开广阔的应用领域，在通信限制、隐私问题和快速适应频繁变化的场景方面提供优势。然而，有限的资源（GPU 内存、存储和功率）等挑战阻碍了它们的部署。为了解决这个问题，我们引入了 Fact-Hash，一种新颖的参数编码合并张量分解和哈希编码技术。这种集成有两个好处：使用丰富的高分辨率功能和少量的鲁棒性。在 Fact-Hash 中，我们投影 3D 坐标"
     },
     {
       "title": "MFE: A Multimodal Hand Exoskeleton with Interactive Force, Pressure and Thermo-haptic Feedback",
@@ -1253,7 +1283,8 @@
         "robotic",
         "tactile",
         "teleoperation"
-      ]
+      ],
+      "summary_zh": "虚拟现实和机器人远程操作的最新进展极大地增加了必须传达给用户的触觉信息的多样性。虽然现有的触觉设备通常提供单模态反馈以增强态势感知，但它们提供丰富的多模态感觉反馈（包括力、压力和热感觉）的能力仍然存在差距。为了解决这一限制，我们提出了多模式反馈外骨骼（MFE），这是一种旨在提供混合触觉反馈的手部外骨骼。 MFE 具有 20 个自由度来捕捉手部姿势。对于力反馈，它采用主动机制，能够在手指静止姿势时产生 3.5-8.1 N 的推力和拉力，从而实现与可变形物体的真实交互。手指"
     },
     {
       "title": "Learning Structured Robot Policies from Vision-Language Models via Synthetic Neuro-Symbolic Supervision",
@@ -1295,7 +1326,8 @@
         "robot",
         "robotic",
         "visuomotor"
-      ]
+      ],
+      "summary_zh": "视觉语言模型（VLM）最近展示了将多模式观察映射到机器人行为的强大能力。然而，当前大多数方法依赖于端到端的视觉运动策略，这些策略仍然不透明且难以分析，限制了它们在安全关键型机器人应用中的使用。相比之下，经典的机器人系统通常依赖于提供可解释性、模块化和反应式执行的结构化策略表示。这项工作研究了如何专门化基础模型来生成基于多模态感知、桥接高维学习和符号控制的结构化机器人策略。我们提出了一种神经符号方法，其中 VLM 从视觉观察、自然语言中合成可执行的行为树策略。"
     },
     {
       "title": "OMNI-PoseX: A Fast Vision Model for 6D Object Pose Estimation in Embodied Tasks",
@@ -1346,7 +1378,8 @@
         "grasping",
         "robot",
         "robotic"
-      ]
+      ],
+      "summary_zh": "准确的 6D 物体姿态估计是实体代理的一项基本功能，但在开放世界环境中仍然具有挑战性。许多现有方法通常依赖于闭集假设或与几何无关的回归方案，限制了它们在机器人系统中的泛化性、稳定性和实时适用性。我们提出了 OMNI-PoseX，这是一种视觉基础模型，它引入了一种新颖的网络架构，将开放词汇感知与 SO(3) 感知的反射流匹配姿​​势预测器相结合。该架构将对象级理解与几何一致的旋转推理解耦，并采用轻量级多模态融合策略，在紧凑的语义嵌入上调节旋转敏感的几何特征，从而实现高效稳定的 6D 姿态"
     },
     {
       "title": "Residual-Aware Distributionally Robust EKF: Absorbing Linearization Mismatch via Wasserstein Ambiguity",
@@ -1380,7 +1413,8 @@
       "matched_terms": [
         "navigation",
         "robot"
-      ]
+      ],
+      "summary_zh": "扩展卡尔曼滤波器 (EKF) 是非线性状态估计的基石，但其性能从根本上受到噪声模型失配和线性化误差的限制。我们开发了一种残差感知的分布式鲁棒 EKF，它可以在统一的 Wasserstein 分布鲁棒状态估计框架中解决这两个挑战。关键思想是将线性化残差视为不确定性，并将其吸收到由阶段模糊集捕获的有效不确定性模型中，从而能够在单个公式中处理噪声模型失配和近似误差。这种方法产生可计算的有效半径以及真实非线性估计误差的先验和后验均方误差的确定性上限。得到的过滤器承认"
     },
     {
       "title": "Learning Locomotion on Complex Terrain for Quadrupedal Robots with Foot Position Maps and Stability Rewards",
@@ -1423,7 +1457,8 @@
         "robot",
         "robotic",
         "robotics"
-      ]
+      ],
+      "summary_zh": "复杂地形上的四足运动一直是机器人学领域的一个长期研究课题。虽然最近基于强化学习的运动方法提高了通用性和足部放置精度，但它们依赖于从关节角度隐式推断足部位置，缺乏基于优化的方法的明确精度和稳定性保证。为了解决这个问题，我们引入了集成到高度图中的足部位置图，以及基于注意力的框架内的动态运动稳定性奖励，以实现复杂地形上的运动。我们在训练期间看到的地形以及域外（OOD）地形上广泛验证了我们的方法。我们的结果表明，所提出的方法能够实现精确稳定的运动，从而改善运动"
     },
     {
       "title": "THOM: Generating Physically Plausible Hand-Object Meshes From Text",
@@ -1463,7 +1498,8 @@
         "grasping",
         "robot",
         "robotic"
-      ]
+      ],
+      "summary_zh": "从文本生成逼真的 3D 手部物体交互 (HOI) 对于机器人抓取和 AR/VR 内容创建等应用非常重要。然而，在实践中，同时实现视觉保真度和物理合理性仍然很困难，因为从文本生成的高斯中提取网格本质上是不适定的，并且生成的网格对于基于物理的优化通常不可靠。我们提出了 THOM，这是一个免训练框架，可以直接根据文本提示生成物理上合理的 3D HOI 网格，而不需要模板对象网格。 THOM 遵循两阶段流程：它首先在文本引导下生成手和物体高斯分布，然后使用基于物理的优化来完善它们的交互。为了实现可靠的交互建模，我们引入了网格提取"
     },
     {
       "title": "Aligning Progress and Feasibility: A Neuro-Symbolic Dual Memory Framework for Long-Horizon LLM Agents",
@@ -1499,7 +1535,8 @@
       "matched_terms": [
         "embodied",
         "manipulation"
-      ]
+      ],
+      "summary_zh": "大型语言模型（LLM）在长期决策任务（例如具体操作和网络交互）中表现出了强大的潜力。然而，智能体经常在无休止的试错循环中挣扎，或者在复杂的环境中偏离主要目标。我们将这些失败归因于两个基本错误：全局进度漂移和局部可行性违反。现有方法通常尝试使用单一范例同时解决这两个问题。然而，这两个挑战本质上是不同的：前者依赖于模糊语义规划，而后者则需要严格的逻辑约束和状态验证。这种单一范式方法的固有局限性对现有模型在处理长期任务方面提出了根本性挑战"
     },
     {
       "title": "ExploreVLA: Dense World Modeling and Exploration for End-to-End Autonomous Driving",
@@ -1543,7 +1580,8 @@
         "vla",
         "vla model",
         "world model"
-      ]
+      ],
+      "summary_zh": "基于视觉-语言-动作（VLA）架构的端到端自动驾驶模型通过专家演示的行为克隆来学习驾驶策略，显示出了可喜的结果。然而，模仿学习本质上限制了模型复制观察到的行为，而不探索不同的驾驶策略，使其在新颖或分布外的场景中变得脆弱。强化学习 (RL) 提供了一种自然疗法，可以实现专家分布之外的政策探索。然而，VLA 模型通常在离线数据集上进行训练，缺乏直接可观察的状态转换，因此需要一个学习的世界模型来预测行动后果。在这项工作中，我们提出了一个统一的理解和生成框架，利用世界建模来同时"
     },
     {
       "title": "Inverse Safety Filtering: Inferring Constraints from Safety Filters for Decentralized Coordination",
@@ -1576,7 +1614,8 @@
       "matched_terms": [
         "quadruped",
         "robot"
-      ]
+      ],
+      "summary_zh": "不确定环境中的安全多智能体协调可以受益于其他智能体的学习约束。通过操作隐式传达安全约束是一种有前途的方法，它允许代理在没有昂贵的通信渠道的情况下协调和维护安全。本文介绍了一种在线方法，通过观察其他代理的安全过滤行为来推断约束。我们通过使用安全过滤器来解决这个问题，以确保前向安全并利用其结构来向后工作并推断约束。我们提供了足够的条件，在这些条件下我们可以推断这些约束并证明我们的推断方法是收敛的。该约束推理过程与分散规划方法相结合，可确保约束时的安全性。"
     },
     {
       "title": "Beyond Semantic Manipulation: Token-Space Attacks on Reward Models",
@@ -1611,7 +1650,8 @@
       "matched_terms": [
         "manipulation",
         "reinforcement learning"
-      ]
+      ],
+      "summary_zh": "奖励模型（RM）被广泛用作人类反馈强化学习（RLHF）的优化目标，但它们仍然容易受到奖励黑客的攻击。现有的攻击主要在语义空间内进行，利用 RM 偏差构建人类可读的对抗性输出。在这项工作中，我们引入了一种根本不同的范例：令牌映射扰动攻击（TOMPA），这是一个直接在令牌空间中执行对抗性优化的框架。通过绕过策略和奖励模型之间的标准解码-重新标记化接口，TOMPA 使攻击策略能够优化原始标记序列而不是连贯的自然语言。仅使用黑盒标量反馈，TOMPA 自动发现非语言标记模式，从而引发极高的"
     },
     {
       "title": "Engagement Is Not Transfer: A Withdrawal Study of a Consumer Social Robot with Autistic Children at Home",
@@ -1644,7 +1684,8 @@
       ],
       "matched_terms": [
         "robot"
-      ]
+      ],
+      "summary_zh": "这项研究探讨了与社交机器人的互动是否可以改善自闭症儿童的人类主导的社交能力。我们使用商业社交机器人（Qrobot）对 40 名 5--9 岁的儿童进行了为期 8 周的家庭随机对照试验。家庭被分配要么继续机器人访问，要么机器人退出。定量测量和护理人员访谈评估了焦虑、社交动机、情绪推理和同理心。结果表明，持续的机器人访问显着减少了焦虑，证实了强大的情感益处和高可用性。然而，戒断组的孩子在社交动机、情绪理解以及对照顾者和同伴的移情行为方面表现出更大的改善。定性调查结果显示“哈"
     },
     {
       "title": "Cross-Vehicle 3D Geometric Consistency for Self-Supervised Surround Depth Estimation on Articulated Vehicles",
@@ -1685,7 +1726,8 @@
         "robot",
         "robotic",
         "robotics"
-      ]
+      ],
+      "summary_zh": "环绕深度估计为自动驾驶中的 3D 感知提供了一种经济高效的 LiDAR 替代方案。虽然最近的自监督方法探索多摄像头设置以提高尺度意识和场景覆盖范围，但它们主要是为乘用车设计的，很少考虑铰接式车辆或机器人平台。铰接结构引入了复杂的跨段几何形状和运动耦合，使得跨视图的一致深度推理更具挑战性。在这项工作中，我们提出了 \\textbf{ArticuSurDepth}，这是一种用于铰接式车辆环视深度估计的自监督框架，它通过视觉基础模型的结构先验指导的跨视图和跨车辆几何一致性来增强深度学习。具体来说，我们"
     },
     {
       "title": "Elastomeric Strain Limitation for Design of Soft Pneumatic Actuators",
@@ -1717,7 +1759,8 @@
         "embodied",
         "robot",
         "robotic"
-      ]
+      ],
+      "summary_zh": "现代机器人体现了强大的力量和精确的控制能力。然而，当机器人承担对人类施加力量的任务时，这种力量会带来受伤的风险。软机器人执行器利用变形来产生平滑、连续的运动，并贴合精致的物体，同时施加能够安全推动人类的力。本论文提出了用于产生力的人体安全弹性体软气动执行器（SPA）的设计、建模和基于应变的控制策略，重点关注对简单压力输入的具体机械响应。我们研究用于可变形状生成、快速施力和目标膨胀轨迹的电粘附 (EA) 应变限制器。我们将 EA 离合器连接到同心应变限制弹性膜上，以改变充气轨迹并"
     },
     {
       "title": "Rascene: High-Fidelity 3D Scene Imaging with mmWave Communication Signals",
@@ -1752,7 +1795,8 @@
       "matched_terms": [
         "navigation",
         "robot"
-      ]
+      ],
+      "summary_zh": "强大的 3D 环境感知对于自动驾驶和机器人导航等应用至关重要。然而，摄像头和激光雷达等光学传感器在恶劣条件下（包括烟雾、雾气和非理想照明）经常会出现故障。尽管专用雷达系统可以在这些环境中运行，但它们对定制硬件和许可频谱的依赖限制了可扩展性和成本效益。本文介绍了 Rascene，这是一种集成传感和通信 (ISAC) 框架，它利用无处不在的毫米波 OFDM 通信信号进行 3D 场景成像。为了克服单个无线电帧的稀疏性和多路径模糊性，Rascene 通过置信度加权前向投影执行多帧、空间自适应融合，从而能够恢复几何"
     }
   ]
 }

@@ -55,7 +55,8 @@
         "Swin Transformer",
         "transformer",
         "ViT"
-      ]
+      ],
+      "summary_zh": "在过去的十年中，高光谱图像 (HSI) 分类引起了人们极大的兴趣，因为 HSI 能够通过捕获详细的连续光谱信息来有效区分地面物体。最近的深度学习技术在图像分类和语义分割等任务中的强劲表现，导致它们在 HSI 分类中的使用越来越多，因为它们能够比传统方法更有效地捕获复杂的空间和光谱特征。本文提出了 MixerCA，这是一种利用深度卷积和自注意力机制的新型轻量级 HSI 分类模型。 MixerCA集成了深度卷积、令牌和通道混合，并将注意力协调成统一的结构，以解耦空间和通道"
     },
     {
       "title": "SARU: A Shadow-Aware and Removal Unified Framework for Remote Sensing Images with New Benchmarks",
@@ -97,7 +98,8 @@
         "remote sensing",
         "robust",
         "semantic segmentation"
-      ]
+      ],
+      "summary_zh": "阴影是遥感图像 (RSI) 中的一个普遍问题，它会降低视觉质量并严重限制目标检测和语义分割等下游任务的性能。大多数先前的工作将阴影检测和去除视为单独的级联任务，这可能导致繁琐的过程和错误累积。此外，许多深度学习方法依赖于成对的阴影和非阴影图像进行训练，这在实践中通常是不可用的。为了应对这些挑战，我们提出了影子感知和删除统一（SARU）框架，这是一个有凝聚力的两阶段框架。首先，其双分支检测模块（DBCSF-Net）融合多颜色空间和语义特征，生成高保真阴影掩模，有效区分阴影和黑暗物体。然后，"
     },
     {
       "title": "Spatially-constrained clustering of geospatial features for heat vulnerability assessment of favelas in Rio de Janeiro",
@@ -130,7 +132,8 @@
       "matched_terms": [
         "geospatial",
         "remote sensing"
-      ]
+      ],
+      "summary_zh": "非正规住区面临过多的气候相关健康危害。然而，现有方法缺乏将不同聚居特征与环境健康结果联系起来的系统方法。我们开发了一个数据驱动的框架，通过将空间约束聚类与地表温度 (LST) 分析相结合来评估里约热内卢贫民窟的热脆弱性。利用遥感和地理空间特征，我们确定了两种不同的贫民窟类型：平坦地形上最近的、连接良好的定居点（集群 0）和植被斜坡上历史上连接不良的社区（集群 1）。对 16 次极端高温事件的分析显示，集群之间的系统性温差为 2--3$^\\circ$C，地势平坦的贫民窟经历了显着的温度差异。"
     },
     {
       "title": "Evaluating the Alignment Between GeoAI Explanations and Domain Knowledge in Satellite-Based Flood Mapping",
@@ -172,7 +175,8 @@
         "satellite",
         "satellite image",
         "satellite imagery"
-      ]
+      ],
+      "summary_zh": "卫星数量的增加提高了地球观测的时间分辨率，使得基于卫星的洪水测绘成为一种有前途的洪水监测方法。使用卫星图像进行洪水测绘的基于深度学习的方法是地理空间人工智能 (GeoAI) 中的一个重要应用，通过从大量遥感数据中学习复杂的空间和光谱模式，显示出改进的预测性能。然而，深度学习模型的不透明决策过程仍然是其融入关键科学和操作工作流程的主要障碍。这突出表明需要系统评估模型解释是否与遥感领域既定的领域知识相一致。为了解决这个问题"
     },
     {
       "title": "Quantum-Inspired Robust and Scalable SAR Object Classification",
@@ -222,7 +226,8 @@
         "robust",
         "SAR",
         "SAR image"
-      ]
+      ],
+      "summary_zh": "SAR 图像分类自然需要处理巨大的噪声和高动态范围，特别需要鲁棒的分类模型。此外，在无人机和军用飞机等边缘设备上部署这些模型需要在模型大小和分类精度之间仔细平衡。本研究探讨了张量网络满足这些稳健性要求的潜力，特别是评估其对数据中毒的恢复能力。与之前专注于 SAR 目标检测的传统神经网络的工作不同，本研究重点关注张量网络在目标分类中的鲁棒性和模型简化能力。我们的研究结果表明，张量网络擅长解决鲁棒性的挑战和满足"
     },
     {
       "title": "Edge-Cloud Collaborative Reconstruction via Structure-Aware Latent Diffusion for Downstream Remote Sensing Perception",
@@ -266,7 +271,8 @@
         "satellite",
         "scene classification",
         "super-resolution"
-      ]
+      ],
+      "summary_zh": "高分辨率遥感数据的指数级激增面临星地传输的严重瓶颈。有限的下行链路带宽迫使使用极高比率的压缩，这会不可逆转地破坏对于目标检测等下游机器感知任务至关重要的高频结构细节。虽然当前的超分辨率技术试图恢复这些细节，但基于回归的方法通常会产生过度平滑的纹理，而生成扩散模型经常会引入误导检测系统的结构幻觉。为了解决这种权衡问题，我们提出了结构感知潜在扩散（SALD）框架，这是一种非对称边缘云协作 SR 系统。在资源受限的边缘，系统将图像解耦为高"
     },
     {
       "title": "Towards Robust Deep Learning-based Rumex Obtusifolius Detection from Drone Images",
@@ -316,7 +322,8 @@
         "UAV",
         "unmanned aerial vehicle",
         "vision transformer"
-      ]
+      ],
+      "summary_zh": "域适应 (DA) 解决了将在源域上训练的机器学习模型转移到具有不同数据分布的目标域的挑战。在这项工作中，我们研究了酸模 (Rumex) 图像分类任务的 DA。我们在已发布的基于地面车辆的数据集（源）上训练模型，并在无人机（UAV）获取的自定义目标数据集上评估其性能。我们发现，卷积神经网络 (CNN) 模型，特别是 ResNet，即使在对源数据进行微调之后，对目标域的泛化效果也很差。应用矩匹配和最大分类器差异这两种已建立的 DA 技术可显着提高目标域性能。然而，Vision Transformer (ViT) 模型是用 self-s 进行预训练的"
     },
     {
       "title": "Golden RPG: Confidence-Adaptive Region-Aware Noise for Compositional Text-to-Image Generation",
@@ -351,7 +358,8 @@
         "cross-attention",
         "diffusion model",
         "image generation"
-      ]
+      ],
+      "summary_zh": "组合文本到图像 (T2I) 生成需要一个模型来支持描述不同图像区域的多个子提示。最近的工作表明，扩散模型的\\emph{起始噪声}携带重要的语义信息：从文本预测的“黄金”噪声可以大大提高提示保真度。然而，我们观察到这种噪声预测从根本上来说是全局的：同一网络被要求用单个文本嵌入来总结一个长的、多区域的提示，每当提示描述具有空间分离的实体的场景时，这就会成为瓶颈。我们引入了 \\textbf{Golden RPG}，一个区域感知噪声预测器，它通过两个可训练的附加功能扩展了冻结的 NPNet：（i）每个区域 \\textbf{FiLM 适配器}，它根据以下公式重塑预测噪声："
     },
     {
       "title": "The Thinking Pixel: Recursive Sparse Reasoning in Multimodal Diffusion Latents",
@@ -387,7 +395,8 @@
       "matched_terms": [
         "diffusion model",
         "image generation"
-      ]
+      ],
+      "summary_zh": "扩散模型在高保真数据合成方面取得了成功，但它们进行更复杂、结构化推理（例如文本跟踪任务）的能力仍然受到限制。虽然语言模型的进步利用了潜在推理和递归等策略来增强文本理解能力，但由于视觉标记的连续性和非离散性，将这些扩展到多模式文本到图像生成任务具有挑战性。为了解决这个问题，我们从模块化人类认知中汲取灵感，并提出了一种集成到传统扩散模型中的递归、稀疏专家混合框架。我们的方法在联合注意层中引入了递归组件，该组件可以在多个潜在步骤上迭代地细化视觉标记，同时有效"
     },
     {
       "title": "Dynamic UGV-UAV Cooperative Path Planning in Uncertain Environments",
@@ -422,7 +431,8 @@
         "robust",
         "UAV",
         "unmanned aerial vehicle"
-      ]
+      ],
+      "summary_zh": "本文解决了动态 UGV-UAV 协同路径规划 (DUCPP) 问题，涉及一辆无人驾驶地面车辆 (UGV) 在一架或多架无人机 (UAV) 的协助下在具有潜在不可通行边缘的不确定道路网络上运行。 DUCPP 特别适用于灾难响应、紧急补给运输和救援行动等场景，其中 UGV 必须在部分未知路况的情况下到达指定目的地。为了使 UGV 能够安全高效地到达目的地，无人机会动态检查环境中的边缘，以识别和修剪损坏或无法通行的边缘。我们提出了多种策略，包括双向方法，以优化 UGV-UAV 合作以找到安全路径"
     }
   ]
 }

@@ -43,7 +43,8 @@
         "robust",
         "satellite",
         "satellite image"
-      ]
+      ],
+      "summary_zh": "寻找图像之间的匹配关键点是 3D 计算机视觉的核心问题。然而，现代匹配器很难应对大的平面内旋转。一种直接的缓解方法是通过数据增强来学习旋转不变性。然而，目前尚不清楚应在哪个阶段纳入旋转不变性。在本文中，我们在现代稀疏匹配管道的背景下研究这一点。我们通过对大量 3D 视觉数据集进行训练并评估流行的图像匹配基准来进行广泛的实验。令人惊讶的是，我们发现在描述符中合并旋转不变性可以产生与在匹配器中处理它相似的性能。然而，当在描述符中学习时，旋转不变性是在匹配器中较早实现的，从而允许 f"
     },
     {
       "title": "A Mamba-Based Multimodal Network for Multiscale Blast-Induced Rapid Structural Damage Assessment",
@@ -83,7 +84,8 @@
         "optical remote",
         "optical remote sensing",
         "remote sensing"
-      ]
+      ],
+      "summary_zh": "准确、快速的结构损坏评估 (SDA) 对于灾后管理至关重要，可帮助响应人员优先考虑资源、规划救援并支持恢复。传统的现场检查虽然精确，但受到可及性、安全风险和时间限制的限制，特别是在大爆炸之后。遥感机器学习已成为快速 SDA 的可扩展解决方案，基于 Mamba 的网络实现了最先进的性能。然而，这些方法通常需要大量的训练和大型数据集，限制了现实世界的适用性。此外，它们未能纳入 SDA 爆炸载荷的关键物理特性。为了克服这些挑战，我们提出了一种基于 Mamba 的多模态网络，用于集成多尺度爆炸载荷的快速 SDA"
     },
     {
       "title": "Bridging the RGB-IR Gap: Consensus and Discrepancy Modeling for Text-Guided Multispectral Detection",
@@ -126,7 +128,8 @@
         "multispectral",
         "object detection",
         "robust"
-      ]
+      ],
+      "summary_zh": "文本引导的多光谱目标检测使用文本语义来指导 RGB 和 IR 之间的语义感知跨模态交互，以实现更稳健的感知。然而，仍然存在明显的局限性：（1）现有方法通常仅使用文本作为辅助语义增强信号，而没有利用其指导作用来弥合 RGB 和 IR 之间固有的粒度不对称性； （2）传统的数据驱动的基于注意力的融合往往强调稳定的共识，而忽视潜在有价值的跨模式差异。为了解决这些问题，我们提出了一种具有双支持建模的语义桥融合框架，用于多光谱目标检测。具体来说，文本被用作共享语义桥梁，以在统一类别条件下对齐 RGB 和 IR 响应，而 t"
     },
     {
       "title": "Seg2Change: Adapting Open-Vocabulary Semantic Segmentation Model for Remote Sensing Change Detection",
@@ -170,7 +173,8 @@
         "remote sensing change detection",
         "semantic segmentation",
         "WHU"
-      ]
+      ],
+      "summary_zh": "变化检测是遥感的一项基本任务，旨在量化人类活动和生态动态对土地覆盖变化的影响。现有的变化检测方法仅限于训练数据集中的预定义类，这限制了它们在现实场景中的可扩展性。近年来，针对遥感图像出现了许多先进的开放词汇语义分割模型。然而，仍然缺乏一个有效的框架来直接将这些模型应用于开放词汇变化检测（OVCD），这是一项集成视觉和语言来检测任意类别变化的新任务。为了应对这些挑战，我们首先构建一个与类别无关的变化检测数据集，称为 CA-CDD。此外，我们设计了一个类别ag"
     },
     {
       "title": "UNIGEOCLIP: Unified Geospatial Contrastive Learning",
@@ -215,7 +219,8 @@
         "GeoCLIP",
         "geospatial",
         "multi-scale"
-      ]
+      ],
+      "summary_zh": "涵盖航空图像、街道视图、高程模型、文本和地理坐标的共置地理空间数据的可用性不断增加，为多模式表示学习提供了独特的机会。我们引入了 UNIGEOCLIP，这是一个大规模多模态对比框架，可在一个统一的嵌入空间中联合排列五种互补的地理空间模态。与融合模态或依赖中心枢轴表示的先前方法不同，我们的方法执行全面对比对齐，从而能够跨模态的任意组合进行无缝比较、检索和推理。我们进一步提出了一种缩放的纬度-经度编码器，通过捕获多尺度的地理结构来改善空间表示。在各地进行广泛的实验"
     },
     {
       "title": "The Impact of Federated Learning on Distributed Remote Sensing Archives",
@@ -254,7 +259,8 @@
         "image classification",
         "remote sensing",
         "UC Merced"
-      ]
+      ],
+      "summary_zh": "遥感档案本质上是分布式的：Sentinel-1、Sentinel-2 和 Sentinel-3 等地球观测任务总共积累了超过 5 PB 的图像，并在许多地理位置分散的平台上进行存储和处理。由于数据量、主权限制和地理分布，以集中方式训练此类数据的机器学习模型是不切实际的。联邦学习 (FL) 通过将数据保留在本地并仅交换模型更新来解决此问题。遥感的一个核心挑战是地球观测数据的非独立同分布性质：标签分布因地理区域而异，从而降低了标准 FL 算法的收敛性。在本文中，我们对三种 FL 策略进行了系统的实证研究——FedAvg、"
     },
     {
       "title": "Continuous Adversarial Flow Models",
@@ -290,7 +296,8 @@
       ],
       "matched_terms": [
         "image generation"
-      ]
+      ],
+      "summary_zh": "我们提出了连续对抗流模型，这是一种以对抗目标训练的连续时间流模型。与使用固定均方误差标准的流匹配不同，我们的方法引入了学习鉴别器来指导训练。目标的这种变化会导致不同的广义分布，从而根据经验产生与目标数据分布更好地一致的样本。我们的方法主要是针对现有的流匹配模型进行后训练而提出的，尽管它也可以从头开始训练模型。在 ImageNet 256px 生成任务中，我们的后训练将潜在空间 SiT 的无引导 FID 从 8.26 显着提高到 3.63，将像素空间 JiT 从 7.17 提高到 3.57。它还改进了引导生成，将 FID 从 2.06 降低到"
     },
     {
       "title": "HuiYanEarth-SAR: A Foundation Model for High-Fidelity and Low-Cost Global Remote Sensing Imagery Generation",
@@ -337,7 +344,8 @@
         "SAR image",
         "SAR imagery",
         "synthetic aperture radar"
-      ]
+      ],
+      "summary_zh": "合成孔径雷达（SAR）图像生成对于深化散射机制研究、建立可信的电磁场景模型、从根本上缓解制约该领域发展的数据稀缺瓶颈至关重要。然而，现有方法很难同时确保全球地理空间语义和微观散射机制的高保真度，从而给全球生成带来严峻挑战。为了解决这个问题，我们提出了 \\textbf{HuiYanEarth-SAR}，这是第一个基于 AlphaEarth 和集成散射机制的基础 SAR 图像生成模型。通过注入地理空间先验来控制宏观结构并利用隐式散射特征建模来确保m的真实性"
     },
     {
       "title": "Observe Less, Understand More: Cost-aware Cross-scale Observation for Remote Sensing Understanding",
@@ -373,7 +381,8 @@
       ],
       "matched_terms": [
         "remote sensing"
-      ]
+      ],
+      "summary_zh": "遥感理解本质上需要多分辨率观测，因为不同的目标和应用任务需要不同程度的空间细节。低分辨率 (LR) 图像可实现高效的全球观测，而高分辨率 (HR) 图像则以更高的获取成本和有限的覆盖范围提供关键的局部细节。这激发了一种跨尺度传感策略，该策略有选择地从基于 LR 的全局感知中获取 HR 图像，以在有限的成本下提高任务性能。现有的HR采样方法通常从孤立的LR补丁中做出选择决策，忽略了细粒度​​的补丁内重要性和跨补丁上下文交互，导致spar下的碎片特征表示和次优场景推理"
     },
     {
       "title": "One Scale at a Time: Scale-Autoregressive Modeling for Fluid Flow Distributions",
@@ -412,7 +421,8 @@
         "multi-scale",
         "SAR",
         "transformer"
-      ]
+      ],
+      "summary_zh": "分析非稳态流体流动通常需要访问可能时间状态的完整分布，但传统的偏微分方程求解器在计算上是令人望而却步的，并且学习的时间步长代理在长时间的部署中会快速累积误差。生成模型通过独立采样状态来避免复合误差，但扩散和流量匹配方法虽然准确，但受到整个网格上许多评估成本的限制。我们引入了尺度自回归模型（SAR），用于从粗到细地对非结构化网格上的流进行采样：它首先生成一个低分辨率场，然后通过在较粗略的预测条件下逐步采样更高分辨率来对其进行细化。这种从粗到细的分解通过集中计算来提高效率"
     },
     {
       "title": "A Deep Equilibrium Network for Hyperspectral Unmixing",
@@ -450,7 +460,8 @@
         "hyperspectral image",
         "hyperspectral imagery",
         "hyperspectral unmixing"
-      ]
+      ],
+      "summary_zh": "高光谱分解 (HU) 对于分析高光谱图像至关重要，但实现准确的分解仍然具有挑战性。虽然传统方法难以有效地模拟复杂的光谱空间特征，但深度学习方法通​​常缺乏物理可解释性。基于展开的方法尽管提供了网络可解释性，但未能充分利用光谱空间信息，并在反向传播过程中产生高内存成本和数值精度问题。为了解决这些限制，我们提出了 DEQ-Unmix，它将丰度估计重新表述为深度平衡模型，通过隐式微分实现高效的常量记忆训练。它用可训练的卷积网络代替数据重建项的梯度算子来捕获spect"
     },
     {
       "title": "Semantic-Geometric Dual Compression: Training-Free Visual Token Reduction for Ultra-High-Resolution Remote Sensing Understanding",
@@ -498,7 +509,8 @@
         "multimodal large language model",
         "remote sensing",
         "small object"
-      ]
+      ],
+      "summary_zh": "多模态大语言模型（MLLM）在地球观测中展示了巨大的潜力。然而，处理超高分辨率（UHR）图像时生成的大量视觉标记会带来高昂的计算开销，严重限制其推理效率。现有的视觉标记压缩方法主要采用静态和均匀的压缩策略，忽略了遥感解译任务中固有的“语义-几何二元性”。具体来说，对象语义任务专注于对象的抽象语义，并受益于积极的背景修剪，而场景几何任务则严重依赖于空间拓扑的完整性。为了应对这一挑战，我们提出了 DualComp，一种任务自适应双流令牌压缩框架"
     },
     {
       "title": "Efficient Transceiver Design for Aerial Image Transmission and Large-scale Scene Reconstruction",
@@ -539,7 +551,8 @@
         "aerial",
         "aerial image",
         "robust"
-      ]
+      ],
+      "summary_zh": "低空智能网络（LAIN）中的大规模三维（3D）场景重建需要高效的无线图像传输。然而，现有方案难以平衡严重的导频开销和维持重建保真度所需的传输精度。为了在效率和可靠性之间取得平衡，本文提出了一种新颖的基于深度学习的端到端（E2E）收发器设计，将3D高斯分布（3DGS）直接集成到训练过程中。通过组合 3DGS 渲染损失联合优化通信模块，我们的方法显着提高了场景恢复质量。此外，这种任务驱动的框架可以使用稀疏导频方案，显着减少传输开销，同时主要"
     },
     {
       "title": "Pseudo-Unification: Entropy Probing Reveals Divergent Information Patterns in Unified Multimodal Models",
@@ -575,7 +588,8 @@
         "image generation",
         "large language model",
         "LLM"
-      ]
+      ],
+      "summary_zh": "统一多模态模型（UMM）旨在将大语言模型（LLM）的推理能力与视觉模型的生成能力结合起来。然而，在实践中，这种协同作用仍然难以捉摸：UMM 无法将类似 LLM 的推理转移到图像合成，并表现出不同的响应行为。我们将这种现象称为伪统一。诊断其内部原因很重要，但现有的探测方法要么缺乏模型内部的洞察力，要么忽略提示响应依赖性。为了解决这些限制，我们提出了一个信息论探测框架，该框架联合分析 UMM 如何编码输入并生成输出。应用于十个代表性 UMM，我们的框架揭示了伪统一源于双重分歧：（i）模态非对称编码"
     }
   ]
 }

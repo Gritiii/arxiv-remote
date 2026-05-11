@@ -44,7 +44,8 @@
       "matched_terms": [
         "remote sensing",
         "super-resolution"
-      ]
+      ],
+      "summary_zh": "生成扩散先验最近在自然图像超分辨率方面取得了最先进的性能，展示了合成真实细节的强大能力。然而，它们直接应用于遥感图像超分辨率（RSISR）却暴露出显着的缺点。与自然图像不同，遥感图像表现出独特的纹理分布，其中地面物体是全局随机的但局部聚集，导致纹理高度不平衡。这种不平衡严重阻碍了模型的空间感知。为了解决这个问题，我们提出了 TexADiff，这是一个新颖的框架，首先估计相对纹理密度图（RTDM）来表示纹理分布。然后，TexADiff 以三种协同方式利用此 RTDM："
     },
     {
       "title": "UHR-BAT: Budget-Aware Token Compression Vision-Language model for Ultra-High-Resolution Remote Sensing",
@@ -87,7 +88,8 @@
         "multi-scale",
         "remote sensing",
         "small object"
-      ]
+      ],
+      "summary_zh": "超高分辨率 (UHR) 遥感图像将公里级上下文与可能仅占据几个像素的关键查询证据结合起来。如此巨大的空间尺度导致视觉标记的二次爆炸，并阻碍了从小物体中提取信息。以前的工作利用直接下采样、密集平铺或全局 top-k 修剪，这要么会损害查询关键的图像细节，要么会导致不可预测的计算。在本文中，我们提出了 UHR-BAT，这是一种查询引导和区域忠实的令牌压缩框架，可在严格的上下文预算下有效地选择视觉令牌。具体来说，我们利用文本引导的、多尺度的视觉标记重要性估计，有效地解决了实现精确而低成本的特征提取的挑战。菲尔特"
     },
     {
       "title": "Enhanced Text-to-Image Generation by Fine-grained Multimodal Reasoning",
@@ -130,7 +132,8 @@
         "large language model",
         "MLLM",
         "multimodal large language model"
-      ]
+      ],
+      "summary_zh": "随着多模态大语言模型（MLLM）的快速发展，联合执行图像理解和生成的统一 MLLM 取得了显着的进步。然而，尽管统一 MLLM 具有自我反思和自我完善的固有推理能力，但它们在文本到图像生成中的使用在很大程度上仍未得到充分探索。同时，现有的基于多模态推理的图像生成方法大多依赖于整体图文对齐判断，没有对细节提示属性进行细粒度的反映和细化，导致细粒度的控制有限。因此，我们提出了细粒度多模态推理（FiMR），这是一个利用分解视觉问答（VQA）将输入提示分解为最小语义单元（例如实体）的框架"
     },
     {
       "title": "SatBLIP: Context Understanding and Feature Identification from Satellite Imagery with Vision-Language Learning",
@@ -173,7 +176,8 @@
         "satellite",
         "satellite image",
         "satellite imagery"
-      ]
+      ],
+      "summary_zh": "农村环境风险是由当地条件（例如住房质量、道路通行、地表格局）决定的，但标准脆弱性指数很粗略，对风险背景的了解有限。我们提出了 SatBLIP，这是一种用于农村背景理解和特征识别的卫星特定视觉语言框架，可预测县级社会脆弱性指数（SVI）。 SatBLIP 通过将对比图像文本对齐与针对卫星语义定制的引导式字幕相结合，解决了先前遥感管道（手工制作的特征、手动虚拟审计和自然图像训练的 VLM）的局限性。我们使用 GPT-4o 生成卫星图块的结构化描述（屋顶类型/状况、房屋大小、庭院属性、绿化和道路环境），"
     },
     {
       "title": "Decoding the Delta: Unifying Remote Sensing Change Detection and Understanding with Multimodal Large Language Models",
@@ -226,7 +230,8 @@
         "remote sensing",
         "remote sensing change detection",
         "visual question answering"
-      ]
+      ],
+      "summary_zh": "虽然多模态大语言模型 (MLLM) 在一般视觉语言任务中表现出色，但其在遥感变化理解中的应用受到基本的“时间盲性”的阻碍。现有的架构缺乏多时间对比推理的内在机制，并且难以精确的空间基础。为了解决这个问题，我们首先引入 Delta-QA，这是一个包含 18 万个视觉问答样本的综合基准测试。 Delta-QA 统一了双时态和三时态场景中的像素级分割和视觉问答，将变化解释构建为四个渐进的认知维度。在方法论上，我们提出了 Delta-LLaVA，这是一种专门为多时相遥感解释量身定制的新型 MLLM 框架。它克服了限制"
     },
     {
       "title": "Creo: From One-Shot Image Generation to Progressive, Co-Creative Ideation",
@@ -262,7 +267,8 @@
       ],
       "matched_terms": [
         "image generation"
-      ]
+      ],
+      "summary_zh": "文本到图像 (T2I) 系统可以快速生成高保真图像，但与视觉创意的发展方式不一致。 T2I 系统生成代表用户做出隐式视觉决策的输出，通常会引入细粒度的细节，这些细节可能会过早地锚定用户并限制他们尽早保持选项开放的能力，并在编辑过程中导致难以纠正的意外更改，并降低用户的控制感。为了解决这些问题，我们推出了 Creo，这是一个多阶段 T2I 系统，它通过从粗略草图到高分辨率输出来构建图像生成，并公开中间抽象，用户可以在其中进行增量更改。类似草图的抽象邀请用户进行编辑，并允许用户在想法静止时保持设计选项开放"
     },
     {
       "title": "GeoAgentBench: A Dynamic Execution Benchmark for Tool-Augmented Agents in Spatial Analysis",
@@ -306,7 +312,8 @@
         "LLM",
         "robust",
         "VLM"
-      ]
+      ],
+      "summary_zh": "将大型语言模型 (LLM) 集成到地理信息系统 (GIS) 中标志着向自主空间分析的范式转变。然而，由于地理空间工作流程的复杂性、多步骤性质，评估这些基于法学硕士的代理仍然具有挑战性。现有的基准主要依赖于静态文本或代码匹配，忽略动态运行时反馈和空间输出的多模态性质。为了弥补这一差距，我们引入了 GeoAgentBench (GABench)，这是一种为工具增强型 GIS 代理量身定制的动态交互式评估基准。 GABench 提供了一个集成 117 个原子 GIS 工具的真实执行沙箱，涵盖 6 个核心 GIS 领域的 53 个典型空间分析任务。认识到精确的参数配置是主要决定因素"
     }
   ]
 }

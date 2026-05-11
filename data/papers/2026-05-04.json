@@ -49,7 +49,8 @@
         "remote sensing",
         "robust",
         "semantic segmentation"
-      ]
+      ],
+      "summary_zh": "遥感（RS）领域缺乏密集标记的数据集，而获取这些数据集的成本很高。因此，无需监督微调即可很好地分割遥感图像的模型是有价值的，但现有的解决方案落后于监督方法。最近，DINOv3 在 GEO-bench 分割基准上超越了 SOTA RS 基础模型，无需对 RS 数据进行预训练。此外，DINO.txt 还启用了具有 DINOv3 主干的开放词汇语义分割 (OVSS)。我们利用这些进展形成了 RS 图像的 OVSS 模型，无需进行 RS 域微调。我们的模型 CAFe-DINO（使用 DINO 进行成本聚合 + 特征上采样）通过成本聚合和文本-图像相似度分数的免训练上​​采样，利用 DINOv3 强大的 OVSS 性能来处理 RS 图像"
     },
     {
       "title": "SpectraDINO: Bridging the Spectral Gap in Vision Foundation Models via Lightweight Adapters",
@@ -96,7 +97,8 @@
         "robust",
         "semantic segmentation",
         "ViT"
-      ]
+      ],
+      "summary_zh": "在大规模 RGB 数据上进行预训练的视觉基础模型 (VFM) 已表现出卓越的表示质量，但其在近红外 (NIR)、短波红外 (SWIR) 和长波红外 (LWIR) 多光谱成像中的适用性在很大程度上仍未得到探索。这些光谱模式提供了互补的传感能力，对于不利条件下的稳健感知至关重要，但相对于以 RGB 为中心的预训练模型而言，存在基本的领域差距。我们推出了 SpectraDINO，一种多光谱 VFM，它通过轻量级、按模态瓶颈适配器将 DINOv2 ViT 主干扩展到超可见模态，从而弥合了光谱差距，同时保留了冻结 RGB 主干的丰富表示。我们引入多阶段的师生培训"
     },
     {
       "title": "SlimDiffSR: Toward Lightweight and Efficient Remote Sensing Image Super-Resolution via Diffusion Model Distillation",
@@ -134,7 +136,8 @@
         "diffusion model",
         "remote sensing",
         "super-resolution"
-      ]
+      ],
+      "summary_zh": "扩散模型最近在图像超分辨率（SR）方面取得了显着的性能，但其高计算成本限制了遥感应用中的实际部署。为了解决这个问题，我们提出了 SlimDiffSR，一种轻量级且高效的基于扩散的框架，用于现实世界遥感图像超分辨率。与依赖固定时间步长的现有单步扩散方法不同，我们首先引入不确定性引导的时间步长分配策略来构建更强大的单步教师模型，其中重建难度与扩散时间步长明确相关，从而实现自适应生成强度。在这位老师的基础上，我们进一步提出了一种针对遥感图像的结构化修剪策略，该策略系统地删除了"
     },
     {
       "title": "RAFNet: Region-Aware Fusion Network for Pansharpening",
@@ -180,7 +183,8 @@
         "remote sensing",
         "robust",
         "SAR"
-      ]
+      ],
+      "summary_zh": "全色锐化旨在通过融合低分辨率多光谱 (LRMS) 和高分辨率全色 (PAN) 图像来生成高分辨率多光谱 (HRMS) 图像。尽管深度学习推动了这一领域的发展，但依赖于标准尺度点积注意力的主流基于频率的方法受到二次计算复杂性的困扰，并且无法利用遥感图像固有的区域稀疏性。此外，现有的空间增强策略通常采用静态卷积核，难以适应 PAN 和 MS 图像的复杂频率和区域变化。为了解决这些瓶颈，我们提出了一个区域感知融合（RAFNet）网络，它可以对空间和频率信息进行协同建模。具体来说，我们设计了一个 Spatial Adapt"
     },
     {
       "title": "Sentinel2Cap: A Human-Annotated Benchmark Dataset for Multimodal Remote Sensing Image Captioning",
@@ -231,7 +235,8 @@
         "SAR imagery",
         "satellite",
         "zero-shot"
-      ]
+      ],
+      "summary_zh": "图像字幕已成为计算机视觉中的一项重要任务，使模型能够生成视觉内容的自然语言描述。虽然自然图像和高分辨率光学遥感图像存在多个数据集，但多模态卫星数据的字幕数据集的可用性仍然有限，特别是对于 SAR 图像和中分辨率传感器。我们介绍了 Sentinel2Cap，这是一个人工注释的多模态字幕数据集，包含具有不同土地覆盖组成的 10 m 和 20 m 空间分辨率的 Sentinel-1 SAR 和 Sentinel-2 多光谱图像块。字幕是手动创建并仔细验证的，以确保语义准确性和语言质量。为了评估 Sentinel2Cap，我们使用 Qwen3-VL-8 执行零镜头字幕"
     },
     {
       "title": "Unified Map Prior Encoder for Mapping and Planning",
@@ -278,7 +283,8 @@
         "satellite",
         "satellite image",
         "satellite imagery"
-      ]
+      ],
+      "summary_zh": "自动驾驶中的在线地图和端到端（E2E）规划仍然主要以传感器为中心，导致丰富的地图先验（包括高清/标清矢量地图、光栅化标清地图和卫星图像）由于异构性、姿态漂移和测试时可用性不一致而未得到充分利用。我们提出了 UMPE，一种统一地图先验编码器，它可以摄取四个先验的任何子集，并将它们与 BEV 功能融合以进行地图绘制和规划。 UMPE 有两个分支机构。矢量编码器通过逐帧 SE(2) 校正预先对齐 HD/SD 折线，通过多频正弦特征对点进行编码，并生成具有置信度分数的折线标记。然后，BEV 查询应用具有置信度偏差的交叉注意力，然后进行标准化的通道门控，以避免长度不平衡和温和的 down-wei"
     },
     {
       "title": "AI and Open-data Driven Scalable Solar Power Profiling",
@@ -319,7 +325,8 @@
         "satellite",
         "satellite image",
         "satellite imagery"
-      ]
+      ],
+      "summary_zh": "太阳能光伏（PV）部署正在迅速扩大，但有关屋顶光伏空间分布和容量的详细、最新信息仍然有限。本文提出了一个开放、可扩展的框架，用于从开放数据中检测太阳能电池板并生成城市级太阳能概况。我们利用基金会视觉人工智能模型从开源卫星图像中检测太阳能电池板的几何形状。这避免了手动数据标记和特定案例的模型训练，同时保持跨异构图像的鲁棒性。检测到的太阳能电池板被转换为地理参考多边形，产生空间明确且可增量扩展的库存。通过整合开放的天气数据，我们将电池板足迹转化为区域太阳能概况。该框架减少了依赖"
     },
     {
       "title": "Multispectral Blind Image Super-Resolution for Standing Dead Tree Segmentation",
@@ -366,7 +373,8 @@
         "multispectral",
         "multispectral image",
         "super-resolution"
-      ]
+      ],
+      "summary_zh": "绘制直立死树地图对于获取有关气候变化对森林和森林生物多样性影响的信息至关重要。然而，由于传感器可用性的限制和注释数据的稀缺，利用高质量航空图像进行死树分割面临着挑战。在这项研究中，我们提出了一种通用的盲超分辨率框架，该框架结合了注意力引导域适应网络（ADA-Net）来学习从低分辨率到高分辨率多光谱图像域的映射。我们的方法仅对不配对的样本进行操作，模仿现实世界的条件，即低分辨率图像不是通过对高分辨率图像进行下采样来综合获得的。此外，所提出的方法可作为通用恢复器寻址"
     },
     {
       "title": "Open-access model for detecting openly dumped dispersed municipal solid waste from crowdsourced UAV imagery in Sub-Saharan Africa",
@@ -408,7 +416,8 @@
       ],
       "matched_terms": [
         "UAV"
-      ]
+      ],
+      "summary_zh": "由于分散的非正式倾倒和用于空间监测的高分辨率数据集有限，在快速城市化的撒哈拉以南非洲地区管理城市固体废物仍然具有挑战性。我们提出了一种开放式深度学习模型，用于通过众包无人机图像自动检测公开倾倒的分散固体废物，该模型在 10 个国家的 29 个地区（涵盖不同的环境背景）进行了培训和评估。在手动注释图像图块上训练的深度学习模型在检测所有研究区域公开倾倒的分散固体废物方面取得了出色的性能。预测的分布揭示了异质的积累模式，从局部热点（通常沿着水道，废物可能加剧洪水和公共卫生风险）到更分散的区域"
     },
     {
       "title": "Rethinking Electro-Optical Vision Foundation Models for Remote Sensing Retrieval: A Controlled Comparison with Generalist VFM",
@@ -445,7 +454,8 @@
       "matched_terms": [
         "foundation model",
         "remote sensing"
-      ]
+      ],
+      "summary_zh": "视觉基础模型因其利用大规模未标记视觉数据的能力而引起了广泛关注。这一优势在遥感中尤其重要，因为遥感中数据获取成本高昂，并且注释通常需要专业知识。最近的电光视觉基础模型旨在从遥感图像中学习特定领域的表示，但目前尚不清楚它们是否比基于检索的评估下的强通用视觉基础模型更有效。在本研究中，我们对用于遥感图像检索的代表性 EO 特定视觉基础模型和通用视觉基础模型进行了受控比较。使用相同的数据集、检索协议和评估指标，我们评估域内性能和c"
     },
     {
       "title": "Experience Constrained Hierarchical Federated Reinforcement Learning for Large-scale UAV Teams in Hazardous Environments",
@@ -480,7 +490,8 @@
         "aerial",
         "UAV",
         "unmanned aerial vehicle"
-      ]
+      ],
+      "summary_zh": "传统的联邦学习假设更多的学习者参与可以通过利用丰富的、独立生成的本地数据来提高训练性能。然而，在危险环境中无人机 (UAV) 团队的联合强化学习 (FRL) 中，经验生成受到安全考虑、能源限制和任务持续时间的严重限制，这一假设可能会被打破。这项工作引入了经验受限的分层联邦强化学习（EC-HFRL），这是一个框架，其中集群充当联邦学习代理，而多个集群内学习者代表重用共享经验池的并行学习资源。我们表明，增加参与并不一定会提高学习成绩。 INS"
     },
     {
       "title": "Cross-Polarization Fusion of VV AND VH SAR Observations for Improved Flood Mapping",
@@ -518,7 +529,8 @@
         "remote sensing",
         "SAR",
         "synthetic aperture radar"
-      ]
+      ],
+      "summary_zh": "合成孔径雷达（SAR）图像因其全天候、昼夜成像能力而被广泛应用于洪水监测。然而，在表面和体积散射共存的复杂环境中，使用单偏振 SAR 数据进行洪水测绘仍然具有挑战性。在本文中，我们研究了 VV 和 VH SAR 观测交叉极化融合对于改进洪水测绘的有效性。采用基于深度学习的分割框架来共同利用 VV 和 VH 偏振的互补信息。为了确保公平评估，在相同的训练条件下比较了三种配置：仅 VV、仅 VH 和融合 VV-VH 输入。使用标准洪水测绘指标评估性能，包括交并集 (IoU) 和 F1-scor"
     },
     {
       "title": "FLoRA: Fusion-Latent for Optical Reconstruction and Flood Area Segmentation via Cross-Modal Multi-Task Distillation Network",
@@ -562,7 +574,8 @@
         "SAR-to-optical",
         "SEN12MS",
         "spaceborne"
-      ]
+      ],
+      "summary_zh": "准确的洪水测绘对于灾害管理至关重要，但目前的方法难以充分利用星载图像的潜力。光学数据具有较高的可解释性，但受到环境条件的限制，而 SAR 提供可靠的全天候覆盖，但视觉可解释性较低。 FLoRA（光学重建和区域分割的融合潜伏）是一种跨模式多任务框架，通过融合光学和 SAR 数据的互补优势，联合重建高保真光学图像并分割 Sentinel 1 SAR 的洪水区域。在训练期间，轻量级光学教师（由 RGB 和 NDVI 先验驱动）提供金字塔特征，通过多尺度窗口交叉将 SAR 表示引导到融合潜在空间"
     }
   ]
 }

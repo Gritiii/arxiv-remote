@@ -44,7 +44,8 @@
       ],
       "matched_terms": [
         "object detection"
-      ]
+      ],
+      "summary_zh": "在多媒体应用场景中，与在光线充足的环境下拍摄的图像相比，在低照度条件下拍摄的图像通常会导致视觉感知任务的准确性较低。为了应对这一挑战，我们提出了 AMIEOD，一种用于低照度场景的图像增强目标检测框架，其中两个任务以面向检测性能的方式联合优化。具体来说，为了充分利用光线不足的图像中的信息，提出了一种多专家图像增强模块（MEIEM），该模块利用了多种增强策略。在此基础上，为了更好地将 MEIEM 与检测任务结合起来，我们提出了一种检测引导回归损失（DGRL），它利用检测结果来决定回归目标。此外，为了激发"
     },
     {
       "title": "Uncertainty-Guided Edge Learning for Deep Image Regression in Remote Sensing",
@@ -80,7 +81,8 @@
         "land use",
         "remote sensing",
         "satellite"
-      ]
+      ],
+      "summary_zh": "边缘学习是指训练部署在边缘平台上的机器学习模型，通常使用船上积累的新数据。边缘设备的计算限制不仅影响模型优化，还影响当前模型对未标记数据的预测不确定性的计算，这对于通知模型更新至关重要。在本文中，我们研究了在遥感卫星上执行深度图像回归的背景下的边缘学习，其中深度网络由机载计算机执行，以从输入图像中回归标量$y$，例如$y$是指示云覆盖或土地利用的像素百分比。我们提出了一种不确定性引导边缘学习（UGEL）算法，可以准确地对数据进行优先级排序，以加快数据的训练收敛速度。"
     },
     {
       "title": "Diverse Sampling in Diffusion Models with Marginal Preserving Particle Guidance",
@@ -113,7 +115,8 @@
       "matched_terms": [
         "diffusion model",
         "image generation"
-      ]
+      ],
+      "summary_zh": "我们提出了 EDDY（通过无散动力学的精确边际多样化），这是一种扩散和流动匹配模型的指导机制，可在保持质量的同时促进生成的样本之间的多样性。 EDDY 利用福克-普朗克方程的对称性，使用漂移扰动改变粒子轨迹，同时保留不断变化的边缘分布。我们通过从排斥方向构造的基于内核的反对称成对矩阵场来实例化这一原理。由此产生的无散动力学促进了联合粒子级别的多样性，同时保留每个粒子的边缘分布，而无需任何额外的训练。由于计算指导在使用 perce 生成文本到图像等情况下可能会耗费大量计算资源"
     },
     {
       "title": "Earth-o1: A Grid-free Observation-native Atmospheric World Model",
@@ -167,7 +170,8 @@
       ],
       "matched_terms": [
         "earth observation"
-      ]
+      ],
+      "summary_zh": "尽管现代地球观测系统提供了前所未有的多模态数据量，但我们模拟大气动力学的能力仍然受到限制。传统的建模框架迫使异构测量进入预定义的空间网格，本质上限制了原始传感器数据的充分利用并造成严重的计算瓶颈。在这里，我们介绍 Earth-o1，这是一种克服这些结构限制的观测原生大气世界模型。 Earth-o1 不依赖传统的大气动力学建模系统或传统的数据同化，而是直接从无网格的观测数据中学习地球系统的连续、三维物理演化。通过将不同的传感器输入集成到一个统一的、无网格的动态场中"
     },
     {
       "title": "Backdoor Mitigation in Object Detection via Adversarial Fine-Tuning",
@@ -208,7 +212,8 @@
         "image classification",
         "object detection",
         "transformer"
-      ]
+      ],
+      "summary_zh": "后门攻击可以将恶意行为植入深层模型，同时保留干净数据的性能，对安全关键型视觉系统构成严重威胁。尽管后门缓解已针对图像分类进行了广泛研究，但对象检测的防御仍然相对不发达。对抗性微调是分类中常见的后门缓解方法，但将其应用于检测并非易事，因为面向分类的对抗性生成与检测攻击空间不匹配，其中攻击可能导致对象错误分类或消失，而标准检测损失可能会稀释许多预测中的修复信号。我们通过检测感知的对抗性微调框架来应对这些挑战，以减轻 objec"
     },
     {
       "title": "R2H-Diff: Guided Spectral Diffusion Model for RGB-to-Hyperspectral Reconstruction",
@@ -248,7 +253,8 @@
         "feature fusion",
         "hyperspectral",
         "hyperspectral image"
-      ]
+      ],
+      "summary_zh": "RGB 到高光谱图像重建是一个高度不适定的逆问题，因为多个合理的光谱分布可能对应于相同的 RGB 观察结果。现有的基于回归的方法通常学习确定性映射，这限制了它们对重建不确定性进行建模的能力，并且常常导致过度平滑的光谱响应。尽管扩散模型提供了强大的分布建模能力，但由于光谱维数高、带间相关性强以及对光谱保真度的严格要求，将其直接应用于高光谱重建仍然具有挑战性。为此，我们提出了 R2H-Diff，这是一种专为 RGB 到 HSI 重建而定制的高效的基于扩散的框架。具体来说，R2H-Diff 将光谱恢复公式化为"
     },
     {
       "title": "Leveraging Image Generators to Address Training Data Scarcity: The Gen4Regen Dataset for Forest Regeneration Mapping",
@@ -296,7 +302,8 @@
         "aerial image",
         "aerial imagery",
         "semantic segmentation"
-      ]
+      ],
+      "summary_zh": "可持续森林管理依赖于精确的物种组成测绘，而传统的地面调查是劳动密集型的且受到地理限制。虽然无人驾驶飞行器 (UAV) 提供可扩展的数据收集，但向基于深度学习的解释的过渡受到专家注释图像严重缺乏的瓶颈，特别是在复杂、视觉异构的再生区域。本文通过提供一个可扩展的框架，减少对高分辨率毫米级航空图像手动照片解释的依赖，解决了细粒度森林再生物种语义分割中数据稀缺和极端类别不平衡的双重挑战。重要的是，我们利用大规模视觉语言 Nano Banana Pro 模型来"
     },
     {
       "title": "Region-adaptable retrieval of coastal biogeochemical parameters from near-surface hyperspectral remote sensing reflectance using physics-aware meta-learning",
@@ -337,7 +344,8 @@
       "matched_terms": [
         "hyperspectral",
         "remote sensing"
-      ]
+      ],
+      "summary_zh": "高光谱原位传感在检索水生生物地球化学 (BGC) 参数（例如总悬浮固体、溶解有机碳和总叶绿素-a）方面显示出了前景，可用于经济高效地监测沿海水质。然而，在水体中推广此类反演算法仍然具有挑战性，因为由于环境条件和生物地球化学的区域差异导致不同的 BGC 范围和生物光学特性，遥感反射率 (Rrs) 和 BGC 参数之间的关系在不同地区可能存在很大差异。在这项研究中，我们提出了一个两阶段物理感知元学习框架，用于从近地表 Rrs 观测中检索沿海 BGC 参数。在第一阶段，生物光学正向模型是"
     },
     {
       "title": "The Cost of Context: Mitigating Textual Bias in Multimodal Retrieval-Augmented Generation",
@@ -376,7 +384,8 @@
         "large language model",
         "MLLM",
         "multimodal large language model"
-      ]
+      ],
+      "summary_zh": "虽然多模态大型语言模型 (MLLM) 越来越多地与检索增强生成 (RAG) 集成以减轻幻觉，但外部文档的引入可以隐藏实例级别的严重故障模式。我们识别并形式化了重新腐败现象，即使引入完全准确的“预言”上下文也会导致有能力的模型放弃最初正确的预测。通过对内部注意力矩阵的机械诊断，我们表明重新腐败是由双重注意力崩溃驱动的：（1）视觉失明，其特征是视觉注意力质量（$M_{vis}$）和清晰度（$S_{vis}$）的系统性抑制，以及（2）结构位置偏差，迫使模型优先考虑边界标记而不是语义r"
     },
     {
       "title": "Characterizing Brazilian Atlantic Forest Restoration Outcomes with Geospatial AlphaEarth Embeddings",
@@ -414,7 +423,8 @@
         "land use",
         "remote sensing",
         "satellite"
-      ]
+      ],
+      "summary_zh": "巴西的大西洋森林是重要的生物多样性热点地区，但其原始覆盖面积仅剩不到 12-15%。尽管大规模监测森林恢复至关重要，但传统方法受到如此大规模实地报告的不切实际以及NDVI等遥感指数饱和的限制。此外，重新造林是一个渐进的过程，而不是森林砍伐引起的快速光谱变化。在这项研究中，我们检查了圣保罗的 1,729 个恢复地点，使用 AlphaEarth 基金会模型的卫星嵌入来评估其在表征早期恢复成功方面的有效性。我们引入了“参考轨迹嵌入”的概念，定义了基于余弦相似度的恢复成功度量"
     }
   ]
 }

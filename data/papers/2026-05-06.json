@@ -56,7 +56,8 @@
         "satellite",
         "satellite image",
         "satellite imagery"
-      ]
+      ],
+      "summary_zh": "野火烧毁区域测绘对于损害评估、排放建模以及了解不同生态区域的火灾与气候相互作用至关重要。最近的地理空间基础模型为卫星图像提供了强大的通用表示，但对于如何有效地使这些模型适应下游地球观测任务，特别是在地理和时域转移的情况下，仍然没有清晰的认识。本研究评估了三种最先进的地理空间基础模型 (GFM) - Terramind、DINOv3 和 Prithvi-v2 - 使用 Sentinel-2 数据绘制美国和加拿大的烧毁区域地图。利用 2017 年至 2023 年期间的 3,820 起野火事件，我们在不同的生物群落中进行了空间和时间概括测试。我们系统地比较"
     },
     {
       "title": "VL-UniTrack: A Unified Framework with Visual-Language Prompts for UAV-Ground Visual Tracking",
@@ -91,7 +92,8 @@
       ],
       "matched_terms": [
         "UAV"
-      ]
+      ],
+      "summary_zh": "无人机地面视觉跟踪（UGVT）旨在从无人机和地面视图同时跟踪同一目标。然而，现有的双流方法存在特征提取孤立的问题，并且严重依赖隐式外观匹配，在巨大的视图差异下难以建立可靠的对应关系，导致跟踪不可靠。为了解决这些限制，我们提出了 VL-UniTrack，这是一个通过视觉语言提示增强的完全统一的框架。通过在单个共享编码器中对来自两个视图的特征进行编码，我们的方法打破了特征隔离的障碍，以促进充分的跨视图交互。为了克服单纯依靠外观匹配造成的歧义，我们设计了融合语言的视觉语言几何提示模块"
     },
     {
       "title": "UAV as Urban Construction Change Monitor: A New Benchmark and Change Captioning Model",
@@ -132,7 +134,8 @@
         "remote sensing",
         "UAV",
         "WHU"
-      ]
+      ],
+      "summary_zh": "遥感图像变化字幕 (RSICC) 旨在从双时态图像生成场景演变的基于空间的自然语言描述，超越二进制变化掩模，转向语义级理解。然而，现有的方法依赖于隐式特征差异，而没有显式地建模结构化变化语义，并且难以协调变化检测和标题生成的相互冲突的表示需求。此外，当前的基准对高分辨率城市建设场景的覆盖范围有限。为了应对这些挑战，我们提出了 PTNet，这是一种原型引导的任务自适应框架，用于联合更改字幕和检测。 PTNet 通过可学习的原型库对结构化变更语义进行显式建模，该原型库可指导 cro"
     },
     {
       "title": "Hyperspectral Anomaly Detection Using Einstein Fuzzy Computing and Quantum Neural Network",
@@ -170,7 +173,8 @@
         "hyperspectral image",
         "hyperspectral imagery",
         "remote sensing"
-      ]
+      ],
+      "summary_zh": "在遥感（RS）领域，高光谱图像提供丰富的光谱信息并促进许多关键应用，例如材料识别。在这些应用中，高光谱异常检测（HAD）旨在检测光谱特征偏离背景光谱的物质，这被称为异常。然而，RS 社区中许多广泛使用的 HAD 算法通过依赖“背景重建”策略来识别异常。此外，缺乏先前目标高光谱和现实世界的限制共同减少了异常与背景之间的光谱差异，限制了主流检测的性能。通过探索遥感领域广泛应用的模糊理论，本研究开发了一种无监督h"
     },
     {
       "title": "Zero-Shot Satellite Image Retrieval through Joint Embeddings: Application to Crisis Response",
@@ -215,7 +219,8 @@
         "satellite image",
         "satellite imagery",
         "zero-shot"
-      ]
+      ],
+      "summary_zh": "地球观测档案的语义搜索仍然具有挑战性。 CLAY 等视觉基础模型可生成丰富的卫星图像嵌入，但缺乏直观查询所需的自然语言基础，而遥感 CLIP 式模型的全面对比训练需要配对数据和计算，而这在全球范围内是不可用的。我们提出了 GeoQuery，这是一种零样本检索系统，它通过提示对齐的文本代理避开了这一限制。我们不是训练联合编码器，而是为全局 Sentinel-2 图块的 100k 代理子集生成语言描述，并优化描述生成提示，以便生成的文本嵌入空间中的距离与冻结 CLAY 视觉嵌入空间中的距离相关。查询分两阶段解决"
     },
     {
       "title": "Two Steps Are All You Need: Efficient 3D Point Cloud Anomaly Detection with Consistency Models",
@@ -257,7 +262,8 @@
         "diffusion model",
         "drone",
         "point cloud"
-      ]
+      ],
+      "summary_zh": "扩散模型正在迅速重新定义点云数据中的 3D 异常检测。随着 3D 传感成为现代制造不可或缺的一部分，可靠的异常检测对于高通量质量保证和过程控制至关重要。然而，在资源受限、延迟关键的系统上的实际部署仍然有限。现有方法在复杂的、未屏蔽的区域中通常在计算上令人望而却步或不可靠，并且扩散管道本质上受到迭代去噪的瓶颈。在这项工作中，我们通过一致性学习重新​​制定基于重建的异常检测来解决这一瓶颈，从而能够在一个或两个网络评估中直接预测无异常几何形状。我们进一步引入了一种新颖的混合损失公式，它明确地强制执行侦察"
     },
     {
       "title": "Open-SAT: LLM-Guided Query Embedding Refinement for Open-Vocabulary Object Retrieval in Satellite Imagery",
@@ -302,7 +308,8 @@
         "satellite",
         "satellite image",
         "satellite imagery"
-      ]
+      ],
+      "summary_zh": "在卫星应用中，用户查询通常采用开放式自然语言的形式，超出一组固定的预定义类别。这种开放词汇性质对检索相关图像图块提出了重大挑战，因为检索系统必须泛化到广泛的未见过的对象和概念。虽然 CLIP 等视觉语言模型 (VLM) 广泛用于文本图像检索，但即使经过微调的变体也常常难以将此类查询与卫星图像准确对齐。为了解决这个问题，我们提出了 Open-SAT，这是一种免训练的查询嵌入细化算法，该算法在推理时运行，以改善用户查询和卫星图像内容之间的对齐。 Open-SAT 使用 VLM 来计算图像图块的嵌入，这些图块存储在向量 da 中"
     },
     {
       "title": "Taming Outlier Tokens in Diffusion Transformers",
@@ -343,7 +350,8 @@
         "transformer",
         "vision transformer",
         "ViT"
-      ]
+      ],
+      "summary_zh": "我们研究用于图像生成的扩散变压器（DiT）中的异常标记。先前的工作表明，视觉变压器（ViT）可以产生少量高规范令牌，这些令牌在携带有限的本地信息的同时吸引了过多的注意力，但它们在生成模型中的作用仍未得到充分探索。我们证明这种现象出现在现代表示自动编码器（RAE）-DiT 管道的编码器和降噪器中：预训练的 ViT 编码器可以产生离群表示，而 DiT 本身可以开发内部离群标记，尤其是在中间层。而且，简单地屏蔽高范数标记并不能提高性能，这表明问题不仅是由几个极值引起的，而且与损坏的本地补丁集密切相关。"
     },
     {
       "title": "Advancing Aesthetic Image Generation via Composition Transfer",
@@ -381,7 +389,8 @@
         "diffusion model",
         "fine-tuning",
         "image generation"
-      ]
+      ],
+      "summary_zh": "构图是视觉美学的基石，影响图像的吸引力。虽然其原理独立于具体内容而运作，但在实践中，组合通常与语义结合在一起。因此，现有方法通常通过隐式学习或基于语义的布局控制来增强合成，而不是显式地对合成本身进行建模。为了解决这一差距，我们引入了 Composer，这是一个植根于美学理论的框架，旨在以语义不可知的方式对构图进行建模。首先，它通过从参考图像中提取关键的构图感知表示并利用定制的条件指导模块来基于预训练的扩散模型控制构图来支持构图传输。其次，当用户仅指定文本时"
     },
     {
       "title": "Efficient Geometry-Controlled High-Resolution Satellite Image Synthesis",
@@ -427,7 +436,8 @@
         "satellite",
         "satellite image",
         "satellite images"
-      ]
+      ],
+      "summary_zh": "高分辨率卫星图像通常稀缺且昂贵，特别是对于偏远地区或罕见事件。这种短缺阻碍了用于土地覆盖分类、变化检测和灾害监测的机器学习模型的开发和测试。在本文中，我们通过添加对现有预训练扩散模型的控制来解决几何控制的高分辨率卫星图像合成问题。我们提出了一种简单而有效的方法，通过使用窗口交叉注意模块仅利用跳过连接特征来控制合成过程。比较了几种先前建立的控制技术，表明我们的方法实现了可比较的性能，同时可以更好地与几何控制图对齐。我们还讨论了"
     },
     {
       "title": "Towards General Preference Alignment: Diffusion Models at Nash Equilibrium",
@@ -463,7 +473,8 @@
       "matched_terms": [
         "diffusion model",
         "image generation"
-      ]
+      ],
+      "summary_zh": "基于人类反馈的强化学习 (RLHF) 在将文本到图像 (T2I) 扩散模型与人类偏好保持一致方面很受欢迎。作为 RLHF 的主流分支，直接偏好优化（DPO）提供了一种计算高效的替代方案，避免了显式奖励建模，并已在扩散对齐中广泛采用。然而，现有的基于偏好的扩散对齐方法仍然依赖于奖励引起的偏好信号，并且通常假设人类偏好可以通过 Bradley-Terry (BT) 模型进行充分建模，该模型可能无法捕获人类偏好的全部复杂性。在本文中，我们从博弈论的角度制定扩散对齐。我们提出扩散纳什偏好优化（Diff.-NPO），一种直观的通用方法"
     },
     {
       "title": "RemoteZero: Geospatial Reasoning with Zero Human Annotations",
@@ -504,7 +515,8 @@
         "geospatial",
         "MLLM",
         "remote sensing"
-      ]
+      ],
+      "summary_zh": "地理空间推理需要模型将复杂的空间语义和用户意图解析为地球观测的精确目标位置。最近的进展将推理路径从手动管理中解放出来，允许模型生成自己的推理链。然而，最后一个依赖性仍然存在：它们仍然受到人类注释的地面实况坐标的监督。这使得推理过程是自主的，但其空间端点却不是，并且阻止了对大量未标记遥感数据的真正自我进化。为了打破这个瓶颈，我们引入了 RemoteZero，一个用于地理空间推理的无框监督框架。 RemoteZero 的动机是简单的不对称性：MLLM 通常更擅长验证区域是否满足查询，而不是直接生成精确的坐标"
     },
     {
       "title": "Joint Optimization of Trajectory Control, Resource Allocation, and Task Offloading for Multi-UAV-Assisted IoV",
@@ -546,7 +558,8 @@
         "LLM",
         "UAV",
         "unmanned aerial vehicle"
-      ]
+      ],
+      "summary_zh": "本文研究了密集城市环境中的多无人机（UAV）联合基站辅助车联网（IoV）任务卸载系统。为了在严格耦合约束下最小化系统延迟和能耗，复杂的非凸优化问题被解耦为分层执行框架。首先，提出基于二阶锥体规划（SOCP）的顺序分布式优化算法来优化每个无人机的3D飞行轨迹，确保自适应网络覆盖。其次，开发了一种协同深度强化学习（DRL）和大型语言模型（LLM）的新型混合资源调度范例。在此框架内，DRL 代理决定初始资源分配，而 LLM 充当 sem"
     }
   ]
 }
