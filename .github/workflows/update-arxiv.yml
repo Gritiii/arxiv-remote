@@ -31,6 +31,9 @@ jobs:
         with:
           python-version: "3.11"
 
+      - name: Install dependencies
+        run: pip install deep-translator
+
       - name: Fetch arXiv papers
         run: |
           DAYS="${{ github.event.inputs.days }}"
