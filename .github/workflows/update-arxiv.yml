@@ -20,6 +20,11 @@ on:
         required: false
         default: false
         type: boolean
+      rebuild_index:
+        description: "Rebuild index.json from local daily files (use after deleting a date)"
+        required: false
+        default: false
+        type: boolean
 
 permissions:
   contents: write
@@ -42,8 +47,11 @@ jobs:
       - name: Fetch arXiv papers
         run: |
           TRANSLATE="${{ github.event.inputs.translate_existing }}"
+          REBUILD_INDEX="${{ github.event.inputs.rebuild_index }}"
           if [ "$TRANSLATE" = "true" ]; then
             python scripts/fetch_arxiv.py --translate-existing --timezone Asia/Shanghai
+          elif [ "$REBUILD_INDEX" = "true" ]; then
+            python scripts/fetch_arxiv.py --rebuild-index --timezone Asia/Shanghai
           else
             DAYS="${{ github.event.inputs.days }}"
             DATE="${{ github.event.inputs.date }}"
