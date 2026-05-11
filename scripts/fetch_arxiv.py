@@ -30,6 +30,40 @@ CODE_HOST_RE = re.compile(
   re.IGNORECASE,
 )
 
+TRANSLATOR = None
+TRANSLATE_CACHE: dict[str, str] = {}
+
+
+def get_translator():
+  global TRANSLATOR
+  if TRANSLATOR is None:
+    try:
+      from deep_translator import GoogleTranslator
+      TRANSLATOR = GoogleTranslator(source="auto", target="zh-CN")
+    except ImportError:
+      print("deep-translator not installed, translation disabled.", file=sys.stderr)
+      TRANSLATOR = False
+  return TRANSLATOR or None
+
+
+def translate_text(text: str) -> str:
+  if not text or not text.strip():
+    return ""
+  key = text[:200]
+  if key in TRANSLATE_CACHE:
+    return TRANSLATE_CACHE[key]
+  translator = get_translator()
+  if translator is None:
+    return ""
+  try:
+    result = translator.translate(text[:800])
+    TRANSLATE_CACHE[key] = result
+    time.sleep(0.6)
+    return result
+  except Exception as exc:
+    print(f"Translation error: {exc}", file=sys.stderr)
+    return ""
+
 
 @dataclass(frozen=True)
 class ScoredPaper:
@@ -403,6 +437,10 @@ def fetch_daily(
     key=lambda item: (bool(item.get("has_code")), item.get("published", ""), item.get("score", 0)),
     reverse=True,
   )
+
+  for paper in matched:
+    if not paper.get("summary_zh") and paper.get("summary"):
+      paper["summary_zh"] = translate_text(paper["summary"])
 
   payload = {
     "date": target_date.isoformat(),
