@@ -9,7 +9,7 @@ const state = {
 const fallbackArchive = {
   site: {
     title: "遥感大模型 arXiv 日报 · 归档",
-    update_window: "10:30",
+    update_window: "10.30",
     timezone: "Asia/Shanghai",
   },
   generated_at: null,
@@ -279,7 +279,7 @@ function renderPaper(paper) {
         <span class="paper-date">${escapeHtml(compactDate(paper.published))}</span>
       </div>
       <div class="paper-meta">${paperMeta(paper)}</div>
-      <p class="paper-summary">${escapeHtml(paper.summary)}</p>
+      <p class="paper-summary">${escapeHtml(paper.summary_zh || paper.summary)}</p>
       <div class="paper-tags">${tags}${scoreTag}</div>
       <div class="paper-links">
         <a class="paper-link" href="${escapeHtml(paper.abs_url || "#")}" target="_blank" rel="noreferrer">
