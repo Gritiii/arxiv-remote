@@ -9,7 +9,7 @@ const state = {
 const fallbackArchive = {
   site: {
     title: "遥感大模型 arXiv 日报 · 归档",
-    update_window: "08:00",
+    update_window: "10:30",
     timezone: "Asia/Shanghai",
   },
   generated_at: null,
