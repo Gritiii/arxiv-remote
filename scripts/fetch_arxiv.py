@@ -168,7 +168,7 @@ def fetch_feed(query: str, max_results: int, attempts: int = 6) -> str:
       last_error = error
       if attempt == attempts:
         break
-      time.sleep(8 * attempt)
+      time.sleep(20 * attempt)
   raise RuntimeError(f"Failed to fetch arXiv feed after {attempts} attempts: {last_error}") from last_error
 
 
