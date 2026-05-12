@@ -25,6 +25,11 @@ on:
         required: false
         default: false
         type: boolean
+      no_date_filter:
+        description: "Fetch latest papers without submittedDate filter"
+        required: false
+        default: false
+        type: boolean
 
 permissions:
   contents: write
@@ -53,6 +58,7 @@ jobs:
           elif [ "$REBUILD_INDEX" = "true" ]; then
             python scripts/fetch_arxiv.py --rebuild-index --timezone Asia/Shanghai
           else
+            NO_DATE_FILTER="${{ github.event.inputs.no_date_filter }}"
             DAYS="${{ github.event.inputs.days }}"
             DATE="${{ github.event.inputs.date }}"
             ARGS="--timezone Asia/Shanghai --max-results 700"
@@ -61,6 +67,9 @@ jobs:
             fi
             if [ -n "$DAYS" ]; then
               ARGS="$ARGS --days $DAYS"
+            fi
+            if [ "$NO_DATE_FILTER" = "true" ]; then
+              ARGS="$ARGS --no-date-filter"
             fi
             python scripts/fetch_arxiv.py $ARGS
           fi
