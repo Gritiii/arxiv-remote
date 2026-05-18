@@ -49,19 +49,21 @@ def get_translator():
 def translate_text(text: str) -> str:
   if not text or not text.strip():
     return ""
-  key = text[:200]
+  import hashlib
+  key = hashlib.md5(text.encode()).hexdigest()
   if key in TRANSLATE_CACHE:
     return TRANSLATE_CACHE[key]
   translator = get_translator()
   if translator is None:
     return ""
   try:
-    result = translator.translate(text[:800])
+    result = translator.translate(text)
     TRANSLATE_CACHE[key] = result
     time.sleep(0.6)
     return result
   except Exception as exc:
     print(f"Translation error: {exc}", file=sys.stderr)
+    TRANSLATE_CACHE[key] = ""
     return ""
 
 
