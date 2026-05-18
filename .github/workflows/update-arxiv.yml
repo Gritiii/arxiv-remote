@@ -18,7 +18,7 @@ on:
       translate_existing:
         description: "Translate existing papers that lack Chinese summary"
         required: false
-        default: false
+        default: True
         type: boolean
       rebuild_index:
         description: "Rebuild index.json from local daily files (use after deleting a date)"
