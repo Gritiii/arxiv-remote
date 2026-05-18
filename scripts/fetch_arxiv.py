@@ -442,7 +442,7 @@ def fetch_daily(
   )
 
   for paper in matched:
-    if not paper.get("summary_zh") and paper.get("summary"):
+    if paper.get("summary"):
       paper["summary_zh"] = translate_text(paper["summary"])
 
   payload = {
@@ -555,7 +555,7 @@ def main() -> int:
     for daily in daily_files:
       changed = False
       for paper in daily.get("papers", []):
-        if not paper.get("summary_zh") and paper.get("summary"):
+        if paper.get("summary"):
           paper["summary_zh"] = translate_text(paper["summary"])
           changed = True
           translated += 1
