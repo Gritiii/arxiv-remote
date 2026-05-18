@@ -6,10 +6,10 @@
     "update_window": "10:30",
     "timezone": "Asia/Shanghai"
   },
-  "generated_at": "2026-05-15T06:40:40.855004+00:00",
+  "generated_at": "2026-05-18T05:18:36.939101+00:00",
   "timezone": "Asia/Shanghai",
-  "latest_date": "2026-05-15",
-  "total_papers": 618,
+  "latest_date": "2026-05-18",
+  "total_papers": 627,
   "label_order": [
     "开源",
     "目标检测",
@@ -32,47 +32,47 @@
   "labels": [
     {
       "name": "开源",
-      "count": 101
+      "count": 104
     },
     {
       "name": "目标检测",
-      "count": 42
+      "count": 43
     },
     {
       "name": "语义分割",
-      "count": 34
+      "count": 37
     },
     {
       "name": "实例分割",
-      "count": 13
+      "count": 14
     },
     {
       "name": "变化检测",
-      "count": 11
+      "count": 12
     },
     {
       "name": "场景分类",
-      "count": 21
+      "count": 22
     },
     {
       "name": "图像生成与重建",
-      "count": 82
+      "count": 84
     },
     {
       "name": "基础模型",
-      "count": 99
+      "count": 101
     },
     {
       "name": "视觉-语言模型",
-      "count": 175
+      "count": 177
     },
     {
       "name": "少样本/域适应",
-      "count": 73
+      "count": 75
     },
     {
       "name": "多模态融合",
-      "count": 55
+      "count": 56
     },
     {
       "name": "光学遥感",
@@ -84,7 +84,7 @@
     },
     {
       "name": "高光谱/多光谱",
-      "count": 58
+      "count": 60
     },
     {
       "name": "LiDAR/点云",
@@ -92,11 +92,11 @@
     },
     {
       "name": "无人机/UAV",
-      "count": 78
+      "count": 83
     },
     {
       "name": "数据集/评测",
-      "count": 373
+      "count": 381
     },
     {
       "name": "其他",
@@ -106,47 +106,47 @@
   "topics": [
     {
       "name": "开源",
-      "count": 101
+      "count": 104
     },
     {
       "name": "目标检测",
-      "count": 42
+      "count": 43
     },
     {
       "name": "语义分割",
-      "count": 34
+      "count": 37
     },
     {
       "name": "实例分割",
-      "count": 13
+      "count": 14
     },
     {
       "name": "变化检测",
-      "count": 11
+      "count": 12
     },
     {
       "name": "场景分类",
-      "count": 21
+      "count": 22
     },
     {
       "name": "图像生成与重建",
-      "count": 82
+      "count": 84
     },
     {
       "name": "基础模型",
-      "count": 99
+      "count": 101
     },
     {
       "name": "视觉-语言模型",
-      "count": 175
+      "count": 177
     },
     {
       "name": "少样本/域适应",
-      "count": 73
+      "count": 75
     },
     {
       "name": "多模态融合",
-      "count": 55
+      "count": 56
     },
     {
       "name": "光学遥感",
@@ -158,7 +158,7 @@
     },
     {
       "name": "高光谱/多光谱",
-      "count": 58
+      "count": 60
     },
     {
       "name": "LiDAR/点云",
@@ -166,11 +166,11 @@
     },
     {
       "name": "无人机/UAV",
-      "count": 78
+      "count": 83
     },
     {
       "name": "数据集/评测",
-      "count": 373
+      "count": 381
     },
     {
       "name": "其他",
@@ -179,11 +179,62 @@
   ],
   "dates": [
     {
-      "date": "2026-05-15",
+      "date": "2026-05-18",
       "count": 0,
-      "path": "data/papers/2026-05-15.json",
+      "path": "data/papers/2026-05-18.json",
       "labels": {},
       "topics": {}
+    },
+    {
+      "date": "2026-05-17",
+      "count": 0,
+      "path": "data/papers/2026-05-17.json",
+      "labels": {},
+      "topics": {}
+    },
+    {
+      "date": "2026-05-16",
+      "count": 0,
+      "path": "data/papers/2026-05-16.json",
+      "labels": {},
+      "topics": {}
+    },
+    {
+      "date": "2026-05-15",
+      "count": 9,
+      "path": "data/papers/2026-05-15.json",
+      "labels": {
+        "变化检测": 1,
+        "图像生成与重建": 2,
+        "场景分类": 1,
+        "基础模型": 2,
+        "多模态融合": 1,
+        "实例分割": 1,
+        "少样本/域适应": 2,
+        "开源": 3,
+        "数据集/评测": 8,
+        "无人机/UAV": 5,
+        "目标检测": 1,
+        "视觉-语言模型": 2,
+        "语义分割": 3,
+        "高光谱/多光谱": 2
+      },
+      "topics": {
+        "变化检测": 1,
+        "图像生成与重建": 2,
+        "场景分类": 1,
+        "基础模型": 2,
+        "多模态融合": 1,
+        "实例分割": 1,
+        "少样本/域适应": 2,
+        "开源": 3,
+        "数据集/评测": 8,
+        "无人机/UAV": 5,
+        "目标检测": 1,
+        "视觉-语言模型": 2,
+        "语义分割": 3,
+        "高光谱/多光谱": 2
+      }
     },
     {
       "date": "2026-05-14",

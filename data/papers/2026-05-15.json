@@ -1,11 +1,426 @@
 {
   "date": "2026-05-15",
-  "generated_at": "2026-05-15T06:40:40.364547+00:00",
+  "generated_at": "2026-05-18T05:05:44.968772+00:00",
   "timezone": "Asia/Shanghai",
   "source": "arXiv",
   "source_url": "https://arxiv.org/",
   "query": "(cat:cs.CV OR cat:eess.IV OR cat:cs.AI OR cat:cs.LG OR cat:cs.MM OR cat:stat.ML) AND submittedDate:[202605150000 TO 202605152359]",
-  "total_fetched": 0,
-  "total_matched": 0,
-  "papers": []
+  "total_fetched": 290,
+  "total_matched": 9,
+  "papers": [
+    {
+      "title": "A Topology-Aware Spatiotemporal Handover Framework for Continuous Multi-UAV Tracking",
+      "authors": [
+        "Jianlin Ye",
+        "Christos Kyrkou",
+        "Panayiotis Kolios"
+      ],
+      "summary": "The integration of Unmanned Aerial Vehicles(UAVs) into Intelligent Transportation Systems (ITS) offers synoptic visibility for traffic monitoring, yet scalable deployment is hindered by trajectory fragmentation, where vehicle identity persistence is lost across multi-UAV Fields of View (FOV). While state-of-the-art frameworks excel in optimizing local trajectory extraction and stability for single-drone imagery, they often function as isolated data silos that generate disjointed trajectories, thereby precluding network-level analysis such as Origin-Destination estimation. This paper presents a real-time Multi-Camera Multi-Vehicle Tracking (MCMT) system designed to handle global identity persistence. Addressing the visual ambiguity and computational cost of appearance-based Re-Identification (Re-ID) in nadir views, we introduce a lightweight Topology-Based Spatiotemporal Handover mechanism. We implement a high-throughput parallel pipeline leveraging YOLO11 and ByteTrack to process concurrent 4K streams. Our core contribution is a deterministic queue-based matching algorithm that utilizes geometric overlaps and virtual lane discretization to predictively manage identity handover via FIFO queues. Experimental results on complex urban environments, including intersections and merging traffic, demonstrate a Handover Success Rate (HOSR) of 99.8% in continuous traffic flows, significantly outperforming Re-ID baselines (74.1%) while validating edge deployment feasibility. The source code is available at https://github.com/JYe9/multi-camera-multi-vehicle-tracking-system.",
+      "published": "2026-05-15T09:38:09Z",
+      "updated": "2026-05-15T09:38:09Z",
+      "arxiv_id": "2605.15779v1",
+      "abs_url": "http://arxiv.org/abs/2605.15779v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.15779v1",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO",
+        "cs.AI"
+      ],
+      "comment": "",
+      "code_url": "https://github.com/JYe9/multi-camera-multi-vehicle-tracking-system",
+      "has_code": true,
+      "labels": [
+        "开源",
+        "目标检测",
+        "无人机/UAV"
+      ],
+      "topic": "目标检测",
+      "score": 7,
+      "anchor_terms": [
+        "drone",
+        "UAV"
+      ],
+      "matched_terms": [
+        "aerial",
+        "drone",
+        "UAV",
+        "unmanned aerial vehicle",
+        "YOLO"
+      ],
+      "summary_zh": "将无人机 (UAV) 集成到智能交通系统 (ITS) 中可为交通监控提供全局可见性，但可扩展的部署受到轨迹碎片化的阻碍，其中车辆身份持久性在多无人机视场 (FOV) 中丢失。虽然最先进的框架擅长优化单无人机图像的局部轨迹提取和稳定性，但它们通常充当孤立的数据孤岛，生成脱节的轨迹，从而妨碍网络级分析，例如起点-目的地估计。本文提出了一种实时多摄像头多车辆跟踪（MCMT）系统，旨在处理全球身份持久性。解决基于外观的重新识别的视觉模糊性和计算成本"
+    },
+    {
+      "title": "LDGuid: A Framework for Robust Change Detection via Latent Difference Guidance",
+      "authors": [
+        "Jiaxuan Zhao",
+        "Ali Bereyhi"
+      ],
+      "summary": "Modern deep learning models for change detection (CD) often struggle to explicitly represent task-relevant semantic differences. This paper proposes the Latent Difference Guidance (LDGuid) framework that explicitly learns and injects semantic differences into CD models. LDGuid deploys adversarial autoencoding to implement a difference embedding (DE) module. The DE module is pretrained via the information bottleneck method, restricting it to learn only task-relevant differences between pre- and post-event samples. The learned latent difference is then used as an explicit guidance signal in the CD model. We validate LDGuid by integrating it into U-Net, BIT, and AERNet baselines for CD and evaluating it on LEVIR-CD, WHU-CD, SVCD, and CaBuAr datasets. Experimental results show that LDGuid enhances segmentation performance across all benchmarks, with particularly remarkable gains in challenging settings affected by spectral noise. The results further highlight the ability of LDGuid in incorporating domain knowledge, such as task-specific spectral indices. Our findings suggest that semantic difference learning can drastically enhance the robustness of CD in remote sensing.",
+      "published": "2026-05-15T03:45:36Z",
+      "updated": "2026-05-15T03:45:36Z",
+      "arxiv_id": "2605.15582v1",
+      "abs_url": "http://arxiv.org/abs/2605.15582v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.15582v1",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV"
+      ],
+      "comment": "Accepted to IGARSS 2026. Code is available at: https://github.com/zjxyoyo/LDGuid",
+      "code_url": "https://github.com/zjxyoyo/LDGuid",
+      "has_code": true,
+      "labels": [
+        "开源",
+        "语义分割",
+        "变化检测",
+        "高光谱/多光谱",
+        "数据集/评测"
+      ],
+      "topic": "语义分割",
+      "score": 9,
+      "anchor_terms": [
+        "change detection",
+        "remote sensing"
+      ],
+      "matched_terms": [
+        "change detection",
+        "remote sensing",
+        "robust",
+        "U-Net",
+        "WHU"
+      ],
+      "summary_zh": "用于变化检测 (CD) 的现代深度学习模型通常难以明确表示与任务相关的语义差异。本文提出了潜在差异指导（LDGuid）框架，该框架显式学习语义差异并将其注入 CD 模型。 LDGuid 部署对抗性自动编码来实现差异嵌入（DE）模块。 DE 模块通过信息瓶颈方法进行预训练，限制其仅学习事件前后样本之间与任务相关的差异。然后将学习到的潜在差异用作 CD 模型中的显式指导信号。我们通过将 LDGuid 集成到 CD 的 U-Net、BIT 和 AERNet 基线中并在 LEVIR-CD、WHU-CD、SVCD 和 CaBuAr 数据集上对其进行评估来对其进行验证。实验结果表明LDGuid enha"
+    },
+    {
+      "title": "Text-RSIR: A Text-Guided Framework for Efficient Remote Sensing Image Transmission and Reconstruction",
+      "authors": [
+        "Hao Yang",
+        "Xianping Ma",
+        "Peifeng Ma",
+        "Man-On Pun"
+      ],
+      "summary": "High-resolution remote sensing imagery is critical for environmental monitoring, urban mapping, and land cover analysis, but its transmission is often hindered by limited bandwidth and high communication costs. Conventional pipelines transmit full-resolution pixel data, resulting in redundant and inefficient delivery. This paper proposes a text-guided remote sensing image transmission system that replaces complete high-resolution data with low-resolution images accompanied by compact textual descriptions. An onboard text generator produces spatial and semantic summaries, reducing the transmitted data volume to approximately 2\\% of the original size. For ground-based reconstruction, a text-conditioned image restoration model is introduced, which leverages cross-modal learning to recover fine spatial details and maintain semantic coherence. Experimental results on the Alsat-2B, UC Merced Land Use, and Aerial Image datasets demonstrate that the proposed framework achieves reconstruction PSNRs of 16.36 dB, 26.87 dB, and 27.41 dB, respectively, enabling efficient and information-preserving image transfer for remote sensing applications. The implementation will be made publicly available at \\href{https://github.com/haoyangofficial/textrssr}{GitHub}.",
+      "published": "2026-05-15T02:54:43Z",
+      "updated": "2026-05-15T02:54:43Z",
+      "arxiv_id": "2605.15558v1",
+      "abs_url": "http://arxiv.org/abs/2605.15558v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.15558v1",
+      "primary_category": "eess.IV",
+      "categories": [
+        "eess.IV",
+        "cs.CV"
+      ],
+      "comment": "15 pages, 8 figures, submitted to ISPRS JPRS",
+      "code_url": "https://github.com/haoyangofficial/textrssr}{GitHub",
+      "has_code": true,
+      "labels": [
+        "开源",
+        "语义分割",
+        "场景分类",
+        "图像生成与重建",
+        "多模态融合",
+        "无人机/UAV",
+        "数据集/评测"
+      ],
+      "topic": "语义分割",
+      "score": 14,
+      "anchor_terms": [
+        "aerial image",
+        "land use",
+        "remote sensing"
+      ],
+      "matched_terms": [
+        "aerial",
+        "aerial image",
+        "image restoration",
+        "land cover",
+        "land use",
+        "remote sensing",
+        "UC Merced"
+      ],
+      "summary_zh": "高分辨率遥感图像对于环境监测、城市测绘和土地覆盖分析至关重要，但其传输往往受到有限带宽和高昂通信成本的阻碍。传统的管道传输全分辨率像素数据，导致传输冗余且效率低下。本文提出了一种文本引导的遥感图像传输系统，用带有紧凑文本描述的低分辨率图像代替完整的高分辨率数据。板载文本生成器可生成空间和语义摘要，将传输的数据量减少到原始大小的大约 2%。对于基于地面的重建，引入了文本条件图像恢复模型，该模型利用跨模态学习来恢复鳍"
+    },
+    {
+      "title": "MAgSeg: Segmentation of Agricultural Landscapes in High-Resolution Satellite Imagery using Multimodal Large Language Models",
+      "authors": [
+        "Piyush Tiwary",
+        "Utkarsh Ahuja",
+        "Depanshu Sani",
+        "Aishwarya Jayagopal",
+        "Sagar Gubbi",
+        "Subhashini Venugopalan",
+        "Alok Talekar",
+        "Vaibhav Rajan"
+      ],
+      "summary": "Agricultural landscape segmentation in the Global South is challenging as it is characterized by fragmented plots, high intra-class variance, and a scarcity of labeled training data. Recent advances in segmentation have been made by Multimodal Large Language Models (MLLMs). However, current approaches encounter critical context length bottlenecks and a domain alignment gap in understanding satellite features. We address these limitations through MAgSeg, a novel, decoder-free MLLM segmentation approach. MAgSeg is an architecturally efficient approach that enables standard MLLMs to perform segmentation of complex smallholder agricultural landscapes from high-resolution satellite imagery, without requiring auxiliary vision decoders. We introduce a novel instruction tuning data format designed to enable scalable fine-tuning and post-training on high resolution satellite imagery, which enables MAgSeg to learn from the global context of the image while generating text tokens for only a patch within the image. Extensive evaluations on datasets spanning three countries in the Global South demonstrate that MAgSeg significantly outperforms state-of-the-art MLLM baselines, offering a scalable solution to map smallholder agricultural environments.",
+      "published": "2026-05-15T16:59:39Z",
+      "updated": "2026-05-15T16:59:39Z",
+      "arxiv_id": "2605.16179v1",
+      "abs_url": "http://arxiv.org/abs/2605.16179v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.16179v1",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV"
+      ],
+      "comment": "",
+      "code_url": "",
+      "has_code": false,
+      "labels": [
+        "视觉-语言模型",
+        "数据集/评测"
+      ],
+      "topic": "视觉-语言模型",
+      "score": 11,
+      "anchor_terms": [
+        "MLLM",
+        "multimodal large language model",
+        "satellite image",
+        "satellite imagery"
+      ],
+      "matched_terms": [
+        "fine-tuning",
+        "instruction tuning",
+        "large language model",
+        "MLLM",
+        "multimodal large language model",
+        "satellite",
+        "satellite image",
+        "satellite imagery"
+      ],
+      "summary_zh": "南半球国家的农业景观分割具有挑战性，因为其特点是地块分散、类内方差高以及标记训练数据稀缺。多模态大语言模型 (MLLM) 在分割方面取得了最新进展。然而，当前的方法在理解卫星特征时遇到了关键的上下文长度瓶颈和域对齐差距。我们通过 MAgSeg 解决了这些限制，MAgSeg 是一种新颖的、无解码器的 MLLM 分割方法。 MAgSeg 是一种架构上高效的方法，使标准 MLLM 能够根据高分辨率卫星图像对复杂的小农农业景观进行分割，而无需辅助视觉解码器。我们引入了一种新颖的指令调整数据格式"
+    },
+    {
+      "title": "WorldVLN: Autoregressive World Action Model for Aerial Vision-Language Navigation",
+      "authors": [
+        "Baining Zhao",
+        "Jiacheng Xu",
+        "Weicheng Feng",
+        "Xin Zhang",
+        "Zhaolu Wang",
+        "Haoyang Wang",
+        "Shilong Ji",
+        "Ziyou Wang",
+        "Jianjie Fang",
+        "Zhiheng Zheng",
+        "Weichen Zhang",
+        "Yu Shang",
+        "Wei Wu",
+        "Chen Gao",
+        "Xinlei Chen",
+        "Yong Li"
+      ],
+      "summary": "Aerial vision-language navigation (VLN) requires agents to follow natural-language instructions through closed-loop perception and action in 3D environments. We argue that aerial VLN can be formulated as a prediction-driven world-action problem: the agent should anticipate latent world evolution and act according to the predicted consequences. To this end, we propose WorldVLN, the first autoregressive world action model for aerial VLN. Unlike full-sequence video-generation world models that generate an entire visual clip, WorldVLN adapts a latent autoregressive video backbone to predict short-horizon world-state transitions and directly decodes them into executable waypoint actions. After each action segment is executed, newly received observations are encoded back into the autoregressive context, enabling closed-loop world-action prediction. We further introduce a two-stage training framework that first grounds the video prior in instruction-conditioned navigation dynamics and then develops Action-aware GRPO, the first reinforcement learning method tailored to autoregressive WAMs, to optimize waypoint decisions through their downstream rollout consequences. On public outdoor and indoor benchmarks, WorldVLN consistently outperforms existing Vision-Language-Action baselines with 12\\%+ success-rate gains and larger advantages on challenging cases. It further transfers zero-shot to real drone deployment, suggesting that the proposed WorldVLN offers a promising route for spatial action tasks. Demos and code are available at https://embodiedcity.github.io/WorldVLN/.",
+      "published": "2026-05-15T13:55:39Z",
+      "updated": "2026-05-15T13:55:39Z",
+      "arxiv_id": "2605.15964v1",
+      "abs_url": "http://arxiv.org/abs/2605.15964v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.15964v1",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO",
+        "cs.CV"
+      ],
+      "comment": "",
+      "code_url": "",
+      "has_code": false,
+      "labels": [
+        "视觉-语言模型",
+        "少样本/域适应",
+        "无人机/UAV",
+        "数据集/评测"
+      ],
+      "topic": "视觉-语言模型",
+      "score": 7,
+      "anchor_terms": [
+        "CLIP",
+        "drone"
+      ],
+      "matched_terms": [
+        "aerial",
+        "CLIP",
+        "drone",
+        "zero-shot"
+      ],
+      "summary_zh": "空中视觉语言导航 (VLN) 要求智能体通过 3D 环境中的闭环感知和行动来遵循自然语言指令。我们认为，空中 VLN 可以表述为预测驱动的世界行动问题：智能体应该预测潜在的世界演化并根据预测的结果采取行动。为此，我们提出了 WorldVLN，这是第一个航空 VLN 的自回归世界行动模型。与生成整个视觉剪辑的全序列视频生成世界模型不同，WorldVLN 采用潜在的自回归视频主干来预测短视界世界状态转换，并将其直接解码为可执行的路点动作。执行每个动作段后，新接收到的观察结果将被编码回自回归"
+    },
+    {
+      "title": "Uncertainty-Aware Wildfire Smoke Density Classification from Satellite Imagery via CBAM-Augmented EfficientNet with Evidential Deep Learning",
+      "authors": [
+        "Ranjith Chodavarapu"
+      ],
+      "summary": "Rapid and accurate wildfire smoke severity assessment from satellite images is essential for emergency response, air quality modeling, and human health risk management. Existing deep learning approaches treat smoke detection as a binary task, producing point estimates without any measure of prediction confidence. We propose a probabilistic framework to categorize a satellite patch into Light, Moderate, and Heavy severity classes and to provide decomposed epistemic and aleatoric uncertainty in a single forward pass. Our architecture uses the backbone of a pre-trained EfficientNet-B3 and a CBAM module with an evidential deep learning head that predicts Dirichlet concentration parameters, directly estimating vacuity (epistemic) and dissonance (aleatoric) without Monte Carlo sampling. Evaluated on 16,298 real satellite patches derived from the Wildfire Detection dataset, our model achieves 93.8% weighted test accuracy (91.1% unweighted) with ECE=0.0274. Selective prediction retaining the most certain 50% of patches achieves 96.7% accuracy. As image quality degrades, uncertainty increases monotonically, and vacuity is a practical scan quality measure. The Moderate class represents transitional smoke conditions that exhibit the highest epistemic uncertainty (mean vacuity = 0.187), confirming the model correctly identifies ambiguous smoke boundary regions. CBAM spatial attention maps localize to structurally distinctive scene regions, and t-SNE demonstrates the clear cluster separation of Light and Heavy smoke.",
+      "published": "2026-05-15T12:22:38Z",
+      "updated": "2026-05-15T12:22:38Z",
+      "arxiv_id": "2605.15894v1",
+      "abs_url": "http://arxiv.org/abs/2605.15894v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.15894v1",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "comment": "",
+      "code_url": "",
+      "has_code": false,
+      "labels": [
+        "基础模型",
+        "数据集/评测"
+      ],
+      "topic": "基础模型",
+      "score": 4,
+      "anchor_terms": [
+        "satellite image",
+        "satellite imagery",
+        "satellite images"
+      ],
+      "matched_terms": [
+        "satellite",
+        "satellite image",
+        "satellite imagery",
+        "satellite images"
+      ],
+      "summary_zh": "根据卫星图像快速准确地评估野火烟雾严重程度对于应急响应、空气质量建模和人类健康风险管理至关重要。现有的深度学习方法将烟雾检测视为二元任务，产生点估计而无需任何预测置信度测量。我们提出了一个概率框架，将卫星补丁分为轻、中和重严重级别，并在一次前向传递中提供分解的认知和任意不确定性。我们的架构使用预训练的 EfficientNet-B3 和 CBAM 模块的主干，该模块具有证据深度学习头，可预测狄利克雷浓度参数，直接估计空性（认知）和不和谐（随意），无需蒙特卡罗采样。评价"
+    },
+    {
+      "title": "Highly Detailed and Generalizable Broadleaf Tree Crown Instance Segmentation from UAV Imagery",
+      "authors": [
+        "Mitsutaka Nakada",
+        "Takahiko Ikebata",
+        "Kengo Ikebata",
+        "Yuji Mizuno",
+        "Yusuke Onoda",
+        "Ryuichi Takeshige",
+        "Kyaw Kyaw Htoo",
+        "Kanehiro Kitayama",
+        "Robert Ong",
+        "Masanori Onishi"
+      ],
+      "summary": "We present a highly detailed instance segmentation model for delineating individual tree crowns in natural broadleaf forests using aerial imagery acquired by unmanned aerial vehicles (UAVs). Tree crown delineation in broadleaf forests is more challenging than in other forest types due to diversity of crown shapes and the lack of clearly defined treetops. To address this issue, we developed a deep-learning-based crown segmentation model trained on high-quality annotated crown outlines. We manually delineated 18,507 crown polygons from orthomosaic images collected across seven forests in Japan by skilled annotators, and developed a model based on Mask2Former with multiple backbone architectures. The best model achieved high segmentation performance in structurally complex broadleaf forests using only RGB imagery. This performance was maintained when applied to geographically distinct forests within Japan, as well as to biologically distinct tropical rainforests in Borneo. These results demonstrate that using a large number of high-quality annotated datasets is critical for achieving detailed and generalizable crown segmentation across diverse forest ecosystems. The developed model has been integrated into DF Scanner Pro, a software that supports practical forest monitoring using UAVs, and this implementation is expected to enable a wide range of users to analyze tree-level information in broadleaf forest from UAVs.",
+      "published": "2026-05-15T06:50:32Z",
+      "updated": "2026-05-15T06:50:32Z",
+      "arxiv_id": "2605.15673v1",
+      "abs_url": "http://arxiv.org/abs/2605.15673v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.15673v1",
+      "primary_category": "eess.IV",
+      "categories": [
+        "eess.IV",
+        "cs.CV",
+        "cs.LG"
+      ],
+      "comment": "12 pages, 5 figures, 3 Tables",
+      "code_url": "",
+      "has_code": false,
+      "labels": [
+        "实例分割",
+        "少样本/域适应",
+        "无人机/UAV",
+        "数据集/评测"
+      ],
+      "topic": "实例分割",
+      "score": 11,
+      "anchor_terms": [
+        "aerial image",
+        "aerial imagery",
+        "instance segmentation",
+        "UAV"
+      ],
+      "matched_terms": [
+        "aerial",
+        "aerial image",
+        "aerial imagery",
+        "generalizable",
+        "instance segmentation",
+        "UAV",
+        "unmanned aerial vehicle"
+      ],
+      "summary_zh": "我们提出了一个非常详细的实例分割模型，用于使用无人机（UAV）获取的航空图像来描绘天然阔叶林中的单个树冠。由于树冠形状的多样性和缺乏明确的树顶，阔叶林中的树冠描绘比其他森林类型更具挑战性。为了解决这个问题，我们开发了一种基于深度学习的牙冠分割模型，该模型经过高质量带注释的牙冠轮廓的训练。我们从熟练的注释者在日本七个森林中收集的正射马赛克图像中手动描绘了 18,507 个树冠多边形，并开发了一个基于 Mask2Former 的具有多个骨干架构的模型。最佳模型在结构复杂的阔叶林中实现了高分割性能 u"
+    },
+    {
+      "title": "ChronoEarth-492K: A Large Scale and Long Horizon Spatiotemporal Hyperspectral Earth Observation Dataset and Benchmark",
+      "authors": [
+        "Haozhe Si",
+        "Yuxuan Wan",
+        "Yuqing Wang",
+        "Minh Do",
+        "Han Zhao"
+      ],
+      "summary": "Hyperspectral imaging (HSI) provides dense spectral information for the Earth's surface, enabling material-level understanding of land cover and ecosystem dynamics. Despite recent progress in hyperspectral self-supervised learning (SSL), existing datasets remain temporally shallow, limiting the development of long-horizon spatiotemporal modeling. To address this gap, we introduce ChronoEarth-492K, the first large-scale, temporally calibrated hyperspectral SSL dataset built upon NASA's EO-1 Hyperion mission, the world's longest continuous hyperspectral archive up to date (2001-2017). ChronoEarth-492K comprises 492,354 radiometrically harmonized patches across 185,398 global locations over 17 years, with 28,786 sites containing multi-temporal sequences ($\\geq 3$ observations) that enable both short- and long-horizon temporal analysis. Building on this foundation, we establish the ChronoEarth-Benchmark, a unified evaluation suite spanning static, short-horizon, and long-horizon temporal tasks, constructed from six open-source geospatial products covering land cover, crop type, forest dynamics, and soil properties. We further introduce a standardized evaluation protocol and report extensive baseline results across state-of-the-art hyperspectral foundation models. Together, ChronoEarth and benchmark provide the first large-scale, temporally grounded platform for systematic spatiotemporal hyperspectral representation learning.",
+      "published": "2026-05-15T06:44:23Z",
+      "updated": "2026-05-15T06:44:23Z",
+      "arxiv_id": "2605.15666v1",
+      "abs_url": "http://arxiv.org/abs/2605.15666v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.15666v1",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV"
+      ],
+      "comment": "",
+      "code_url": "",
+      "has_code": false,
+      "labels": [
+        "语义分割",
+        "基础模型",
+        "高光谱/多光谱",
+        "数据集/评测"
+      ],
+      "topic": "语义分割",
+      "score": 11,
+      "anchor_terms": [
+        "earth observation",
+        "foundation model",
+        "geospatial"
+      ],
+      "matched_terms": [
+        "earth observation",
+        "foundation model",
+        "geospatial",
+        "hyperspectral",
+        "land cover",
+        "self-supervised learning"
+      ],
+      "summary_zh": "高光谱成像 (HSI) 为地球表面提供密集的光谱信息，有助于对土地覆盖和生态系统动态进行物质层面的了解。尽管最近在高光谱自监督学习（SSL）方面取得了进展，但现有数据集在时间上仍然很浅，限制了长时空建模的发展。为了解决这一差距，我们推出了 ChronoEarth-492K，这是第一个基于 NASA EO-1 Hyperion 任务构建的大规模、时间校准的高光谱 SSL 数据集，该任务是迄今为止世界上最长的连续高光谱档案（2001-2017 年）。 ChronoEarth-492K 包含 17 年来全球 185,398 个地点的 492,354 个辐射协调斑块，其中 28,786 个地点包含多时态序列（$\\geq 3$ 观测值），使机器人能够"
+    },
+    {
+      "title": "DiffVAS: Diffusion-Guided Visual Active Search in Partially Observable Environments",
+      "authors": [
+        "Anindya Sarkar",
+        "Srikumar Sastry",
+        "Aleksis Pirinen",
+        "Nathan Jacobs",
+        "Yevgeniy Vorobeychik"
+      ],
+      "summary": "Visual active search (VAS) has been introduced as a modeling framework that leverages visual cues to direct aerial (e.g., UAV-based) exploration and pinpoint areas of interest within extensive geospatial regions. Potential applications of VAS include detecting hotspots for rare wildlife poaching, aiding search-and-rescue missions, and uncovering illegal trafficking of weapons, among other uses. Previous VAS approaches assume that the entire search space is known upfront, which is often unrealistic due to constraints such as a restricted field of view and high acquisition costs, and they typically learn policies tailored to specific target objects, which limits their ability to search for multiple target categories simultaneously. In this work, we propose DiffVAS, a target-conditioned policy that searches for diverse objects simultaneously according to task requirements in partially observable environments, which advances the deployment of visual active search policies in real-world applications. DiffVAS leverages a diffusion model to reconstruct the entire geospatial area from sequentially observed partial glimpses, which enables a target-conditioned reinforcement learning-based planning module to effectively reason and guide subsequent search steps. Extensive experiments demonstrate that DiffVAS excels in searching diverse objects in partially observable environments, significantly surpassing state-of-the-art methods on several datasets.",
+      "published": "2026-05-15T01:30:07Z",
+      "updated": "2026-05-15T01:30:07Z",
+      "arxiv_id": "2605.15519v1",
+      "abs_url": "http://arxiv.org/abs/2605.15519v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.15519v1",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "comment": "26 Pages, 12 figures, Accepted to AAMAS 2026",
+      "code_url": "",
+      "has_code": false,
+      "labels": [
+        "图像生成与重建",
+        "无人机/UAV",
+        "数据集/评测"
+      ],
+      "topic": "图像生成与重建",
+      "score": 7,
+      "anchor_terms": [
+        "diffusion model",
+        "geospatial",
+        "UAV"
+      ],
+      "matched_terms": [
+        "aerial",
+        "diffusion model",
+        "geospatial",
+        "UAV"
+      ],
+      "summary_zh": "视觉主动搜索（VAS）已被引入作为一种建模框架，利用视觉线索来指导空中（例如基于无人机）探索并精确定位广泛地理空间区域内的感兴趣区域。 VAS 的潜在应用包括检测稀有野生动物偷猎的热点、协助搜救任务、揭露非法贩运武器等用途。以前的VAS方法假设整个搜索空间是预先已知的，但由于视野受限和获取成本高等限制，这通常是不现实的，而且它们通常学习针对特定目标对象定制的策略，这限制了它们同时搜索多个目标类别的能力。在这项工作中，我们提出了 DiffVAS，一种目标条件策略"
+    }
+  ]
 }
