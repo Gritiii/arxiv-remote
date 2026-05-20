@@ -47,7 +47,7 @@
         "robotic",
         "robotics"
       ],
-      "summary_zh": "Recent advancements in 3D Gaussian Splatting (3DGS) have demonstrated its potential for efficient and photorealistic 3D reconstructions, which is crucial for diverse applications such as robotics and immersive media. However, current Gaussian-based methods for dynamic scene reconstruction struggle with large inter-frame displacements, leading to artifacts and temporal inconsistencies under fast object motions. To address this, we introduce \\textit{TrackerSplat}, a novel method that integrates advanced point tracking methods to enhance the robustness and scalability of 3DGS for dynamic scene reconstruction. TrackerSplat utilizes off-the-shelf point tracking models to extract pixel trajectories and triangulate per-view pixel trajectories onto 3D Gaussians to guide the relocation, rotation, and scaling of Gaussians before training. This strategy effectively handles large displacements between frames, dramatically reducing the fading and recoloring artifacts prevalent in prior methods. By accurately positioning Gaussians prior to gradient-based optimization, TrackerSplat overcomes the quality degradation associated with large frame gaps when processing multiple adjacent frames in parallel across multiple devices, thereby boosting reconstruction throughput while preserving rendering quality.对真实世界数据集的实验证实了 TrackerSplat 在具有显着位移的挑战性场景中的鲁棒性，在并行设置下实现了卓越的吞吐量，并与基线相比保持了视觉质量。代码可在 https://github.com/yindaheng98/TrackerSplat 获取。"
+      "summary_zh": "3D 高斯溅射 (3DGS) 的最新进展证明了其高效且逼真的 3D 重建的潜力，这对于机器人和沉浸式媒体等多种应用至关重要。然而，当前基于高斯的动态场景重建方法难以应对大的帧间位移，导致快速对象运动下的伪影和时间不一致。为了解决这个问题，我们引入了 \\textit{TrackerSplat}，这是一种集成先进点跟踪方法的新颖方法，以增强 3DGS 动态场景重建的鲁棒性和可扩展性。 TrackerSplat 利用现成的点跟踪模型来提取像素轨迹，并将每个视图的像素轨迹三角测量到 3D 高斯上，以在训练前指导高斯的重新定位、旋转和缩放。该策略有效地处理帧之间的大位移，显着减少现有方法中普遍存在的褪色和重新着色伪影。通过在基于梯度的优化之前准确定位高斯，TrackerSplat 克服了跨多个设备并行处理多个相邻帧时与大帧间隙相关的质量下降，从而提高了重建吞吐量，同时保持了渲染质量。对真实世界数据集的实验证实了 TrackerSplat 在具有显着位移的挑战性场景中的鲁棒性，在并行设置下实现了卓越的吞吐量，并与基线相比保持了视觉质量。代码可在 https://github.com/yindaheng98/TrackerSplat 获取。"
     },
     {
       "title": "UAV-Track VLA: Embodied Aerial Tracking via Vision-Language-Action Models",
@@ -263,7 +263,7 @@
         "mobile manipulation",
         "vla"
       ],
-      "summary_zh": "移动操作的一个核心挑战是保留多个合理的动作模型，同时在执行过程中保持反应性。在杂乱的场景中，瓶子通常可以通过多种有效的方式接近和抓住。稳健的行为取决于保留这种动作多样性，同时随着场景的发展保持反应性。扩散政策很有吸引力，因为它们模拟了多模式行动分布，而不是崩溃为一种解决方案。但实际上，完全迭代去噪在控制时的成本很高。动作分块有助于分摊推理，但它也会产生部分开环行为，允许小的不匹配累积成漂移。我们提出了 AnchorVLA，这是一种基于扩散的 VLA 策略，用于移动操作，其核心见解是，当在合理的解流形附近开始采样时，无需进行广泛的去噪即可恢复多模式的有效操作。 AnchorVLA 将轻量级 VLA 适应主干与锚定扩散动作头相结合，使用截断的扩散时间表在锚定轨迹周围进行局部降噪。这保留了多模式动作生成，同时降低了闭环控制的推理成本。至关重要的是，为了减轻分块引起的漂移，我们通过轻量级残差校正模块引入了测试时自我校正机制，该模块在推出期间进行高频、每步调整。在各种移动操作任务中，AnchorVLA 提高了干扰和分布变化下的成功率和稳定性，同时保持低延迟推理。源代码可在 https://github.com/jason-lim26/AnchorVLA 获取。"
+      "summary_zh": "移动操作的一个核心挑战是保留多个合理的动作模型，同时在执行过程中保持反应性。在杂乱的场景中，瓶子通常可以通过多种有效的方式接近和抓住。稳健的行为取决于保持这种动作多样性，同时随着场景的发展保持反应性。扩散政策很有吸引力，因为它们模拟了多模式行动分布，而不是崩溃为一种解决方案。但实际上，完全迭代去噪在控制时的成本很高。动作分块有助于分摊推理，但它也会产生部分开环行为，允许小的不匹配累积成漂移。我们提出了 AnchorVLA，这是一种基于扩散的 VLA 策略，用于移动操作，其核心见解是，当在合理的解流形附近开始采样时，无需进行广泛的去噪即可恢复多模式的有效操作。 AnchorVLA 将轻量级 VLA 适应主干与锚定扩散动作头相结合，使用截断的扩散时间表在锚定轨迹周围进行局部降噪。这保留了多模式动作生成，同时降低了闭环控制的推理成本。至关重要的是，为了减轻分块引起的漂移，我们通过轻量级残差校正模块引入了测试时自我校正机制，该模块在推出期间进行高频、每步调整。在各种移动操作任务中，AnchorVLA 提高了干扰和分布变化下的成功率和稳定性，同时保持低延迟推理。源代码可在 https://github.com/jason-lim26/AnchorVLA 获取。"
     },
     {
       "title": "VoxelCodeBench: Benchmarking 3D World Modeling Through Code Generation",
@@ -335,7 +335,7 @@
         "locomotion",
         "robot"
       ],
-      "summary_zh": "穿越自然地形的机器人必须解释高动态条件下产生的接触力。然而，大多数地形表征方法依赖于准静态假设，忽略了碰撞和快速姿态转换期间产生的速度和加速度相关效应。在这项工作中，我们研究了高速跳跃期间的粒状地形相互作用，并开发了一个基于物理的框架，仅使用本体感受传感来进行动态地形表征。通过系统地改变冲击速度和腿部柔顺性的受控跳跃实验，我们的测量表明，基于准静态的假设会导致高速跳跃期间粒状地形特性估计的巨大差异，特别是在着陆和控制器引起的刚度转变时。仅依赖速度的阻力无法解释这些差异。相反，与脚下的谷物夹带相关的加速度依赖性附加质量效应主导了瞬态力响应。我们将这种力分解与基于动量观察器的估计器集成，该估计器补偿刚体惯性和重力，并引入加速度感知加权回归来解释高加速事件期间增加的力方差。总之，这些方法能够在整个运动条件下一致地恢复颗粒刚度参数，与线性执行器的地面真实情况紧密匹配。我们的结果表明，高速运动期间的准确地形推断需要明确处理与加速度相关的颗粒效应，并为机器人在陆地和行星环境动态探索期间表征复杂的可变形地形奠定了基础。"
+      "summary_zh": "穿越自然地形的机器人必须解释高动态条件下产生的接触力。然而，大多数地形表征方法依赖于准静态假设，忽略了碰撞和快速姿态转换期间产生的速度和加速度相关效应。在这项工作中，我们研究了高速跳跃期间的粒状地形相互作用，并开发了一个基于物理的框架，仅使用本体感受传感来进行动态地形表征。通过系统地改变冲击速度和腿部柔顺性的受控跳跃实验，我们的测量表明，基于准静态的假设会导致高速跳跃期间粒状地形特性估计的巨大差异，特别是在着陆和控制器引起的刚度转变时。仅依赖速度的阻力无法解释这些差异。相反，与脚下的谷物夹带相关的加速度依赖性附加质量效应主导了瞬态力响应。我们将这种力分解与基于动量观察器的估计器集成起来，该估计器补偿刚体惯性和重力，并引入加速度感知加权回归来解释高加速事件期间增加的力方差。总之，这些方法能够在整个运动条件下一致地恢复颗粒刚度参数，与线性执行器的地面真实情况紧密匹配。我们的结果表明，高速运动期间的准确地形推断需要明确处理与加速度相关的颗粒效应，并为机器人在陆地和行星环境动态探索期间表征复杂的可变形地形奠定了基础。"
     },
     {
       "title": "Review and Evaluation of Point-Cloud based Leaf Surface Reconstruction Methods for Agricultural Applications",
@@ -645,7 +645,7 @@
         "mobile robot",
         "robot"
       ],
-      "summary_zh": "动态生产环境中的自适应机器人需要强大的感知能力，包括 6D 姿态估计和多目标跟踪。为了解决现实世界数据依赖性、噪声鲁棒性和时空一致性方面的限制，提出了一种基于机器人操作系统的 LiDAR 框架，该框架将合成数据训练的变换等变 3D 检测与利用中心位姿的多目标跟踪相结合。使用动作捕捉技术在 72 个场景中进行验证，整体结果得出独立姿态估计的交集比并集为 62.6%，通过多对象跟踪集成上升到 83.12%。我们基于 LiDAR 的框架实现了 91.12% 的高阶跟踪精度，提高了工业移动机械手基于 LiDAR 的感知系统的稳健性和多功能性。"
+      "summary_zh": "动态生产环境中的自适应机器人需要强大的感知能力，包括 6D 位姿估计和多目标跟踪。为了解决现实世界数据依赖性、噪声鲁棒性和时空一致性方面的限制，提出了一种基于机器人操作系统的 LiDAR 框架，该框架将合成数据训练的变换等变 3D 检测与利用中心位姿的多目标跟踪相结合。使用动作捕捉技术在 72 个场景中进行验证，整体结果得出独立姿态估计的交集比并集为 62.6%，通过多对象跟踪集成上升到 83.12%。我们基于 LiDAR 的框架实现了 91.12% 的高阶跟踪精度，提高了工业移动机械手基于 LiDAR 的感知系统的稳健性和多功能性。"
     },
     {
       "title": "Cross-Modal Visuo-Tactile Object Perception",
@@ -1653,7 +1653,7 @@
       "matched_terms": [
         "robot"
       ],
-      "summary_zh": "通过利用机器人间局部测量来实现相对定位是一个具有挑战性的问题，特别是在存在测量噪声的情况下。受这一挑战的启发，在本文中，我们提出了一种基于机器人间内角和自位移测量的新颖且系统的 3D 相对定位框架。最初，我们提出了一种线性相对定位理论，包括分布式线性相对定位算法和可定位性的充分条件。根据这一理论，机器人可以以纯线性方式确定其邻居的相对位置和方向。随后，为了处理测量噪声，我们通过解决 MAP 估计器中存在的三个主要挑战，提出了一种先进的最大后验 (MAP) 估计器。首先，通常将 MAP 问题表述为优化问题，其固有的非凸性会导致局部最优。为了解决这个问题，我们将线性相对定位算法的线性计算过程重新表述为流形上的加权总最小二乘（WTLS）优化问题。 WTLS问题的最优解更加准确，可以在求解MAP问题相关的优化问题时作为初始值，从而降低陷入局部最优的风险。第二个挑战是缺乏对机器人初始时间相对位置和方向的先验概率密度的了解，这是 MAP 估计器的输入所需的。为了解决这个问题，我们将 WTLS 与神经密度估计器 (NDE) 结合起来。第三，为了防止在解决MAP问题时随着机器人不断移动而估计的相对位置和方向的大小不断增加，设计了边缘化机制，以确保计算成本保持恒定。"
+      "summary_zh": "通过利用机器人间局部测量来实现相对定位是一个具有挑战性的问题，特别是在存在测量噪声的情况下。受这一挑战的启发，在本文中，我们提出了一种基于机器人间内角和自位移测量的新颖且系统的 3D 相对定位框架。最初，我们提出了一种线性相对定位理论，包括分布式线性相对定位算法和可定位性的充分条件。根据这一理论，机器人可以以纯线性方式确定其邻居的相对位置和方向。随后，为了处理测量噪声，我们通过解决 MAP 估计器中存在的三个主要挑战，提出了一种先进的最大后验 (MAP) 估计器。首先，通常将 MAP 问题表述为优化问题，其固有的非凸性会导致局部最优。为了解决这个问题，我们将线性相对定位算法的线性计算过程重新表述为流形上的加权总最小二乘（WTLS）优化问题。 WTLS问题的最优解更加准确，可以在求解MAP问题相关的优化问题时作为初始值，从而降低陷入局部最优的风险。第二个挑战是缺乏对机器人初始时间相对位置和方向的先验概率密度的了解，这是 MAP 估计器的输入所需的。为了解决这个问题，我们将 WTLS 与神经密度估计器 (NDE) 结合起来。第三，为了防止在解决MAP问题时随着机器人不断移动而估计的相对位置和方向的大小不断增加，设计了边缘化机制，以确保计算成本保持不变。"
     },
     {
       "title": "GPA: Learning GUI Process Automation from Demonstrations",

@@ -133,7 +133,7 @@
         "MLLM",
         "multimodal large language model"
       ],
-      "summary_zh": "随着多模态大语言模型（MLLM）的快速发展，联合执行图像理解和生成的统一 MLLM 取得了显着的进步。然而，尽管统一 MLLM 具有自我反思和自我完善的固有推理能力，但它们在文本到图像生成中的使用在很大程度上仍未得到充分探索。同时，现有的基于多模态推理的图像生成方法大多依赖于整体图文对齐判断，没有对细节提示属性进行细粒度的反映和细化，导致细粒度的控制有限。因此，我们提出了细粒度多模态推理（FiMR），这是一个利用分解视觉问答（VQA）将输入提示分解为最小语义单元（例如实体和属性）的框架，并通过 VQA 验证每个单元以生成明确的细粒度反馈。根据此反馈，FiMR 然后应用有针对性的本地化改进。这种细粒度的自我推理和自我细化使 MLLM 能够在测试时在图像提示对齐和整体生成质量方面实现更精确的改进。大量实验表明，FiMR 始终优于图像生成基准，包括基于推理的方法，特别是在组合文本到图像基准上。代码和模型可在 https://github.com/KU-AGI/FiMR 获取"
+      "summary_zh": "With the rapid progress of Multimodal Large Language Models (MLLMs), unified MLLMs that jointly perform image understanding and generation have advanced significantly. However, despite the inherent reasoning capabilities of unified MLLMs for self-reflection and self-refinement, their use in text-to-image generation remains largely underexplored. Meanwhile, existing multimodal reasoning-based image generation methods mostly rely on holistic image-text alignment judgments, without fine-grained reflection and refinement of detailed prompt attributes, leading to limited fine-grained control. Therefore, we propose Fine-grained Multimodal Reasoning (FiMR), a framework that leverages decomposed visual question answering (VQA) to break down an input prompt into minimal semantic units-such as entities and attributes-and verify each unit via VQA to generate explicit, fine-grained feedback.根据此反馈，FiMR 然后应用有针对性的本地化改进。 This fine-grained self-reasoning and self-refinement enable MLLMs to achieve more precise improvements in image-prompt alignment and overall generation quality at test time. Extensive experiments demonstrate that FiMR consistently outperforms image generation baselines, including reasoning-based methods, particularly on compositional text-to-image benchmarks.代码和模型可在 https://github.com/KU-AGI/FiMR 获取"
     },
     {
       "title": "SatBLIP: Context Understanding and Feature Identification from Satellite Imagery with Vision-Language Learning",
@@ -231,7 +231,7 @@
         "remote sensing change detection",
         "visual question answering"
       ],
-      "summary_zh": "虽然多模态大语言模型 (MLLM) 在一般视觉语言任务中表现出色，但其在遥感变化理解中的应用受到基本的“时间盲性”的阻碍。现有的架构缺乏多时间对比推理的内在机制，并且难以精确的空间基础。为了解决这个问题，我们首先引入 Delta-QA，这是一个包含 18 万个视觉问答样本的综合基准测试。 Delta-QA 统一了双时态和三时态场景中的像素级分割和视觉问答，将变化解释构建为四个渐进的认知维度。在方法论上，我们提出了 Delta-LLaVA，这是一种专门为多时相遥感解释量身定制的新型 MLLM 框架。它通过三个核心创新克服了朴素特征串联的局限性：系统地隔离和放大视觉差异的Change-Enhanced Attention模块，利用Change Prior Embedding提取可微分特征作为LLM的输入的Change-SEG模块，以及防止跨时间上下文泄漏的局部因果注意模块。大量实验表明，Delta-LLaVA 在复杂变化推导和高精度边界定位方面明显优于领先的通用 MLLM 和专业分割模型，为对地观测智能建立了统一的框架。"
+      "summary_zh": "虽然多模态大语言模型 (MLLM) 在一般视觉语言任务中表现出色，但其在遥感变化理解中的应用受到基本的“时间盲性”的阻碍。 Existing architectures lack intrinsic mechanisms for multi-temporal contrastive reasoning and struggle with precise spatial grounding. To address this, we first introduce Delta-QA, a comprehensive benchmark comprising 180k visual question-answering samples. Delta-QA 统一了双时态和三时态场景中的像素级分割和视觉问答，将变化解释构建为四个渐进的认知维度。 Methodologically, we propose Delta-LLaVA, a novel MLLM framework explicitly tailored for multi-temporal remote sensing interpretation.它通过三个核心创新克服了朴素特征串联的局限性：系统地隔离和放大视觉差异的Change-Enhanced Attention模块，利用Change Prior Embedding提取可微分特征作为LLM的输入的Change-SEG模块，以及防止跨时间上下文泄漏的局部因果注意模块。大量实验表明，Delta-LLaVA 在复杂变化推导和高精度边界定位方面明显优于领先的通用 MLLM 和专业分割模型，为对地观测智能建立了统一的框架。"
     },
     {
       "title": "Creo: From One-Shot Image Generation to Progressive, Co-Creative Ideation",

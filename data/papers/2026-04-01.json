@@ -133,7 +133,7 @@
         "vision-language-action",
         "vla"
       ],
-      "summary_zh": "End-to-end autonomous driving has evolved from the conventional paradigm based on sparse perception into vision-language-action (VLA) models, which focus on learning language descriptions as an auxiliary task to facilitate planning. In this paper, we propose an alternative Vision-Geometry-Action (VGA) paradigm that advocates dense 3D geometry as the critical cue for autonomous driving.由于车辆在 3D 世界中运行，我们认为密集的 3D 几何形状可以为决策提供最全面的信息。 However, most existing geometry reconstruction methods (e.g., DVGT) rely on computationally expensive batch processing of multi-frame inputs and cannot be applied to online planning. To address this, we introduce a streaming Driving Visual Geometry Transformer (DVGT-2), which processes inputs in an online manner and jointly outputs dense geometry and trajectory planning for the current frame.我们采用时间因果注意力和缓存历史特征来支持即时推理。 To further enhance efficiency, we propose a sliding-window streaming strategy and use historical caches within a certain interval to avoid repetitive computations.尽管速度更快，DVGT-2 在各种数据集上实现了卓越的几何重建性能。 The same trained DVGT-2 can be directly applied to planning across diverse camera configurations without fine-tuning, including closed-loop NAVSIM and open-loop nuScenes benchmarks."
+      "summary_zh": "端到端自动驾驶已经从基于稀疏感知的传统范式演变为视觉-语言-动作（VLA）模型，该模型专注于学习语言描述作为辅助任务以促进规划。在本文中，我们提出了另一种视觉-几何-动作（VGA）范式，主张将密集的 3D 几何作为自动驾驶的关键线索。由于车辆在 3D 世界中运行，我们认为密集的 3D 几何形状可以为决策提供最全面的信息。然而，大多数现有的几何重建方法（例如DVGT）依赖于计算昂贵的多帧输入批处理，并且不能应用于在线规划。为了解决这个问题，我们引入了流式驾驶视觉几何变换器（DVGT-2），它以在线方式处理输入并联合输出当前帧的密集几何和轨迹规划。我们采用时间因果注意力和缓存历史特征来支持即时推理。为了进一步提高效率，我们提出了滑动窗口流策略，并在一定间隔内使用历史缓存以避免重复计算。尽管速度更快，DVGT-2 在各种数据集上实现了卓越的几何重建性能。相同的经过训练的 DVGT-2 可以直接应用于不同相机配置的规划，无需微调，包括闭环 NAVSIM 和开环 nuScenes 基准。"
     },
     {
       "title": "Compact Keyframe-Optimized Multi-Agent Gaussian Splatting SLAM",
@@ -208,7 +208,7 @@
       "matched_terms": [
         "robot"
       ],
-      "summary_zh": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know."
+      "summary_zh": "连续体机器人非常适合受限环境，但远端刚度较低，导致在外部负载下出现较大的姿势误差。在本文中，我们提出了一种新颖的结构基元——远端稳定梁，它通过纯几何设计实现了强大的刚度梯度，在保持中间部分的顺应性的同时确保了远端的高刚度。该结构由两根平行杆和一根受导向盘约束的会聚杆组成，引入几何耦合来抑制变形模式并保持远端姿势。实验表明，远端刚度比中心高 12 倍，相当于传统悬臂梁的约 100 倍。所提出的机制无需主动刚度调制即可同时实现柔顺性和远端稳定性，为需要安全性和精度的连续体机器人提供了一种新的设计方法。"
     },
     {
       "title": "When Reward Hacking Rebounds: Understanding and Mitigating It with Representation-Level Signals",
@@ -243,7 +243,7 @@
         "manipulation",
         "reinforcement learning"
       ],
-      "summary_zh": "法学硕士的强化学习很容易受到奖励黑客攻击，即模型利用捷径来最大化奖励而不解决预期任务。我们使用环境操纵设置系统地研究编码任务中的这种现象，其中模型可以重写评估器代码以轻松通过测试而不解决任务，作为受控测试台。在这两个研究的模型中，我们确定了一个可重现的三相反弹模式：模型首先尝试重写评估器但失败了，因为它们的重写嵌入了它们自己的解决方案无法通过的测试用例。然后他们暂时退回到合法的解决方案。 When legitimate reward remains scarce, they rebound into successful hacking with qualitatively different strategies.使用表示工程，我们从领域通用对比对中提取快捷方式、欺骗和评估意识的概念方向，并发现快捷方式方向最密切地跟踪黑客行为，使其成为检测的有效表示代理。受这一发现的启发，我们提出了优势修改，它将快捷方式概念得分集成到 GRPO 优势计算中，以在策略更新之前惩罚黑客行为。由于惩罚被内化到训练信号中，而不是仅在推理时应用，因此与生成时激活控制相比，优势修改可提供更强大的黑客攻击抑制。"
+      "summary_zh": "法学硕士的强化学习很容易受到奖励黑客攻击，即模型利用捷径来最大化奖励而不解决预期任务。我们使用环境操纵设置系统地研究编码任务中的这种现象，其中模型可以重写评估器代码以轻松通过测试而不解决任务，作为受控测试台。在这两个研究的模型中，我们确定了一个可重现的三相反弹模式：模型首先尝试重写评估器但失败了，因为它们的重写嵌入了它们自己的解决方案无法通过的测试用例。然后他们暂时退回到合法的解决方案。当合法的奖励仍然稀缺时，他们就会使用截然不同的策略，重新获得成功的黑客攻击。使用表示工程，我们从领域通用对比对中提取快捷方式、欺骗和评估意识的概念方向，并发现快捷方式方向最密切地跟踪黑客行为，使其成为检测的有效表示代理。受这一发现的启发，我们提出了优势修改，它将快捷方式概念得分集成到 GRPO 优势计算中，以在策略更新之前惩罚黑客行为。由于惩罚被内化到训练信号中，而不是仅在推理时应用，因此与生成时激活控制相比，优势修改可提供更强大的黑客攻击抑制。"
     },
     {
       "title": "Low-Burden LLM-Based Preference Learning: Personalizing Assistive Robots from Natural Language Feedback for Users with Paralysis",
@@ -606,7 +606,7 @@
         "open-source",
         "robot"
       ],
-      "summary_zh": "面向城市的4级（L4）自动驾驶的操作设计领域（ODD），特别是自动机器人出租车，在复杂的城市混合交通环境中面临着巨大的挑战。这些挑战主要源于弱势道路使用者（VRU）的高密度及其高度不确定和不可预测的交互行为。然而，现有的开源数据集主要关注高速公路或受监管的十字路口等结构化场景，在代表混乱、非结构化城市环境的数据方面留下了严重的空白。为了解决这个问题，本文提出了一种高效、高精度的无人机数据集构建方法，并建立了车辆与弱势道路用户交互数据集（VRUD），如图1所示。与以往的工作不同，VRUD是从深圳典型的“城中村”中收集的，这些城市的特点是交通监管松散和极度闭塞。该数据集包含 4 小时的 4K/30Hz 记录，包含 11,479 个 VRU 轨迹和 1,939 个车辆轨迹。 VRUD 的一个关键特征是其构成：VRU 约占所有流量参与者的 87%，大大超过了现有基准中的比例。此外，与仅提供原始轨迹的数据集不同，我们基于新颖的向量碰撞时间 (VTTC) 阈值提取了 4,002 个多智能体交互场景，并由标准 OpenDRIVE 高清地图支持。这项研究为增强 ADS 在复杂、非结构化城市环境中的安全性能提供了宝贵、稀有的边缘案例资源。为了便于进一步研究，我们将 VRUD 数据集开源：https://zzi4.github.io/VRUD/。"
+      "summary_zh": "面向城市的4级（L4）自动驾驶的操作设计领域（ODD），特别是自动机器人出租车，在复杂的城市混合交通环境中面临着巨大的挑战。这些挑战主要源于弱势道路使用者（VRU）的高密度及其高度不确定和不可预测的交互行为。然而，现有的开源数据集主要关注高速公路或受监管的十字路口等结构化场景，在代表混乱、非结构化城市环境的数据方面留下了严重的空白。为了解决这个问题，本文提出了一种高效、高精度的无人机数据集构建方法，并建立了车辆与弱势道路用户交互数据集（VRUD），如图1所示。与以往的工作不同，VRUD是从深圳典型的“城中村”中收集的，这些城市的特点是交通监管松散和极度闭塞。该数据集包含 4 小时的 4K/30Hz 记录，包含 11,479 条 VRU 轨迹和 1,939 条车辆轨迹。 VRUD 的一个关键特征是其构成：VRU 约占所有流量参与者的 87%，大大超过了现有基准中的比例。此外，与仅提供原始轨迹的数据集不同，我们基于新颖的向量碰撞时间 (VTTC) 阈值提取了 4,002 个多智能体交互场景，并由标准 OpenDRIVE 高清地图支持。这项研究为增强 ADS 在复杂、非结构化城市环境中的安全性能提供了宝贵、稀有的边缘案例资源。为了便于进一步研究，我们将 VRUD 数据集开源：https://zzi4.github.io/VRUD/。"
     },
     {
       "title": "ReMoGen: Real-time Human Interaction-to-Reaction Generation via Modular Learning from Diverse Data",

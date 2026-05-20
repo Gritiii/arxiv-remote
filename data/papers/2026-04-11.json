@@ -99,7 +99,7 @@
         "satellite imagery",
         "transformer"
       ],
-      "summary_zh": "视觉基础模型已被证明可以有效地将卫星图像处理为适合下游任务的表示，但是，创建在多个空间分辨率和模式下运行的模型具有挑战性。本文提出了 Scale-ALiBi，一种线性偏置变换器注意机制，对不同地面样本距离尺度的图像块之间的关系具有空间编码偏置。我们使用三重对比和重建架构在对齐的高分辨率和低分辨率光学和低分辨率 SAR 卫星图像数据数据集上提供 Scale-ALiBi 的实现，展示了 GEO-Bench 基准的改进，并公开发布了新策划的数据集。"
+      "summary_zh": "视觉基础模型已被证明可以有效地将卫星图像处理为适合下游任务的表示，但是，创建在多个空间分辨率和模式下运行的模型具有挑战性。本文提出了 Scale-ALiBi，一种线性偏置变换器注意机制，对不同地面样本距离尺度的图像块之间的关系具有空间编码偏置。我们使用三重对比和重建架构在对齐的高分辨率和低分辨率光学和低分辨率 SAR 卫星图像数据的数据集上提供 Scale-ALiBi 的实现，展示了 GEO-Bench 基准的改进，并公开发布了新策划的数据集。"
     },
     {
       "title": "SatReg: Regression-based Neural Architecture Search for Lightweight Satellite Image Segmentation",
