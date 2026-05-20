@@ -1,11 +1,803 @@
 {
   "date": "2026-05-19",
-  "generated_at": "2026-05-19T06:32:37.452810+00:00",
+  "generated_at": "2026-05-20T07:50:25.238720+00:00",
   "timezone": "Asia/Shanghai",
   "source": "arXiv",
   "source_url": "https://arxiv.org/",
   "query": "(cat:cs.CV OR cat:eess.IV OR cat:cs.AI OR cat:cs.LG OR cat:cs.MM OR cat:stat.ML) AND submittedDate:[202605190000 TO 202605192359]",
-  "total_fetched": 0,
-  "total_matched": 0,
-  "papers": []
+  "total_fetched": 360,
+  "total_matched": 19,
+  "papers": [
+    {
+      "title": "MetaEarth-MM: Unified Multimodal Remote Sensing Image Generation with Scene-centered Joint Modeling",
+      "authors": [
+        "Zhiping Yu",
+        "Chenyang Liu",
+        "Jinqi Cao",
+        "Qinzhe Yang",
+        "Siwei Yu",
+        "Zhengxia Zou",
+        "Zhenwei Shi"
+      ],
+      "summary": "Multi-modal remote sensing images are vital for Earth observation, yet complete paired observations are often scarce in practice. Existing generative methods commonly address this problem through isolated pairwise modality translation, but their versatility and scalability remain limited as the number of modalities and generation tasks increases. Here, we develop a generative foundation model MetaEarth-MM for multi-modal remote sensing imagery, enabling paired joint generation and any-to-any translation across five modalities within a unified model. Recognizing the intrinsic scene consistency underlying multi-modal observations, we introduce a scene-centered joint modeling paradigm in MetaEarth-MM. Unlike previous methods that rely on direct appearance-level cross-modal mapping, our model organizes the generation around the underlying scene content. Specifically, MetaEarth-MM adopts a decoupled architecture that first infers a latent scene representation from available observations, and then generates target modalities conditioned on this intermediate state. To support training, we further construct EarthMM, a large-scale dataset comprising 2.8 million multi-resolution global images with 2.2 million aligned pairs. Extensive experiments demonstrate that MetaEarth-MM not only exhibits strong generative capability and robust generalization across diverse generation tasks, but also supports downstream tasks at both data and representation levels, highlighting its potential as a general foundation model for cross-modal Earth observation. The code and dataset will be available at https://github.com/YZPioneer/MetaEarth-MM.",
+      "published": "2026-05-19T16:47:02Z",
+      "updated": "2026-05-19T16:47:02Z",
+      "arxiv_id": "2605.20090v1",
+      "abs_url": "http://arxiv.org/abs/2605.20090v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.20090v1",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV"
+      ],
+      "comment": "",
+      "code_url": "https://github.com/YZPioneer/MetaEarth-MM",
+      "has_code": true,
+      "labels": [
+        "开源",
+        "图像生成与重建",
+        "基础模型",
+        "多模态融合",
+        "数据集/评测"
+      ],
+      "topic": "图像生成与重建",
+      "score": 18,
+      "anchor_terms": [
+        "earth observation",
+        "foundation model",
+        "image generation",
+        "remote sensing"
+      ],
+      "matched_terms": [
+        "earth observation",
+        "foundation model",
+        "image generation",
+        "multi-modal remote sensing",
+        "remote sensing",
+        "remote sensing image generation",
+        "robust"
+      ],
+      "summary_zh": "多模态遥感图像对于地球观测至关重要，但在实践中往往缺乏完整的配对观测。现有的生成方法通常通过孤立的成对模态翻译来解决这个问题，但随着模态和生成任务数量的增加，它们的多功能性和可扩展性仍然有限。在这里，我们开发了一个用于多模态遥感图像的生成基础模型 MetaEarth-MM，能够在统一模型内跨五种模态进行配对联合生成和任意转换。认识到多模态观测背后的内在场景一致性，我们在 MetaEarth-MM 中引入了一种以场景为中心的联合建模范例。与之前依赖直接外观级跨模式映射的方法不同，我们的模型围绕底层场景内容组织生成。具体来说，MetaEarth-MM 采用解耦架构，首先从可用观察中推断出潜在场景表示，然后生成以此中间状态为条件的目标模态。为了支持训练，我们进一步构建了 EarthMM，这是一个大型数据集，包含 280 万张多分辨率全局图像和 220 万个对齐对。大量实验表明，MetaEarth-MM不仅在不同的生成任务中表现出强大的生成能力和鲁棒的泛化能力，而且还支持数据和表示级别的下游任务，凸显了其作为跨模态地球观测通用基础模型的潜力。代码和数据集将在 https://github.com/YZPioneer/MetaEarth-MM 上提供。"
+    },
+    {
+      "title": "A Framework for Evaluating Zero-Shot Image Generation in Concept-based Explainability",
+      "authors": [
+        "Giacomo Astolfi",
+        "Matteo Bianchi",
+        "Riccardo Campi",
+        "Antonio De Santis",
+        "Marco Brambilla"
+      ],
+      "summary": "Concept-based Explainable Artificial Intelligence (XAI) interprets deep learning models using human-understandable visual features (e.g., textures or object parts) by linking internal representations to class predictions, thereby bridging the gap between low-level image data and high-level semantics. A major challenge, however, is the reliance on large sets of labeled images to represent each concept, which limits scalability. In this work, we investigate the use of zero-shot Text-to-Image (T2I) generative models as a source of synthetic concept datasets for concept-based XAI methods. Specifically, we generate concepts using predefined prompts and evaluate their faithfulness to real ones through four complementary analyses: (1) comparing synthetic vs. real concept images via concept representation similarity; (2) evaluating their intra-similarity by comparing pairs of subsets of the same concept with progressively increasing size; (3) evaluating their performance for downstream explanation tasks using relevant class images; (4) evaluating how removing a concept from tested class images affects explanations of generated concepts. While current T2I generative models promise a shortcut to concept-based XAI, our study highlights challenges and raises open questions about the use of synthetic data generated by zero-shot pipelines in model analyses. The resulting dataset is available at https://github.com/DataSciencePolimi/ZeroShot-T2I-Concepts.",
+      "published": "2026-05-19T13:46:58Z",
+      "updated": "2026-05-19T13:46:58Z",
+      "arxiv_id": "2605.19855v1",
+      "abs_url": "http://arxiv.org/abs/2605.19855v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.19855v1",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "comment": "G. Astolfi, M. Bianchi, and R. Campi contributed equally",
+      "code_url": "https://github.com/DataSciencePolimi/ZeroShot-T2I-Concepts",
+      "has_code": true,
+      "labels": [
+        "开源",
+        "图像生成与重建",
+        "视觉-语言模型",
+        "少样本/域适应",
+        "数据集/评测"
+      ],
+      "topic": "图像生成与重建",
+      "score": 5,
+      "anchor_terms": [
+        "image generation"
+      ],
+      "matched_terms": [
+        "image generation",
+        "zero-shot"
+      ],
+      "summary_zh": "基于概念的可解释人工智能（XAI）通过将内部表示与类预测联系起来，使用人类可理解的视觉特征（例如纹理或物体部分）来解释深度学习模型，从而弥合低级图像数据和高级语义之间的差距。然而，一个主要挑战是依赖大量标记图像来表示每个概念，这限制了可扩展性。在这项工作中，我们研究了使用零样本文本到图像 (T2I) 生成模型作为基于概念的 XAI 方法的合成概念数据集的来源。具体来说，我们使用预定义的提示生成概念，并通过四种补充分析评估它们对真实概念的忠实度：（1）通过概念表示相似性比较合成与真实概念图像； （2）通过比较大小逐渐增加的相同概念的子集对来评估它们的内部相似性； （3）使用相关类图像评估其下游解释任务的表现； (4) 评估从测试类图像中删除概念如何影响生成概念的解释。虽然当前的 T2I 生成模型有望成为基于概念的 XAI 的捷径，但我们的研究强调了挑战，并提出了有关在模型分析中使用零样本管道生成的合成数据的开放性问题。生成的数据集可在 https://github.com/DataSciencePolimi/ZeroShot-T2I-Concepts 上获取。"
+    },
+    {
+      "title": "Quantum Machine Learning for Cyber-Physical Anomaly Detection in Unmanned Aerial Vehicles: A Leakage-Free Evaluation with Proxy-Audited Feature Sets",
+      "authors": [
+        "Carlos A. Durán Paredes",
+        "Javier E. León Calderón",
+        "Nicolás Sánchez Perea",
+        "German Darío Díaz",
+        "Camilo Segura Quintero"
+      ],
+      "summary": "Unmanned aerial vehicles (UAVs) are cyber-physical systems whose attack surface spans networked avionics and on-board sensor fusion: a compromised GPS or battery module can mimic a benign mission segment and evade naive anomaly detectors. We present a leakage-free evaluation of quantum machine learning for UAV anomaly detection on the multi-sensor TLM:UAV benchmark. Three contributions support the study. (i) A group-aware temporal protocol (B2) partitions the dataset into ten contiguous TimeUS blocks and evaluates over ten seeds, eliminating the inflation produced by random stratified splits that mix neighbouring samples. (ii) A three-mode feature audit (full/loose/strict) quantifies how much accuracy stems from instantaneous physical signals versus contextual proxies (cumulative energy, battery state, GPS trajectory). (iii) A hybrid XGBoost + Data Reuploading (DRU) classifier is benchmarked against five paired non-linear controls (raw, PCA, polynomial-2, random-RBF, and an untrained DRU map) under identical budgets. The standalone DRU does not consistently match the strongest classical baseline across seeds; however, the trained-DRU hybrid is the only model whose mean F1 macro shifts upward from full to strict (+0.05), a directional signal that the per-seed standard deviations prevent from being interpreted as a statistically established difference. The trained-DRU hybrid also records the lowest mean false-alarm rate under proxy-free evaluation, subject to the inter-seed variance reported. We frame this as an incremental, reproducible quantum-enhanced hybrid benefit, and provide an open Qiskit 2.x implementation as a benchmark for cybersecurity analytics in NISQ-era aerospace systems.",
+      "published": "2026-05-19T01:05:16Z",
+      "updated": "2026-05-19T01:05:16Z",
+      "arxiv_id": "2605.19233v1",
+      "abs_url": "http://arxiv.org/abs/2605.19233v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.19233v1",
+      "primary_category": "cs.CR",
+      "categories": [
+        "cs.CR",
+        "cs.LG",
+        "quant-ph"
+      ],
+      "comment": "10 pages, 7 figures, 1 table; open Qiskit 2.x implementation available at https://github.com/Carlosandp/TLM-UAV-Quantum-Anomaly-Detection",
+      "code_url": "https://github.com/Carlosandp/TLM-UAV-Quantum-Anomaly-Detection",
+      "has_code": true,
+      "labels": [
+        "开源",
+        "无人机/UAV",
+        "数据集/评测"
+      ],
+      "topic": "无人机/UAV",
+      "score": 6,
+      "anchor_terms": [
+        "UAV"
+      ],
+      "matched_terms": [
+        "aerial",
+        "UAV",
+        "unmanned aerial vehicle"
+      ],
+      "summary_zh": "无人机 (UAV) 是网络物理系统，其攻击面涵盖网络航空电子设备和机载传感器融合：受损的 GPS 或电池模块可以模仿良性任务部分并逃避幼稚的异常探测器。我们在多传感器 TLM:UAV 基准上提出了用于无人机异常检测的量子机器学习的无泄漏评估。三项贡献支持这项研究。 (i) 群体感知时间协议 (B2) 将数据集划分为十个连续的 TimeUS 块并评估十多个种子，消除了混合相邻样本的随机分层分割产生的膨胀。 (ii) 三模式特征审核（完整/宽松/严格）量化瞬时物理信号与上下文代理（累积能量、电池状态、GPS 轨迹）的准确性。 (iii) 混合 XGBoost + 数据重新上传 (DRU) 分类器在相同预算下针对五对非线性控制（原始、PCA、多项式 2、随机 RBF 和未经训练的 DRU 图）进行基准测试。独立的 DRU 并不能始终匹配种子中最强的经典基线；然而，经过训练的 DRU 混合模型是唯一一个平均 F1 宏从完全向上移动到严格 (+0.05) 的模型，这是一个方向信号，每个种子的标准差阻止被解释为统计上确定的差异。经过训练的 DRU 混合体还记录了无代理评估下的最低平均误报率，具体取决于所报告的种子间方差。我们将其视为增量、可重复的量子增强混合优势，并提供开放的 Qiskit 2.x 实现作为 NISQ 时代航空航天系统网络安全分析的基准。"
+    },
+    {
+      "title": "HaorFloodAlert: Deseasonalized ML Ensemble for 72-Hour Flood Prediction in Bangladesh Haor Wetlands",
+      "authors": [
+        "Salma Hoque Talukdar Koli",
+        "Fahima Haque Talukder Jely",
+        "Md. Samiul Alim",
+        "Md. Zakir Hossen"
+      ],
+      "summary": "Flash floods in Bangladesh's haor wetlands show up with almost no warning. They wreck the annual boro rice harvest. Current setups, built for riverine floods, miss backwater dynamics entirely. These basins are flat. Water does not behave like it does on the Brahmaputra. We built HaorFloodAlert, a deseasonalized machine learning ensemble that forecasts 72-hour flood probability for the Sunamganj Haor (approximately 8,000 km2). Temperature was acting as a seasonal cheat code - it inflated accuracy by 6.9 pp just because floods happen in warm months. We caught that. We also built an upstream Barak River Sentinel-1 SAR proxy from Silchar, Assam, giving about 36 hours of lead time. Otsu-thresholded SAR change detection validates at 84-91 percent spatial match. The operational ensemble (RF 0.5625 + XGBoost 0.4375) hits 89.6 percent LOOCV accuracy, 87.5 percent recall, and 0.943 AUC-ROC on 77 real Sentinel-1 events. A three-tier alert pipeline and a BRRI-calibrated boro rice damage estimator are included.",
+      "published": "2026-05-19T17:51:46Z",
+      "updated": "2026-05-19T17:51:46Z",
+      "arxiv_id": "2605.20167v1",
+      "abs_url": "http://arxiv.org/abs/2605.20167v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.20167v1",
+      "primary_category": "cs.AI",
+      "categories": [
+        "cs.AI",
+        "cs.LG"
+      ],
+      "comment": "9 pages, 9 figures. To be submitted to raaicon.org",
+      "code_url": "",
+      "has_code": false,
+      "labels": [
+        "变化检测",
+        "SAR遥感"
+      ],
+      "topic": "变化检测",
+      "score": 2,
+      "anchor_terms": [
+        "change detection",
+        "SAR"
+      ],
+      "matched_terms": [
+        "change detection",
+        "SAR"
+      ],
+      "summary_zh": "孟加拉国豪尔湿地的山洪爆发几乎没有任何预警。它们破坏了每年一度的波罗稻米收成。当前的设置是为河流洪水而建的，完全忽略了回水动态。这些盆地是平坦的。水的表现与雅鲁藏布江上的不同。我们构建了 HaorFloodAlert，这是一个非季节性机器学习集成，可以预测 Sunamganj Haor（约 8,000 平方公里）72 小时发生洪水的概率。温度充当了季节性作弊代码——仅仅因为洪水发生在温暖的月份，它就将准确度提高了 6.9 个百分点。我们抓住了这一点。我们还在阿萨姆邦 Silchar 建立了巴拉克河上游 Sentinel-1 SAR 代理，提供约 36 小时的交付时间。 Otsu 阈值 SAR 变化检测在 84-91% 的空间匹配度下进行验证。操作集成（RF 0.5625 + XGBoost 0.4375）在 77 个真实的 Sentinel-1 事件中达到了 89.6% 的 LOOCV 准确率、87.5% 的召回率和 0.943 AUC-ROC。其中包括三层警报管道和经过 BRRI 校准的 boro 水稻损害估计器。"
+    },
+    {
+      "title": "PixVerve: Advancing Native UHR Image Generation to 100MP with a Large-Scale High-Quality Dataset",
+      "authors": [
+        "Haojun Chen",
+        "Haoyang He",
+        "Chengming Xu",
+        "Qingdong He",
+        "Junwei Zhu",
+        "Yabiao Wang",
+        "Zhucun Xue",
+        "Xianfang Zeng",
+        "Zhennan Chen",
+        "Xiaobin Hu",
+        "Hao Zhao",
+        "Yong Liu",
+        "Jiangning Zhang",
+        "Dacheng Tao"
+      ],
+      "summary": "Text-to-Image (T2I) models have recently seen notable progress around 1K and 2K resolution. With the extreme desire for better visual experience and the rapid development of imaging technology, the demand for Ultra-High-Resolution (UHR) image generation has grown significantly. However, UHR image generation poses great challenges due to the scarcity and complexity of high-resolution content. In this paper, we first introduce PixVerve-95K, a high-quality, open-source UHR T2I dataset curated with a carefully designed data pipeline, which contains 95K images across diverse scenarios (each image has a minimum pixel-count of 100M) and seven-dimensional annotations. Based on our large-scale image-text dataset, we take a pioneering step to extend various T2I foundation models to native 100MP generation with three training schemes. Finally, leveraging both conventional metrics and multimodal large language model-based assessments, our proposed PixVerve-Bench benchmark establishes a comprehensive evaluation protocol for UHR images encompassing visual quality and semantic alignment. Extensive experimental results on our benchmark and the constructive exploration of training strategies collaboratively provide valuable insights for future breakthroughs.",
+      "published": "2026-05-19T17:35:09Z",
+      "updated": "2026-05-19T17:35:09Z",
+      "arxiv_id": "2605.20147v1",
+      "abs_url": "http://arxiv.org/abs/2605.20147v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.20147v1",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV"
+      ],
+      "comment": "Project page is available at https://haojunchen663.github.io/projects/PixVerve/",
+      "code_url": "",
+      "has_code": false,
+      "labels": [
+        "图像生成与重建",
+        "基础模型",
+        "视觉-语言模型",
+        "数据集/评测"
+      ],
+      "topic": "图像生成与重建",
+      "score": 6,
+      "anchor_terms": [
+        "image generation"
+      ],
+      "matched_terms": [
+        "foundation model",
+        "image generation",
+        "large language model",
+        "multimodal large language model"
+      ],
+      "summary_zh": "文本到图像 (T2I) 模型最近在 1K 和 2K 分辨率方面取得了显着进展。随着人们对更好视觉体验的极度渴望以及成像技术的快速发展，对超高分辨率（UHR）图像生成的需求显着增长。然而，由于高分辨率内容的稀缺性和复杂性，UHR图像的生成提出了巨大的挑战。在本文中，我们首先介绍 PixVerve-95K，这是一个采用精心设计的数据管道策划的高质量开源 UHR T2I 数据集，其中包含跨不同场景的 95K 图像（每张图像的像素数至少为 100M）和七维注释。基于我们的大规模图像文本数据集，我们迈出了开创性的一步，通过三种训练方案将各种 T2I 基础模型扩展到本机 100MP 生成。最后，利用传统指标和基于多模态大语言模型的评估，我们提出的 PixVerve-Bench 基准为 UHR 图像建立了一个全面的评估协议，包括视觉质量和语义对齐。我们的基准的广泛实验结果和训练策略的建设性探索共同为未来的突破提供了宝贵的见解。"
+    },
+    {
+      "title": "GeoX: Mastering Geospatial Reasoning Through Self-Play and Verifiable Rewards",
+      "authors": [
+        "Kyeongjin Ahn",
+        "Seungeon Lee",
+        "Krishna P. Gummadi",
+        "Meeyoung Cha"
+      ],
+      "summary": "Geospatial reasoning requires solving image-grounded problems over the complex spatial structure of a scene. However, developing this capability is hindered by the cost of annotating a vast and combinatorial question space. We propose GeoX, a self-play framework that acquires spatial logic through executable programs that yield verifiable rewards, without relying on large-scale human-curated data Given a satellite or aerial image, our framework employs a single multimodal policy that proposes spatial problems as executable programs and solves them under three reasoning modes-abduction, deduction, and induction-over spatial primitives and an image understanding tool. A verifier executes each program to covert a reward signal that jointly optimizes the two roles via reinforcement learning. GeoX consistently improves its base VLMs by up to 5.5 points on average, matching or exceeding conventional baselines trained on millions of curated data. Along-side the proposed method, we release a benchmark for geospatial understanding accumulated through self-play.",
+      "published": "2026-05-19T15:37:01Z",
+      "updated": "2026-05-19T15:37:01Z",
+      "arxiv_id": "2605.20006v1",
+      "abs_url": "http://arxiv.org/abs/2605.20006v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.20006v1",
+      "primary_category": "cs.AI",
+      "categories": [
+        "cs.AI"
+      ],
+      "comment": "26 pages,12 figures, 9 tables",
+      "code_url": "",
+      "has_code": false,
+      "labels": [
+        "无人机/UAV",
+        "数据集/评测"
+      ],
+      "topic": "无人机/UAV",
+      "score": 7,
+      "anchor_terms": [
+        "aerial image",
+        "geospatial"
+      ],
+      "matched_terms": [
+        "aerial",
+        "aerial image",
+        "geospatial",
+        "satellite"
+      ],
+      "summary_zh": "地理空间推理需要解决场景复杂空间结构上的基于图像的问题。然而，注释巨大的组合问题空间的成本阻碍了这种能力的发展。我们提出了 GeoX，一个自我游戏框架，它通过可执行程序获取空间逻辑，产生可验证的奖励，而不依赖于大规模的人工数据。给定卫星或航空图像，我们的框架采用单一的多模态策略，将空间问题提出为可执行程序，并在空间基元和图像理解工具上的三种推理模式（绑架、演绎和归纳）下解决它们。验证者执行每个程序以隐藏奖励信号，通过强化学习联合优化这两个角色。 GeoX 持续将其基础 VLM 平均提高高达 5.5 个点，匹配或超过了基于数百万个精选数据训练的传统基线。除了所提出的方法之外，我们还发布了通过自我游戏积累的地理空间理解的基准。"
+    },
+    {
+      "title": "Feed-Forward Gaussian Splatting from Sparse Aerial Views",
+      "authors": [
+        "Dongli Wu",
+        "Zhuoxiao Li",
+        "Tongyan Hua",
+        "Yinrui Ren",
+        "Xiaobao Wei",
+        "Rongjun Qin",
+        "Wufan Zhao"
+      ],
+      "summary": "Reconstructing large-scale urban scenes from sparse aerial views is a crucial yet challenging task. Due to biased top-down and shallow-oblique camera poses, sparse aerial captures exhibit strong evidence imbalance: roofs and open regions are repeatedly observed, while facades, distant buildings, and occluded structures receive little multi-view support. Existing feed-forward 3D Gaussian Splatting methods directly regress a deterministic representation from sparse inputs, but this often leads to ghosting, melted facades, and stretched textures. Recent pseudo-view and video-based generative reconstruction methods use additional supervision or generative priors. However, they often lack a clear separation between observed geometry and prior-driven content, which can lead to plausible but inconsistent structures. We propose AnyCity, an observation-grounded generative reconstruction framework for sparse aerial urban scenes. AnyCity first predicts an observation-supported geometry latent to anchor reliable structures, and then uses scaffold-conditioned aerial completion tokens to predict a gated residual update for weakly constrained content before Gaussian decoding. During training, dense-to-sparse distillation transfers structural cues from dense-view reconstruction, while an aerial-adapted video diffusion prior provides fine-grained urban appearance cues through gated token conditioning. Observation-preserving objectives keep the refined representation consistent with input-supported geometry. At inference time, AnyCity reconstructs the final 3D Gaussian scene from sparse aerial views in a single feed-forward pass, achieving coherent urban novel-view synthesis with second-level inference. Experiments on synthetic, aerial-domain, UAV-textured, and real-world scenes show consistent improvements over feed-forward baselines.",
+      "published": "2026-05-19T15:04:34Z",
+      "updated": "2026-05-19T15:04:34Z",
+      "arxiv_id": "2605.19949v1",
+      "abs_url": "http://arxiv.org/abs/2605.19949v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.19949v1",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV"
+      ],
+      "comment": "",
+      "code_url": "",
+      "has_code": false,
+      "labels": [
+        "无人机/UAV"
+      ],
+      "topic": "无人机/UAV",
+      "score": 5,
+      "anchor_terms": [
+        "UAV"
+      ],
+      "matched_terms": [
+        "aerial",
+        "UAV"
+      ],
+      "summary_zh": "从稀疏的鸟瞰图中重建大规模的城市场景是一项至关重要但具有挑战性的任务。由于有偏差的自上而下和浅倾斜的相机姿势，稀疏的空中捕捉表现出强烈的证据不平衡：屋顶和开放区域被重复观察，而立面、远处的建筑物和遮挡的结构几乎没有得到多视图支持。现有的前馈 3D 高斯分布方法直接从稀疏输入回归确定性表示，但这通常会导致重影、融化的立面和拉伸的纹理。最近的伪视图和基于视频的生成重建方法使用额外的监督或生成先验。然而，它们通常缺乏观察到的几何形状和先前驱动的内容之间的明确分离，这可能导致看似合理但不一致的结构。我们提出了 AnyCity，一个基于观察的生成重建框架，用于稀疏的空中城市场景。 AnyCity 首先预测潜在锚定可靠结构的观测支持几何结构，然后使用脚手架条件空中完成标记来预测高斯解码之前弱约束内容的门控残差更新。在训练期间，从稠密到稀疏的蒸馏传输来自稠密视图重建的结构线索，而空中自适应视频扩散先验通过门控令牌调节提供细粒度的城市外观线索。观察保留目标使精细表示与输入支持的几何图形保持一致。在推理时，AnyCity 在单个前馈通道中从稀疏鸟瞰图重建最终的 3D 高斯场景，通过二级推理实现连贯的城市新颖视图合成。对合成、空域、无人机纹理和真实世界场景的实验表明，与前馈基线相比，有一致的改进。"
+    },
+    {
+      "title": "StruMPL: Multi-task Dense Regression under Disjoint Partial Supervision and MNAR Labels",
+      "authors": [
+        "Reza M. Asiyabi",
+        "Juan Alberto Molina-Valero",
+        "The SEOSAW Partnership",
+        "Steven Hancock",
+        "Casey M. Ryan"
+      ],
+      "summary": "Estimating forest aboveground biomass (AGB) from Earth observation combines two structurally incompatible label sources: spaceborne lidar provides canopy structure at millions of locations but no biomass estimate, and ground-based plots provide biomass at thousands of biased locations but no metrics of structure. No single training sample carries labels for all target variables, plot labels are missing not at random (MNAR), and biomass is linked to the structural variables by known but biome-specific allometric laws. We formalise this as multi-task dense regression under heterogeneous disjoint partial supervision with MNAR labels and inter-task physical constraints, and propose StruMPL to address it jointly. A shared encoder feeds per-variable regression, imputation, and propensity heads for spatial MNAR correction, and a learnable physics module that evaluates the inter-task constraint on the model's own predictions at every pixel. The supervised loss uses an Augmented IPW (AIPW) pseudo-outcome with stop-gradients on the propensity and on the imputation baseline; we show analytically and empirically that both are necessary for joint optimisation to recover IPW-weighted stationary points while keeping the loss bounded. On two ecologically distinct biomes, StruMPL outperforms ablation variants and the closest published method on AGB RMSE and bias, with a stratified analysis showing AIPW reduces high-AGB bias by ~54%.",
+      "published": "2026-05-19T14:51:12Z",
+      "updated": "2026-05-19T14:51:12Z",
+      "arxiv_id": "2605.19931v1",
+      "abs_url": "http://arxiv.org/abs/2605.19931v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.19931v1",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "comment": "10 pages with 3 figures and 4 tables, References and Appendix 12 pages with 1 figure and 4 tables",
+      "code_url": "",
+      "has_code": false,
+      "labels": [
+        "LiDAR/点云"
+      ],
+      "topic": "LiDAR/点云",
+      "score": 5,
+      "anchor_terms": [
+        "earth observation"
+      ],
+      "matched_terms": [
+        "earth observation",
+        "LiDAR",
+        "spaceborne"
+      ],
+      "summary_zh": "通过地球观测估计森林地上生物量（AGB）结合了两个结构上不兼容的标签源：星载激光雷达提供了数百万个位置的树冠结构，但没有生物量估计，而地面地块提供了数千个有偏差的位置的生物量，但没有结构指标。没有一个训练样本带有所有目标变量的标签，图标签不是随机丢失的（MNAR），生物量通过已知但特定于生物群落的异速生长法则与结构变量相关联。我们将其形式化为具有 MNAR 标签和任务间物理约束的异构不相交部分监督下的多任务密集回归，并提出 StruMPL 来共同解决它。共享编码器提供每个变量的回归、插补和倾向头以进行空间 MNAR 校正，以及一个可学习的物理模块，用于评估每个像素的模型自身预测的任务间约束。监督损失使用增强 IPW (AIPW) 伪结果，在倾向和插补基线上具有停止梯度；我们通过分析和经验表明，两者都是联合优化所必需的，以恢复 IPW 加权驻点，同时保持损失有界。在两个生态不同的生物群落中，StruMPL 在 AGB RMSE 和偏差方面优于消融变体和最接近的已发表方法，分层分析显示 AIPW 将高 AGB 偏差降低了约 54%。"
+    },
+    {
+      "title": "Deep Tech to Space: Space Data Centers and AI Revolution at the Edge",
+      "authors": [
+        "Jonas Weiss",
+        "Patricia Sagmeister",
+        "Gabriel Maiolini Capez",
+        "Dinesh Verma",
+        "Roberto Garello",
+        "Alberto Perotti",
+        "Dawid Lazaj",
+        "Alicja Musial",
+        "Jakub Nalepa",
+        "Thomas Morf",
+        "Martin Schmatz",
+        "Marek Krawczyk",
+        "Mateusz Przeliorz",
+        "Kevin Roche",
+        "Sagar Tayal",
+        "Mahalakshmi Lakshminarayanan",
+        "Nicolas Longépé",
+        "Pierre-Philippe Mathieu",
+        "Agata Wijata"
+      ],
+      "summary": "Dramatic cost reductions driven by private sector innovations have led to a rapid increase in the number of satellites in orbit and a corresponding surge in space-generated data. As this trend continues, transmitting large volumes of data to Earth for processing may become increasingly costly and challenging due to potential space-to-Earth link congestion and increased latency. Moreover, traditional ground station networks may face difficulties accommodating growing data flows and workloads because of capacity constraints, complex scheduling logistics, and restricted visibility windows, which can limit scalability. Space Data Centers (SDCs) -- software-driven, multi-tenant artificial intelligence-based service platforms capable of processing data in orbit to generate actionable insights for client satellites and ground users -- represent a promising approach to address these challenges. This article presents the architecture of a Low Earth Orbit SDC satellite constellation, considering orbital design, inter-satellite links and network topology, computational resource organization, and software service orchestration. We analyze the potential technical feasibility and economic viability of SDCs using forecasting models informed by technology roadmaps and illustrate the concept through Earth observation and lunar exploration use cases.",
+      "published": "2026-05-19T14:23:26Z",
+      "updated": "2026-05-19T14:23:26Z",
+      "arxiv_id": "2605.19892v1",
+      "abs_url": "http://arxiv.org/abs/2605.19892v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.19892v1",
+      "primary_category": "cs.DC",
+      "categories": [
+        "cs.DC",
+        "cs.AI",
+        "cs.ET",
+        "cs.NI"
+      ],
+      "comment": "7 pages, 4 figures, 2 tables",
+      "code_url": "",
+      "has_code": false,
+      "labels": [],
+      "topic": "其他",
+      "score": 4,
+      "anchor_terms": [
+        "earth observation"
+      ],
+      "matched_terms": [
+        "earth observation",
+        "satellite"
+      ],
+      "summary_zh": "私营部门创新推动的成本大幅降低，导致在轨卫星数量迅速增加，空间生成数据相应激增。随着这种趋势的继续，由于潜在的空对地链路拥塞和延迟增加，将大量数据传输到地球进行处理可能会变得越来越昂贵和具有挑战性。此外，由于容量限制、复杂的调度物流和有限的可见性窗口，传统的地面站网络可能会面临适应不断增长的数据流和工作负载的困难，这可能会限制可扩展性。空间数据中心（SDC）是软件驱动的、基于多租户人工智能的服务平台，能够处理在轨数据，为客户卫星和地面用户生成可行的见解，是解决这些挑战的一种有前景的方法。本文介绍了近地轨道 SDC 卫星星座的架构，考虑了轨道设计、星间链路和网络拓扑、计算资源组织和软件服务编排。我们使用技术路线图提供的预测模型来分析 SDC 的潜在技术可行性和经济可行性，并通过地球观测和月球探测用例说明这一概念。"
+    },
+    {
+      "title": "CPC-VAR:Continual Personalized and Compositional Generation in Visual Autoregressive Models",
+      "authors": [
+        "Junhao Li",
+        "Xinhao Zhong",
+        "Yi sun",
+        "Yuxia Qiao",
+        "Bin Chen",
+        "Shu-Tao Xia",
+        "Yaowei Wang"
+      ],
+      "summary": "Visual autoregressive (VAR) models have recently emerged as an efficient paradigm for text-to-image generation. Despite their strong generative capability, existing VAR-based personalization methods remain limited to static settings, failing to accommodate evolving user demands. In particular, sequential concept learning leads to severe catastrophic forgetting, while multi-concept synthesis often suffers from feature entanglement and attribute inconsistency. In this work, we present the first systematic study of continual personalized generation in VAR models. We identify two key challenges: (i) preserving previously learned concepts during sequential customization, and (ii) composing multiple personalized concepts in a controllable manner. To address these issues, we propose a unified framework with two core components. For continual single-concept learning, we introduce Gradient-based Concept Neuron Selection (GCNS), which identifies concept-relevant neurons and constrains only conflicting parameters across tasks, effectively mitigating forgetting without additional model expansion. For multi-concept synthesis, we propose a context-aware composition strategy that performs multi-branch feature modeling and localized cross-attention fusion guided by spatial conditions, enabling precise and disentangled concept composition. Extensive experiments demonstrate that our method significantly improves performance in long-sequence continual personalization while achieving superior results in multi-concept image synthesis compared to existing baselines. These findings highlight the potential of VAR models for scalable and controllable personalized generation.",
+      "published": "2026-05-19T12:18:15Z",
+      "updated": "2026-05-19T12:18:15Z",
+      "arxiv_id": "2605.19750v1",
+      "abs_url": "http://arxiv.org/abs/2605.19750v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.19750v1",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV"
+      ],
+      "comment": "",
+      "code_url": "",
+      "has_code": false,
+      "labels": [
+        "图像生成与重建"
+      ],
+      "topic": "图像生成与重建",
+      "score": 3,
+      "anchor_terms": [
+        "image generation"
+      ],
+      "matched_terms": [
+        "cross-attention",
+        "image generation"
+      ],
+      "summary_zh": "视觉自回归（VAR）模型最近已成为文本到图像生成的有效范例。尽管生成能力很强，但现有的基于 VAR 的个性化方法仍然仅限于静态设置，无法满足不断变化的用户需求。特别是，顺序概念学习会导致严重的灾难性遗忘，而多概念合成往往会遇到特征纠缠和属性不一致的问题。在这项工作中，我们首次对 VAR 模型中的持续个性化生成进行系统研究。我们确定了两个关键挑战：（i）在顺序定制过程中保留先前学习的概念，以及（ii）以可控的方式组合多个个性化概念。为了解决这些问题，我们提出了一个包含两个核心组件的统一框架。对于持续的单一概念学习，我们引入了基于梯度的概念神经元选择（GCNS），它可以识别概念相关的神经元，并仅限制任务之间冲突的参数，从而有效地减轻遗忘，而无需额外的模型扩展。对于多概念合成，我们提出了一种上下文感知的合成策略，该策略在空间条件的引导下执行多分支特征建模和局部交叉注意融合，从而实现精确且解开的概念合成。大量实验表明，与现有基线相比，我们的方法显着提高了长序列连续个性化的性能，同时在多概念图像合成中取得了优异的结果。这些发现凸显了 VAR 模型在可扩展和可控的个性化生成方面的潜力。"
+    },
+    {
+      "title": "FlowErase-RL: Rethinking Concept Erasure as Reward Optimization in Flow Matching Models",
+      "authors": [
+        "Yi Sun",
+        "Zhiqi Zhang",
+        "Xinhao Zhong",
+        "Yimin Zhou",
+        "Shuoyang Sun",
+        "Bin Chen",
+        "Shu-Tao Xia",
+        "Ke Xu"
+      ],
+      "summary": "Recent advances in flow matching models have significantly improved text-to-image generation quality, but also introduce growing safety risks due to the generation of harmful or undesirable content. Existing concept erasure methods are either inference-time interventions with limited effectiveness or rely on supervised fine-tuning (SFT), which requires precisely aligned data and struggles with scalability and multi-concept settings. In this paper, we propose \\emph{FlowErase-RL}, the first GRPO-based framework for concept erasure in flow matching models. We reformulate concept erasure as a reward optimization problem and introduce a \\textbf{dynamic dual-path reward mechanism} that jointly optimizes (i) a Concept Erasure (CE) reward to suppress target concepts and (ii) a Non-target Space (NS) reward to preserve generative fidelity. The two reward paths are adaptively balanced during training via a performance-driven switching strategy, enabling stable optimization without explicit supervision. Extensive experiments on nudity, object, and artistic style erasure demonstrate that our method achieves state-of-the-art erasure performance while maintaining strong image quality and semantic alignment. Moreover, it exhibits robust resistance to adversarial attacks and scales effectively to multi-concept scenarios. Our results establish a new paradigm for safe and controllable generation in flow matching models.",
+      "published": "2026-05-19T12:10:09Z",
+      "updated": "2026-05-19T12:10:09Z",
+      "arxiv_id": "2605.19739v1",
+      "abs_url": "http://arxiv.org/abs/2605.19739v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.19739v1",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV"
+      ],
+      "comment": "",
+      "code_url": "",
+      "has_code": false,
+      "labels": [
+        "图像生成与重建"
+      ],
+      "topic": "图像生成与重建",
+      "score": 4,
+      "anchor_terms": [
+        "image generation"
+      ],
+      "matched_terms": [
+        "fine-tuning",
+        "image generation",
+        "robust"
+      ],
+      "summary_zh": "流匹配模型的最新进展显着提高了文本到图像的生成质量，但也由于有害或不良内容的生成而带来了越来越大的安全风险。现有的概念擦除方法要么是有效性有限的推理时间干预，要么依赖监督微调（SFT），后者需要精确对齐的数据并难以实现可扩展性和多概念设置。在本文中，我们提出了 \\emph{FlowErase-RL}，这是第一个基于 GRPO 的框架，用于流匹配模型中的概念擦除。我们将概念擦除重新表述为奖励优化问题，并引入一种 \\textbf{动态双路径奖励机制}，该机制联合优化（i）概念擦除（CE）奖励以抑制目标概念和（ii）非目标空间（NS）奖励以保持生成保真度。两条奖励路径在训练过程中通过性能驱动的切换策略自适应平衡，从而无需明确的监督即可实现稳定的优化。关于裸体、物体和艺术风格擦除的大量实验表明，我们的方法实现了最先进的擦除性能，同时保持了强大的图像质量和语义对齐。此外，它对对抗性攻击表现出强大的抵抗力，并有效地扩展到多概念场景。我们的结果为流量匹配模型的安全可控生成建立了新的范例。"
+    },
+    {
+      "title": "GeoMamba: A Geometry-driven MambaVision Framework and Dataset for Fine-grained Optical-SAR Object Retrieval",
+      "authors": [
+        "Tiantong Fang",
+        "Xiuwei Wang",
+        "Jing Xiao",
+        "Wujie Zhou",
+        "Liang Liao",
+        "Mi Wang"
+      ],
+      "summary": "Multi-source remote sensing enables complementary observation of ground objects, while cross-modal fine-grained object retrieval remains challenging, especially under unaligned optical and SAR conditions. Unlike conventional retrieval settings that rely on paired or spatially aligned samples, practical optical-SAR retrieval is affected by substantial modality discrepancy, speckle noise, and structural inconsistency, which limit robust cross-modal representation learning. To address this problem, we propose GeoMamba, a geometry-driven framework tailored for optical-SAR fine-grained retrieval. Specifically, GeoMamba introduces a Geometric Feature Injection (GFI) module that enhances cross-modal feature interaction and incorporates structural priors, thereby improving the robustness of SAR representations and promoting geometry-consistent feature learning. In addition, a Geometric Consistency Constraint (GCC) module, together with a Deep Supervision (DS) strategy, imposes hierarchical geometric constraints using classical operators, which helps preserve informative object structures during representation learning. We further construct a new dataset, FGOS-as, containing 11 aerospace and maritime categories for evaluating unaligned cross-modal fine-grained object retrieval in realistic remote sensing scenarios. Extensive experiments on FGOS-as demonstrate that GeoMamba outperforms existing methods, achieving 63.3% mAP and 77.0% Rank-1 accuracy in all-to-all retrieval setting.",
+      "published": "2026-05-19T12:08:09Z",
+      "updated": "2026-05-19T12:08:09Z",
+      "arxiv_id": "2605.19734v1",
+      "abs_url": "http://arxiv.org/abs/2605.19734v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.19734v1",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV"
+      ],
+      "comment": "",
+      "code_url": "",
+      "has_code": false,
+      "labels": [
+        "多模态融合",
+        "SAR遥感",
+        "数据集/评测"
+      ],
+      "topic": "多模态融合",
+      "score": 6,
+      "anchor_terms": [
+        "remote sensing",
+        "SAR"
+      ],
+      "matched_terms": [
+        "remote sensing",
+        "robust",
+        "SAR"
+      ],
+      "summary_zh": "多源遥感能够对地面物体进行互补观测，而跨模式细粒度物体检索仍然具有挑战性，特别是在未对准的光学和SAR条件下。与依赖成对或空间对齐样本的传统​​检索设置不同，实际的光学 SAR 检索受到显着模态差异、散斑噪声和结构不一致的影响，这限制了鲁棒的跨模态表示学习。为了解决这个问题，我们提出了 GeoMamba，这是一种专为光学 SAR 细粒度检索而定制的几何驱动框架。具体来说，GeoMamba 引入了几何特征注入（GFI）模块，该模块增强了跨模态特征交互并融合了结构先验，从而提高了 SAR 表示的鲁棒性并促进了几何一致的特征学习。此外，几何一致性约束（GCC）模块与深度监督（DS）策略一起使用经典算子施加分层几何约束，这有助于在表示学习期间保留信息丰富的对象结构。我们进一步构建了一个新的数据集 FGOS-as，其中包含 11 个航空航天和海事类别，用于评估现实遥感场景中未对齐的跨模式细粒度对象检索。 FGOS-as 上的大量实验表明，GeoMamba 的性能优于现有方法，在全对全检索设置中实现了 63.3% 的 mAP 和 77.0% 的 Rank-1 准确率。"
+    },
+    {
+      "title": "Aero-World: Action-Conditioned Aerial Video Generation from Inertial Controls",
+      "authors": [
+        "Abdul Mohaimen Al Radi",
+        "Kunyang Li",
+        "Yuzhang Shang",
+        "Mubarak Shah",
+        "Yu Tian"
+      ],
+      "summary": "Foundation video models produce visually impressive results, but their use in embodied AI remains limited because they are primarily trained on natural language rather than low-level control signals. This limitation is especially pronounced for aerial flight, where motion occurs in unconstrained 6-DoF space and small errors in ego-motion can produce large trajectory drift. Generating aerial videos that follow fine-grained inertial actions can support scalable training and evaluation of aerial agents by providing a controllable proxy for real-world or expensive simulation data. To address this problem, we propose \\textbf{Aero-World}, a method for converting a pretrained image-to-video diffusion model into a controllable aerial video generator. Aero-World injects sequences of translational acceleration and angular velocity into a pretrained latent diffusion transformer through an action-token stream. A frozen latent-space Physics Probe, trained independently on real video--IMU pairs, provides differentiable inertial-consistency supervision during LoRA finetuning while avoiding computationally expensive video decoding. We further propose \\textbf{AeroBench}, a benchmark for evaluating whether generated drone videos adhere to low-level action signals. AeroBench uses Action Alignment Score (AAS) to measure agreement with commanded inertial actions and Physical Consistency Rate (PCR) to measure temporal motion stability. On AeroBench, Aero-World improves mean AAS from 57.7 to 63.6 over action-only finetuning and gives a stronger quality-control trade-off than AirScape, with lower FVD (596.5 vs. 1058.6), higher SSIM (0.595 vs. 0.505), and higher Flow-IMU correlation (0.44 vs. 0.20). These results suggest that frozen Physics Probe supervision is a practical mechanism for adapting pretrained video generators toward more action-aligned aerial motion.",
+      "published": "2026-05-19T12:02:17Z",
+      "updated": "2026-05-19T12:02:17Z",
+      "arxiv_id": "2605.19728v1",
+      "abs_url": "http://arxiv.org/abs/2605.19728v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.19728v1",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV"
+      ],
+      "comment": "",
+      "code_url": "",
+      "has_code": false,
+      "labels": [
+        "图像生成与重建",
+        "无人机/UAV",
+        "数据集/评测"
+      ],
+      "topic": "图像生成与重建",
+      "score": 7,
+      "anchor_terms": [
+        "diffusion model",
+        "drone"
+      ],
+      "matched_terms": [
+        "aerial",
+        "diffusion model",
+        "drone",
+        "transformer"
+      ],
+      "summary_zh": "基础视频模型产生了令人印象深刻的视觉结果，但它们在具体人工智能中的使用仍然有限，因为它们主要接受自然语言而不是低级控制信号的训练。这种限制对于空中飞行尤其明显，其中运动发生在不受约束的 6 自由度空间中，自我运动中的小误差可能会产生较大的轨迹漂移。生成遵循细粒度惯性动作的航空视频可以通过为现实世界或昂贵的模拟数据提供可控代理来支持航空代理的可扩展训练和评估。为了解决这个问题，我们提出了 \\textbf{Aero-World}，一种将预训练的图像到视频扩散模型转换为可控航空视频生成器的方法。 Aero-World 通过动作令牌流将平移加速度和角速度序列注入到预先训练的潜在扩散变压器中。冻结潜在空间物理探针在真实视频 IMU 对上独立训练，在 LoRA 微调期间提供可微分的惯性一致性监督，同时避免计算成本高昂的视频解码。我们进一步提出 \\textbf{AeroBench}，这是一个评估生成的无人机视频是否遵循低级动作信号的基准。 AeroBench 使用动作对齐分数 (AAS) 来测量与命令惯性动作的一致性，并使用物理一致性率 (PCR) 来测量时间运动稳定性。在 AeroBench 上，Aero-World 将平均 AAS 从仅动作微调的 57.7 提高到 63.6，并提供了比 AirScape 更强的质量控制权衡，具有更低的 FVD（596.5 与 1058.6）、更高的 SSIM（0.595 与 0.505）以及更高的 Flow-IMU 相关性（0.44 与 0.20）。这些结果表明，冻结的物理探针监督是一种实用的机制，可以使预训练的视频生成器适应更符合动作的空中运动。"
+    },
+    {
+      "title": "Cross-View Splatter: Feed-Forward View Synthesis with Georeferenced Images",
+      "authors": [
+        "Matias Turkulainen",
+        "Akshay Krishnan",
+        "Filippo Aleotti",
+        "Mohamed Sayed",
+        "Guillermo Garcia-Hernando",
+        "Juho Kannala",
+        "Arno Solin",
+        "Gabriel Brostow",
+        "Daniyar Turmukhambetov"
+      ],
+      "summary": "We present Cross-View Splatter, a feed-forward method that predicts pixel-aligned Gaussian splats for outdoor scenes captured at ground level AND by satellite. Faithful reconstructions require good camera coverage, but ground imagery is time-consuming and hard to capture at scale for large outdoor scenes. Fortunately, satellite imagery can provide a global geometric prior that is easy to access via public APIs. Cross-View Splatter fuses orthorectified satellite views with GPS-tagged ground photos to predict Gaussian splats in a unified 3D coordinate frame. By aligning ground and bird's-eye feature representations, our model improves scene coverage and novel-view synthesis, compared to ground imagery alone. We train on curated georeferenced datasets and paired satellite-terrain data, mined from open mapping services. We evaluate our method on a new benchmark for novel-view synthesis with georeferenced imagery allowing comparison to prior state-of-the-art methods. Our code and data preparation will be available at https://nianticspatial.github.io/cross-view-splatter/.",
+      "published": "2026-05-19T10:48:42Z",
+      "updated": "2026-05-19T10:48:42Z",
+      "arxiv_id": "2605.19656v1",
+      "abs_url": "http://arxiv.org/abs/2605.19656v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.19656v1",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV"
+      ],
+      "comment": "Submitted to CVPR 2026. 8 figures, 3 tables. Project page: https://nianticspatial.github.io/cross-view-splatter/",
+      "code_url": "",
+      "has_code": false,
+      "labels": [
+        "数据集/评测"
+      ],
+      "topic": "数据集/评测",
+      "score": 3,
+      "anchor_terms": [
+        "satellite image",
+        "satellite imagery"
+      ],
+      "matched_terms": [
+        "satellite",
+        "satellite image",
+        "satellite imagery"
+      ],
+      "summary_zh": "我们提出了 Cross-View Splatter，这是一种前馈方法，可以预测地面和卫星捕获的室外场景的像素对齐高斯斑点。忠实的重建需要良好的摄像机覆盖范围，但地面图像非常耗时，而且很难大规模捕捉大型户外场景。幸运的是，卫星图像可以提供全局几何先验，可以通过公共 API 轻松访问。 Cross-View Splatter 将正射卫星视图与 GPS 标记的地面照片融合在一起，以预测统一 3D 坐标系中的高斯分布。通过对齐地面和鸟瞰特征表示，与单独的地面图像相比，我们的模型提高了场景覆盖范围和新颖的视图合成。我们使用从开放地图服务中挖掘的精选地理参考数据集和配对卫星地形数据进行训练。我们在新的视图合成新基准上评估我们的方法，并使用地理参考图像来与之前最先进的方法进行比较。我们的代码和数据准备将在 https://nianticspatial.github.io/cross-view-splatter/ 上提供。"
+    },
+    {
+      "title": "Optimal Reconstruction from Linear Queries",
+      "authors": [
+        "Yuval Filmus",
+        "Shay Moran",
+        "Elizaveta Nesterova"
+      ],
+      "summary": "We study the problem of reconstructing an unknown point in $\\mathbb{R}^d$ from approximate linear queries. This setting arises naturally in applications ranging from low-dimensional remote sensing and signal recovery to high-dimensional data analysis and privacy-sensitive inference. Our main goal is to characterize the optimal reconstruction error as a function of the number of queries $T$, the ambient dimension $d$, and the noise parameter $δ$. We first analyze the limit $T \\to \\infty$ and show that the optimal reconstruction error converges to the explicit value $\\sqrt{2d/(d+1)} δ$, which plays a role analogous to the Bayes optimal error in supervised learning. When the dimension is fixed, we show that the excess error above this limit decays doubly exponentially fast as $T \\to \\infty$, a rate that is significantly faster than those typically encountered in learning curves. When the dimension grows, we show that a number of queries on the order of $\\exp(d)$ is necessary and sufficient to achieve vanishing excess error. Finally, we introduce and analyze an improper variant of the reconstruction problem. From a technical perspective, our main contribution is a generalization of Jung's theorem (1901). The classical theorem bounds the maximum possible radius of a set of diameter 1 and characterizes extremal bodies. Our generalization provides a robust variant that characterizes near-extremal bodies and is proved via geometric and dynamical arguments exploiting symmetry and Lie group actions.",
+      "published": "2026-05-19T10:04:37Z",
+      "updated": "2026-05-19T10:04:37Z",
+      "arxiv_id": "2605.19625v1",
+      "abs_url": "http://arxiv.org/abs/2605.19625v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.19625v1",
+      "primary_category": "cs.LG",
+      "categories": [
+        "cs.LG"
+      ],
+      "comment": "Accepted to COLT 2026. 46 pages, 4 figures",
+      "code_url": "",
+      "has_code": false,
+      "labels": [],
+      "topic": "其他",
+      "score": 3,
+      "anchor_terms": [
+        "remote sensing"
+      ],
+      "matched_terms": [
+        "remote sensing",
+        "robust"
+      ],
+      "summary_zh": "我们研究从近似线性查询重建 $\\mathbb{R}^d$ 中未知点的问题。这种设置自然出现在从低维遥感和信号恢复到高维数据分析和隐私敏感推理的应用中。我们的主要目标是将最佳重建误差描述为查询数量 $T$、环境维度 $d$ 和噪声参数 $δ$ 的函数。我们首先分析极限$T \\to \\infty$，并表明最优重建误差收敛到显式值$\\sqrt{2d/(d+1)} δ$，其作用类似于监督学习中的贝叶斯最优误差。当维度固定时，我们表明，超过此限制的超额误差以 $T \\to \\infty$ 的速度呈双倍指数衰减，该速率明显快于学习曲线中通常遇到的速率。当维度增长时，我们表明，$\\exp(d)$ 数量级的查询对于实现超额误差消失是必要且充分的。最后，我们介绍并分析了重建问题的一个不恰当的变体。从技术角度来看，我们的主要贡献是荣格定理（1901）的推广。经典定理限制了一组直径为 1 的最大可能半径并描述了极值体。我们的概括提供了一个强大的变体，可以表征近极值物体，并通过利用对称性和李群作用的几何和动力学论证来证明。"
+    },
+    {
+      "title": "Component-Aware Structure-Preserving Style Transfer for Satellite Sim2Real 6D Pose Estimation",
+      "authors": [
+        "Yonglong Zhang"
+      ],
+      "summary": "Monocular 6D pose estimation for non-cooperative satellites depends heavily on annotated training data, yet real satellite images with reliable pose labels and component-level masks are difficult to acquire at scale. Synthetic rendering can provide exact geometric annotations, but the appearance gap between rendered and real observations limits direct transfer to the real domain. This paper presents a component-aware structure-preserving style transfer framework for satellite synthetic-to-real data construction. The method builds weakly paired real--synthetic samples from calibrated real acquisition, ArUco-based camera-pose measurement, CAD rendering, and component masks. It then extracts part-wise real-domain style codes from unlabeled real images and injects them into corresponding synthetic satellite regions through mask-aligned modulation. To keep the generated images usable for downstream supervision, adversarial training is combined with local contrastive consistency, self-regularization, and edge-preserving constraints. Experiments are conducted on 5,000 rendered satellite images and 100 real images captured in a calibrated setup. The real images provide target-domain appearance references and final evaluation images, while the downstream GDRNet pose estimator is trained only on synthetic or translated synthetic images. Compared with representative image-translation baselines, the proposed method achieves the lowest image distribution discrepancy, with an FID of 54.32 and a KID of 0.048. When the translated data are used to train GDRNet in this target-domain adaptation setting, the ADD pass rate improves to 0.260 and the AUC improves to 0.611. These results indicate that component-level appearance transfer can improve satellite Sim2Real pose estimation in the considered calibrated setup while retaining simulation-derived geometric annotations.",
+      "published": "2026-05-19T10:01:17Z",
+      "updated": "2026-05-19T10:01:17Z",
+      "arxiv_id": "2605.19624v1",
+      "abs_url": "http://arxiv.org/abs/2605.19624v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.19624v1",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "comment": "",
+      "code_url": "",
+      "has_code": false,
+      "labels": [
+        "少样本/域适应",
+        "数据集/评测"
+      ],
+      "topic": "少样本/域适应",
+      "score": 5,
+      "anchor_terms": [
+        "satellite image",
+        "satellite images"
+      ],
+      "matched_terms": [
+        "domain adaptation",
+        "satellite",
+        "satellite image",
+        "satellite images"
+      ],
+      "summary_zh": "非合作卫星的单目 6D 位姿估计在很大程度上取决于带注释的训练数据，但难以大规模获取具有可靠位姿标签和组件级掩模的真实卫星图像。合成渲染可以提供精确的几何注释，但渲染和真实观察之间的外观差距限制了直接转移到真实域。本文提出了一种用于卫星合成到真实数据构建的组件感知结构保留风格传输框架。该方法通过校准的真实采集、基于 ArUco 的相机姿态测量、CAD 渲染和组件掩模构建弱配对的真实合成样本。然后，它从未标记的真实图像中提取部分真实域样式代码，并通过掩模对齐调制将它们注入相应的合成卫星区域。为了保持生成的图像可用于下游监督，对抗性训练与局部对比一致性、自正则化和边缘保留约束相结合。实验在 5,000 张渲染的卫星图像和 100 张在校准设置中捕获的真实图像上进行。真实图像提供目标域外观参考和最终评估图像，而下游 GDRNet 姿态估计器仅在合成或翻译的合成图像上进行训练。与代表性图像翻译基线相比，所提出的方法实现了最低的图像分布差异，FID 为 54.32，KID 为 0.048。当转换后的数据用于在此目标域自适应设置中训练 GDRNet 时，ADD 通过率提高到 0.260，AUC 提高到 0.611。这些结果表明，组件级外观传输可以改进所考虑的校准设置中的卫星 Sim2Real 位姿估计，同时保留模拟导出的几何注释。"
+    },
+    {
+      "title": "deadtrees.earth-aerial: A Multi-Resolution Aerial Image Dataset for Tree Cover and Mortality Detection",
+      "authors": [
+        "Ayushi Sharma",
+        "Clemens Mosig",
+        "Lukas Drees",
+        "Salim Soltani",
+        "Janusch Vajna-Jehle",
+        "Aaron Sheppard",
+        "Belqis Ahmadi",
+        "Jonathan Schmid",
+        "Paul Neumeier",
+        "Nathan Jacobs",
+        "Jan Dirk Wegner",
+        "Teja Kattenborn"
+      ],
+      "summary": "Forests worldwide are increasingly threatened by climate change and disturbances such as fire, pests, and pathogens, creating an urgent need for scalable monitoring of tree cover and tree mortality. Aerial imagery from drones and aircraft is a key data source for detailed and large-scale mapping of tree crowns and mortality. However, related progress is limited by the lack of globally representative, harmonized datasets for joint segmentation of tree cover and mortality. We introduce two novel, open, machine-learning-ready datasets to enable joint segmentation of tree cover and tree mortality from centimeter-scale aerial imagery for the first time at global scales. With DTE-aerial-train, we provide a training dataset comprising 385K image patches of size 1024x1024 pixels, with resolutions ranging from 2.5 to 20 cm. It includes multi-class expert-annotated and -audited pseudo-labels for tree cover and mortality. With DTE-aerial-bench, we provide a geographically balanced benchmark test set of 25 globally distributed orthoimages totaling 525 patches with high-quality expert annotations for both tree cover and mortality. Both the training and benchmark datasets span tropical, temperate, boreal, and dryland biomes and cover a wide range of forest structures and mortality patterns. Using the benchmark test set for evaluation, we establish strong reference baselines that improve mortality segmentation across all biomes and scales with significant gains in challenging regions, such as boreal forests, where the F1 score increases from 0.40 to 0.58 with around 45% relative improvement. All data, models, and code will be publicly released under permissive open-source licenses. An interactive visualization of the benchmark dataset is available at deadtrees.earth/releases/dte-aerial-bench.",
+      "published": "2026-05-19T09:43:29Z",
+      "updated": "2026-05-19T09:43:29Z",
+      "arxiv_id": "2605.19605v1",
+      "abs_url": "http://arxiv.org/abs/2605.19605v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.19605v1",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV"
+      ],
+      "comment": "Preprint. Under review. All rights reserved",
+      "code_url": "",
+      "has_code": false,
+      "labels": [
+        "无人机/UAV",
+        "数据集/评测"
+      ],
+      "topic": "无人机/UAV",
+      "score": 5,
+      "anchor_terms": [
+        "aerial image",
+        "aerial imagery",
+        "drone"
+      ],
+      "matched_terms": [
+        "aerial",
+        "aerial image",
+        "aerial imagery",
+        "drone"
+      ],
+      "summary_zh": "世界各地的森林日益受到气候变化和火灾、害虫和病原体等干扰的威胁，迫切需要对树木覆盖和树木死亡率进行可扩展的监测。无人机和飞机的航拍图像是详细和大规模绘制树冠和死亡率的关键数据源。然而，由于缺乏全球代表性的、统一的树木覆盖率和死亡率联合分割数据集，相关进展受到限制。我们引入了两个新颖的、开放的、机器学习就绪的数据集，首次能够在全球范围内对厘米级航空图像的树木覆盖率和树木死亡率进行联合分割。通过 DTE-aerial-train，我们提供了一个训练数据集，其中包含 385K 个大小为 1024x1024 像素的图像块，分辨率范围为 2.5 到 20 厘米。它包括多类专家注释和审核的树木覆盖率和死亡率伪标签。借助 DTE-aerial-bench，我们提供了地理上平衡的基准测试集，其中包含 25 个全球分布的正射影像，总计 525 个补丁，并针对树木覆盖率和死亡率提供了高质量的专家注释。训练和基准数据集涵盖热带、温带、北方和旱地生物群落，涵盖广泛的森林结构和死亡率模式。使用基准测试集进行评估，我们建立了强有力的参考基线，改善了所有生物群落和规模的死亡率细分，在具有挑战性的地区（例如北方森林）取得了显着的进步，其中 F1 分数从 0.40 增加到 0.58，相对改善了约 45%。所有数据、模型和代码都将在宽松的开源许可证下公开发布。基准数据集的交互式可视化可在 deadtrees.earth/releases/dte-aerial-bench 上找到。"
+    },
+    {
+      "title": "A novel YOLO26-MoE optimized by an LLM agent for insulator fault detection considering UAV images",
+      "authors": [
+        "João Pedro Matos-Carvalho",
+        "Laio Oriel Seman",
+        "Stefano Frizzo Stefenon",
+        "Mohammad Khalaf Mohammad Khreasat",
+        "Gabriel Villarrubia González"
+      ],
+      "summary": "The inspection of electrical power line insulators is essential for ensuring grid reliability and preventing failures caused by damaged or degraded insulation components. In recent years, Unmanned Aerial Vehicles (UAVs) combined with deep learning-based vision systems have emerged as an effective solution for automating this process. However, insulator fault detection remains challenging due to small defect regions, heterogeneous fault patterns, complex backgrounds, and varying imaging conditions. To address these challenges, this paper proposes an optimized YOLO26-MoE, a novel object detection architecture that integrates a sparse Mixture-of-Experts (MoE) module into the high-resolution branch of the YOLO26 detector. The proposed modification enables adaptive feature refinement for subtle and diverse fault patterns while preserving the efficiency of a one-stage detection framework. Hyperparameter optimization, final training, and evaluation were coordinated through a tool-augmented Large Language Model (LLM) agent. The proposed model achieved 0.9900 mAP@0.5 and 0.9515 mAP@0.5:0.95, outperforming the latest YOLO versions. These results demonstrate that the proposed model provides an effective and reliable solution for UAV-based insulator fault detection.",
+      "published": "2026-05-19T09:40:05Z",
+      "updated": "2026-05-19T09:40:05Z",
+      "arxiv_id": "2605.19595v1",
+      "abs_url": "http://arxiv.org/abs/2605.19595v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.19595v1",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "comment": "",
+      "code_url": "",
+      "has_code": false,
+      "labels": [
+        "目标检测",
+        "视觉-语言模型",
+        "无人机/UAV",
+        "数据集/评测"
+      ],
+      "topic": "目标检测",
+      "score": 12,
+      "anchor_terms": [
+        "object detection",
+        "UAV"
+      ],
+      "matched_terms": [
+        "aerial",
+        "large language model",
+        "LLM",
+        "object detection",
+        "UAV",
+        "unmanned aerial vehicle",
+        "YOLO"
+      ],
+      "summary_zh": "电力线路绝缘子的检查对于确保电网可靠性和防止绝缘部件损坏或退化引起的故障至关重要。近年来，无人机（UAV）与基于深度学习的视觉系统相结合，已成为实现这一过程自动化的有效解决方案。然而，由于缺陷区域较小、故障模式不均匀、背景复杂以及成像条件各异，绝缘子故障检测仍然具有挑战性。为了应对这些挑战，本文提出了一种优化的 YOLO26-MoE，这是一种新颖的目标检测架构，它将稀疏专家混合 (MoE) 模块集成到 YOLO26 检测器的高分辨率分支中。所提出的修改能够针对微妙和多样化的故障模式进行自适应特征细化，同时保持一级检测框架的效率。超参数优化、最终训练和评估通过工具增强的大型语言模型 (LLM) 代理进行协调。所提出的模型达到了 0.9900 mAP@0.5 和 0.9515 mAP@0.5:0.95，优于最新的 YOLO 版本。这些结果表明，所提出的模型为基于无人机的绝缘子故障检测提供了有效且可靠的解决方案。"
+    },
+    {
+      "title": "Learning-Accelerated Optimization-based Trajectory Planning for Cooperative Aerial-Ground Handover Missions",
+      "authors": [
+        "Jingshan Chen",
+        "Bochen Yu",
+        "Henrik Ebel",
+        "Peter Eberhard"
+      ],
+      "summary": "This paper presents a learning-augmented trajectory planning framework for cooperative unmanned aerial vehicle (UAV) and unmanned ground vehicle (UGV) handover missions. While centralized trajectory optimization ensures dynamic feasibility and task optimality, its high computational cost limits real-time applicability. We propose a neural surrogate planner utilizing decoupled encoder-decoder long short-term memory (LSTM) networks to generate coordinated handover trajectory predictions from the task specifications. These predictions serve as informed warm starts for the downstream centralized optimizer, thereby accelerating convergence to dynamically feasible solutions. Benchmark evaluations demonstrate that the learning-augmented planning framework achieves more than a threefold speedup and 100% optimization success rate compared to cold start optimization. The results indicate that combining data-driven inference with model-based refinement enables fast and reliable trajectory generation for heterogeneous multi-robot systems.",
+      "published": "2026-05-19T09:07:59Z",
+      "updated": "2026-05-19T09:07:59Z",
+      "arxiv_id": "2605.19562v1",
+      "abs_url": "http://arxiv.org/abs/2605.19562v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.19562v1",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO",
+        "cs.LG",
+        "math.OC"
+      ],
+      "comment": "Preprint of a contribution accepted for publication in the RoManSy 2026 Springer proceedings",
+      "code_url": "",
+      "has_code": false,
+      "labels": [
+        "无人机/UAV",
+        "数据集/评测"
+      ],
+      "topic": "无人机/UAV",
+      "score": 5,
+      "anchor_terms": [
+        "UAV"
+      ],
+      "matched_terms": [
+        "aerial",
+        "UAV",
+        "unmanned aerial vehicle"
+      ],
+      "summary_zh": "本文提出了一种用于协作无人机（UAV）和无人地面车辆（UGV）切换任务的学习增强轨迹规划框架。虽然集中式轨迹优化确保了动态可行性和任务最优性，但其高计算成本限制了实时适用性。我们提出了一种神经代理规划器，利用解耦编码器-解码器长短期记忆（LSTM）网络根据任务规范生成协调的切换轨迹预测。这些预测可以为下游集中式优化器提供明智的热启动，从而加速收敛到动态可行的解决方案。基准评估表明，与冷启动优化相比，学习增强规划框架实现了三倍以上的加速和 100% 的优化成功率。结果表明，将数据驱动的推理与基于模型的细化相结合，可以为异构多机器人系统快速可靠地生成轨迹。"
+    }
+  ]
 }

@@ -1,11 +1,703 @@
 {
   "date": "2026-05-18",
-  "generated_at": "2026-05-18T06:38:01.426033+00:00",
+  "generated_at": "2026-05-20T07:49:45.045190+00:00",
   "timezone": "Asia/Shanghai",
   "source": "arXiv",
   "source_url": "https://arxiv.org/",
   "query": "(cat:cs.CV OR cat:eess.IV OR cat:cs.AI OR cat:cs.LG OR cat:cs.MM OR cat:stat.ML) AND submittedDate:[202605180000 TO 202605182359]",
-  "total_fetched": 0,
-  "total_matched": 0,
-  "papers": []
+  "total_fetched": 529,
+  "total_matched": 17,
+  "papers": [
+    {
+      "title": "View-Aware Semantic Alignment for Aerial-Ground Person Re-Identification",
+      "authors": [
+        "Quan Zhang",
+        "Zeqiang Cai",
+        "Peiming Zhao",
+        "Jingze Wu",
+        "Cailun Wu",
+        "Hongbo Chen",
+        "Jianhuang Lai"
+      ],
+      "summary": "Aerial-Ground Person Re-Identification (AGPReID) remains highly challenging due to drastic viewpoint variations between drones and fixed cameras. Existing methods typically follow a view-invariant paradigm, aligning shared features across views to achieve robustness. However, view-invariant inherently enforces part-level alignment, which ignores view-specific cues and discriminative identity information. To this end, this work proposes ViSA (View-aware Semantic Alignment), a view-aware framework that achieves cross-view semantic consistency containing an Expert-driven Token Generation Module (ETGM) and a Dual-branch Local Fusion Module (DLFM). Technically, the former constructs a set of view-aware experts to generate adaptive semantic queries that perceive viewpoint-specific patterns, while the latter leverages graph reasoning to extract and align local regions responsive to different experts. Extensive experiments on three AGPReID benchmarks including AG-ReID.v2, CARGO and LAGPeR demonstrate that ViSA consistently achieves superior performance, with a notable 10.06\\% mAP improvement on the challenging CARGO cross-view protocol. The code is available at \\href{https://github.com/Cat-Zero/ViSA}{https://github.com/Cat-Zero/ViSA}.",
+      "published": "2026-05-18T10:32:26Z",
+      "updated": "2026-05-18T10:32:26Z",
+      "arxiv_id": "2605.18192v1",
+      "abs_url": "http://arxiv.org/abs/2605.18192v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.18192v1",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV"
+      ],
+      "comment": "CVPR 2026 POSTER",
+      "code_url": "https://github.com/Cat-Zero/ViSA}{https://github.com/Cat-Zero/ViSA",
+      "has_code": true,
+      "labels": [
+        "开源",
+        "无人机/UAV",
+        "数据集/评测"
+      ],
+      "topic": "无人机/UAV",
+      "score": 6,
+      "anchor_terms": [
+        "drone"
+      ],
+      "matched_terms": [
+        "aerial",
+        "drone",
+        "robust"
+      ],
+      "summary_zh": "由于无人机和固定摄像机之间的巨大视点变化，空中-地面人员重新识别 (AGPReID) 仍然极具挑战性。现有方法通常遵循视图不变范例，跨视图对齐共享特征以实现鲁棒性。然而，视图不变本质上强制执行部分级别的对齐，这忽略了特定于视图的线索和歧视性身份信息。为此，本文提出了 ViSA（视图感知语义对齐），这是一种视图感知框架，可实现跨视图语义一致性，包含专家驱动的令牌生成模块（ETGM）和双分支本地融合模块（DLFM）。从技术上讲，前者构建了一组视图感知专家来生成感知特定视点模式的自适应语义查询，而后者则利用图形推理来提取和对齐响应不同专家的局部区域。对包括 AG-ReID.v2、CARGO 和 LAGPeR 在内的三个 AGPReID 基准进行的广泛实验表明，ViSA 始终如一地实现了卓越的性能，在具有挑战性的 CARGO 跨视图协议上，mAP 显着提高了 10.06%。该代码位于 \\href{https://github.com/Cat-Zero/ViSA}{https://github.com/Cat-Zero/ViSA}。"
+    },
+    {
+      "title": "SENSE: Satellite-based ENergy Synthesis for Sustainable Environment",
+      "authors": [
+        "Kailai Sun",
+        "Mingyi He",
+        "Heye Huang",
+        "Can Rong",
+        "Alok Prakash",
+        "Baoshen Guo",
+        "Shenhao Wang",
+        "Jinhua Zhao"
+      ],
+      "summary": "Urban Building Energy Modeling plays a critical role in achieving the United Nations' Sustainable Development Goals 7 and 11. Although existing studies based on satellite imagery and deep learning have achieved remarkable progress, many challenges exist: most existing studies are inherently predictive, failing to reflect the generative nature of urban planning; although generative AI and diffusion models have seen explosive growth in satellite imagery, they lack the urban functional generation (e.g., energy layer); third, aligned high-quality high-resolution building energy data with satellite imagery is limited and scarce. Here we propose SENSE (Satellite-based ENergy Synthesis for Sustainable Environment), a unified generative UBEM framework that jointly synthesizes realistic urban satellite imagery and aligned high-quality building energy consumption and height maps. By conditioning on road networks and urban density metrics, SENSE, based on a controllable diffusion model, leverages the knowledge learned by large vision models to generate urban building energy consumption and height information (annotations) in the latent space. Experiments across four cities (New York City, Boston, Lyon, Busan) demonstrate that SENSE achieves high visual fidelity and strong physical consistency, satisfying the ASHRAE standard metric. Experiments demonstrate that SENSE can generate enough annotated synthetic data using less than 20% labeled energy data, boosting downstream prediction performance by 10% IoU. Compared to SOTA urban energy prediction methods, SENSE significantly reduced prediction error (reduced 3%-11% NMBE and 1%-9% CVRMSE). This study offers an energy-efficiency urban planning and physical generation solution for urban science, energy science and building science. The dataset and code: https://huggingface.co/datasets/skl24/MUSE and https://github.com/kailaisun/GenAI4Urban-Energy/.",
+      "published": "2026-05-18T09:13:01Z",
+      "updated": "2026-05-18T09:13:01Z",
+      "arxiv_id": "2605.18101v1",
+      "abs_url": "http://arxiv.org/abs/2605.18101v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.18101v1",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "comment": "Accpted by KDD 2026 (Oral)",
+      "code_url": "https://huggingface.co/datasets/skl24/MUSE",
+      "has_code": true,
+      "labels": [
+        "开源",
+        "图像生成与重建",
+        "数据集/评测"
+      ],
+      "topic": "图像生成与重建",
+      "score": 5,
+      "anchor_terms": [
+        "diffusion model",
+        "large vision model",
+        "satellite image",
+        "satellite imagery"
+      ],
+      "matched_terms": [
+        "diffusion model",
+        "large vision model",
+        "satellite",
+        "satellite image",
+        "satellite imagery"
+      ],
+      "summary_zh": "城市建筑能源建模在实现联合国可持续发展目标7和11中发挥着关键作用。尽管现有基于卫星图像和深度学习的研究取得了显着进展，但仍存在许多挑战：大多数现有研究本质上是预测性的，未能反映城市规划的生成性；尽管生成式人工智能和扩散模型在卫星图像中出现了爆炸性增长，但它们缺乏城市功能生成（例如能量层）；第三，与卫星图像一致的高质量高分辨率建筑能源数据是有限且稀缺的。在这里，我们提出了 SENSE（基于卫星的可持续环境能源合成），这是一个统一的生成 UBEM 框架，可共同合成真实的城市卫星图像并对齐高质量的建筑能耗和高度图。通过以道路网络和城市密度指标为条件，SENSE 基于可控扩散模型，利用大型视觉模型学到的知识来生成潜在空间中的城市建筑能耗和高度信息（注释）。在四个城市（纽约、波士顿、里昂、釜山）进行的实验表明，SENSE 实现了高视觉保真度和强大的物理一致性，满足 ASHRAE 标准指标。实验表明，SENSE 可以使用少于 20% 的标记能量数据生成足够的带注释的合成数据，将下游预测性能提升 10% IoU。与SOTA城市能源预测方法相比，SENSE显着降低了预测误差（降低了3%-11% NMBE和1%-9% CVRMSE）。这项研究为城市科学、能源科学和建筑科学提供了节能城市规划和物理生成解决方案。数据集和代码：https://huggingface.co/datasets/skl24/MUSE 和 https://github.com/kailaisun/GenAI4Urban-Energy/。"
+    },
+    {
+      "title": "See Silhouettes in Motion with Neuromorphic Vision",
+      "authors": [
+        "Pei Zhang",
+        "Shijie Lin",
+        "Zhou Ge",
+        "Jinpeng Chen",
+        "Wei Pu"
+      ],
+      "summary": "Quasi-bimodal objects, such as text, road signs, and barcodes, play a basic yet vital role in daily visual communication. By boiling these down to clear silhouettes, binarization uses a minimal language to convey essential vision cues for maximum downstream efficiency. The catch is that frame-based imaging often struggles on mobile platforms like drones, self-driving cars, and underwater vehicles. In these dynamic scenes, rapid motion and harsh lighting can make it blind, causing severe motion blur and erasing crucial details. To overcome the limits, neuromorphic vision via event cameras, featuring microsecond-level temporal resolution and high dynamic range, steps in as a natural solution. Building upon this event-driven sensing paradigm, we introduce a simple yet effective dual-modal approach that harnesses the synergy between frames and events to achieve real-time, high-frame-rate binarization on CPU-only devices. Extensive evaluations present that it earns competitive performance against leading techniques in reducing motion blur, while delivering impressive improvements under challenging illumination. Besides, our asynchronous workflow bypasses event scarcity that breaks traditional time-binning reconstruction, maintaining clear target shapes even at extreme kilohertz frame rates. Its binary results further serve as reliable representations that facilitate a range of downstream tasks. This work paves the way towards lightweight perception and interaction in embodied intelligence on resource-constrained edge platforms.",
+      "published": "2026-05-18T07:37:50Z",
+      "updated": "2026-05-18T07:37:50Z",
+      "arxiv_id": "2605.17984v1",
+      "abs_url": "http://arxiv.org/abs/2605.17984v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.17984v1",
+      "primary_category": "eess.IV",
+      "categories": [
+        "eess.IV",
+        "cs.CV",
+        "cs.RO"
+      ],
+      "comment": "12 pages, 12 figures, and 3 tables. This work is under review. Project page: https://github.com/pz-even/event_binarization",
+      "code_url": "https://github.com/pz-even/event_binarization",
+      "has_code": true,
+      "labels": [
+        "开源",
+        "无人机/UAV",
+        "数据集/评测"
+      ],
+      "topic": "无人机/UAV",
+      "score": 3,
+      "anchor_terms": [
+        "drone"
+      ],
+      "matched_terms": [
+        "drone"
+      ],
+      "summary_zh": "准双峰对象，例如文本、路标和条形码，在日常视觉传达中发挥着基本但至关重要的作用。通过将这些简化为清晰的轮廓，二值化使用最少的语言来传达基本的视觉线索，以实现最大的下游效率。问题是基于帧的成像通常在无人机、自动驾驶汽车和水下航行器等移动平台上表现不佳。在这些动态场景中，快速运动和刺眼的灯光会使人失明，导致严重的运动模糊并擦除关键细节。为了克服这些限制，通过事件相机实现的神经形态视觉具有微秒级的时间分辨率和高动态范围，成为一种自然的解决方案。基于这种事件驱动的传感范例，我们引入了一种简单而有效的双模方法，该方法利用帧和事件之间的协同作用在纯 CPU 设备上实现实时、高帧速率二值化。广泛的评估表明，它在减少运动模糊方面与领先技术相比具有竞争性的性能，同时在具有挑战性的照明下提供了令人印象深刻的改进。此外，我们的异步工作流程绕过了打破传统时间分档重建的事件稀缺性，即使在极端千赫兹帧速率下也能保持清晰的目标形状。其二进制结果进一步作为可靠的表示，促进一系列下游任务。这项工作为资源受限的边缘平台上的体现智能的轻量级感知和交互铺平了道路。"
+    },
+    {
+      "title": "UAVFF3D: A Geometry-Aware Benchmark for Feed-Forward UAV 3D Reconstruction",
+      "authors": [
+        "Xiang Yang",
+        "Yongli Wang",
+        "HaiFeng Li",
+        "Yunsheng Zhang"
+      ],
+      "summary": "Feed-forward 3D reconstruction has advanced rapidly, but current models remain unreliable in UAV photogrammetric acquisition. We argue that this failure is caused not only by appearance-domain shift, but also by UAV-specific camera-geometry variations, especially oblique views and HFOV-height ambiguity. Existing UAV datasets mainly emphasize scene diversity and provide limited coverage of camera configurations, which restricts robustness evaluation and UAV-domain adaptation. To address this gap, we introduce UAVFF3D, a geometry-aware real-synthetic benchmark for feed-forward UAV 3D reconstruction. UAVFF3D contains more than 170k real UAV images and more than 370k synthetic images rendered from high-quality textured 3D models, covering diverse HFOVs, flight altitudes, viewing directions, and acquisition patterns. It also includes a controlled HFOV-height test subset for diagnosing projection-geometry ambiguity. We further propose an evaluation protocol that jointly assesses camera-geometry estimation and dense scene reconstruction under a shared global alignment, avoiding the bias caused by separate camera and geometry alignments. Experiments on representative feed-forward reconstruction models show that UAVFF3D-based domain adaptation consistently improves camera and geometry estimation, reducing Ray Error by up to 84.2%, Pose ATE by up to 76.0%, and Chamfer Distance by up to 41.1%. In oblique scenes, adaptation reduces the oblique-nadir rotation gap by up to 90.7%. Under HFOV-height ambiguity, it improves robustness across HFOV-height configurations and yields more stable performance across HFOV settings. Incorporating camera priors further improves reconstruction under UAV-specific acquisition geometries. The dataset and evaluation code are available at https://github.com/yanxian-ll/UAVFF3D .",
+      "published": "2026-05-18T06:59:28Z",
+      "updated": "2026-05-19T05:33:45Z",
+      "arxiv_id": "2605.17942v2",
+      "abs_url": "http://arxiv.org/abs/2605.17942v2",
+      "pdf_url": "https://arxiv.org/pdf/2605.17942v2",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV"
+      ],
+      "comment": "19 pages, 16 figures, 16 tables",
+      "code_url": "https://github.com/yanxian-ll/UAVFF3D",
+      "has_code": true,
+      "labels": [
+        "开源",
+        "少样本/域适应",
+        "无人机/UAV",
+        "数据集/评测"
+      ],
+      "topic": "少样本/域适应",
+      "score": 5,
+      "anchor_terms": [
+        "UAV"
+      ],
+      "matched_terms": [
+        "domain adaptation",
+        "robust",
+        "UAV"
+      ],
+      "summary_zh": "前馈 3D 重建发展迅速，但当前模型在无人机摄影测量采集中仍然不可靠。我们认为，这种失败不仅是由外观域偏移引起的，而且是由无人机特定的相机几何变化引起的，特别是斜视图和 HFOV 高度模糊性。现有的无人机数据集主要强调场景多样性，并且提供的相机配置覆盖范围有限，这限制了鲁棒性评估和无人机域适应。为了解决这一差距，我们引入了 UAVFF3D，这是一种用于前馈无人机 3D 重建的几何感知真实合成基准。 UAVFF3D 包含超过 17 万张真实无人机图像和超过 37 万张由高质量纹理 3D 模型渲染的合成图像，涵盖不同的 HFOV、飞行高度、观察方向和采集模式。它还包括一个受控 HFOV 高度测试子集，用于诊断投影几何模糊性。我们进一步提出了一种评估协议，在共享的全局对齐下联合评估相机几何估计和密集场景重建，避免了单独的相机和几何对齐引起的偏差。对代表性前馈重建模型的实验表明，基于 UAVFF3D 的域自适应持续改进了相机和几何估计，将光线误差减少高达 84.2%，姿势 ATE 减少高达 76.0%，倒角距离减少高达 41.1%。在倾斜场景中，自适应可将倾斜-最低点旋转间隙减少高达 90.7%。在 HFOV 高度模糊的情况下，它提高了 HFOV 高度配置的鲁棒性，并在 HFOV 设置中产生更稳定的性能。结合相机先验进一步改进了无人机特定采集几何结构下的重建。数据集和评估代码可在 https://github.com/yanxian-ll/UAVFF3D 获取。"
+    },
+    {
+      "title": "Bridge: Retrieval-Augmented Spatiotemporal Modeling for Urban Delivery Demand",
+      "authors": [
+        "Yihong Tang",
+        "Tong Nie",
+        "Junlin He",
+        "Qianjun Huang",
+        "Dingyi Zhuang",
+        "Lijun Sun"
+      ],
+      "summary": "Forecasting urban delivery demand becomes substantially more challenging when newly added service regions lack historical records. Existing spatiotemporal forecasters effectively model spatial dependence once sufficient node histories are available. Still, they remain parametric and therefore struggle to recover short-term operational dynamics in cold-start regions. Geospatial embeddings help identify where a region is and what function it serves, yet they do not directly reveal how a similar region behaves under a comparable temporal context. We propose Bridge, a retrieval-augmented spatiotemporal graph framework that combines an inductive contextual graph backbone with a time-aware memory of region-time windows. For each target region, Bridge retrieves future demand patterns from the memory using both regional context and recent dynamics, and refines the backbone forecast through a gated fusion mechanism. To align retrieval with forecasting utility, we further train the retriever with a future-aware objective that favors entries whose future trajectories best match the target. Experiments on four real-world delivery datasets show that Bridge consistently improves over competitive spatiotemporal baselines in both within-city cold-start and cross-city transfer with partial observations. The results show that retrieval augmentation provides a useful operational memory for cold-start urban demand forecasting when parametric graph generalization alone is insufficient.",
+      "published": "2026-05-18T22:55:19Z",
+      "updated": "2026-05-18T22:55:19Z",
+      "arxiv_id": "2605.19172v1",
+      "abs_url": "http://arxiv.org/abs/2605.19172v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.19172v1",
+      "primary_category": "cs.LG",
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "comment": "",
+      "code_url": "",
+      "has_code": false,
+      "labels": [
+        "数据集/评测"
+      ],
+      "topic": "数据集/评测",
+      "score": 2,
+      "anchor_terms": [
+        "geospatial"
+      ],
+      "matched_terms": [
+        "geospatial"
+      ],
+      "summary_zh": "当新添加的服务区域缺乏历史记录时，预测城市配送需求变得更具挑战性。一旦有足够的节点历史可用，现有的时空预测器就可以有效地模拟空间依赖性。尽管如此，它们仍然是参数化的，因此难以恢复冷启动地区的短期运营动态。地理空间嵌入有助于识别某个区域的位置以及它的功能，但它们并不能直接揭示相似区域在可比较的时间背景下的行为方式。我们提出了 Bridge，一种检索增强的时空图框架，它将归纳上下文图主干与区域时间窗口的时间感知记忆相结合。对于每个目标区域，Bridge 使用区域背景和近期动态从内存中检索未来需求模式，并通过门控融合机制完善主干预测。为了使检索与预测实用性保持一致，我们进一步训练具有未来感知目标的检索器，该目标有利于未来轨迹与目标最匹配的条目。对四个真实世界交付数据集的实验表明，Bridge 在城市内冷启动和部分观测的跨城市传输方面始终优于竞争时空基线。结果表明，当参数图泛化本身不足时，检索增强为冷启动城市需求预测提供了有用的操作记忆。"
+    },
+    {
+      "title": "Learned Memory Attenuation in Sage-Husa Kalman Filters for Robust UAV State Estimation",
+      "authors": [
+        "Kenan Majewski",
+        "Marcin Żugaj"
+      ],
+      "summary": "Unmanned Aerial Vehicles in dynamic environments face telemetry outages, structural vibrations, and regime-dependent noise that invalidate the stationary covariance assumptions of classical Kalman filters. The Sage-Husa Kalman Filter (SHKF) estimates noise statistics online, but its reliance on a static, scalar forgetting factor forces a strict compromise between steady-state stability and transient responsiveness. We introduce the N-Deep Recurrent Sage-Husa Filter (NDR-SHKF), which replaces this scalar parameter with a vector-valued memory attenuation policy learned by a hierarchical recurrent network operating on whitened innovation sequences. A bifurcated architecture routes shallow recurrent states to capture instantaneous sensor anomalies and deep states to encode sustained dynamic trends, while an auxiliary reconstruction objective prevents feature collapse. The complete filter, including recursive covariance updates, is trained end-to-end via backpropagation through time to directly minimize state estimation error. Evaluations on topologically distinct chaotic attractors demonstrate cross-domain generalization, outperforming purely data-driven baselines that diverge under out-of-distribution dynamics. Furthermore, evaluations on recorded real-world UAV flight datasets validate the framework's practical viability, demonstrating its capacity to bridge transitions into proprioceptive dead reckoning and outperform classical adaptive estimators during sensor outages.",
+      "published": "2026-05-18T17:38:13Z",
+      "updated": "2026-05-18T17:38:13Z",
+      "arxiv_id": "2605.18704v1",
+      "abs_url": "http://arxiv.org/abs/2605.18704v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.18704v1",
+      "primary_category": "eess.SP",
+      "categories": [
+        "eess.SP",
+        "cs.LG"
+      ],
+      "comment": "49 pages, 9 figures. Preprint submitted to Aerospace Science and Technology",
+      "code_url": "",
+      "has_code": false,
+      "labels": [
+        "少样本/域适应",
+        "无人机/UAV",
+        "数据集/评测"
+      ],
+      "topic": "少样本/域适应",
+      "score": 7,
+      "anchor_terms": [
+        "UAV"
+      ],
+      "matched_terms": [
+        "aerial",
+        "robust",
+        "UAV",
+        "unmanned aerial vehicle"
+      ],
+      "summary_zh": "动态环境中的无人机面临遥测中断、结构振动和与状态相关的噪声，这些都使经典卡尔曼滤波器的静态协方差假设失效。 Sage-Husa 卡尔曼滤波器 (SHKF) 在线估计噪声统计数据，但其对静态标量遗忘因子的依赖迫使稳态稳定性和瞬态响应性之间进行严格折衷。我们引入了 N 深度循环 Sage-Husa 滤波器（NDR-SHKF），它将这个标量参数替换为向量值记忆衰减策略，该策略是通过在白化创新序列上运行的分层循环网络学习到的。分叉架构路由浅层循环状态以捕获瞬时传感器异常，路由深层状态以编码持续动态趋势，而辅助重建目标则防止特征崩溃。完整的滤波器（包括递归协方差更新）通过时间反向传播进行端到端训练，以直接最小化状态估计误差。对拓扑上不同的混沌吸引子的评估证明了跨域泛化，优于在分布外动态下发散的纯粹数据驱动的基线。此外，对记录的现实世界无人机飞行数据集的评估验证了该框架的实际可行性，证明了其过渡到本体感受航位推算的能力，并在传感器中断期间优于经典的自适应估计器。"
+    },
+    {
+      "title": "Better Together: Evaluating the Complementarity of Earth Embedding Models",
+      "authors": [
+        "Thijs L van der Plas",
+        "Jacob JW Bakermans",
+        "Vishal Nedungadi",
+        "Gabrielė Tijūnaitytė",
+        "Marc Rußwurm",
+        "Ioannis N Athanasiadis"
+      ],
+      "summary": "Earth embedding models transform Earth observation data into embeddings uniquely tied to locations on the Earth's surface. These models are typically evaluated in isolation, comparing the downstream task performance across different Earth embeddings. However, spatially aligned embeddings can naturally be fused, providing richer information per location, a capability that isolated evaluations fail to capture. We therefore propose assessing Earth embeddings by their complementarity: the performance gain of fused embeddings over the best single-model baseline. To operationalise this, we introduce an embedding complementarity index applicable to any embedding and task, and evaluate four Earth embedding models (AlphaEarth, Tessera, GeoCLIP, SatCLIP) in isolation, in all pairs, and jointly across six downstream tasks. Fused embeddings outperform the best single model in four out of six tasks, confirming that single-embedding evaluations often underestimate Earth embedding capabilities. Complementarity proves both task- and location-dependent. Further, for a land cover regression task, we find that complementarity is partially determined by the spatial scale of land cover classes. Complementarity reframes Earth embeddings: the greatest future gains may come not from any single Earth embedding model, but from combinations that are better together.",
+      "published": "2026-05-18T17:10:13Z",
+      "updated": "2026-05-18T17:10:13Z",
+      "arxiv_id": "2605.18667v1",
+      "abs_url": "http://arxiv.org/abs/2605.18667v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.18667v1",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV",
+        "cs.LG"
+      ],
+      "comment": "",
+      "code_url": "",
+      "has_code": false,
+      "labels": [
+        "语义分割",
+        "视觉-语言模型",
+        "数据集/评测"
+      ],
+      "topic": "语义分割",
+      "score": 8,
+      "anchor_terms": [
+        "CLIP",
+        "earth observation"
+      ],
+      "matched_terms": [
+        "CLIP",
+        "earth observation",
+        "GeoCLIP",
+        "land cover"
+      ],
+      "summary_zh": "地球嵌入模型将地球观测数据转换为与地球表面位置唯一相关的嵌入。这些模型通常是单独评估的，比较不同地球嵌入的下游任务性能。然而，空间对齐的嵌入可以自然地融合，为每个位置提供更丰富的信息，这是孤立评估无法捕获的能力。因此，我们建议通过地球嵌入的互补性来评估地球嵌入：融合嵌入相对于最佳单模型基线的性能增益。为了实现这一点，我们引入了适用于任何嵌入和任务的嵌入互补性指数，并单独、成对地以及在六个下游任务中联合评估四种地球嵌入模型（AlphaEarth、Tessera、GeoCLIP、SatCLIP）。融合嵌入在六项任务中有四项优于最佳单一模型，这证实单一嵌入评估经常低估地球嵌入的能力。事实证明，互补性既依赖于任务，也依赖于位置。此外，对于土地覆盖回归任务，我们发现互补性部分取决于土地覆盖类别的空间规模。互补性重新构建了地球嵌入：未来最大的收益可能不是来自任何单一的地球嵌入模型，而是来自更好的组合。"
+    },
+    {
+      "title": "LESSViT: Robust Hyperspectral Representation Learning under Spectral Configuration Shift",
+      "authors": [
+        "Haozhe Si",
+        "Yuxuan Wan",
+        "Yuqing Wang",
+        "Minh Do",
+        "Han Zhao"
+      ],
+      "summary": "Modeling hyperspectral imagery (HSI) across different sensors presents a fundamental challenge due to variations in wavelength coverage, band sampling, and channel dimensionality. As a result, models trained under a fixed spectral configuration often fail to generalize to other sensors. Existing Vision Transformer (ViT) approaches either rely on implicit spectral modeling with fixed channel assumptions or adopt explicit spatial-spectral attention with prohibitive computational cost, leading to a fundamental trade-off between efficiency and expressiveness. In this work, we introduce Low-rank Efficient Spatial-Spectral ViT (LESSViT), a sensor-flexible architecture for cross-spectral generalization. LESSViT is built on LESS Attention, a structured low-rank factorization that models joint spatial-spectral interactions through separable spatial and spectral components, reducing the complexity of full spatial-spectral attention from $O(N^2 C^2)$ to $O(rNC)$, where $N$ is the number of spatial tokens, $C$ is the number of spectral channels, and $r$ is the rank of the low-rank approximation. We further incorporate channel-agnostic patch embedding and wavelength-aware positional encoding to support flexible spectral inputs. To enable efficient and robust pretraining, we introduce a hyperspectral masked autoencoder (HyperMAE) with decoupled spatial-spectral masking and hierarchical channel sampling. We evaluate LESSViT under a cross-spectral generalization setting that simulates cross-sensor variability. Experiments on the SpectralEarth benchmark demonstrate that LESSViT improves robustness under spectral shifts while remaining competitive in-distribution, and explicit and efficient spatial-spectral modeling is essential for scalable and generalizable hyperspectral representation learning.",
+      "published": "2026-05-18T15:22:26Z",
+      "updated": "2026-05-18T15:22:26Z",
+      "arxiv_id": "2605.18541v1",
+      "abs_url": "http://arxiv.org/abs/2605.18541v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.18541v1",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV"
+      ],
+      "comment": "",
+      "code_url": "",
+      "has_code": false,
+      "labels": [
+        "基础模型",
+        "少样本/域适应",
+        "高光谱/多光谱",
+        "数据集/评测"
+      ],
+      "topic": "基础模型",
+      "score": 11,
+      "anchor_terms": [
+        "hyperspectral image",
+        "hyperspectral imagery",
+        "vision transformer"
+      ],
+      "matched_terms": [
+        "generalizable",
+        "hyperspectral",
+        "hyperspectral image",
+        "hyperspectral imagery",
+        "masked autoencoder",
+        "robust",
+        "transformer",
+        "vision transformer",
+        "ViT"
+      ],
+      "summary_zh": "由于波长覆盖范围、波段采样和通道维度的变化，跨不同传感器的高光谱图像 (HSI) 建模面临着根本性的挑战。因此，在固定光谱配置下训练的模型通常无法推广到其他传感器。现有的视觉变换器（ViT）方法要么依赖于具有固定通道假设的隐式光谱建模，要么采用计算成本高昂的显式空间光谱注意力，从而导致效率和表现力之间的根本权衡。在这项工作中，我们引入了低秩高效空间频谱 ViT (LESSViT)，这是一种用于跨频谱泛化的传感器灵活架构。 LESSViT 建立在 LESS Attention 的基础上，LESS Attention 是一种结构化的低秩分解，通过可分离的空间和频谱分量对联合空间频谱交互进行建模，将完整空间频谱注意力的复杂性从 $O(N^2 C^2)$ 降低到 $O(rNC)$，其中 $N$ 是空间标记的数量，$C$ 是频谱通道的数量，$r$ 是低秩近似的秩。我们进一步结合了通道无关的补丁嵌入和波长感知位置编码来支持灵活的光谱输入。为了实现高效、鲁棒的预训练，我们引入了具有解耦空间光谱掩蔽和分层通道采样的高光谱掩蔽自动编码器（HyperMAE）。我们在模拟跨传感器变异性的跨谱泛化设置下评估 LESSViT。 SpectralEarth 基准测试表明，LESSViT 提高了光谱偏移下的鲁棒性，同时保持竞争性分布，并且明确且高效的空间光谱建模对于可扩展和可泛化的高光谱表示学习至关重要。"
+    },
+    {
+      "title": "Improved Baselines with Representation Autoencoders",
+      "authors": [
+        "Jaskirat Singh",
+        "Boyang Zheng",
+        "Zongze Wu",
+        "Richard Zhang",
+        "Eli Shechtman",
+        "Saining Xie"
+      ],
+      "summary": "Representation Autoencoders (RAE) replace traditional VAE with pretrained vision encoders. In this paper, we systematically investigate several design choices and find three insights which simplify and improve RAE. First, we study a generalized formulation where the representation is defined as sum of the last k encoder layers rather than solely the final layer. This simple change greatly improves reconstruction without encoder finetuning or specialized data (e.g., text, faces). Second, we study the prevalent assumption that RAE (using pretrained representation as encoder) replaces representation alignment (REPA), which distills the same representation to intermediate layers instead. Through large-scale empirical analysis, we uncover a surprising finding: RAE and REPA exhibit complementary working mechanisms, allowing the same representation to be used as both encoder and target for intermediate diffusion layers. Finally, the original RAE struggles with classifier-free guidance (CFG) and requires training a second, weaker diffusion model for AutoGuidance (AG). We show that REPA itself can be viewed as x-prediction in RAE latent space. By simply re-parameterizing the output of the DiT model, it can provide guidance for \"free\". Overall, RAEv2 leads to more than 10x faster convergence over the original RAE, achieving a state-of-the-art gFID of 1.06 in just 80 epochs on ImageNet-256. On FDr^k, RAEv2 achieves a state-of-the-art 2.17 at just 80 epochs compared to the previous best 3.26 (800 epochs) without any post-training. This motivates EP_FID@k (epochs to reach unguided gFID <= k) as a measure of training efficiency. RAEv2 attains an EP_FID@2 of 35 epochs, versus 177 for the original RAE. We also validate our approach across diverse settings for text-to-image generation and navigation world models, showing consistent improvements. Code is available at https://raev2.github.io.",
+      "published": "2026-05-18T12:42:34Z",
+      "updated": "2026-05-18T12:42:34Z",
+      "arxiv_id": "2605.18324v1",
+      "abs_url": "http://arxiv.org/abs/2605.18324v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.18324v1",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.GR",
+        "cs.LG",
+        "stat.ML"
+      ],
+      "comment": "",
+      "code_url": "",
+      "has_code": false,
+      "labels": [
+        "图像生成与重建"
+      ],
+      "topic": "图像生成与重建",
+      "score": 3,
+      "anchor_terms": [
+        "image generation"
+      ],
+      "matched_terms": [
+        "diffusion model",
+        "image generation"
+      ],
+      "summary_zh": "表示自动编码器 (RAE) 用预训练的视觉编码器取代了传统的 VAE。在本文中，我们系统地研究了几种设计选择，并找到了简化和改进 RAE 的三个见解。首先，我们研究一个通用的公式，其中表示被定义为最后 k 个编码器层的总和，而不仅仅是最后一层。这个简单的改变极大地改善了重建，无需编码器微调或专门的数据（例如文本、面部）。其次，我们研究了普遍的假设，即 RAE（使用预训练表示作为编码器）取代了表示对齐（REPA），后者将相同的表示提炼到中间层。通过大规模的实证分析，我们发现了一个令人惊讶的发现：RAE 和 REPA 表现出互补的工作机制，允许将相同的表示用作中间扩散层的编码器和目标。最后，最初的 RAE 难以应对无分类器引导 (CFG)，并且需要为自动引导 (AG) 训练第二个较弱的扩散模型。我们证明 REPA 本身可以被视为 RAE 潜在空间中的 x 预测。通过简单地重新参数化 DiT 模型的输出，它就可以“免费”提供指导。总体而言，RAEv2 的收敛速度比原始 RAE 快 10 倍以上，在 ImageNet-256 上仅用 80 个 epoch 就实现了最先进的 gFID 1.06。在 FDr^k 上，RAEv2 仅用 80 个 epoch 就达到了最先进的 2.17，而之前的最佳成绩为 3.26（800 个 epoch），无需任何后期训练。这促使 EP_FID@k（达到无引导 gFID <= k 的时期）作为训练效率的衡量标准。 RAEv2 的 EP_FID@2 达到 35 个 epoch，而原始 RAE 为 177 个。我们还在文本到图像生成和导航世界模型的不同设置中验证了我们的方法，显示出一致的改进。代码可在 https://raev2.github.io 获取。"
+    },
+    {
+      "title": "Fixed External Cameras as Common Prior Maps for Active 3D Scene Graph Generation",
+      "authors": [
+        "Giorgia Modi",
+        "Davide Buoso",
+        "Giuseppe Averta",
+        "Daniele De Martini"
+      ],
+      "summary": "Commonly available prior information, such as BIM models, floor plans, and remote sensing images, can provide valuable geometric and semantic context for autonomous robotic systems. In this paper, we treat observations from fixed external RGB cameras as Common Prior Maps (CPMs): wide-field views of the environment that initialize a semantic and geometric scene prior before any robot motion begins. We present an RGB-only framework for active, incremental 3D scene graph (3DSG) generation that seamlessly fuses observations from both onboard robot cameras and fixed external cameras within a single hardware-agnostic pipeline. By relying solely on RGB observations processed by a feed-forward 3D reconstruction model, the system treats all cameras - onboard or external - identically, requiring no hardware modifications. A graph-based active semantic exploration framework then directly leverages the partial scene graph to guide the robot toward regions of high semantic uncertainty, progressively completing and refining the prior. Experiments demonstrate that bootstrapping the scene graph with even a single external camera increases initial object recall by up to +79%, and that the richer context of the prior significantly improves the efficiency of subsequent active exploration.",
+      "published": "2026-05-18T10:26:07Z",
+      "updated": "2026-05-18T10:26:07Z",
+      "arxiv_id": "2605.18184v1",
+      "abs_url": "http://arxiv.org/abs/2605.18184v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.18184v1",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO",
+        "cs.AI",
+        "cs.CV"
+      ],
+      "comment": "",
+      "code_url": "",
+      "has_code": false,
+      "labels": [],
+      "topic": "其他",
+      "score": 3,
+      "anchor_terms": [
+        "remote sensing"
+      ],
+      "matched_terms": [
+        "remote sensing"
+      ],
+      "summary_zh": "BIM 模型、平面图和遥感图像等常用先验信息可以为自主机器人系统提供有价值的几何和语义背景。在本文中，我们将固定外部 RGB 摄像机的观察结果视为通用先验图 (CPM)：在任何机器人运动开始之前先初始化语义和几何场景的环境宽视野视图。我们提出了一个用于主动、增量 3D 场景图 (3DSG) 生成的纯 RGB 框架，该框架将机载机器人摄像头和固定外部摄像头的观察结果无缝融合在一个与硬件无关的管道中。通过仅依靠前馈 3D 重建模型处理的 RGB 观察结果，该系统可以对所有相机（机载或外部）进行相同的处理，无需进行任何硬件修改。然后，基于图的主动语义探索框架直接利用部分场景图引导机器人走向高度语义不确定性的区域，逐步完成和完善先验知识。实验表明，即使使用单个外部摄像头引导场景图，也能将初始对象召回率提高高达 79%，并且更丰富的先验上下文可显着提高后续主动探索的效率。"
+    },
+    {
+      "title": "Whispers in the Noise: Surrogate-Guided Concept Awakening via a Multi-Agent Framework",
+      "authors": [
+        "Mengyu Sun",
+        "Ziyuan Yang",
+        "Zunlong Zhou",
+        "Junxu Liu",
+        "Haibo Hu",
+        "Yi Zhang"
+      ],
+      "summary": "Diffusion models (DMs) are widely used for text-to-image generation, but their strong generative capabilities also raise concerns about unsafe or undesirable content. Concept erasure aims to mitigate these risks by removing specific concepts from pretrained models. However, recent studies show that such methods often suppress rather than fully eliminate target concepts, leaving models vulnerable to awakening attacks. Existing approaches primarily rely on white-box access through optimization or inversion, while concept awakening under black-box constraints remains underexplored. In this work, we revisit the denoising process from a trajectory perspective and show that concept erasure mainly disrupts early-stage text-semantic alignment but does not fully prevent semantic information from propagating along the denoising dynamics. As generation proceeds, the model increasingly depends on the evolving noisy state rather than textual conditions, which creates an opportunity to bypass erased mappings. Motivated by this observation, we propose ConceptAgent, a training-free, black-box, multi-agent framework that awakens erased concepts by initializing the denoising trajectory from surrogate-guided noisy states. Extensive experiments demonstrate that ConceptAgent enables accurate and controllable awakening of erased concepts under black-box settings without access to model parameters, gradients, or internal representations. These results highlight fundamental limitations of current concept erasure methods and provide new insights into the dynamic nature of semantic control in DMs.",
+      "published": "2026-05-18T09:55:36Z",
+      "updated": "2026-05-18T09:55:36Z",
+      "arxiv_id": "2605.18150v1",
+      "abs_url": "http://arxiv.org/abs/2605.18150v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.18150v1",
+      "primary_category": "cs.AI",
+      "categories": [
+        "cs.AI"
+      ],
+      "comment": "",
+      "code_url": "",
+      "has_code": false,
+      "labels": [
+        "图像生成与重建"
+      ],
+      "topic": "图像生成与重建",
+      "score": 3,
+      "anchor_terms": [
+        "image generation"
+      ],
+      "matched_terms": [
+        "denoising",
+        "diffusion model",
+        "image generation"
+      ],
+      "summary_zh": "扩散模型 (DM) 广泛用于文本到图像的生成，但其强大的生成能力也引起了对不安全或不良内容的担忧。概念擦除旨在通过从预训练模型中删除特定概念来减轻这些风险。然而，最近的研究表明，此类方法通常会抑制而不是完全消除目标概念，从而使模型容易受到唤醒攻击。现有方法主要依赖于通过优化或反演的白盒访问，而黑盒约束下的概念唤醒仍未得到充分探索。在这项工作中，我们从轨迹角度重新审视去噪过程，并表明概念擦除主要破坏了早期文本语义对齐，但并不能完全阻止语义信息沿着去噪动态传播。随着生成的进行，模型越来越依赖于不断变化的噪声状态而不是文本条件，这创造了绕过擦除映射的机会。受这一观察的启发，我们提出了 ConceptAgent，这是一种免训练、黑盒、多智能体框架，它通过从代理引导的噪声状态初始化去噪轨迹来唤醒被删除的概念。大量实验表明，ConceptAgent 能够在黑盒设置下准确、可控地唤醒已擦除的概念，而无需访问模型参数、梯度或内部表示。这些结果凸显了当前概念擦除方法的根本局限性，并为 DM 中语义控制的动态性质提供了新的见解。"
+    },
+    {
+      "title": "Learning to Balance: Decoupled Siamese Diffusion Transformer for Reference-Based Remote Sensing Image Super-Resolution",
+      "authors": [
+        "Bin Luo",
+        "Runmin Dong",
+        "Zhaoyang Luo",
+        "Jinxiao Zhang",
+        "Jiyao Zhao",
+        "Fan Wei",
+        "Haohuan Fu"
+      ],
+      "summary": "Diffusion-based methods demonstrate significant potential for remote sensing image super-resolution at large scaling factors, particularly in reference-based super-resolution (RefSR) where high-resolution reference images provide critical fine-grained texture priors. However, existing methods often suffer from a trade-off between over-reliance on reference information, which leads to texture artifacts, and underutilization, which results in insufficient detail recovery. To address these issues, we propose DS-DiT, a Decoupled Siamese Diffusion Transformer method that decouples low-resolution and reference interactions at the attention level. By enabling low-resolution structural priors and reference texture information to interact independently with the noisy latent, the framework effectively mitigates inter-source competition. Furthermore, to compensate for the limited local modeling ability of global attention, we introduce a Patch-Level Weights (PLW) module that adaptively modulates the fusion of conditional sources. In addition, this siamese architecture facilitates an autoguidance strategy during inference, which enhances reconstruction by exploiting the prediction discrepancy between strong and weak reference conditions. This approach boosts generation quality without additional training. Experimental results across multiple datasets and scaling factors demonstrate that DS-DiT outperforms existing methods in both quantitative metrics and visual fidelity.",
+      "published": "2026-05-18T07:35:21Z",
+      "updated": "2026-05-18T07:35:21Z",
+      "arxiv_id": "2605.17980v1",
+      "abs_url": "http://arxiv.org/abs/2605.17980v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.17980v1",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV"
+      ],
+      "comment": "",
+      "code_url": "",
+      "has_code": false,
+      "labels": [
+        "图像生成与重建",
+        "数据集/评测"
+      ],
+      "topic": "图像生成与重建",
+      "score": 8,
+      "anchor_terms": [
+        "remote sensing",
+        "super-resolution"
+      ],
+      "matched_terms": [
+        "remote sensing",
+        "super-resolution",
+        "transformer"
+      ],
+      "summary_zh": "基于扩散的方法展示了大比例因子下遥感图像超分辨率的巨大潜力，特别是在基于参考的超分辨率（RefSR）中，其中高分辨率参考图像提供了关键的细粒度纹理先验。然而，现有的方法经常面临过度依赖参考信息（导致纹理伪影）和未充分利用（导致细节恢复不足）之间的权衡。为了解决这些问题，我们提出了 DS-DiT，一种解耦连体扩散变压器方法，可在注意力级别解耦低分辨率和参考交互。通过使低分辨率结构先验和参考纹理信息能够与噪声潜伏独立交互，该框架有效地减轻了源间竞争。此外，为了弥补全局注意力有限的局部建模能力，我们引入了补丁级权重（PLW）模块，该模块可以自适应地调节条件源的融合。此外，这种连体架构有利于推理过程中的自动引导策略，通过利用强参考条件和弱参考条件之间的预测差异来增强重建。这种方法无需额外培训即可提高发电质量。多个数据集和缩放因子的实验结果表明，DS-DiT 在定量指标和视觉保真度方面均优于现有方法。"
+    },
+    {
+      "title": "Generation Navigator: A State-Aware Agentic Framework for Image Generation",
+      "authors": [
+        "Jinming Liu",
+        "Ruoyu Feng",
+        "Yuqi Wang",
+        "Wenjun Zeng",
+        "Xin Jin"
+      ],
+      "summary": "Despite rapid advances in text-to-image generation, faithfully realizing user intent remains challenging, often requiring manual multi-turn trial and error. To automate this process, existing systems rely on either simple prompt rewriting or closed-loop agents driven by hand-crafted rules, rather than learning to adapt actions to the evolving generation process. In this paper, we reformulate image generation as a state-conditioned action-making problem and propose Generation Navigator, a multi-turn T2I agent that learns to dynamically steer the generation trajectory and output the next action. However, training this agent via reinforcement learning introduces a critical credit assignment challenge: naively rewarding a trajectory based solely on a single state assigns equal credit to all actions in the rollout, ignores the quality dynamics across turns, and fails to distinguish actions that improve the trajectory from those that degrade it or waste turns without progress. We resolve this with PRE-GRPO (Peak-Retention-Efficiency Group Relative Policy Optimization), a trajectory-level reinforcement learning objective that explicitly rewards discovering a high-quality image (Peak), avoiding subsequent quality degradation across turns (Retention), and minimizing unnecessary turns (Efficiency). Experiments show substantial improvements across benchmarks, reaching a WISE score of 0.90 and 79.06% reasoning accuracy on T2I-ReasonBench.",
+      "published": "2026-05-18T07:26:45Z",
+      "updated": "2026-05-18T07:26:45Z",
+      "arxiv_id": "2605.17969v1",
+      "abs_url": "http://arxiv.org/abs/2605.17969v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.17969v1",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV"
+      ],
+      "comment": "",
+      "code_url": "",
+      "has_code": false,
+      "labels": [
+        "图像生成与重建",
+        "数据集/评测"
+      ],
+      "topic": "图像生成与重建",
+      "score": 3,
+      "anchor_terms": [
+        "image generation"
+      ],
+      "matched_terms": [
+        "image generation"
+      ],
+      "summary_zh": "尽管文本到图像生成技术取得了快速进步，但忠实地实现用户意图仍然具有挑战性，通常需要手动多轮试错。为了实现此过程的自动化，现有系统依赖于简单的提示重写或由手工制定的规则驱动的闭环代理，而不是学习使操作适应不断发展的生成过程。在本文中，我们将图像生成重新表述为状态条件动作制定问题，并提出了 Generation Navigator，这是一种多轮 T2I 代理，可以学习动态引导生成轨迹并输出下一个动作。然而，通过强化学习训练这个智能体会带来一个关键的信用分配挑战：天真地奖励仅基于单一状态的轨迹，为推出中的所有动作分配相同的信用，忽略转弯的质量动态，并且无法区分改善轨迹的动作和那些降低轨迹或浪费转弯而没有进展的动作。我们通过 PRE-GRPO（峰值保留效率组相对策略优化）解决了这个问题，这是一个轨迹级强化学习目标，它明确奖励发现高质量图像（峰值），避免随后的转弯质量下降（保留），并最大限度地减少不必要的转弯（效率）。实验表明，各个基准测试都有显着改进，在 T2I-ReasonBench 上达到了 0.90 的 WISE 分数和 79.06% 的推理准确度。"
+    },
+    {
+      "title": "SkyNative: A Native Multimodal Framework for Remote Sensing Visual Evidence Reasoning",
+      "authors": [
+        "Xiao Yang",
+        "Ronghao Fu",
+        "Zhiwen Lin",
+        "Zhuoran Duan",
+        "Jiashun Zhu",
+        "Jiasen Hu",
+        "Lang Sun",
+        "Weipeng Zhang",
+        "Jiaqi Liu",
+        "Xu Na",
+        "Haoran Liu",
+        "Weijie Zhang",
+        "Bo Yang"
+      ],
+      "summary": "Remote sensing vision-language models commonly rely on pretrained visual encoders to convert images into semantic features before language-model reasoning. While effective for scene-level understanding, this pipeline may prematurely compress local visual evidence, making fine-grained spatial reasoning vulnerable to language priors, especially in ultra-high-resolution remote sensing imagery. We present SkyNative, a native multimodal framework for remote sensing that adopts an encoder-free architecture, removing the pretrained visual backbone to directly represent images as raw patch tokens in the language-model token space. To reconcile low-level visual patches with textual tokens, SkyNative introduces a modality-aware decoupling mechanism that uses modality-specific parameters within a unified autoregressive backbone. We further introduce a visual reliance benchmark that diagnoses whether models ground their answers in image evidence through progressive visual degradation and misleading textual prompts. Across standard remote sensing understanding tasks and large-format spatial reasoning evaluations, SkyNative shows stronger image-grounded perception and improved robustness against prompt-induced language priors. These results suggest that native patch-level multimodal modeling is a promising direction for reliable remote sensing vision-language reasoning.",
+      "published": "2026-05-18T07:06:23Z",
+      "updated": "2026-05-18T07:06:23Z",
+      "arxiv_id": "2605.17949v1",
+      "abs_url": "http://arxiv.org/abs/2605.17949v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.17949v1",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV"
+      ],
+      "comment": "",
+      "code_url": "",
+      "has_code": false,
+      "labels": [
+        "视觉-语言模型",
+        "数据集/评测"
+      ],
+      "topic": "视觉-语言模型",
+      "score": 5,
+      "anchor_terms": [
+        "remote sensing"
+      ],
+      "matched_terms": [
+        "remote sensing",
+        "robust"
+      ],
+      "summary_zh": "遥感视觉语言模型通常依赖于预训练的视觉编码器在语言模型推理之前将图像转换为语义特征。虽然对于场景级理解有效，但该管道可能会过早压缩局部视觉证据，使细粒度空间推理容易受到语言先验的影响，尤其是在超高分辨率遥感图像中。我们提出了 SkyNative，一种用于遥感的原生多模式框架，它采用无编码器架构，删除了预训练的视觉主干，以直接将图像表示为语言模型标记空间中的原始补丁标记。为了协调低级视觉补丁与文本标记，SkyNative 引入了一种模态感知解耦机制，该机制在统一的自回归骨干中使用特定于模态的参数。我们进一步引入了一个视觉依赖基准，该基准可以通过渐进的视觉退化和误导性的文本提示来诊断模型是否将其答案建立在图像证据中。在标准遥感理解任务和大格式空间推理评估中，SkyNative 显示出更强的基于图像的感知，并提高了针对提示引发的语言先验的鲁棒性。这些结果表明，本地补丁级多模态建模是可靠的遥感视觉语言推理的一个有前途的方向。"
+    },
+    {
+      "title": "Imaging Hidden Objects with Consumer LiDAR via Motion Induced Sampling",
+      "authors": [
+        "Siddharth Somasundaram",
+        "Aaron Young",
+        "Akshat Dave",
+        "Adithya Pediredla",
+        "Ramesh Raskar"
+      ],
+      "summary": "LiDARs are being increasingly deployed for consumer imaging in handheld, wearable, and robotic applications. These sensors can capture the time-of-flight of light at picosecond resolution, which in principle, enables them to capture information about objects hidden from their field of view. While such non-line-of-sight (NLOS) imaging capabilities have been shown on research-grade LiDARs, they are challenging to achieve on consumer devices due to poor signal quality resulting from low laser power, low spatial resolution, and object and camera motion. Inspired by burst photography and synthetic aperture radar, we propose a multi-frame fusion strategy to overcome these challenges and demonstrate NLOS imaging on consumer LiDAR. We first introduce the motion-induced aperture sampling model to unify the effects of object shape, object motion, and camera motion under a single measurement model. Using this model, we demonstrate several NLOS capabilities on a smartphone-grade LiDAR: (1) 3D reconstruction, (2) single and multi-object tracking, and (3) camera localization using hidden objects. Previously, NLOS imaging capabilities were largely restricted to bulky and expensive research-grade hardware that requires extensive setup and calibration. Our results represent a shift towards plug-and-play NLOS imaging, where anyone can image hidden objects with off-the-shelf hardware ($<100) and no additional setup. We believe that democratization of such capabilities will advance consumer applications of NLOS imaging.",
+      "published": "2026-05-18T05:18:50Z",
+      "updated": "2026-05-18T05:18:50Z",
+      "arxiv_id": "2605.17865v1",
+      "abs_url": "http://arxiv.org/abs/2605.17865v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.17865v1",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV"
+      ],
+      "comment": "",
+      "code_url": "",
+      "has_code": false,
+      "labels": [
+        "SAR遥感",
+        "LiDAR/点云"
+      ],
+      "topic": "SAR遥感",
+      "score": 4,
+      "anchor_terms": [
+        "synthetic aperture radar"
+      ],
+      "matched_terms": [
+        "LiDAR",
+        "synthetic aperture radar"
+      ],
+      "summary_zh": "LiDAR 越来越多地应用于手持式、可穿戴式和机器人应用中的消费者成像。这些传感器可以以皮秒分辨率捕获光的飞行时间，原则上这使它们能够捕获隐藏在视野中的物体的信息。虽然这种非视距 (NLOS) 成像功能已在研究级 LiDAR 上展示，但由于低激光功率、低空间分辨率以及物体和相机运动导致信号质量差，因此在消费类设备上实现这些功能具有挑战性。受突发摄影和合成孔径雷达的启发，我们提出了一种多帧融合策略来克服这些挑战，并在消费级激光雷达上演示非视距成像。我们首先引入运动引起的孔径采样模型，以在单一测量模型下统一物体形状、物体运动和相机运动的影响。使用该模型，我们在智能手机级 LiDAR 上演示了多种 NLOS 功能：(1) 3D 重建，(2) 单目标和多目标跟踪，以及 (3) 使用隐藏目标的相机定位。以前，NLOS 成像功能主要局限于笨重且昂贵的研究级硬件，需要大量的设置和校准。我们的结果代表了向即插即用 NLOS 成像的转变，任何人都可以使用现成的硬件（$<100）对隐藏的物体进行成像，而无需额外的设置。我们相信，此类功能的民主化将推动非视距成像的消费者应用。"
+    },
+    {
+      "title": "Curriculum Group Policy Optimization: Adaptive Sampling for Unleashing the Potential of Text-to-Image Generation",
+      "authors": [
+        "Baoteng Li",
+        "Xianghao Zang",
+        "Xinran Wang",
+        "Xiangyu Na",
+        "Zhixiang He",
+        "Hao Sun",
+        "Chi Zhang",
+        "Zhongjiang He",
+        "Tianwei Cao",
+        "Kongming Liang",
+        "Zhanyu Ma"
+      ],
+      "summary": "Text-to-Image (T2I) generation has achieved remarkable progress in recent years. Meanwhile, reinforcement learning methods, particularly those based on Group Relative Policy Optimization (GRPO), have attracted widespread attention and been successfully applied to T2I tasks. However, the uniform sampling strategy commonly used during training often ignores the match between sample difficulty and the model's current learning capability, leading to low training efficiency. We argue that improving training efficiency requires continuously prioritizing prompts that match the model's evolving capability and remain actively learnable. To this end, we propose Curriculum Group Policy Optimization (CGPO), an adaptive curriculum training framework. During training, each prompt produces a group of images scored by a reward model. We use the variance of group rewards as an online proxy for prompt inconsistency. A higher variance suggests that the model has partially captured the prompt requirements but has not yet achieved stable mastery. Such prompts are more likely to provide useful learning signals, so we increase their sampling probabilities accordingly. Additionally, to address data imbalance in multi-category datasets, we design a category calibration method based on proportional fairness optimization, which balances training difficulty across categories. Experiments on GenEval, T2I-CompBench++, and DPG Bench demonstrate that our framework effectively improves generation performance.",
+      "published": "2026-05-18T03:30:14Z",
+      "updated": "2026-05-18T03:30:14Z",
+      "arxiv_id": "2605.17807v1",
+      "abs_url": "http://arxiv.org/abs/2605.17807v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.17807v1",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "comment": "",
+      "code_url": "",
+      "has_code": false,
+      "labels": [
+        "图像生成与重建",
+        "数据集/评测"
+      ],
+      "topic": "图像生成与重建",
+      "score": 3,
+      "anchor_terms": [
+        "image generation"
+      ],
+      "matched_terms": [
+        "image generation"
+      ],
+      "summary_zh": "文本到图像（T2I）生成近年来取得了显着的进展。与此同时，强化学习方法，特别是基于组相对策略优化（GRPO）的方法，引起了广泛的关注并成功应用于T2I任务。然而，训练时常用的均匀采样策略往往忽略了样本难度与模型当前学习能力的匹配，导致训练效率低下。我们认为，提高训练效率需要不断优先考虑与模型不断发展的能力相匹配并保持主动可学习性的提示。为此，我们提出了课程组策略优化（CGPO），一种自适应课程培训框架。在训练期间，每个提示都会生成一组由奖励模型评分的图像。我们使用群体奖励的方差作为在线代理来提示不一致。较高的方差表明模型已经部分捕获了提示要求，但尚未实现稳定的掌握。这样的提示更有可能提供有用的学习信号，因此我们相应地增加它们的采样概率。此外，为了解决多类别数据集中的数据不平衡问题，我们设计了一种基于比例公平优化的类别校准方法，平衡了跨类别的训练难度。 GenEval、T2I-CompBench++ 和 DPG Bench 上的实验表明，我们的框架有效提高了生成性能。"
+    },
+    {
+      "title": "HydroAgent: Closing the Gap Between Frontier LLMs and Human Experts in Hydrologic Model Calibration via Simulator-Grounded RL",
+      "authors": [
+        "Zhi Li",
+        "Songkun Yan",
+        "Jie Cao",
+        "Mofan Zhang",
+        "Anjiang Wei",
+        "Jinwoong Yoo",
+        "Yang Hong"
+      ],
+      "summary": "Calibrating distributed hydrologic models is a critical bottleneck across operational water resources management - streamflow prediction, reservoir operation, drought monitoring, infrastructure design, and flood forecasting all depend on it. Each basin demands an expert to translate hydrograph signatures into adjustments of a high-dimensional parameter vector, and the resulting workflow does not transfer between watersheds. We ask: can frontier large language model (LLM) agents replace the human hydrologic modeler, and if not, what would it take? We benchmark nine frontier LLM agents - Claude Opus 4.6/4.7, Sonnet 4.6, GPT-5/5.4/5.4-pro, and Gemini 2.5-pro/3.1-pro/3-flash - on the operational CREST distributed hydrologic model used by the U.S. National Weather Service for flash-flood forecasting. Best-of-twenty-rounds Nash-Sutcliffe Efficiency (NSE) across four held-out gauges spanning 329-40,792 km2 ranges from -0.16 (GPT-5.4) to 0.75 (Sonnet 4.6); the ceiling reproduces across all three vendors and capability tiers, with the strongest models concentrating in the 0.65-0.75 band, and no model reaches the human-expert reference except Opus-4.7 on one gauge. We argue this gap is not a parameter-count problem but a domain-grounding problem. We then propose HYDROAGENT, fine-tuning open-weight Qwen3-4B with supervised fine-tuning on 2,576 expert calibration trajectories and Group-Relative Policy Optimization using NSE as a verifiable reward from online CREST simulations - reinforcement learning with simulation feedback (RLSF). For Earth system science, a small domain-tuned policy with simulator-in-the-loop RL is a more compute-efficient and physically faithful path than scaling generic frontier models, and the multi-modal richness of Earth data - remote sensing, in-situ time series, and forecaster narrative - makes domain agents a leveraged direction for AI in physical science.",
+      "published": "2026-05-18T03:17:38Z",
+      "updated": "2026-05-18T03:17:38Z",
+      "arxiv_id": "2605.17792v1",
+      "abs_url": "http://arxiv.org/abs/2605.17792v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.17792v1",
+      "primary_category": "cs.LG",
+      "categories": [
+        "cs.LG",
+        "physics.geo-ph"
+      ],
+      "comment": "",
+      "code_url": "",
+      "has_code": false,
+      "labels": [
+        "视觉-语言模型",
+        "多模态融合",
+        "数据集/评测"
+      ],
+      "topic": "视觉-语言模型",
+      "score": 6,
+      "anchor_terms": [
+        "remote sensing"
+      ],
+      "matched_terms": [
+        "fine-tuning",
+        "large language model",
+        "LLM",
+        "remote sensing"
+      ],
+      "summary_zh": "校准分布式水文模型是水资源管理中的一个关键瓶颈——径流预测、水库运行、干旱监测、基础设施设计和洪水预报都依赖于它。每个流域都需要专家将水文特征转换为高维参数向量的调整，并且生成的工作流程不会在流域之间转移。我们问：前沿大语言模型（LLM）代理能否取代人类水文建模师？如果不能，需要什么？我们在美国国家气象局用于山洪预报的业务 CREST 分布式水文模型上对九个前沿 LLM 代理（Claude Opus 4.6/4.7、Sonnet 4.6、GPT-5/5.4/5.4-pro 和 Gemini 2.5-pro/3.1-pro/3-flash）进行了基准测试。横跨 329-40,792 km2 的四个保留仪表的二十轮最佳纳什-萨克利夫效率 (NSE) 范围从 -0.16 (GPT-5.4) 到 0.75 (Sonnet 4.6)；上限在所有三个供应商和能力层中重现，最强的模型集中在 0.65-0.75 范围内，除了 Opus-4.7 之外，没有任何模型在一个指标上达到人类专家参考值。我们认为这种差距不是参数计数问题，而是领域基础问题。然后，我们提出 HYDROAGENT，对开放权重 Qwen3-4B 进行微调，对 2,576 个专家校准轨迹进行监督微调，并使用 NSE 作为在线 CREST 模拟的可验证奖励 - 带有模拟反馈的强化学习（RLSF）进行组相关策略优化。对于地球系统科学来说，与扩展通用前沿模型相比，采用循环模拟器强化学习的小型域调整策略是一种计算效率更高、物理上更忠实的路径，而地球数据的多模态丰富性（遥感、现场时间序列和预报器叙述）使域代理成为物理科学中人工智能的杠杆方向。"
+    }
+  ]
 }
