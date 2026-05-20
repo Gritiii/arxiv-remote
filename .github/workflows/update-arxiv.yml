@@ -62,6 +62,10 @@ jobs:
             NO_DATE_FILTER="${{ github.event.inputs.no_date_filter }}"
             DAYS="${{ github.event.inputs.days }}"
             DATE="${{ github.event.inputs.date }}"
+            # Evening run (18:30 Beijing = 10:30 UTC) only fetches today to save API quota
+            if [ -z "$DATE" ] && [ "$(date -u +%H)" -ge 10 ]; then
+              DAYS="1"
+            fi
             ARGS="--timezone Asia/Shanghai --max-results 700"
             if [ -n "$DATE" ]; then
               ARGS="$ARGS --date $DATE"

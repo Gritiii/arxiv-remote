@@ -5,9 +5,11 @@ from __future__ import annotations
 
 import argparse
 import json
+import random
 import re
 import sys
 import time
+import urllib.error
 import urllib.parse
 import urllib.request
 import xml.etree.ElementTree as ET
@@ -24,11 +26,23 @@ ATOM_NS = "http://www.w3.org/2005/Atom"
 ARXIV_NS = "http://arxiv.org/schemas/atom"
 NS = {"atom": ATOM_NS, "arxiv": ARXIV_NS}
 API_URL = "https://export.arxiv.org/api/query"
+ARXIV_UA = "arxiv-daily-bot/0.2 (https://github.com/Gritiii/arxiv-remote; mailto:bot@example.com)"
 CODE_HOST_RE = re.compile(
   r"https?://(?:www\.)?"
   r"(?:github\.com|gitlab\.com|bitbucket\.org|codeberg\.org|huggingface\.co)/[^\s\]\)>,;]+",
   re.IGNORECASE,
 )
+
+LAST_ARXIV_REQUEST: float = 0.0
+MIN_REQUEST_INTERVAL: float = 3.0
+
+
+def rate_limit_wait() -> None:
+  global LAST_ARXIV_REQUEST
+  elapsed = time.monotonic() - LAST_ARXIV_REQUEST
+  if elapsed < MIN_REQUEST_INTERVAL:
+    time.sleep(MIN_REQUEST_INTERVAL - elapsed + random.uniform(0, 1))
+  LAST_ARXIV_REQUEST = time.monotonic()
 
 TRANSLATOR = None
 TRANSLATE_CACHE: dict[str, str] = {}
@@ -152,25 +166,47 @@ def make_api_url(query: str, max_results: int) -> str:
   return f"{API_URL}?{urllib.parse.urlencode(params)}"
 
 
-def fetch_feed(query: str, max_results: int, attempts: int = 6) -> str:
+def fetch_feed(query: str, max_results: int, attempts: int = 4) -> str:
   url = make_api_url(query, max_results)
-  request = urllib.request.Request(
-    url,
-    headers={
-      "User-Agent": "remote-sensing-arxiv-daily/0.1 (+https://github.com/)",
-      "Accept": "application/atom+xml, application/xml;q=0.9, */*;q=0.8",
-    },
-  )
   last_error: Exception | None = None
   for attempt in range(1, attempts + 1):
+    rate_limit_wait()
     try:
+      request = urllib.request.Request(
+        url,
+        headers={
+          "User-Agent": ARXIV_UA,
+          "Accept": "application/atom+xml, application/xml;q=0.9, */*;q=0.8",
+        },
+      )
       with urllib.request.urlopen(request, timeout=75) as response:
         return response.read().decode("utf-8")
+    except urllib.error.HTTPError as error:
+      last_error = error
+      if error.code == 429:
+        retry_after = error.headers.get("Retry-After", "")
+        if retry_after:
+          try:
+            wait = int(retry_after)
+          except ValueError:
+            wait = min(60 * (2 ** (attempt - 1)), 600)
+        else:
+          wait = min(60 * (2 ** (attempt - 1)), 600)
+        jitter = random.uniform(0, wait * 0.15)
+        wait += jitter
+        print(f"arXiv 429, waiting {wait:.0f}s (attempt {attempt}/{attempts})", file=sys.stderr)
+        if attempt == attempts:
+          break
+        time.sleep(wait)
+      else:
+        if attempt == attempts:
+          break
+        time.sleep(15 * attempt)
     except Exception as error:
       last_error = error
       if attempt == attempts:
         break
-      time.sleep(20 * attempt)
+      time.sleep(15 * attempt)
   raise RuntimeError(f"Failed to fetch arXiv feed after {attempts} attempts: {last_error}") from last_error
 
 
@@ -417,18 +453,23 @@ def fetch_daily(
   except Exception as error:
     if not use_date_filter:
       raise
-    print(f"{target_date.isoformat()}: combined query failed, falling back to per-category queries: {error}", file=sys.stderr)
-    raw_papers = []
-    for category in config.get("categories", []):
-      category_query = build_category_query(category, target_date, use_date_filter)
-      try:
-        raw_papers.extend(parse_feed(fetch_feed(category_query, max_results)))
-      except Exception as category_error:
-        print(
-          f"{target_date.isoformat()}: category {category} failed and was skipped: {category_error}",
-          file=sys.stderr,
-        )
-      time.sleep(3)
+    error_str = str(error).lower()
+    if "429" in error_str:
+      print(f"{target_date.isoformat()}: arXiv rate-limited (429), skipping day entirely.", file=sys.stderr)
+      raw_papers = []
+    else:
+      print(f"{target_date.isoformat()}: combined query failed, falling back to per-category queries: {error}", file=sys.stderr)
+      raw_papers = []
+      for category in config.get("categories", []):
+        category_query = build_category_query(category, target_date, use_date_filter)
+        try:
+          raw_papers.extend(parse_feed(fetch_feed(category_query, max_results)))
+        except Exception as category_error:
+          print(
+            f"{target_date.isoformat()}: category {category} failed and was skipped: {category_error}",
+            file=sys.stderr,
+          )
+        time.sleep(12)
   matched = []
   for paper in raw_papers:
     scored = score_paper(paper, config, minimum_score)
@@ -588,7 +629,7 @@ def main() -> int:
     )
     current_date += timedelta(days=1)
     if current_date <= end_date:
-      time.sleep(3)
+      time.sleep(5 + random.uniform(0, 3))
 
   index = build_index(config, output_dir, index_path, tz_name)
   print(f"Updated {index_path} with {index['total_papers']} papers across {len(index['dates'])} dates.")
