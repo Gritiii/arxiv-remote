@@ -6,9 +6,9 @@
     "update_window": "10:30",
     "timezone": "Asia/Shanghai"
   },
-  "generated_at": "2026-05-26T13:26:27.873672+00:00",
+  "generated_at": "2026-05-27T06:44:12.593264+00:00",
   "timezone": "Asia/Shanghai",
-  "latest_date": "2026-05-26",
+  "latest_date": "2026-05-27",
   "total_papers": 663,
   "label_order": [
     "开源",
@@ -178,6 +178,13 @@
     }
   ],
   "dates": [
+    {
+      "date": "2026-05-27",
+      "count": 0,
+      "path": "data/papers/2026-05-27.json",
+      "labels": {},
+      "topics": {}
+    },
     {
       "date": "2026-05-26",
       "count": 0,
