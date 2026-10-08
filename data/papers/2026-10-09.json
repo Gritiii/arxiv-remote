@@ -1,0 +1,11 @@
+{
+  "date": "2026-10-09",
+  "generated_at": "2026-10-08T17:27:22.078085+00:00",
+  "timezone": "Asia/Shanghai",
+  "source": "arXiv",
+  "source_url": "https://arxiv.org/",
+  "query": "(cat:cs.CV OR cat:eess.IV OR cat:cs.AI OR cat:cs.LG OR cat:cs.MM OR cat:stat.ML) AND submittedDate:[202610090000 TO 202610092359]",
+  "total_fetched": 0,
+  "total_matched": 0,
+  "papers": []
+}
